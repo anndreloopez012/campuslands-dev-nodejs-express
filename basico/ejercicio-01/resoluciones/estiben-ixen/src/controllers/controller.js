@@ -1,4 +1,4 @@
-const { geberaRespuesta } = require(`../services/service`);
+const { generarRespuesta } = require(`../services/service`);
 
 function ejecutarEjercicio(req, res) {
     try{
