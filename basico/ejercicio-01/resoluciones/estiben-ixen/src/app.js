@@ -23,5 +23,6 @@ app.use((err, req, res, next) => {
     res.status(500).json({ok: false, message: 'Error interno del servidor'});
 });
 
-app.listen(PORT, () => {console.log(`servidor RPG escuchando en http://localhost:${PORT}`);
+app.listen(PORT, () => {
+    console.log(`servidor RPG escuchando en http://localhost:${PORT}`);
 });
