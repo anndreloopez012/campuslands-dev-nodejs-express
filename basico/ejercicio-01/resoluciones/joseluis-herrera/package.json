@@ -1,0 +1,17 @@
+{
+  "name": "basico-ejercicio-01-joseluis",
+  "version": "1.0.0",
+  "description": "Ejercicio 01 Node.JS (tematica RPG)",
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "api"
+  ],
+  "license": "ISC",
+  "author": "Jose-langL",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}

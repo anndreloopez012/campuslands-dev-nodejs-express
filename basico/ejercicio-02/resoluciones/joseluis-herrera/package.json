@@ -1,0 +1,16 @@
+{
+  "name": "basico-ejercicio-02-joseluis-herrera",
+  "version": "1.0.0",
+  "description": "generador de contraseñas ",
+  "license": "ISC",
+  "author": "Jose-langL",
+  "type": "commonjs",
+  "main": "src/generador_contraseña.js",
+  "scripts": {
+    "start": "node src/generador_contraseña.js"
+  },
+  "dependencies": {
+    "chalk": "^6.0.0",
+    "inquirer": "^14.2.2"
+  }
+}
