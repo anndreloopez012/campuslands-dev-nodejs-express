@@ -1,0 +1,16 @@
+{
+  "name": "daniel-aguilar-ejercicio-basico-001",
+  "version": "1.0.0",
+  "description": "Ejercicio 01",
+  "main": "scr/server.js",
+  "scripts": {
+    "start": "node scr/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
