@@ -1,19 +1,16 @@
 {
-    "name": "shooter-node-basico",
+    "name": "rpg-node-basico",
     "version": "1.0.0",
-    "description": "Ejercicio básico de Node.js para practicar npm scripts y package.json con temática de shooters competitivos.",
+    "description": "Ejercicio básico de Node.js utilizando la terminal y temática de videojuegos RPG.",
     "main": "app.js",
     "scripts": {
         "start": "node app.js",
         "dev": "node --watch app.js",
-        "check": "node --check app.js",
-        "run": "node app.js"
+        "check": "node --check app.js"
     },
     "keywords": [
         "nodejs",
-        "npm",
-        "shooters",
-        "competitivo",
+        "rpg",
         "terminal",
         "backend"
     ],

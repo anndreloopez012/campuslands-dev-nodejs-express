@@ -1,31 +1,31 @@
 const readline = require("readline");
 
-// Datos iniciales de personajes RPG
-const personajes = [
+// Jugadores iniciales del equipo
+const jugadores = [
     {
         id: 1,
-        nombre: "Arthas",
-        clase: "Guerrero",
-        nivel: 10,
-        vida: 150
+        nombre: "Shadow",
+        rango: "Diamante",
+        victorias: 24,
+        derrotas: 8
     },
     {
         id: 2,
-        nombre: "Luna",
-        clase: "Maga",
-        nivel: 8,
-        vida: 100
+        nombre: "Ghost",
+        rango: "Platino",
+        victorias: 18,
+        derrotas: 10
     },
     {
         id: 3,
-        nombre: "Ragnar",
-        clase: "Arquero",
-        nivel: 7,
-        vida: 90
+        nombre: "Blaze",
+        rango: "Oro",
+        victorias: 15,
+        derrotas: 12
     }
 ];
 
-// Crear la interfaz para recibir información desde la terminal
+// Crear conexión con la terminal
 const terminal = readline.createInterface({
     input: process.stdin,
     output: process.stdout
@@ -33,40 +33,40 @@ const terminal = readline.createInterface({
 
 // Mostrar el menú principal
 function mostrarMenu() {
-    console.log("\n=================================");
-    console.log("       SISTEMA RPG - NODE.JS");
-    console.log("=================================");
-    console.log("1. Mostrar personajes");
-    console.log("2. Buscar personaje");
-    console.log("3. Crear personaje");
+    console.log("\n====================================");
+    console.log("     SHOOTER COMPETITIVO - NODE");
+    console.log("====================================");
+    console.log("1. Mostrar jugadores");
+    console.log("2. Buscar jugador");
+    console.log("3. Registrar jugador");
     console.log("4. Mostrar estadísticas");
     console.log("5. Salir");
-    console.log("=================================");
+    console.log("====================================");
 }
 
-// Mostrar todos los personajes
-function mostrarPersonajes() {
-    console.log("\n--- PERSONAJES RPG ---");
+// Mostrar todos los jugadores
+function mostrarJugadores() {
+    console.log("\n--- JUGADORES REGISTRADOS ---");
 
-    if (personajes.length === 0) {
-        console.log("No existen personajes registrados.");
+    if (jugadores.length === 0) {
+        console.log("No hay jugadores registrados.");
         return;
     }
 
-    personajes.forEach((personaje) => {
+    jugadores.forEach((jugador) => {
         console.log(
-            `ID: ${personaje.id} | ` +
-            `Nombre: ${personaje.nombre} | ` +
-            `Clase: ${personaje.clase} | ` +
-            `Nivel: ${personaje.nivel} | ` +
-            `Vida: ${personaje.vida}`
+            `ID: ${jugador.id} | ` +
+            `Jugador: ${jugador.nombre} | ` +
+            `Rango: ${jugador.rango} | ` +
+            `Victorias: ${jugador.victorias} | ` +
+            `Derrotas: ${jugador.derrotas}`
         );
     });
 }
 
-// Buscar un personaje por ID
-function buscarPersonaje() {
-    terminal.question("\nIngrese el ID del personaje: ", (entrada) => {
+// Buscar jugador por ID
+function buscarJugador() {
+    terminal.question("\nIngrese el ID del jugador: ", (entrada) => {
         const id = Number(entrada);
 
         if (Number.isNaN(id)) {
@@ -76,34 +76,34 @@ function buscarPersonaje() {
             return;
         }
 
-        const personaje = personajes.find(
-            (personaje) => personaje.id === id
+        const jugador = jugadores.find(
+            (jugador) => jugador.id === id
         );
 
-        if (!personaje) {
-            console.log("No se encontró ningún personaje con ese ID.");
+        if (!jugador) {
+            console.log("No se encontró un jugador con ese ID.");
             mostrarMenu();
             solicitarOpcion();
             return;
         }
 
-        console.log("\n--- PERSONAJE ENCONTRADO ---");
-        console.log(`ID: ${personaje.id}`);
-        console.log(`Nombre: ${personaje.nombre}`);
-        console.log(`Clase: ${personaje.clase}`);
-        console.log(`Nivel: ${personaje.nivel}`);
-        console.log(`Vida: ${personaje.vida}`);
+        console.log("\n--- JUGADOR ENCONTRADO ---");
+        console.log(`ID: ${jugador.id}`);
+        console.log(`Nombre: ${jugador.nombre}`);
+        console.log(`Rango: ${jugador.rango}`);
+        console.log(`Victorias: ${jugador.victorias}`);
+        console.log(`Derrotas: ${jugador.derrotas}`);
 
         mostrarMenu();
         solicitarOpcion();
     });
 }
 
-// Crear un nuevo personaje
-function crearPersonaje() {
-    console.log("\n--- CREAR PERSONAJE ---");
+// Registrar un nuevo jugador
+function registrarJugador() {
+    console.log("\n--- REGISTRAR JUGADOR ---");
 
-    terminal.question("Nombre: ", (nombre) => {
+    terminal.question("Nombre del jugador: ", (nombre) => {
         if (nombre.trim() === "") {
             console.log("Error: el nombre no puede estar vacío.");
             mostrarMenu();
@@ -111,118 +111,102 @@ function crearPersonaje() {
             return;
         }
 
-        terminal.question("Clase: ", (clase) => {
-            if (clase.trim() === "") {
-                console.log("Error: la clase no puede estar vacía.");
+        terminal.question("Rango inicial: ", (rango) => {
+            if (rango.trim() === "") {
+                console.log("Error: el rango no puede estar vacío.");
                 mostrarMenu();
                 solicitarOpcion();
                 return;
             }
 
-            terminal.question("Nivel: ", (nivelEntrada) => {
-                const nivel = Number(nivelEntrada);
+            const nuevoJugador = {
+                id: obtenerNuevoId(),
+                nombre: nombre.trim(),
+                rango: rango.trim(),
+                victorias: 0,
+                derrotas: 0
+            };
 
-                if (Number.isNaN(nivel) || nivel <= 0) {
-                    console.log(
-                        "Error: el nivel debe ser un número mayor que cero."
-                    );
-                    mostrarMenu();
-                    solicitarOpcion();
-                    return;
-                }
+            jugadores.push(nuevoJugador);
 
-                terminal.question("Vida: ", (vidaEntrada) => {
-                    const vida = Number(vidaEntrada);
+            console.log("\nJugador registrado correctamente.");
+            console.log(`ID asignado: ${nuevoJugador.id}`);
+            console.log(`Jugador: ${nuevoJugador.nombre}`);
+            console.log(`Rango: ${nuevoJugador.rango}`);
 
-                    if (Number.isNaN(vida) || vida <= 0) {
-                        console.log(
-                            "Error: la vida debe ser un número mayor que cero."
-                        );
-                        mostrarMenu();
-                        solicitarOpcion();
-                        return;
-                    }
-
-                    const nuevoPersonaje = {
-                        id: obtenerNuevoId(),
-                        nombre: nombre.trim(),
-                        clase: clase.trim(),
-                        nivel: nivel,
-                        vida: vida
-                    };
-
-                    personajes.push(nuevoPersonaje);
-
-                    console.log("\nPersonaje creado correctamente.");
-                    console.log(`ID asignado: ${nuevoPersonaje.id}`);
-                    console.log(`Nombre: ${nuevoPersonaje.nombre}`);
-
-                    mostrarMenu();
-                    solicitarOpcion();
-                });
-            });
+            mostrarMenu();
+            solicitarOpcion();
         });
     });
 }
 
-// Obtener un ID nuevo
+// Generar un nuevo ID
 function obtenerNuevoId() {
-    if (personajes.length === 0) {
+    if (jugadores.length === 0) {
         return 1;
     }
 
-    const ids = personajes.map((personaje) => personaje.id);
+    const ids = jugadores.map((jugador) => jugador.id);
 
     return Math.max(...ids) + 1;
 }
 
-// Mostrar estadísticas generales
+// Calcular estadísticas
 function mostrarEstadisticas() {
-    console.log("\n--- ESTADÍSTICAS DEL RPG ---");
+    console.log("\n--- ESTADÍSTICAS DEL EQUIPO ---");
 
-    if (personajes.length === 0) {
-        console.log("No existen personajes registrados.");
+    if (jugadores.length === 0) {
+        console.log("No hay jugadores registrados.");
         mostrarMenu();
         solicitarOpcion();
         return;
     }
 
-    const nivelTotal = personajes.reduce(
-        (total, personaje) => total + personaje.nivel,
+    const totalVictorias = jugadores.reduce(
+        (total, jugador) => total + jugador.victorias,
         0
     );
 
-    const vidaTotal = personajes.reduce(
-        (total, personaje) => total + personaje.vida,
+    const totalDerrotas = jugadores.reduce(
+        (total, jugador) => total + jugador.derrotas,
         0
     );
 
-    const nivelPromedio = nivelTotal / personajes.length;
-    const vidaPromedio = vidaTotal / personajes.length;
+    const totalPartidas = totalVictorias + totalDerrotas;
 
-    console.log(`Cantidad de personajes: ${personajes.length}`);
-    console.log(`Nivel promedio: ${nivelPromedio.toFixed(2)}`);
-    console.log(`Vida promedio: ${vidaPromedio.toFixed(2)}`);
+    console.log(`Jugadores registrados: ${jugadores.length}`);
+    console.log(`Victorias totales: ${totalVictorias}`);
+    console.log(`Derrotas totales: ${totalDerrotas}`);
+    console.log(`Partidas jugadas: ${totalPartidas}`);
+
+    if (totalPartidas > 0) {
+        const porcentajeVictorias =
+            (totalVictorias / totalPartidas) * 100;
+
+        console.log(
+            `Porcentaje de victorias: ${porcentajeVictorias.toFixed(2)}%`
+        );
+    }
 
     mostrarMenu();
     solicitarOpcion();
 }
 
-// Procesar la opción seleccionada
+// Procesar la opción elegida
 function procesarOpcion(opcion) {
     switch (opcion) {
         case "1":
-            mostrarPersonajes();
+            mostrarJugadores();
             mostrarMenu();
             solicitarOpcion();
             break;
 
         case "2":
-            buscarPersonaje();
+            buscarJugador();
             break;
 
         case "3":
-            crearPersonaje();
+            registrarJugador();
             break;
 
         case "4":
@@ -241,18 +225,18 @@ function procesarOpcion(opcion) {
     }
 }
 
-// Solicitar una opción al usuario
+// Solicitar una opción desde la terminal
 function solicitarOpcion() {
     terminal.question("\nSeleccione una opción: ", (opcion) => {
         procesarOpcion(opcion.trim());
     });
 }
 
-// Inicio del programa
-console.log("=================================");
-console.log("     BIENVENIDO AL SISTEMA RPG");
-console.log("=================================");
-console.log("Aplicación ejecutada con Node.js");
+// Punto de inicio del programa
+console.log("====================================");
+console.log("    SISTEMA DE SHOOTER COMPETITIVO");
+console.log("====================================");
+console.log("Aplicación ejecutada con Node.js.");
 console.log("Funcionamiento completamente desde la terminal.");
 
 mostrarMenu();

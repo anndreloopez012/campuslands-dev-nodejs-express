@@ -1,136 +1,442 @@
-# BASICO 02 - npm scripts y package.json
+# Shooter Node.js Básico
 
-## Dificultad
+## Descripción
 
-Basico inicial
+Este proyecto es una pequeña aplicación de consola desarrollada con Node.js utilizando como temática los shooters competitivos.
 
-## Tematica usada
+El objetivo principal es aprender a utilizar `npm`, `package.json` y los scripts de npm.
 
-shooters competitivos
+La aplicación permite administrar jugadores desde la terminal y realizar algunas operaciones básicas.
 
-## Contexto del problema
+El proyecto se mantiene pequeño para poder entender cada parte del código sin agregar tecnologías innecesarias.
 
-Estas construyendo una solucion backend con Node.js y Express para un escenario relacionado con shooters competitivos. El objetivo es aprender paso a paso como se piensa, organiza y prueba una API real sin saltar conceptos importantes.
+## Requisitos
 
-Este ejercicio se enfoca en npm scripts y package.json. No se busca hacer una aplicacion gigante, sino dominar una pieza concreta del backend profesional.
+* Node.js 20 o superior.
+* npm.
+* Terminal.
+* Editor de código.
 
-## Objetivo
+No se utiliza Express ni ningún framework externo.
 
-Crear una pequena solucion Node.js/Express que demuestre el concepto del ejercicio, con codigo ordenado, rutas claras, validacion basica y documentacion de uso.
+Tampoco se utiliza navegador.
 
-## Que vas a practicar
+Toda la aplicación funciona directamente desde la terminal.
 
-- Analisis de requerimientos backend.
-- Estructura de carpetas en proyectos Node.js.
-- Uso correcto de rutas, controladores y servicios.
-- Manejo de datos de entrada y salida.
-- Respuestas HTTP claras.
-- Lectura de errores y depuracion.
-- Documentacion tecnica para otros desarrolladores.
-
-## Explicacion paso a paso
-
-1. Lee el problema completo antes de crear archivos.
-2. Define que endpoint o comando necesitas construir.
-3. Identifica los datos de entrada.
-4. Define la respuesta esperada.
-5. Crea la estructura minima del proyecto.
-6. Implementa primero el caso feliz.
-7. Agrega validaciones y casos de error.
-8. Prueba manualmente con navegador, Thunder Client, Postman o curl.
-9. Documenta como ejecutar y probar.
-
-## Instrucciones detalladas
-
-1. Crea tu carpeta en `resoluciones/nombre-apellido/`.
-2. Dentro de tu carpeta crea un mini proyecto Node.js.
-3. Debe existir un `package.json` con scripts utiles.
-4. Debe existir una carpeta `src/`.
-5. Implementa el ejercicio usando Node.js y Express cuando aplique.
-6. Incluye un `README.md` de tu entrega.
-7. Agrega ejemplos de peticiones o comandos.
-8. No uses bases de datos externas a menos que el instructor lo pida.
-
-## Requisitos tecnicos minimos
-
-- Node.js 20 o superior recomendado.
-- Express cuando el ejercicio requiera servidor HTTP.
-- No subir `node_modules/`.
-- No subir `.env` con secretos reales.
-- Usar nombres de archivos claros y en minusculas.
-
-## Ejemplo esperado
-
-Ruta sugerida:
+## Estructura
 
 ```text
-/basico/ejercicio-02
+shooter-node-basico/
+│
+├── app.js
+├── package.json
+├── .gitignore
+└── README.md
 ```
 
-Respuesta ejemplo:
+## Instalación
 
-```json
-{
-  "ok": true,
-  "message": "Ejercicio ejecutado correctamente",
-  "topic": "npm scripts y package.json"
+Como el proyecto utiliza únicamente funcionalidades propias de Node.js, no es necesario instalar paquetes externos.
+
+Primero podemos comprobar la versión de Node.js:
+
+```bash
+node --version
+```
+
+Se recomienda utilizar Node.js 20 o superior.
+
+También podemos comprobar npm:
+
+```bash
+npm --version
+```
+
+## Ejecutar el programa
+
+La forma principal de ejecutar el proyecto es:
+
+```bash
+npm start
+```
+
+También podemos ejecutarlo directamente con Node.js:
+
+```bash
+node app.js
+```
+
+Al ejecutarlo aparecerá un menú similar a:
+
+```text
+====================================
+     SHOOTER COMPETITIVO - NODE
+====================================
+1. Mostrar jugadores
+2. Buscar jugador
+3. Registrar jugador
+4. Mostrar estadísticas
+5. Salir
+====================================
+```
+
+## Funcionalidades
+
+### 1. Mostrar jugadores
+
+Muestra los jugadores registrados actualmente.
+
+Ejemplo:
+
+```text
+ID: 1 | Jugador: Shadow | Rango: Diamante | Victorias: 24 | Derrotas: 8
+ID: 2 | Jugador: Ghost | Rango: Platino | Victorias: 18 | Derrotas: 10
+ID: 3 | Jugador: Blaze | Rango: Oro | Victorias: 15 | Derrotas: 12
+```
+
+### 2. Buscar jugador
+
+Permite buscar un jugador utilizando su ID.
+
+El programa solicita:
+
+```text
+Ingrese el ID del jugador:
+```
+
+Si se introduce:
+
+```text
+1
+```
+
+se muestran los datos del jugador correspondiente.
+
+También se valida que el ID sea un número.
+
+### 3. Registrar jugador
+
+Permite agregar un nuevo jugador.
+
+El programa solicita:
+
+```text
+Nombre del jugador:
+Rango inicial:
+```
+
+Las victorias y derrotas comienzan en cero.
+
+Por ejemplo:
+
+```text
+Nombre del jugador: Viper
+Rango inicial: Plata
+```
+
+El programa crea automáticamente un nuevo ID.
+
+### 4. Mostrar estadísticas
+
+Calcula las estadísticas generales de los jugadores registrados.
+
+Se muestran:
+
+* Cantidad de jugadores.
+* Victorias totales.
+* Derrotas totales.
+* Partidas jugadas.
+* Porcentaje de victorias.
+
+Para realizar algunos cálculos se utiliza el método `reduce()` de JavaScript.
+
+### 5. Salir
+
+Finaliza el programa y cierra la entrada de datos de la terminal.
+
+# Explicación de `app.js`
+
+Todo el código de Node.js se encuentra dentro de:
+
+```text
+app.js
+```
+
+Se decidió utilizar un solo archivo porque el objetivo es aprender primero los fundamentos de Node.js y npm.
+
+## Módulo `readline`
+
+Se utiliza el módulo `readline`:
+
+```javascript
+const readline = require("readline");
+```
+
+Este módulo viene incluido en Node.js.
+
+Permite recibir información escrita por el usuario desde la terminal.
+
+Por ejemplo:
+
+```javascript
+terminal.question("Seleccione una opción: ", (opcion) => {
+    procesarOpcion(opcion);
+});
+```
+
+El programa espera que el usuario escriba una respuesta.
+
+## Arreglo de jugadores
+
+Los jugadores se almacenan en un arreglo:
+
+```javascript
+const jugadores = [
+    {
+        id: 1,
+        nombre: "Shadow",
+        rango: "Diamante",
+        victorias: 24,
+        derrotas: 8
+    }
+];
+```
+
+Cada jugador es un objeto con diferentes propiedades.
+
+## Funciones
+
+El código se divide en funciones para que cada parte tenga una responsabilidad.
+
+Por ejemplo:
+
+```javascript
+mostrarMenu()
+```
+
+muestra las opciones disponibles.
+
+```javascript
+mostrarJugadores()
+```
+
+muestra los jugadores registrados.
+
+```javascript
+buscarJugador()
+```
+
+permite buscar un jugador.
+
+```javascript
+registrarJugador()
+```
+
+permite agregar un nuevo jugador.
+
+```javascript
+mostrarEstadisticas()
+```
+
+calcula las estadísticas generales.
+
+Esta separación permite que el código sea más fácil de leer y mantener.
+
+# Validaciones
+
+Se realizan algunas validaciones básicas.
+
+Por ejemplo, al buscar un jugador:
+
+```javascript
+const id = Number(entrada);
+
+if (Number.isNaN(id)) {
+    console.log("Error: el ID debe ser un número.");
 }
 ```
 
-## Entregable esperado
+Esto evita trabajar con un ID que no sea numérico.
 
-```text
-basico/ejercicio-02/resoluciones/nombre-apellido/
-├── package.json
-├── README.md
-└── src/
-    ├── app.js
-    ├── routes/
-    ├── controllers/
-    └── services/
+También se comprueba que el nombre y el rango no estén vacíos al registrar un jugador.
+
+# Uso de `package.json`
+
+El archivo `package.json` es una parte importante del ejercicio.
+
+Contiene información del proyecto y permite definir comandos personalizados para trabajar con la aplicación.
+
+La sección principal del ejercicio es:
+
+```json
+"scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "check": "node --check app.js",
+    "run": "node app.js"
+}
 ```
 
-La estructura puede ser mas simple en los primeros ejercicios, pero debe crecer con orden cuando el ejercicio lo pida.
+## Script `start`
 
-## Reglas
+Se ejecuta mediante:
 
-- No modifiques archivos base del ejercicio.
-- No borres entregas de otros estudiantes.
-- No subas dependencias generadas.
-- No abras PR hacia `main`.
-- Tu PR debe apuntar a `dev`.
-- Tu entrega debe vivir dentro de `resoluciones/nombre-apellido/`.
+```bash
+npm start
+```
 
-## Consejos
+Internamente ejecuta:
 
-- Empieza con una ruta simple y luego agrega complejidad.
-- Separa logica de negocio de la respuesta HTTP.
-- Usa codigos HTTP coherentes.
-- Documenta los comandos que usaste para probar.
-- Si algo falla, lee el error completo antes de cambiar codigo.
+```bash
+node app.js
+```
 
-## Errores comunes
+Se utiliza para iniciar normalmente el programa.
 
-- Poner toda la logica en `server.js` cuando ya se pide separar capas.
-- Subir `node_modules/`.
-- No validar `req.body`.
-- Responder siempre status 200 aunque haya error.
-- No documentar como ejecutar el proyecto.
+## Script `dev`
 
-## Pistas opcionales
+Se ejecuta mediante:
 
-- Usa `npm init -y` para iniciar rapido.
-- Usa `npm run dev` si configuras `node --watch`.
-- Prueba primero una ruta `GET /health`.
-- Si hay CRUD, implementa primero listar y crear.
+```bash
+npm run dev
+```
 
-## Como validar si quedo bien
+Internamente ejecuta:
 
-Tu entrega esta bien si:
+```bash
+node --watch app.js
+```
 
-- Instala dependencias con `npm install`.
-- Ejecuta con el script indicado.
-- Responde correctamente al endpoint principal.
-- Maneja al menos un error esperado.
-- Esta dentro de tu carpeta personal.
-- No modifica archivos base ni entregas ajenas.
+Este modo es útil durante el desarrollo porque Node.js puede detectar modificaciones en el archivo.
+
+## Script `check`
+
+Se ejecuta mediante:
+
+```bash
+npm run check
+```
+
+Internamente ejecuta:
+
+```bash
+node --check app.js
+```
+
+Sirve para comprobar la sintaxis de JavaScript.
+
+## Script `run`
+
+Se ejecuta mediante:
+
+```bash
+npm run run
+```
+
+Internamente ejecuta:
+
+```bash
+node app.js
+```
+
+Tiene prácticamente el mismo resultado que `npm start`.
+
+Se agregó como ejemplo para comprender que podemos crear nuestros propios nombres de scripts.
+
+## Ver los scripts disponibles
+
+También podemos ejecutar:
+
+```bash
+npm run
+```
+
+Esto muestra los scripts definidos en `package.json`.
+
+# Pruebas
+
+Antes de ejecutar la aplicación podemos comprobar la sintaxis:
+
+```bash
+npm run check
+```
+
+Si no existen errores de sintaxis, podemos iniciar:
+
+```bash
+npm start
+```
+
+También podemos utilizar:
+
+```bash
+npm run dev
+```
+
+para trabajar durante el desarrollo.
+
+# Conceptos aprendidos
+
+Con este ejercicio se practican principalmente:
+
+* Node.js.
+* npm.
+* `package.json`.
+* `npm start`.
+* `npm run`.
+* npm scripts personalizados.
+* `node --watch`.
+* `node --check`.
+* Módulo `readline`.
+* Entrada de datos desde la terminal.
+* `console.log()`.
+* Funciones.
+* Objetos.
+* Arrays.
+* `find()`.
+* `map()`.
+* `reduce()`.
+* `push()`.
+* Condicionales.
+* `switch`.
+* Validaciones básicas.
+
+# ¿Por qué se utiliza un solo archivo?
+
+El ejercicio está pensado para una persona que está aprendiendo Node.js.
+
+Por esta razón no se divide todavía el proyecto en controladores, servicios, rutas, modelos o diferentes carpetas.
+
+Todo el código está en:
+
+```text
+app.js
+```
+
+Esto permite concentrarse en el funcionamiento de Node.js y, principalmente, en cómo se utiliza `package.json` para crear comandos que faciliten el trabajo.
+
+En proyectos posteriores se puede aprender a separar el código en diferentes archivos.
+
+# ¿Por qué no se utiliza Express?
+
+No se utiliza Express porque este ejercicio está enfocado específicamente en Node.js y npm.
+
+No necesitamos un framework para practicar:
+
+* ejecución de Node.js;
+* scripts de npm;
+* `package.json`;
+* entrada desde terminal;
+* funciones;
+* validaciones;
+* organización básica del código.
+
+Primero se busca comprender estos conceptos y posteriormente se pueden incorporar herramientas más avanzadas.
+
+# Conclusión
+
+La aplicación representa un pequeño sistema de gestión de jugadores de un shooter competitivo.
+
+El proyecto permite practicar Node.js desde la terminal y, principalmente, comprender cómo `package.json` puede utilizarse para crear comandos que faciliten el desarrollo.
+
+La solución se mantiene sencilla porque el objetivo no es crear una aplicación grande, sino comprender una pieza concreta del desarrollo backend: el uso de npm y sus scripts.
