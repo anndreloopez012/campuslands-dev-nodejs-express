@@ -1,0 +1,11 @@
+{
+    "name": "basico-ejercicio-19-maria-montepeque",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Ejercicio 19 - req.params y req.query (tematica tatuajes)",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js"
+    }
+}
