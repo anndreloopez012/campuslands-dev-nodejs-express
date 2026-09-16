@@ -1,0 +1,13 @@
+{
+    "name": "basico-ejercicio-27-maria-montepeque",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Ejercicio 27 - logs simples (tematica MOBA esports)",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "start:debug": "node src/server.js --level=debug",
+        "start:json": "node src/server.js --format=json"
+    }
+}
