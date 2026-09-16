@@ -1,0 +1,19 @@
+{
+    "collections": {
+        "motorcycles": [
+            { "id": 1, "plate": "ABC123", "brand": "Yamaha", "model": "MT-03", "year": 2022, "mileageKm": 8500, "ownerName": "Laura Pinto", "createdAt": "2026-09-01T10:00:00.000Z" },
+            { "id": 2, "plate": "XYZ789", "brand": "Honda", "model": "CB190R", "year": 2020, "mileageKm": 21000, "ownerName": "Diego Ruiz", "createdAt": "2026-09-01T10:05:00.000Z" }
+        ],
+        "services": [
+            { "id": 1, "code": "OIL", "name": "Cambio de aceite y filtro", "hours": 0.5, "partsCost": 65000 },
+            { "id": 2, "code": "BRK", "name": "Pastillas de freno delanteras", "hours": 1, "partsCost": 90000 },
+            { "id": 3, "code": "CHN", "name": "Ajuste y lubricacion de cadena", "hours": 0.5, "partsCost": 15000 },
+            { "id": 4, "code": "TIR", "name": "Cambio de llanta trasera", "hours": 1.5, "partsCost": 210000 },
+            { "id": 5, "code": "DIA", "name": "Diagnostico electronico", "hours": 1, "partsCost": 0 }
+        ],
+        "workOrders": [
+            { "id": 1, "motorcycleId": 2, "serviceCodes": ["OIL", "CHN"], "complaint": "ruido en la cadena", "status": "in_repair", "history": [{ "status": "received", "at": "2026-09-10T09:00:00.000Z" }, { "status": "diagnosing", "at": "2026-09-10T10:00:00.000Z" }, { "status": "in_repair", "at": "2026-09-10T11:30:00.000Z" }], "createdAt": "2026-09-10T09:00:00.000Z" }
+        ]
+    },
+    "sequences": { "motorcycles": 2, "services": 5, "workOrders": 1 }
+}
