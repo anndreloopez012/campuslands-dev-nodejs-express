@@ -1,0 +1,18 @@
+{
+  "name": "intermedio-ejercicio-30-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 30 - proyecto integrador intermedio (tematica motos y mecanica)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "latest"
+  }
+}
