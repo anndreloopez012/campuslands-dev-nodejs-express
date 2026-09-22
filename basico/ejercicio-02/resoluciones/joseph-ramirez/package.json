@@ -1,0 +1,24 @@
+{
+  "name": "basico-ejercicio-02-npm-scripts",
+  "version": "1.0.0",
+  "description": "Ejercicio básico sobre npm scripts y package.json con Node.js y Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js",
+    "info": "node src/app.js --info"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "express",
+    "backend",
+    "campuslands"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
