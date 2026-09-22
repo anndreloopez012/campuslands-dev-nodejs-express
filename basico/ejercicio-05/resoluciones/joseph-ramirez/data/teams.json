@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "nombre": "Guatemala FC",
+      "deporte": "futbol",
+      "pais": "Guatemala",
+      "jugadores": 11,
+      "estado": "activo"
+    },
+    {
+      "id": 2,
+      "nombre": "Barcelona Sala",
+      "deporte": "futbol-sala",
+      "pais": "España",
+      "jugadores": 5,
+      "estado": "activo"
+    },
+    {
+      "id": 3,
+      "nombre": "Lobos del Campo",
+      "deporte": "futbol",
+      "pais": "México",
+      "jugadores": 11,
+      "estado": "activo"
+    },
+    {
+      "id": 4,
+      "nombre": "Titanes Futsal",
+      "deporte": "futbol-sala",
+      "pais": "Argentina",
+      "jugadores": 5,
+      "estado": "inactivo"
+    }
+  ]
