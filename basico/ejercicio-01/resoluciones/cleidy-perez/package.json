@@ -1,0 +1,17 @@
+{
+  "name": "node-runtime-consola-rpg",
+  "version": "1.0.0",
+  "description": "Ejercicio 01: Verificación de Node runtime y consola para RPG Backend",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["node", "express", "rpg"],
+  "author": "Tu Nombre",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
