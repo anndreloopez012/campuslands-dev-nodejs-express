@@ -1,0 +1,20 @@
+{
+  "name": "arias-garcia-irma-ej03",
+  "version": "1.0.0",
+  "description": "API backend MOBA esports - Modulos CommonJS",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "express",
+    "moba",
+    "commonjs"
+  ],
+  "author": "Irma Arias",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}
