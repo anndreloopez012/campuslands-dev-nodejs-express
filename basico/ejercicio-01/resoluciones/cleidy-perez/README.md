@@ -25,19 +25,25 @@ npm run dev
 ## Estructura sugerida
 
 ```text
-src/
-├── app.js
-├── server.js
-├── routes/
-├── controllers/
-├── services/
-└── data/
+basico/ejercicio-01/resoluciones/nombre-apellido/
+├── package.json
+├── README.md
+└── src/
+    ├── app.js
+    ├── server.js
+    ├── controllers/
+    │   └── status.controller.js
+    ├── routes/
+    │   └── status.routes.js
+    ├── services/
+    │   └── status.service.js
+    └── data/
 ```
 
 ## Checklist
 
-- [ ] Endpoint principal funcionando.
-- [ ] Validacion de entrada cuando aplique.
-- [ ] Manejo de error basico.
-- [ ] README de entrega con instrucciones.
+- [ x ] Endpoint principal funcionando.
+- [ x ] Validacion de entrada cuando aplique.
+- [ x ] Manejo de error basico.
+- [ x ] README de entrega con instrucciones.
 - [ ] PR hacia dev.
