@@ -1,0 +1,7 @@
+const http = require('node:http');
+const characters = [{ id: 'ranger', name: 'Lyra', class: 'Exploradora', level: 8 }, { id: 'mage', name: 'Orin', class: 'Mago', level: 6 }];
+const send = (res, code, data) => { const body = data === undefined ? '' : JSON.stringify(data); res.writeHead(code, { 'content-type': 'application/json; charset=utf-8', ...(body ? { 'content-length': Buffer.byteLength(body) } : {}) }); res.end(body); };
+function createServer() { return http.createServer((req, res) => { const url = new URL(req.url, 'http://localhost'); const match = url.pathname.match(/^\/api\/characters\/([^/]+)$/); if (req.method === 'GET' && url.pathname === '/health') return send(res, 200, { ok: true }); if (req.method === 'GET' && url.pathname === '/api/characters') return send(res, 200, { ok: true, data: characters }); if (req.method === 'GET' && match) { const item = characters.find((c) => c.id === match[1]); return item ? send(res, 200, { ok: true, data: item }) : send(res, 404, { ok: false, error: 'Personaje no encontrado' }); } if (url.pathname.startsWith('/api/')) return send(res, 405, { ok: false, error: 'Método no permitido' }, { allow: 'GET' }); return send(res, 404, { ok: false, error: 'Ruta no encontrada' }); }); }
+function start(port = Number(process.env.PORT || 3000)) { const server = createServer(); server.listen(port, () => console.log(`API RPG en http://localhost:${port}`)); return server; }
+if (require.main === module) start();
+module.exports = { createServer, start };
