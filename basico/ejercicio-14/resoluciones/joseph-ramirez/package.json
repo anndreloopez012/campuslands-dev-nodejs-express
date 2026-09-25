@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio-14-validacion-entrada",
+  "version": "1.0.0",
+  "description": "Ejercicio basico de Node.js y Express sobre validacion de entrada",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "validacion",
+    "entrada",
+    "libros"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
