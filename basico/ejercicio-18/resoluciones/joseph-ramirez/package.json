@@ -1,0 +1,24 @@
+{
+  "name": "ejercicio-18-rutas-post",
+  "version": "1.0.0",
+  "description": "Ejercicio basico de Node.js y Express sobre rutas POST",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rutas",
+    "post",
+    "api",
+    "paracaidismo"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
