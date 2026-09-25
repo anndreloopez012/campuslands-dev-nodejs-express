@@ -1,0 +1,5 @@
+﻿[
+  { "id": 1, "titulo": "Noches de Neon", "artista": "Luna Cobalto", "duracion_seg": 214 },
+  { "id": 2, "titulo": "Vuelo Sonico", "artista": "Radio Fantasma", "duracion_seg": 187 },
+  { "id": 3, "titulo": "Eco del Sur", "artista": "Tierra Alta", "duracion_seg": 240 }
+]

@@ -1,0 +1,37 @@
+[
+    {
+      "id": 1,
+      "marca": "Ferrari",
+      "modelo": "488 GTB",
+      "anio": 2022,
+      "precio": 280000
+    },
+    {
+      "id": 2,
+      "marca": "Lamborghini",
+      "modelo": "Huracan",
+      "anio": 2023,
+      "precio": 310000
+    },
+    {
+      "id": 3,
+      "marca": "Porsche",
+      "modelo": "911 Turbo S",
+      "anio": 2024,
+      "precio": 230000
+    },
+    {
+      "id": 4,
+      "marca": "Aston Martin",
+      "modelo": "DB12",
+      "anio": 2024,
+      "precio": 245000
+    },
+    {
+      "id": 5,
+      "marca": "McLaren",
+      "modelo": "Artura",
+      "anio": 2024,
+      "precio": 237000
+    }
+  ]

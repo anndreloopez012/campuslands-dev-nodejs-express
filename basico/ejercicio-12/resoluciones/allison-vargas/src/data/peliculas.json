@@ -1,0 +1,5 @@
+﻿[
+  { "id": 1, "titulo": "La Sombra en el Sotano", "edad_minima": 16, "duracion_min": 98 },
+  { "id": 2, "titulo": "Risas en la Oscuridad", "edad_minima": 18, "duracion_min": 104 },
+  { "id": 3, "titulo": "El Umbral", "edad_minima": 13, "duracion_min": 89 }
+]

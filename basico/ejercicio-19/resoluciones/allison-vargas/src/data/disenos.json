@@ -1,0 +1,6 @@
+﻿[
+  { "id": 1, "artistaId": 1, "nombre": "Golondrina", "estilo": "tradicional", "precio_usd": 120 },
+  { "id": 2, "artistaId": 1, "nombre": "Ancla Vieja", "estilo": "tradicional", "precio_usd": 150 },
+  { "id": 3, "artistaId": 2, "nombre": "Mandala Lineal", "estilo": "geometrico", "precio_usd": 200 },
+  { "id": 4, "artistaId": 2, "nombre": "Triangulos Encadenados", "estilo": "geometrico", "precio_usd": 90 }
+]

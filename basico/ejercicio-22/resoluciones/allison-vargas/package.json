@@ -1,0 +1,14 @@
+﻿{
+  "name": "ejercicio-22-servicios-simples",
+  "version": "1.0.0",
+  "description": "Basico 22 - servicios simples (tematica arquitectura 3D) - Campuslands",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

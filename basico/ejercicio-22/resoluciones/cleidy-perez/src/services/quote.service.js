@@ -1,0 +1,2 @@
+function calculateQuote({ floors, area, complexity = 'standard' }) { const rates = { standard: 850, premium: 1250, experimental: 1600 }; if (!Number.isInteger(floors) || floors < 1 || floors > 20) throw new Error('floors debe estar entre 1 y 20'); if (!Number.isFinite(area) || area < 1) throw new Error('area debe ser mayor que cero'); if (!rates[complexity]) throw new Error('complexity inválida'); return { floors, area, complexity, subtotal: Math.round(area * rates[complexity] * floors), currency: 'GTQ' }; }
+module.exports = { calculateQuote };

@@ -1,0 +1,24 @@
+{
+  "name": "ejercicio-10-funciones-asincronas",
+  "version": "1.0.0",
+  "description": "Ejercicio basico de Node.js y Express sobre funciones asincronas",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "async",
+    "await",
+    "promises",
+    "pingpong"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

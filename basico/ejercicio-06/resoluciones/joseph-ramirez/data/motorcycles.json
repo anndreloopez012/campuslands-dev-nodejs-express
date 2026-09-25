@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "nombre": "Honda CB500",
+      "marca": "Honda",
+      "cilindraje": 500,
+      "tipo": "Naked",
+      "ficha": "honda-cb500.txt"
+    },
+    {
+      "id": 2,
+      "nombre": "Yamaha MT-07",
+      "marca": "Yamaha",
+      "cilindraje": 689,
+      "tipo": "Naked",
+      "ficha": "yamaha-mt07.txt"
+    },
+    {
+      "id": 3,
+      "nombre": "Kawasaki Ninja 400",
+      "marca": "Kawasaki",
+      "cilindraje": 399,
+      "tipo": "Deportiva",
+      "ficha": "kawasaki-ninja400.txt"
+    }
+  ]

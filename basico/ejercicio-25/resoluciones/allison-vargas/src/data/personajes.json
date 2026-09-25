@@ -1,0 +1,4 @@
+﻿[
+  { "id": 1, "nombre": "Thalindor", "nivel": 12, "clase": "mago" },
+  { "id": 2, "nombre": "Grendok", "nivel": 5, "clase": "guerrero" }
+]

@@ -1,0 +1,5 @@
+﻿[
+  { "id": 1, "nombre": "Cartagena", "pais": "Colombia", "precio_desde_usd": 450, "popular": true },
+  { "id": 2, "nombre": "Kioto", "pais": "Japon", "precio_desde_usd": 1200, "popular": true },
+  { "id": 3, "nombre": "Salta", "pais": "Argentina", "precio_desde_usd": 380, "popular": false }
+]

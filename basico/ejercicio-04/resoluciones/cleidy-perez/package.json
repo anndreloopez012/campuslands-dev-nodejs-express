@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-04-cleidy-perez",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio básico 04: modulos ES Modules",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module"
+}

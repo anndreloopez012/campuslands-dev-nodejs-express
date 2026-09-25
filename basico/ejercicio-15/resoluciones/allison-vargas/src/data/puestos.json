@@ -1,0 +1,5 @@
+﻿[
+  { "id": 1, "nombre": "Tacos El Ray", "tipo_comida": "tacos", "calificacion": 4.7 },
+  { "id": 2, "nombre": "Arepa Brava", "tipo_comida": "arepas", "calificacion": 4.5 },
+  { "id": 3, "nombre": "Wok to Go", "tipo_comida": "asiatica", "calificacion": 4.3 }
+]
