@@ -1,0 +1,15 @@
+{
+  "name": "battle-royale-es-modules",
+  "version": "1.0.0",
+  "description": "battle-royale-es-modules",
+  "license": "ISC",
+  "author": "Jose-langL",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

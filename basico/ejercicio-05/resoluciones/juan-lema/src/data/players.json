@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Diego Serrano", "position": "Delantero", "goals": 14 },
+  { "id": 2, "name": "Mateo Rios", "position": "Mediocampista", "goals": 6 },
+  { "id": 3, "name": "Kevin Paz", "position": "Portero", "goals": 0 }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Los Halcones",
+        "category": "Futbol",
+        "wins": 8,
+        "losses": 3,
+        "draws": 2
+    },
+    {
+        "id": 2,
+        "name": "Aguilas FS",
+        "category": "Futbol sala",
+        "wins": 5,
+        "losses": 5,
+        "draws": 1
+    },
+    {
+        "id": 3,
+        "name": "Rayo Norte",
+        "category": "Futbol",
+        "wins": 2,
+        "losses": 9,
+        "draws": 0
+    }
+]

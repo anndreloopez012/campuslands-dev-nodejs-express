@@ -1,0 +1,12 @@
+{
+    "name": "basico-ejercicio-29-maria-montepeque",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Ejercicio 29 - README tecnico (tematica futbol y futbol sala)",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test"
+    }
+}

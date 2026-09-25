@@ -1,0 +1,12 @@
+{
+  "name": "basico-ejercicio-02-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 02 - npm scripts y package.json (tematica shooters competitivos)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "info": "node src/info.js"
+  }
+}

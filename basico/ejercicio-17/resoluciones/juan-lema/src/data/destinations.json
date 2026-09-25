@@ -1,0 +1,5 @@
+[
+  { "id": 1, "city": "Cartagena", "country": "Colombia" },
+  { "id": 2, "city": "Cusco", "country": "Peru" },
+  { "id": 3, "city": "Bariloche", "country": "Argentina" }
+]

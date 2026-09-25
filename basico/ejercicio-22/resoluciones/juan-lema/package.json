@@ -1,0 +1,15 @@
+{
+  "name": "basico-ejercicio-22-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 22 - servicios simples (tematica arquitectura 3D)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "quick-budget": "node src/scripts/quick-budget.js"
+  },
+  "dependencies": {
+    "express": "latest"
+  }
+}

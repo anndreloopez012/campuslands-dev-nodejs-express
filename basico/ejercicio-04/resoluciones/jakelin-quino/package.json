@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-04-es-modules",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Practica de ES Modules sin Express",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  }
+}

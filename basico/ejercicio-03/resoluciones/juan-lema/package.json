@@ -1,0 +1,10 @@
+{
+  "name": "basico-ejercicio-03-juan-lema",
+  "version": "1.0.0",
+  "description": "Ejercicio 03 - modulos CommonJS (tematica MOBA esports)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  }
+}

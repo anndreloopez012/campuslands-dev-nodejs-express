@@ -1,0 +1,13 @@
+﻿{
+  "name": "ejercicio-03-modulos-commonjs",
+  "version": "1.0.0",
+  "description": "Basico 03 - modulos CommonJS (tematica MOBA esports) - Campuslands",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

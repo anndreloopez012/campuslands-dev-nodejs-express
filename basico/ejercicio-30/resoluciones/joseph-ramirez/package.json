@@ -1,0 +1,24 @@
+{
+  "name": "ejercicio-30-proyecto-integrador-basico",
+  "version": "1.0.0",
+  "description": "Proyecto integrador basico de Node.js y Express sobre motos y mecanica",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "crud",
+    "motos",
+    "mecanica"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

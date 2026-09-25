@@ -1,0 +1,14 @@
+{
+  "name": "battle-royale-es-modules",
+  "version": "1.0.0",
+  "description": "API basica de partidas Battle Royale usando ES Modules",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
