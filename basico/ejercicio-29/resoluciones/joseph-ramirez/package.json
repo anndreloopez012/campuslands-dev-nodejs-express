@@ -1,0 +1,25 @@
+{
+  "name": "ejercicio-29-readme-tecnico",
+  "version": "1.0.0",
+  "description": "Ejercicio basico de Node.js y Express sobre README tecnico",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "readme",
+    "documentacion",
+    "futbol",
+    "futbol-sala"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
