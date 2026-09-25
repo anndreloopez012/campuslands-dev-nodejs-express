@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-08-yaneht-arias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio básico 08: variables de entorno",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
