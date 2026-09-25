@@ -1,0 +1,24 @@
+{
+  "name": "ejercicio-20-middleware-express-json",
+  "version": "1.0.0",
+  "description": "Ejercicio basico de Node.js y Express sobre middleware express.json",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "middleware",
+    "express.json",
+    "api",
+    "dibujo-digital"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
