@@ -1,0 +1,21 @@
+{
+    "name": "wilder-catu-hiperdeportivos-env",
+    "version": "1.0.0",
+    "description": "API Node.js para practicar variables de entorno con una temática de hiperdeportivos.",
+    "main": "wilder-catu.jjs",
+    "type": "commonjs",
+    "scripts": {
+      "start": "node wilder-catu.jjs",
+      "dev": "NODE_ENV=development node wilder-catu.jjs",
+      "production": "NODE_ENV=production node wilder-catu.jjs"
+    },
+    "keywords": [
+      "nodejs",
+      "variables-de-entorno",
+      "backend",
+      "api",
+      "hiperdeportivos"
+    ],
+    "author": "Wilder Catú",
+    "license": "MIT"
+  }
