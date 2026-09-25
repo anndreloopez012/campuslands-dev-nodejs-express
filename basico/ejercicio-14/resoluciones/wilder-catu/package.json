@@ -1,0 +1,10 @@
+{
+  "name": "api-libros",
+  "version": "1.0.0",
+  "description": "API de libros con promesas",
+  "main": "libros.js",
+  "scripts": { "start": "node libros.js" },
+  "keywords": ["libros", "api", "promesas"],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "battle-royale-node",
+    "version": "1.0.0",
+    "description": "API básica de Battle Royale utilizando Node.js y ES Modules sin Express.",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch app.js",
+        "check": "node --check app.js"
+    },
+    "keywords": [
+        "nodejs",
+        "es-modules",
+        "http",
+        "api",
+        "battle-royale"
+    ],
+    "author": "",
+    "license": "ISC",
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}
