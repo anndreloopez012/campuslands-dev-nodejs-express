@@ -1,0 +1,24 @@
+{
+    "name": "wilder-catu-autos-lujo-cli",
+    "version": "1.0.0",
+    "description": "Ejercicio Node.js para aprender process.argv y CLI utilizando una temática de autos de lujo.",
+    "main": "wilder-catu.jjs",
+    "type": "commonjs",
+    "scripts": {
+      "start": "node wilder-catu.jjs",
+      "listar": "node wilder-catu.jjs listar",
+      "ayuda": "node wilder-catu.jjs ayuda",
+      "buscar": "node wilder-catu.jjs buscar",
+      "detalle": "node wilder-catu.jjs detalle"
+    },
+    "keywords": [
+      "nodejs",
+      "process.argv",
+      "cli",
+      "backend",
+      "autos",
+      "lujo"
+    ],
+    "author": "Wilder Catú",
+    "license": "MIT"
+  }
