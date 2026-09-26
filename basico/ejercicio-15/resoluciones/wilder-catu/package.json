@@ -1,0 +1,10 @@
+{
+    "name": "api-comida-urbana",
+    "version": "1.0.0",
+    "description": "API de comida urbana con promesas",
+    "main": "comida-urbana.js",
+    "scripts": { "start": "node comida-urbana.js" },
+    "keywords": ["comida", "urbana", "api", "promesas"],
+    "author": "Tu Nombre",
+    "license": "MIT"
+  }

@@ -1,0 +1,13 @@
+{
+    "name": "api-musica",
+    "version": "1.0.0",
+    "description": "API básica de música con promesas",
+    "main": "musica.js",
+    "scripts": {
+      "start": "node musica.js",
+      "dev": "node musica.js"
+    },
+    "keywords": ["musica", "api", "promesas", "nodejs"],
+    "author": "Tu Nombre",
+    "license": "MIT"
+  }
