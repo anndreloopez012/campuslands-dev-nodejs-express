@@ -1,0 +1,21 @@
+{
+    "name": "wilder-catu-pingpong-async",
+    "version": "1.0.0",
+    "description": "API Node.js de ping pong para practicar funciones asíncronas.",
+    "main": "wilder-catu.jjs",
+    "type": "commonjs",
+    "scripts": {
+      "start": "node wilder-catu.jjs"
+    },
+    "keywords": [
+      "nodejs",
+      "async",
+      "await",
+      "promises",
+      "api",
+      "backend",
+      "pingpong"
+    ],
+    "author": "Wilder Catú",
+    "license": "MIT"
+  }
