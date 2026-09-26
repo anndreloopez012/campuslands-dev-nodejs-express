@@ -1,0 +1,10 @@
+{
+  "name": "api-ropa-sneakers",
+  "version": "1.0.0",
+  "description": "API de ropa y sneakers con promesas",
+  "main": "ropa-sneakers.js",
+  "scripts": { "start": "node ropa-sneakers.js" },
+  "keywords": ["ropa", "sneakers", "api", "promesas"],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
