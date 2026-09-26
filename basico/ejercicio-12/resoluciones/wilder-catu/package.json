@@ -1,0 +1,13 @@
+{
+    "name": "api-peliculas-miedo",
+    "version": "1.0.0",
+    "description": "API de películas de terror con promesas",
+    "main": "peliculas-miedo.js",
+    "scripts": {
+      "start": "node peliculas-miedo.js",
+      "dev": "node peliculas-miedo.js"
+    },
+    "keywords": ["terror", "peliculas", "api", "promesas"],
+    "author": "Tu Nombre",
+    "license": "MIT"
+  }

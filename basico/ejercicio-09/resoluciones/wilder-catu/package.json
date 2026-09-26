@@ -1,0 +1,20 @@
+{
+    "name": "wilder-catu-kickboxing-json",
+    "version": "1.0.0",
+    "description": "API Node.js de kickboxing para practicar JSON y persistencia simple.",
+    "main": "wilder-catu.jjs",
+    "type": "commonjs",
+    "scripts": {
+      "start": "node wilder-catu.jjs"
+    },
+    "keywords": [
+      "nodejs",
+      "json",
+      "persistencia",
+      "api",
+      "backend",
+      "kickboxing"
+    ],
+    "author": "Wilder Catú",
+    "license": "MIT"
+  }

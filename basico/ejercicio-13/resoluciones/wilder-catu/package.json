@@ -1,0 +1,10 @@
+{
+  "name": "api-ciencia-ficcion",
+  "version": "1.0.0",
+  "description": "API de películas de ciencia ficción con promesas",
+  "main": "ciencia-ficcion.js",
+  "scripts": { "start": "node ciencia-ficcion.js" },
+  "keywords": ["ciencia-ficcion", "api", "promesas"],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
