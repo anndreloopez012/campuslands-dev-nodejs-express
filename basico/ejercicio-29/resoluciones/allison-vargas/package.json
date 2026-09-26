@@ -1,0 +1,14 @@
+﻿{
+  "name": "ejercicio-29-readme-tecnico",
+  "version": "1.0.0",
+  "description": "Basico 29 - README tecnico (tematica futbol y futbol sala) - Campuslands",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
