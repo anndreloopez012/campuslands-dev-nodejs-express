@@ -1,0 +1,21 @@
+{
+    "name": "motos-mecanica-path",
+    "version": "1.0.0",
+    "description": "Ejercicio básico de Node.js para practicar path y rutas seguras.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch app.js",
+        "check": "node --check app.js"
+    },
+    "keywords": [
+        "nodejs",
+        "path",
+        "backend",
+        "motos",
+        "mecanica"
+    ],
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}
