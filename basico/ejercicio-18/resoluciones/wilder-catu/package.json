@@ -1,0 +1,10 @@
+{
+  "name": "api-paracaidismo",
+  "version": "1.0.0",
+  "description": "API de paracaidismo con promesas",
+  "main": "paracaidismo.js",
+  "scripts": { "start": "node paracaidismo.js" },
+  "keywords": ["paracaidismo", "api", "promesas"],
+  "author": "Tu Nombre",
+  "license": "MIT"
+}
