@@ -1,0 +1,24 @@
+{
+    "name": "futbol-futsal-node",
+    "version": "1.0.0",
+    "description": "API basica de futbol y futbol sala utilizando Node.js y el modulo fs.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch app.js",
+        "check": "node --check app.js"
+    },
+    "keywords": [
+        "nodejs",
+        "fs",
+        "filesystem",
+        "futbol",
+        "futbol-sala",
+        "api"
+    ],
+    "author": "",
+    "license": "ISC",
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}
