@@ -1,0 +1,4 @@
+﻿[
+  { "id": 1, "placa": "ABC123", "marca": "Yamaha", "modelo": "FZ 150", "propietario": "Carlos Nunez" },
+  { "id": 2, "placa": "XYZ789", "marca": "Honda", "modelo": "CB 190", "propietario": "Marcela Rios" }
+]
