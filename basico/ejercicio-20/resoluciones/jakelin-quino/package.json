@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-20-http-json",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Registro de pinceles de dibujo digital con parseo JSON nativo",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}
