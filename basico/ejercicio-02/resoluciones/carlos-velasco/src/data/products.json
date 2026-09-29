@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nombre": "Teclado mecánico",
+    "categoria": "Periféricos",
+    "precio": 285.5,
+    "stock": 15,
+    "marca": "Redragon",
+    "activo": true
+  },
+  {
+    "id": 2,
+    "nombre": "Mouse inalámbrico",
+    "categoria": "Periféricos",
+    "precio": 149.99,
+    "stock": 24,
+    "marca": "Logitech",
+    "activo": true
+  },
+  {
+    "id": 3,
+    "nombre": "Monitor 24 pulgadas",
+    "categoria": "Monitores",
+    "precio": 899.0,
+    "stock": 8,
+    "marca": "LG",
+    "activo": true
+  },
+  {
+    "id": 4,
+    "nombre": "Audífonos Bluetooth",
+    "categoria": "Audio",
+    "precio": 329.9,
+    "stock": 12,
+    "marca": "JBL",
+    "activo": true
+  },
+  {
+    "id": 5,
+    "nombre": "Webcam Full HD",
+    "categoria": "Accesorios",
+    "precio": 249.5,
+    "stock": 7,
+    "marca": "Logitech",
+    "activo": true
+  },
+  {
+    "id": 6,
+    "nombre": "SSD 1TB",
+    "categoria": "Almacenamiento",
+    "precio": 589.0,
+    "stock": 10,
+    "marca": "Kingston",
+    "activo": true
+  },
+  {
+    "id": 7,
+    "nombre": "Memoria RAM 16GB",
+    "categoria": "Componentes",
+    "precio": 425.75,
+    "stock": 6,
+    "marca": "Corsair",
+    "activo": true
+  },
+  {
+    "id": 8,
+    "nombre": "Base para laptop",
+    "categoria": "Accesorios",
+    "precio": 119.9,
+    "stock": 18,
+    "marca": "Cooler Master",
+    "activo": true
+  },
+  {
+    "id": 9,
+    "nombre": "Micrófono USB",
+    "categoria": "Audio",
+    "precio": 379.0,
+    "stock": 5,
+    "marca": "Fifine",
+    "activo": true
+  },
+  {
+    "id": 10,
+    "nombre": "Hub USB-C",
+    "categoria": "Accesorios",
+    "precio": 199.99,
+    "stock": 14,
+    "marca": "Ugreen",
+    "activo": false
+  }
+]

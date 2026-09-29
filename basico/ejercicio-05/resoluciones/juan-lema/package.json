@@ -1,0 +1,11 @@
+{
+  "name": "basico-ejercicio-05-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 05 - fs para leer archivos (tematica futbol y futbol sala)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  }
+}

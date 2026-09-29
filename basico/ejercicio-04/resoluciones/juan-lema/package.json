@@ -1,0 +1,11 @@
+{
+  "name": "basico-ejercicio-04-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 04 - modulos ES Modules (tematica battle royale)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  }
+}

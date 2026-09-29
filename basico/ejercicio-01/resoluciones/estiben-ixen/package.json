@@ -1,0 +1,28 @@
+{
+  "name": "campuslands-dev-nodejs-express-estiben",
+  "version": "1.0.0",
+  "description": "Repositorio publico de ejercicios de Node.js y Express para estudiantes de Campuslands.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "start": "node src/app.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ixenbrandonestiben-lang/campuslands-dev-nodejs-express-estiben.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ixenbrandonestiben-lang/campuslands-dev-nodejs-express-estiben/issues"
+  },
+  "homepage": "https://github.com/ixenbrandonestiben-lang/campuslands-dev-nodejs-express-estiben#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

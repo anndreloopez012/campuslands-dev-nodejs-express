@@ -1,0 +1,14 @@
+{
+  "name": "basico-ejercicio-26-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 26 - codigos de estado (tematica shooters competitivos)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "latest"
+  }
+}

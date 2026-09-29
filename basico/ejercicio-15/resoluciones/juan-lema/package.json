@@ -1,0 +1,11 @@
+{
+  "name": "basico-ejercicio-15-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 15 - mini API HTTP nativa (tematica comida urbana)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}

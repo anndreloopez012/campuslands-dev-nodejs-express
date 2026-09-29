@@ -1,0 +1,19 @@
+# Dependencias instaladas (se crean con npm install, no suben)
+node_modules/
+
+# Variables de entorno con datos sencibles
+.env
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+*.log
+
+# archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de editores/IDEs
+.vscode/
+.idea/
