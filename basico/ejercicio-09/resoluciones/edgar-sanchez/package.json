@@ -1,0 +1,11 @@
+{
+  "name": "basico-ejercicio-09-edgar-sanchez",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ejercicio 09: JSON y persistencia simple",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  }
+}
