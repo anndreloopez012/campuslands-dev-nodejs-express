@@ -1,0 +1,18 @@
+{
+  "name": "edgar-sanchez-basico-16-primer-servidor-express",
+  "version": "1.0.0",
+  "description": "Primer servidor Express del ejercicio básico 16, desarrollado por Edgar Sánchez.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
