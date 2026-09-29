@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-30-taller-motos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API integradora en memoria para un taller de motos",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}
