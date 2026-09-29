@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-28-env-battle-royale",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Configuracion por entorno para una sala battle royale",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}
