@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-18-rutas-post",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Registro en memoria de saltos de paracaidismo",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}
