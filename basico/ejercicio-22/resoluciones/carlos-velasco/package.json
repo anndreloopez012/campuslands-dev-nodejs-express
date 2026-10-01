@@ -1,0 +1,22 @@
+{
+  "name": "basico-22-servicios-simples",
+  "version": "1.0.0",
+  "description": "Ejercicio basico integrador sobre servicios simples con Node.js y Express usando arquitectura 3D.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "services",
+    "backend",
+    "arquitectura-3d"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
