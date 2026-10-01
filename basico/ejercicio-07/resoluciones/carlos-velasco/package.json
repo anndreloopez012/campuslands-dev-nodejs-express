@@ -1,0 +1,21 @@
+{
+  "name": "basico-07-process-argv-cli",
+  "version": "1.0.0",
+  "description": "Ejercicio basico de Node.js y Express sobre process.argv y CLI.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "process.argv",
+    "cli"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
