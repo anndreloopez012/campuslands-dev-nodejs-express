@@ -1,0 +1,9 @@
+{
+  "torneo": "Campuslands Futsal Cup",
+  "fase": "Semifinal",
+  "equipo_local": "Backend Strikers",
+  "equipo_visitante": "Frontend Ninjas",
+  "marcador": "3 - 2",
+  "estado": "Finalizado",
+  "goles_local": ["Antonio", "Julian", "Pedro"]
+}
