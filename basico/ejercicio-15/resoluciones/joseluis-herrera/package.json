@@ -1,0 +1,16 @@
+{
+  "name": "joseluis-herrera",
+  "version": "1.0.0",
+  "description": "Resolver ejercicio 15",
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Jose-langL",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "node src/app.js"
+  }
+}
