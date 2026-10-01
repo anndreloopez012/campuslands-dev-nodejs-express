@@ -1,0 +1,22 @@
+{
+  "name": "basico-ejercicio-10-funciones-asincronas",
+  "version": "1.0.0",
+  "description": "Ejercicio basico sobre funciones asincronas con Node.js y Express usando la tematica de pingpong",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "async",
+    "await",
+    "pingpong"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
