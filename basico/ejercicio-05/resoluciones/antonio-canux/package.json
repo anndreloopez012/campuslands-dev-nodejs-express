@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio-05",
+  "version": "1.0.0",
+  "description": "API de Fútbol y Futsal enfocada en lectura de archivos con fs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": ["node", "express", "futbol", "fs"],
+  "author": "Antonio Canux",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}
