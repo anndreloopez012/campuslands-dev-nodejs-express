@@ -1,0 +1,20 @@
+{
+  "name": "joseluis-herrera",
+  "version": "1.0.0",
+  "description": "Resolver ejercicio 16",
+  "keywords": [
+    "node.js",
+    "js",
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Jose-langL",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
