@@ -1,0 +1,18 @@
+{
+  "name": "joseluis-herrera",
+  "version": "1.0.0",
+  "description": "resolver ejercicio 23",
+  "keywords": [
+    "node.js"
+  ],
+  "license": "ISC",
+  "author": "Jose-langL",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
