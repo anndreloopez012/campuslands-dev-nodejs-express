@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "nombre": "Rico Verhoeven",
+    "peso": 115,
+    "victorias": 60
+  },
+  {
+    "id": 2,
+    "nombre": "Buakaw",
+    "peso": 70,
+    "victorias": 240
+  }
+]
