@@ -1,0 +1,23 @@
+{
+  "name": "basico-02-npm-scripts",
+  "version": "1.0.0",
+  "description": "Solución del ejercicio básico 02 de Node.js",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "npm",
+    "scripts"
+  ],
+  "author": "sergio-miranda",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
