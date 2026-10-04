@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-01-node-runtime",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Resolucion del ejercicio 01 de Node.js runtime y consola",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
