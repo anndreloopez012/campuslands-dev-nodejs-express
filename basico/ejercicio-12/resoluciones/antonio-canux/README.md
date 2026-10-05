@@ -1,6 +1,6 @@
 # Ejercicio 12 - async / await (Películas de Miedo)
 
-**Alumno:** Antonio Canux  
+**Camper:** Antonio Canux  
 **Tema:** `async / await` en Node.js y Express  
 **Temática:** Películas de Miedo (Horror Movies)  
 **Ruta base:** `/basico/ejercicio-12`
@@ -15,7 +15,7 @@ El sistema gestiona un catálogo de películas clásicas y modernas de terror co
 
 ---
 
-## 🏗️ Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 basico/ejercicio-12/resoluciones/antonio-canux/
@@ -39,7 +39,7 @@ basico/ejercicio-12/resoluciones/antonio-canux/
 
 ---
 
-## 🚀 Instalación y Ejecución
+## Instalación y Ejecución
 
 1. Navegar hasta la carpeta del ejercicio:
    ```bash
