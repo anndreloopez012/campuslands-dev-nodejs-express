@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Ahri",
+    "role": "Mage",
+    "attackType": "Ranged",
+    "difficulty": "Moderate",
+    "winRate": 51.4,
+    "pickRate": 12.8,
+    "isCompetitiveMeta": true
+  },
+  {
+    "id": "2",
+    "name": "Aatrox",
+    "role": "Fighter",
+    "attackType": "Melee",
+    "difficulty": "High",
+    "winRate": 49.8,
+    "pickRate": 14.2,
+    "isCompetitiveMeta": true
+  },
+  {
+    "id": "3",
+    "name": "Thresh",
+    "role": "Support",
+    "attackType": "Ranged",
+    "difficulty": "High",
+    "winRate": 50.2,
+    "pickRate": 16.5,
+    "isCompetitiveMeta": true
+  }
+]
