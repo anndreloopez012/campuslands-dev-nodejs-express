@@ -1,0 +1,9 @@
+{
+  "name": "basico-10-funciones-asincronas",
+  "version": "1.0.0",
+  "description": "Ejercicio de funciones asincronas",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}

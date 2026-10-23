@@ -1,0 +1,10 @@
+{
+  "name": "basico-15-mini-api-http-nativa",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  }
+}

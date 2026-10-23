@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "matchCode": "FUT-2026-01",
+    "homeTeam": "Dynamo Futsal Club",
+    "awayTeam": "Atlas FS",
+    "homeGoals": 4,
+    "awayGoals": 2,
+    "surfaceType": "Parquet",
+    "matchStatus": "Finished"
+  },
+  {
+    "id": "2",
+    "matchCode": "FUT-2026-02",
+    "homeTeam": "Galácticos FS",
+    "awayTeam": "Titanes Futsal",
+    "homeGoals": 3,
+    "awayGoals": 3,
+    "surfaceType": "Sintético",
+    "matchStatus": "Live"
+  },
+  {
+    "id": "3",
+    "matchCode": "FUT-2026-03",
+    "homeTeam": "Leones de Construmur",
+    "awayTeam": "Dynamo Futsal Club",
+    "homeGoals": 0,
+    "awayGoals": 0,
+    "surfaceType": "Interior (Pista)",
+    "matchStatus": "Scheduled"
+  },
+  {
+    "id": "1791646839656",
+    "matchCode": "FUT-2026-04",
+    "homeTeam": "Futsal United",
+    "awayTeam": "Real Deportivo",
+    "homeGoals": 1,
+    "awayGoals": 2,
+    "surfaceType": "Parquet",
+    "matchStatus": "Live"
+  }
+]

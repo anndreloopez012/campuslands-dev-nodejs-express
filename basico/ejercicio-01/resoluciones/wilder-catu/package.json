@@ -1,0 +1,22 @@
+{
+    "name": "rpg-node-basico",
+    "version": "1.0.0",
+    "description": "Ejercicio básico de Node.js utilizando la terminal y temática de videojuegos RPG.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch app.js",
+        "check": "node --check app.js"
+    },
+    "keywords": [
+        "nodejs",
+        "rpg",
+        "terminal",
+        "backend"
+    ],
+    "author": "",
+    "license": "ISC",
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}
