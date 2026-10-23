@@ -1,0 +1,5 @@
+﻿[
+  { "id": 1, "nombre": "Horizonte Estelar", "tripulantes": 12, "estado": "operativa" },
+  { "id": 2, "nombre": "Eco Cuantico", "tripulantes": 6, "estado": "en reparacion" },
+  { "id": 3, "nombre": "Umbra Errante", "tripulantes": 20, "estado": "operativa" }
+]

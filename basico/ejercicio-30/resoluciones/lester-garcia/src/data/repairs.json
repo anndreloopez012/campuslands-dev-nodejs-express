@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "ticketCode": "REP-2026-001",
+    "clientName": "Alejandro Vega",
+    "motorcycleModel": "Yamaha MT-09",
+    "serviceType": "Cambio de Kit de Transmisión",
+    "costUSD": 220,
+    "status": "In Progress"
+  },
+  {
+    "id": "2",
+    "ticketCode": "REP-2026-002",
+    "clientName": "Carla Mendoza",
+    "motorcycleModel": "Honda CB650R",
+    "serviceType": "Sincronización de Cuerpos de Aceleración",
+    "costUSD": 150,
+    "status": "Pending"
+  },
+  {
+    "id": "3",
+    "ticketCode": "REP-2026-003",
+    "clientName": "Marcos Silva",
+    "motorcycleModel": "Kawasaki Ninja 400",
+    "serviceType": "Mantenimiento Preventivo 10,000km",
+    "costUSD": 180,
+    "status": "Completed"
+  },
+  {
+    "id": "1791648277526",
+    "ticketCode": "REP-2026-004",
+    "clientName": "Lucía Méndez",
+    "motorcycleModel": "Honda CB500X",
+    "serviceType": "Cambio de Balatas y Líquido de Frenos",
+    "costUSD": 95,
+    "status": "Pending"
+  }
+]

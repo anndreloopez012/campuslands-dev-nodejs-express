@@ -1,0 +1,11 @@
+{
+    "name": "basico-ejercicio-16-maria-montepeque",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Ejercicio 16 - primer servidor (tematica ropa y sneakers)",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js"
+    }
+}

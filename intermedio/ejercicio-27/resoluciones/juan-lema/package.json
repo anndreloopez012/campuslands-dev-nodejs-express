@@ -1,0 +1,17 @@
+{
+  "name": "intermedio-ejercicio-27-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 27 - documentacion de endpoints (tematica MOBA esports)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage"
+  },
+  "dependencies": {
+    "express": "latest",
+    "swagger-ui-express": "latest"
+  }
+}

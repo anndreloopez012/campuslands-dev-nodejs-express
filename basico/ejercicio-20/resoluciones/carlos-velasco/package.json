@@ -1,0 +1,22 @@
+{
+  "name": "basico-20-middleware-express-json",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express para practicar el middleware express.json() con temática de dibujo digital.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "express.json",
+    "middleware",
+    "dibujo-digital"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
