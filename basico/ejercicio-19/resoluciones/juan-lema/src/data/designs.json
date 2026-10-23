@@ -1,0 +1,6 @@
+[
+  { "id": 1, "artistId": 1, "style": "realismo", "price": 200 },
+  { "id": 2, "artistId": 1, "style": "tradicional", "price": 120 },
+  { "id": 3, "artistId": 2, "style": "geometrico", "price": 150 },
+  { "id": 4, "artistId": 1, "style": "realismo", "price": 350 }
+]

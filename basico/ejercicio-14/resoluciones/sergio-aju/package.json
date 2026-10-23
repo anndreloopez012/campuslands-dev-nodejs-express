@@ -1,0 +1,13 @@
+{
+  "name": "basico-14-validacion",
+  "version": "1.0.0",
+  "description": "Ejercicio de validacion de entrada",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

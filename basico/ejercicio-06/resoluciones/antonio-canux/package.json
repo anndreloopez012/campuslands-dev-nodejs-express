@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio-06",
+  "version": "1.0.0",
+  "description": "API de taller de motos con manejo seguro de rutas y path",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": ["node", "express", "path", "seguridad", "motos"],
+  "author": "Antonio Canux",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}

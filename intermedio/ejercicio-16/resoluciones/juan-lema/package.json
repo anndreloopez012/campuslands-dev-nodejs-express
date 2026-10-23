@@ -1,0 +1,15 @@
+{
+  "name": "intermedio-ejercicio-16-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 16 - rutas protegidas (tematica ropa y sneakers)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "jsonwebtoken": "latest"
+  }
+}

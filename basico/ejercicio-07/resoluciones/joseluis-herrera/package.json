@@ -1,0 +1,17 @@
+{
+  "name": "joseluis-herrera",
+  "version": "1.0.0",
+  "description": "listar json de autos",
+  "keywords": [
+    "node.js",
+    "json",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Jose-langL",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}

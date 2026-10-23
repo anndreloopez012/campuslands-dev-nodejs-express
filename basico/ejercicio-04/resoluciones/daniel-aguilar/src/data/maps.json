@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Isla Ceniza", "players": 100, "zones": 8 },
+  { "id": 2, "name": "Valle Niebla", "players": 60, "zones": 6 },
+  { "id": 3, "name": "Costa Tormenta", "players": 100, "zones": 9 }
+]

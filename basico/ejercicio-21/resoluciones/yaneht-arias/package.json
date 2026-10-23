@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-21-yaneht-arias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio básico 21: estructura src, rutas, controladores y servicios",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

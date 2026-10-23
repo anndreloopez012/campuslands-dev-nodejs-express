@@ -1,0 +1,13 @@
+{
+  "name": "basico-16-primer-servidor-express",
+  "version": "1.0.0",
+  "description": "Primer servidor Express",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

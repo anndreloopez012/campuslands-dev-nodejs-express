@@ -1,0 +1,21 @@
+{
+  "name": "basico-24-crud-formulas-quimicas",
+  "version": "1.0.0",
+  "description": "CRUD básico de fórmulas químicas con Node.js y Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "crud",
+    "formulas-quimicas"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

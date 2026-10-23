@@ -1,0 +1,4 @@
+﻿[
+  { "id": 1, "nombre": "Agua", "formula": "H2O", "tipo": "inorganico", "estado": "liquido" },
+  { "id": 2, "nombre": "Glucosa", "formula": "C6H12O6", "tipo": "organico", "estado": "solido" }
+]

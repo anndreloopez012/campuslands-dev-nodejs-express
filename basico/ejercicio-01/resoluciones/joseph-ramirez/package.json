@@ -1,0 +1,21 @@
+{
+  "name": "basico-ejercicio-01-node-runtime",
+  "version": "1.0.0",
+  "description": "Ejercicio básico de Node.js runtime, consola y Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "backend",
+    "campuslands"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

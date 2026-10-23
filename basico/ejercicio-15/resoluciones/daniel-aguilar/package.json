@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio-15-http-nativa",
+  "version": "1.0.0",
+  "description": "Mini API de comida urbana con el modulo http nativo de Node.js (sin Express)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC"
+}
