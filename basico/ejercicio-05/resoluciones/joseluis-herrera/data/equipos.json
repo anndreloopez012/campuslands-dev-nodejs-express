@@ -1,0 +1,17 @@
+[
+    {
+    "name": "Matadores",
+    "sport": "futbol",
+    "city": "Guatemala"
+    },
+    {
+        "name": "Salamandras",
+        "sport": "futbol sala",
+        "city": "California"
+    },
+    {
+        "name": "Boludos",
+        "sport": "futbol",
+        "city": "Argentina"
+    }
+]

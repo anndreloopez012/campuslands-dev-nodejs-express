@@ -1,0 +1,23 @@
+{
+  "name": "basico-27-logs-simples",
+  "version": "1.0.0",
+  "description": "Ejercicio básico de logs simples con Node.js y Express usando temática MOBA esports",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "logs",
+    "middleware",
+    "moba",
+    "esports"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

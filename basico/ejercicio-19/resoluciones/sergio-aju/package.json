@@ -1,0 +1,13 @@
+{
+  "name": "basico-19-params-query",
+  "version": "1.0.0",
+  "description": "Ejercicio de req.params y req.query",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

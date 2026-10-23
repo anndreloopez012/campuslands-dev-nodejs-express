@@ -1,0 +1,15 @@
+{
+  "name": "intermedio-ejercicio-20-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 20 - CORS controlado (tematica dibujo digital)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "express": "latest"
+  }
+}

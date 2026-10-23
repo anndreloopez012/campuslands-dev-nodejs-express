@@ -1,0 +1,25 @@
+{
+  "name": "ejercicio-12-async-await",
+  "version": "1.0.0",
+  "description": "Ejercicio basico de Node.js y Express sobre async await",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "async",
+    "await",
+    "promises",
+    "peliculas",
+    "terror"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

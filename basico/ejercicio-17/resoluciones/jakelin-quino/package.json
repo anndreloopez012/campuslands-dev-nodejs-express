@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-17-rutas-get",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rutas GET para destinos turisticos",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}

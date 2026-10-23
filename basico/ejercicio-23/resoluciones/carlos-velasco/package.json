@@ -1,0 +1,22 @@
+{
+  "name": "basico-23-datos-en-memoria",
+  "version": "1.0.0",
+  "description": "Ejercicio basico integrador sobre datos en memoria con Node.js y Express usando la tematica de soldadura.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "memoria",
+    "soldadura",
+    "backend"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

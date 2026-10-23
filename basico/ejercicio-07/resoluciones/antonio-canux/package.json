@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-07-cli",
+  "version": "1.0.0",
+  "description": "Solución al Ejercicio 07 - process.argv y CLI",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "cli": "node src/cli.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
