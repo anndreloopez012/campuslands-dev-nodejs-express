@@ -1,0 +1,23 @@
+{
+  "name": "basico-ejercicio-03-commonjs",
+  "version": "1.0.0",
+  "description": "Ejercicio básico sobre módulos CommonJS con Node.js y Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "commonjs",
+    "express",
+    "backend",
+    "campuslands"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

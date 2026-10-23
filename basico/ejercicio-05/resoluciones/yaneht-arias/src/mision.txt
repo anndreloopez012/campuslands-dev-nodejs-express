@@ -1,0 +1,2 @@
+Misión: capturar la bandera.
+Recompensa: 500 puntos.

@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio-30-proyecto-integrador",
+  "version": "1.0.0",
+  "description": "Taller de motos: proyecto integrador basico con Express",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --env-file-if-exists=.env --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

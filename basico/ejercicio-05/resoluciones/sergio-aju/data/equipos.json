@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nombre": "Real Madrid",
+    "deporte": "futbol"
+  },
+  {
+    "id": 2,
+    "nombre": "Barcelona",
+    "deporte": "futbol"
+  },
+  {
+    "id": 3,
+    "nombre": "Inter Sala",
+    "deporte": "futbol sala"
+  }
+]

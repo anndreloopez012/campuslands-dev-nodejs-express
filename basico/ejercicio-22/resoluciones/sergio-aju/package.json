@@ -1,0 +1,13 @@
+{
+  "name": "basico-22-servicios-simples",
+  "version": "1.0.0",
+  "description": "Ejercicio de servicios simples",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

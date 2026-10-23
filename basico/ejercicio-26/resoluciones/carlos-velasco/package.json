@@ -1,0 +1,22 @@
+{
+  "name": "basico-26-codigos-estado-shooters",
+  "version": "1.0.0",
+  "description": "API básica para practicar códigos de estado HTTP con shooters competitivos",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "http",
+    "shooters",
+    "status-codes"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

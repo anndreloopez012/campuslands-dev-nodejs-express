@@ -1,0 +1,4 @@
+[
+  { "id": "1", "name": "Rico Verhoeven", "weightClass": "Heavyweight", "wins": 60, "losses": 10, "kos": 20 },
+  { "id": "2", "name": "Giorgio Petrosyan", "weightClass": "Featherweight", "wins": 104, "losses": 3, "kos": 42 }
+]

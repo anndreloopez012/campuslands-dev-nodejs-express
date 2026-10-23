@@ -1,0 +1,21 @@
+{
+  "name": "ejercicio-17-rutas-get",
+  "version": "1.0.0",
+  "description": "Ejercicio básico de rutas GET con Node.js y Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "get",
+    "api"
+  ],
+  "author": "carlos-velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

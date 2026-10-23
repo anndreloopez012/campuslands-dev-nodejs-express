@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "artist": "Kira Vane",
+    "style": "Blackwork",
+    "designName": "Cráneo Geométrico",
+    "estimatedHours": 4,
+    "priceUSD": 450.00,
+    "available": true,
+    "size": "Grande"
+  },
+  {
+    "id": "2",
+    "artist": "Mateo Silva",
+    "style": "Neotradicional",
+    "designName": "Zorro de Montaña",
+    "estimatedHours": 3,
+    "priceUSD": 350.00,
+    "available": true,
+    "size": "Mediano"
+  },
+  {
+    "id": "3",
+    "artist": "Kira Vane",
+    "style": "Realismo",
+    "designName": "Ojo Biónico",
+    "estimatedHours": 6,
+    "priceUSD": 800.00,
+    "available": false,
+    "size": "Grande"
+  },
+  {
+    "id": "4",
+    "artist": "Sora Takahashi",
+    "style": "Irezumi",
+    "designName": "Dragón Ryū",
+    "estimatedHours": 8,
+    "priceUSD": 1200.00,
+    "available": true,
+    "size": "Extra Grande"
+  },
+  {
+    "id": "5",
+    "artist": "Mateo Silva",
+    "style": "Blackwork",
+    "designName": "Daga y Serpiente",
+    "estimatedHours": 2,
+    "priceUSD": 220.00,
+    "available": true,
+    "size": "Pequeño"
+  }
+]

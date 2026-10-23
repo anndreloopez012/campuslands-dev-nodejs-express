@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "sport": "Fútbol",
+    "teamA": "Barcelona",
+    "teamB": "Real Madrid",
+    "score": "2-1"
+  },
+  {
+    "id": 2,
+    "sport": "Fútbol",
+    "teamA": "Liverpool",
+    "teamB": "Arsenal",
+    "score": "1-1"
+  },
+  {
+    "id": 3,
+    "sport": "Fútbol sala",
+    "teamA": "Inter Movistar",
+    "teamB": "ElPozo Murcia",
+    "score": "4-3"
+  }
+]

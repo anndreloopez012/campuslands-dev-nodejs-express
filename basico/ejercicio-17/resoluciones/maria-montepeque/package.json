@@ -1,0 +1,11 @@
+{
+    "name": "basico-ejercicio-17-maria-montepeque",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Ejercicio 17 - rutas GET (tematica viajes y turismo)",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ejercicio-04-yaneht-arias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio básico 04: módulos ES Modules",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module"
+}

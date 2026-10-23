@@ -1,0 +1,11 @@
+{
+  "name": "basico-ejercicio-13-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 13 - manejo de errores (tematica ciencia ficcion)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  }
+}

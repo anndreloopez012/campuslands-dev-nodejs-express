@@ -1,0 +1,20 @@
+﻿[
+  {
+    "id": 1,
+    "equipo_local": "Halcones FC",
+    "equipo_visitante": "Rayo Sala",
+    "modalidad": "futbol",
+    "estado": "finalizado",
+    "marcador_local": 2,
+    "marcador_visitante": 1
+  },
+  {
+    "id": 2,
+    "equipo_local": "Tigres del Barrio",
+    "equipo_visitante": "Aguilas Norte",
+    "modalidad": "futbol_sala",
+    "estado": "programado",
+    "marcador_local": null,
+    "marcador_visitante": null
+  }
+]
