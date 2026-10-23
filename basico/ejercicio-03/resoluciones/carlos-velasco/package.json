@@ -1,0 +1,13 @@
+{
+  "name": "moba-esports-commonjs",
+  "version": "1.0.0",
+  "description": "API basica para administrar equipos MOBA esports usando CommonJS",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

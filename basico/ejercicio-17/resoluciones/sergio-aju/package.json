@@ -1,0 +1,13 @@
+{
+  "name": "basico-17-rutas-get",
+  "version": "1.0.0",
+  "description": "Ejercicio de rutas GET con Express",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

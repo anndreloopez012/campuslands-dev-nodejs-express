@@ -1,0 +1,13 @@
+{
+  "name": "basico-05-fs",
+  "version": "1.0.0",
+  "description": "Ejercicio de fs para leer archivos",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

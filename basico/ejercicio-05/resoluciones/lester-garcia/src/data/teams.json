@@ -1,0 +1,6 @@
+[
+  { "id": "1", "name": "Inter Movistar", "category": "futsal", "points": 18, "goalsFor": 25 },
+  { "id": "2", "name": "ElPozo Murcia", "category": "futsal", "points": 15, "goalsFor": 20 },
+  { "id": "3", "name": "Real Madrid", "category": "futbol-11", "points": 24, "goalsFor": 30 },
+  { "id": "4", "name": "FC Barcelona", "category": "futbol-11", "points": 22, "goalsFor": 28 }
+]

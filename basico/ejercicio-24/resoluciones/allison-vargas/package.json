@@ -1,0 +1,14 @@
+﻿{
+  "name": "ejercicio-24-crud-basico",
+  "version": "1.0.0",
+  "description": "Basico 24 - CRUD basico (tematica formulas quimicas) - Campuslands",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
