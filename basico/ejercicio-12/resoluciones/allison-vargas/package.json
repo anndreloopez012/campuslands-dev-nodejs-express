@@ -1,0 +1,14 @@
+﻿{
+  "name": "ejercicio-12-async-await",
+  "version": "1.0.0",
+  "description": "Basico 12 - async await (tematica peliculas de miedo) - Campuslands",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

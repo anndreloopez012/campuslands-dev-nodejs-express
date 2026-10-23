@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "Tacos al Pastor",
+    "category": "Tacos",
+    "price": 4.5,
+    "spicyLevel": 2,
+    "available": true
+  },
+  {
+    "id": "2",
+    "name": "Hot Dog Gigante",
+    "category": "Fast Food",
+    "price": 6,
+    "spicyLevel": 1,
+    "available": true
+  },
+  {
+    "id": "3",
+    "name": "Arepa Reina Pepiada",
+    "category": "Arepas",
+    "price": 7.5,
+    "spicyLevel": 0,
+    "available": false
+  },
+  {
+    "id": "1791322781440",
+    "name": "Hamburguesa Callejera con Huevo",
+    "category": "Hamburguesas",
+    "price": 8.5,
+    "spicyLevel": 1,
+    "available": true
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "projectName": "Torre Residencial Horizon",
+    "architecturalStyle": "Moderno Minimalista",
+    "software": "3ds Max",
+    "renderEngine": "Corona Renderer",
+    "areaSqMeters": 1250,
+    "budgetUSD": 3500,
+    "rendersCount": 8,
+    "isVRReady": true,
+    "status": "In Development"
+  },
+  {
+    "id": "2",
+    "title": "Villa Ecológica Valle Verde",
+    "projectName": "Villa Ecológica Valle Verde",
+    "architecturalStyle": "Bioclimático",
+    "software": "Revit",
+    "renderEngine": "Enscape",
+    "areaSqMeters": 420,
+    "budgetUSD": 1800,
+    "rendersCount": 5,
+    "isVRReady": false,
+    "status": "Delivered"
+  },
+  {
+    "id": "3",
+    "projectName": "Centro Comercial Neo-Plaza",
+    "architecturalStyle": "Futurista",
+    "software": "Rhinoceros",
+    "renderEngine": "V-Ray",
+    "areaSqMeters": 3800,
+    "budgetUSD": 6200,
+    "rendersCount": 12,
+    "isVRReady": true,
+    "status": "In Development"
+  },
+  {
+    "id": "1791561058095",
+    "projectName": "Pabellón Cultural Metropolitano",
+    "architecturalStyle": "Paramétrico",
+    "software": "Rhinoceros",
+    "renderEngine": "V-Ray",
+    "areaSqMeters": 1500,
+    "budgetUSD": 4500,
+    "rendersCount": 10,
+    "isVRReady": true,
+    "status": "In Development"
+  }
+]

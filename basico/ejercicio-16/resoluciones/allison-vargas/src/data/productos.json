@@ -1,0 +1,5 @@
+﻿[
+  { "id": 1, "nombre": "Runner Volt", "marca": "Nortek", "precio_usd": 129, "talla": "42" },
+  { "id": 2, "nombre": "Court Classic", "marca": "Ashfield", "precio_usd": 99, "talla": "40" },
+  { "id": 3, "nombre": "Hoodie Urbano", "marca": "Nortek", "precio_usd": 65, "talla": "M" }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "basico-ejercicio-12-async-await",
+  "version": "1.0.0",
+  "description": "Ejercicio basico sobre async await con Node.js y Express usando peliculas de miedo",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "async",
+    "await",
+    "peliculas",
+    "terror"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

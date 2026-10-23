@@ -1,0 +1,13 @@
+{
+  "name": "basico-12-async-await",
+  "version": "1.0.0",
+  "description": "Ejercicio de async await",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "title": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "genre": "Rock",
+    "durationSeconds": 354
+  },
+  {
+    "id": "2",
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "genre": "Synthwave",
+    "durationSeconds": 200
+  },
+  {
+    "id": "3",
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "genre": "Classic Rock",
+    "durationSeconds": 390
+  },
+  {
+    "id": "1791292544838",
+    "title": "Starboy",
+    "artist": "The Weeknd",
+    "genre": "R&B",
+    "durationSeconds": 230
+  }
+]

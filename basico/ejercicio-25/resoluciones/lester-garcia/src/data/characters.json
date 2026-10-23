@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Eldrin el Sabio",
+    "characterClass": "Mago",
+    "level": 45,
+    "healthPoints": 320,
+    "manaPoints": 850,
+    "isAlive": true,
+    "guild": "Arcane Order"
+  },
+  {
+    "id": "2",
+    "name": "Thorgar Rompehuesos",
+    "characterClass": "Guerrero",
+    "level": 50,
+    "healthPoints": 1200,
+    "manaPoints": 50,
+    "isAlive": true,
+    "guild": "Iron Brotherhood"
+  },
+  {
+    "id": "3",
+    "name": "Lyra Sombraurbana",
+    "characterClass": "Pícaro",
+    "level": 38,
+    "healthPoints": 450,
+    "manaPoints": 200,
+    "isAlive": false,
+    "guild": "Nightstalkers"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-24-crud-formulas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CRUD en memoria para formulas quimicas",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}

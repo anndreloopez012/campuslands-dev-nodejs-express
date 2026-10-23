@@ -1,0 +1,5 @@
+﻿[
+  { "id": 1, "nombre": "Halcones FC", "modalidad": "futbol", "jugadores": 11 },
+  { "id": 2, "nombre": "Rayo Sala", "modalidad": "futbol sala", "jugadores": 5 },
+  { "id": 3, "nombre": "Tigres del Barrio", "modalidad": "futbol", "jugadores": 11 }
+]
