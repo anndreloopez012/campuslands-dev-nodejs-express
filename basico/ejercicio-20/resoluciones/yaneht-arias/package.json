@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-20-yaneht-arias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio básico 20: lectura de un cuerpo JSON",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

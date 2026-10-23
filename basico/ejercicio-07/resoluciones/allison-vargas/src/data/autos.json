@@ -1,0 +1,5 @@
+﻿[
+  { "id": 1, "marca": "Ferrari", "modelo": "488 GTB", "precio_usd": 280000 },
+  { "id": 2, "marca": "Lamborghini", "modelo": "Huracan", "precio_usd": 260000 },
+  { "id": 3, "marca": "Porsche", "modelo": "911 Turbo S", "precio_usd": 210000 }
+]

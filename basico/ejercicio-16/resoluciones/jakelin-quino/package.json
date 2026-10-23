@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-16-servidor-http",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Primer servidor HTTP nativo para una tienda de sneakers",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}

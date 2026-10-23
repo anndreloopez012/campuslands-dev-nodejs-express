@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-06-path",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practica de path y rutas seguras sin Express",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  }
+}

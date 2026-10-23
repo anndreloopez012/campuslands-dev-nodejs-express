@@ -1,0 +1,13 @@
+{
+  "name": "basico-11-promesas",
+  "version": "1.0.0",
+  "description": "Ejercicio de promesas basicas",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio-14-validacion-entrada",
+  "version": "1.0.0",
+  "description": "API de libros para practicar validacion de entrada",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

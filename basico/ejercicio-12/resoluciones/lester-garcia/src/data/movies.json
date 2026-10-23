@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "title": "The Exorcist",
+    "director": "William Friedkin",
+    "subgenre": "Supernatural Horror",
+    "scareLevel": 9,
+    "releaseYear": 1973
+  },
+  {
+    "id": "2",
+    "title": "Hereditary",
+    "director": "Ari Aster",
+    "subgenre": "Psychological Horror",
+    "scareLevel": 8,
+    "releaseYear": 2018
+  },
+  {
+    "id": "3",
+    "title": "A Nightmare on Elm Street",
+    "director": "Wes Craven",
+    "subgenre": "Slasher",
+    "scareLevel": 7,
+    "releaseYear": 1984
+  },
+  {
+    "id": "1791295239616",
+    "title": "The Conjuring",
+    "director": "James Wan",
+    "subgenre": "Supernatural Horror",
+    "scareLevel": 8,
+    "releaseYear": 2013
+  }
+]

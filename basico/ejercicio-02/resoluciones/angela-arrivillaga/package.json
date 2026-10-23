@@ -1,0 +1,15 @@
+{
+  "name": "basico-02-npm-scripts",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "info": "node -v",
+    "saludo": "node -e \"console.log('Hola desde npm scripts')\""
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

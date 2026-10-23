@@ -1,0 +1,24 @@
+{
+    "name": "moba-node-commonjs",
+    "version": "1.0.0",
+    "description": "API básica de MOBA esports utilizando Node.js, CommonJS y HTTP nativo, sin Express.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "node --watch app.js",
+        "check": "node --check app.js"
+    },
+    "keywords": [
+        "nodejs",
+        "commonjs",
+        "http",
+        "api",
+        "moba",
+        "esports"
+    ],
+    "author": "",
+    "license": "ISC",
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio-20-middleware-json",
+  "version": "1.0.0",
+  "description": "API de dibujo digital para practicar middleware y express.json",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

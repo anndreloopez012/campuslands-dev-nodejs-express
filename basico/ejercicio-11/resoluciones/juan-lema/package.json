@@ -1,0 +1,11 @@
+{
+  "name": "basico-ejercicio-11-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 11 - promesas basicas (tematica musica)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  }
+}

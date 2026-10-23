@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio-05-fs",
+  "version": "1.0.0",
+  "description": "Ejercicio basico de Node.js y Express usando fs para leer archivos",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "fs",
+    "futbol",
+    "futbol-sala"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

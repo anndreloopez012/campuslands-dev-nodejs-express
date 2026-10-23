@@ -1,0 +1,14 @@
+{
+  "name": "basico-28-configuracion-por-entorno",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch --env-file=.env.development src/server.js",
+    "start": "node --env-file=.env.production src/server.js",
+    "start:dev": "node --env-file=.env.development src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

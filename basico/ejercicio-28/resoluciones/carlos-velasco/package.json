@@ -1,0 +1,22 @@
+{
+  "name": "basico-28-configuracion-por-entorno",
+  "version": "1.0.0",
+  "description": "Ejercicio básico de configuración por entorno con Node.js y Express usando temática battle royale",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "environment",
+    "config",
+    "battle-royale"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

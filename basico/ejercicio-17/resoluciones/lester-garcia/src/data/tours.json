@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "title": "Aventura en Machu Picchu",
+    "destination": "Perú",
+    "category": "Aventura",
+    "durationDays": 5,
+    "priceUSD": 850.00,
+    "rating": 4.9,
+    "featured": true
+  },
+  {
+    "id": "2",
+    "title": "Recorrido Histórico por Roma y el Coliseo",
+    "destination": "Italia",
+    "category": "Cultural",
+    "durationDays": 3,
+    "priceUSD": 420.00,
+    "rating": 4.7,
+    "featured": false
+  },
+  {
+    "id": "3",
+    "title": "Safari en el Serengueti",
+    "destination": "Tanzania",
+    "category": "Naturaleza",
+    "durationDays": 7,
+    "priceUSD": 2100.00,
+    "rating": 5.0,
+    "featured": true
+  },
+  {
+    "id": "4",
+    "title": "Luces del Norte e Auroras Boreales",
+    "destination": "Islandia",
+    "category": "Naturaleza",
+    "durationDays": 4,
+    "priceUSD": 1150.00,
+    "rating": 4.8,
+    "featured": false
+  },
+  {
+    "id": "5",
+    "title": "Ruta Gastronómica en Tokio",
+    "destination": "Japón",
+    "category": "Cultural",
+    "durationDays": 3,
+    "priceUSD": 600.00,
+    "rating": 4.9,
+    "featured": true
+  }
+]
