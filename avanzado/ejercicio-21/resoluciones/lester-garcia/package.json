@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-adv-21-renders",
+  "version": "1.0.0",
+  "description": "API Granja de Render Animación 3D — Concurrencia Controlada (Semáforo GPU) (concurrencia controlada)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
