@@ -1,0 +1,9 @@
+{
+  "name": "ejercicio-15-api-nativa",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  }
+}
