@@ -1,0 +1,16 @@
+{
+    "name": "intermedio-ejercicio-22-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 22 - subida simulada de archivos (tematica arquitectura 3D)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.6.1",
+        "express": "^4.21.2",
+        "multer": "^2.0.2"
+    }
+}
