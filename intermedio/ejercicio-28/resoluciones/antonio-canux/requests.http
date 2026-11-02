@@ -1,0 +1,36 @@
+### Colección de ejemplos HTTP (extensión REST Client de VS Code)
+@baseUrl = http://localhost:3000
+
+### Endpoint del ejercicio
+GET {{baseUrl}}/intermedio/ejercicio-28
+
+### Listar partidas
+GET {{baseUrl}}/api/matches
+
+### Filtrar por modo
+GET {{baseUrl}}/api/matches?mode=Solo
+
+### Obtener una partida
+GET {{baseUrl}}/api/matches/1
+
+### Partida inexistente (404)
+GET {{baseUrl}}/api/matches/99
+
+### Crear partida
+POST {{baseUrl}}/api/matches
+Content-Type: application/json
+
+{
+  "map": "Isla Solitaria",
+  "mode": "Squad",
+  "players": 100,
+  "winner": "Los Halcones"
+}
+
+### Crear partida con datos inválidos (400)
+POST {{baseUrl}}/api/matches
+Content-Type: application/json
+
+{
+  "map": "Isla Solitaria"
+}
