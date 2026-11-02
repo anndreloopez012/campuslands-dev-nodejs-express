@@ -1,0 +1,13 @@
+{
+  "name": "basico-18-rutas-post",
+  "version": "1.0.0",
+  "description": "Ejercicio de rutas POST con Express",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
