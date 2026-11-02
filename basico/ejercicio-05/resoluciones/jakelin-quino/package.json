@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-05-fs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practica de fs para leer archivos sin Express",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  }
+}

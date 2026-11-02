@@ -1,0 +1,4 @@
+﻿[
+  { "id": 1, "nombre": "Casual", "rango_minimo": "bronce" },
+  { "id": 2, "nombre": "Competitiva Diamante", "rango_minimo": "diamante" }
+]
