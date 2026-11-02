@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Alex",
+        "category": "Peso ligero",
+        "wins": 5
+    },
+    {
+        "name": "Carlos",
+        "category": "Peso pesado",
+        "wins": 8
+    }
+]
