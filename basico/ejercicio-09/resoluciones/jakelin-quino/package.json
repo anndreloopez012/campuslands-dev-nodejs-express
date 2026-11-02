@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-09-json-persistencia",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practica de JSON y persistencia local sin Express",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  }
+}

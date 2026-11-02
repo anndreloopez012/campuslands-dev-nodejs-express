@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "formula": "H2O",
+    "commonName": "Agua",
+    "iupacName": "Oxidano",
+    "molarMassGmol": 18.015,
+    "hazardLevel": "Ninguno",
+    "stateOfMatter": "Líquido",
+    "isHazardous": false
+  },
+  {
+    "id": "3",
+    "formula": "NaCl",
+    "commonName": "Sal Común Refinada",
+    "iupacName": "Cloruro de Sodio",
+    "molarMassGmol": 58.44,
+    "hazardLevel": "Ninguno",
+    "stateOfMatter": "Sólido",
+    "isHazardous": false
+  },
+  {
+    "id": "1791586264751",
+    "formula": "CO2",
+    "commonName": "Dióxido de Carbono",
+    "iupacName": "Dióxido de Carbono",
+    "molarMassGmol": 44.01,
+    "hazardLevel": "Bajo",
+    "stateOfMatter": "Gaseoso",
+    "isHazardous": false
+  }
+]

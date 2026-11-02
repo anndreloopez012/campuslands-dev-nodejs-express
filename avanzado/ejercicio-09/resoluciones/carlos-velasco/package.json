@@ -1,0 +1,20 @@
+{
+  "name": "avanzado-09-streams-basicos",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre streams basicos.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "streams"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

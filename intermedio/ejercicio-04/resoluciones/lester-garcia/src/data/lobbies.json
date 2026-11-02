@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "lobbyCode": "BR-SOLO-100",
+    "mapName": "Oasis Storm",
+    "mode": "Solo",
+    "minMMR": 1000,
+    "maxMMR": 1500,
+    "maxCapacity": 100,
+    "playerIds": ["101", "102"],
+    "status": "Waiting"
+  },
+  {
+    "id": "2",
+    "lobbyCode": "BR-SQUAD-200",
+    "mapName": "Neon Caldera",
+    "mode": "Squad",
+    "minMMR": 1600,
+    "maxMMR": 2200,
+    "maxCapacity": 60,
+    "playerIds": ["103"],
+    "status": "Waiting"
+  }
+]
