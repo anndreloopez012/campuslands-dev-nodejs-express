@@ -1,0 +1,14 @@
+﻿{
+  "name": "ejercicio-05-fs-leer-archivos",
+  "version": "1.0.0",
+  "description": "Basico 05 - fs para leer archivos (tematica futbol y futbol sala) - Campuslands",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

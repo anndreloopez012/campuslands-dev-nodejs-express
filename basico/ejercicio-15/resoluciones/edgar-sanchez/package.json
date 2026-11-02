@@ -1,0 +1,16 @@
+{
+  "name": "basico-ejercicio-15-edgar-sanchez",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ejercicio 15: mini API HTTP nativa de comida urbana",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

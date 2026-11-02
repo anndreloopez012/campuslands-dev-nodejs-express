@@ -1,0 +1,16 @@
+{
+  "name": "intermedio-ejercicio-23-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 23 - testing con node test (tematica soldadura)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage"
+  },
+  "dependencies": {
+    "express": "latest"
+  }
+}

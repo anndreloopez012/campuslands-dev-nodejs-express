@@ -1,0 +1,11 @@
+{
+  "name": "basico-ejercicio-12-edgar-sanchez",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ejercicio 12: async await",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  }
+}
