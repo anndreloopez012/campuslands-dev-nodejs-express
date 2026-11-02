@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1",
+    "matchCode": "VAL-PRO-01",
+    "mapName": "Ascent",
+    "gameMode": "Competitive",
+    "winnerTeam": "Sentinels",
+    "isLive": false
+  },
+  {
+    "id": "2",
+    "matchCode": "CS2-PRO-02",
+    "mapName": "Mirage",
+    "gameMode": "Premier",
+    "winnerTeam": "Vitality",
+    "isLive": true
+  }
+]
