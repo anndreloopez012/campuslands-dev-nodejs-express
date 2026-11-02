@@ -1,0 +1,20 @@
+{
+  "name": "ejercicio-04-modulos-es-modules",
+  "version": "1.0.0",
+  "description": "API de battle royale para practicar ES Modules",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
