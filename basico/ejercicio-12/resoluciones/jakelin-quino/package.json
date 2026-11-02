@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-12-async-await",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practica de async await sin Express",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "intermedio-ejercicio-13-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 13 - relaciones simples (tematica ciencia ficcion)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "latest"
+  }
+}
