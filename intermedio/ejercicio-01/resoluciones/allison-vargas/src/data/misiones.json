@@ -1,0 +1,5 @@
+[
+  { "id": 1, "titulo": "Cazar slimes del bosque", "nivelRequerido": 1, "recompensaOro": 50, "disponible": true },
+  { "id": 2, "titulo": "Escoltar la caravana", "nivelRequerido": 10, "recompensaOro": 200, "disponible": true },
+  { "id": 3, "titulo": "Derrotar al dragon de ceniza", "nivelRequerido": 20, "recompensaOro": 1000, "disponible": true }
+]
