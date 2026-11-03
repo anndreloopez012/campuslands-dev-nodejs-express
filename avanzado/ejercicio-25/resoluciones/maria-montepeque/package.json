@@ -1,0 +1,20 @@
+{
+    "name": "avanzado-ejercicio-25-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Avanzado 25 - testing de integracion (tematica videojuegos RPG)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test --test-timeout=10000 \"test/**/*.test.js\"",
+        "test:unit": "node --test \"test/unit/*.test.js\"",
+        "test:integracion": "node --test --test-timeout=10000 \"test/integracion/*.test.js\""
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    }
+}
