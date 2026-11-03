@@ -1,0 +1,12 @@
+{
+    "name": "basico-ejercicio-22-maria-montepeque",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Ejercicio 22 - servicios simples (tematica arquitectura 3D)",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test"
+    }
+}

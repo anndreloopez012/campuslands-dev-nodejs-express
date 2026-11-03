@@ -1,0 +1,4 @@
+[
+  { "id": 1, "name": "Marco Duran", "weightClass": "peso medio", "wins": 18, "losses": 2 },
+  { "id": 2, "name": "Lucia Barrios", "weightClass": "peso pluma", "wins": 12, "losses": 1 }
+]

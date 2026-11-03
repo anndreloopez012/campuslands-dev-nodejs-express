@@ -1,0 +1,30 @@
+[
+  {
+    "id": "101",
+    "gamertag": "ViperApex",
+    "mmr": 1250,
+    "level": 48,
+    "isBanned": false
+  },
+  {
+    "id": "102",
+    "gamertag": "GhostRider",
+    "mmr": 1340,
+    "level": 55,
+    "isBanned": false
+  },
+  {
+    "id": "103",
+    "gamertag": "TitanWarden",
+    "mmr": 1890,
+    "level": 82,
+    "isBanned": false
+  },
+  {
+    "id": "104",
+    "gamertag": "CheaterBot99",
+    "mmr": 2100,
+    "level": 12,
+    "isBanned": true
+  }
+]
