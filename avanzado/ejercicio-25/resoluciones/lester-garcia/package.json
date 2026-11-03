@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio-adv-25-raids",
+  "version": "1.0.0",
+  "description": "API Calabozos y Raids RPG — Testing de Integración HTTP End-to-End (testing de integracion)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
