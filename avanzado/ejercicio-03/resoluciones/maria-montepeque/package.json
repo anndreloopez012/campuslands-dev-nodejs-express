@@ -1,0 +1,19 @@
+{
+    "name": "avanzado-ejercicio-03-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Avanzado 03 - validacion con schemas (tematica MOBA esports)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "zod": "^4.1.0"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    }
+}
