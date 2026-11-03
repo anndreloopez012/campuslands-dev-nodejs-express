@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio-25-respuestas-http",
+  "version": "1.0.0",
+  "description": "API de videojuegos RPG para practicar respuestas HTTP correctas",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
