@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-02-npm-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practica de scripts npm sin Express",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "perfil": "node src/index.js perfil"
+  }
+}

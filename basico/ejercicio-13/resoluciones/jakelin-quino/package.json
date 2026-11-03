@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-13-manejo-errores",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Practica de manejo de errores sin Express",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  }
+}

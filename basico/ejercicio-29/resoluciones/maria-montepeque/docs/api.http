@@ -1,0 +1,35 @@
+### Archivo para la extension "REST Client" de VS Code o Thunder Client (importar)
+@base = http://localhost:3029
+
+### Estado del servicio
+GET {{base}}/health
+
+### Modalidades soportadas
+GET {{base}}/modalities
+
+### Equipos de futsal
+GET {{base}}/teams?modality=futsal
+
+### Un equipo
+GET {{base}}/teams/1
+
+### Registrar resultado de futbol
+POST {{base}}/matches
+Content-Type: application/json
+
+{ "homeId": 1, "awayId": 2, "homeGoals": 2, "awayGoals": 1 }
+
+### Registrar resultado de futsal
+POST {{base}}/matches
+Content-Type: application/json
+
+{ "homeId": 3, "awayId": 4, "homeGoals": 4, "awayGoals": 4 }
+
+### Error: modalidades cruzadas (409)
+POST {{base}}/matches
+Content-Type: application/json
+
+{ "homeId": 1, "awayId": 3, "homeGoals": 1, "awayGoals": 0 }
+
+### Tabla de posiciones
+GET {{base}}/standings/futbol

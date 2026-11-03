@@ -1,0 +1,13 @@
+{
+  "name": "basico-24-crud",
+  "version": "1.0.0",
+  "description": "Ejercicio de CRUD basico",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
