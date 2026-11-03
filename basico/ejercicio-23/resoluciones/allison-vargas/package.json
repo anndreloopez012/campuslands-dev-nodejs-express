@@ -1,0 +1,14 @@
+﻿{
+  "name": "ejercicio-23-datos-en-memoria",
+  "version": "1.0.0",
+  "description": "Basico 23 - datos en memoria (tematica soldadura) - Campuslands",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

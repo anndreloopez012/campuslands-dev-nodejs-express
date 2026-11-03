@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "marca": "Yamaha",
+        "modelo": "MT-07",
+        "anio": 2024,
+        "cilindraje": 689
+    },
+    {
+        "id": 2,
+        "marca": "Honda",
+        "modelo": "CB500F",
+        "anio": 2023,
+        "cilindraje": 471
+    },
+    {
+        "id": 3,
+        "marca": "Kawasaki",
+        "modelo": "Ninja 400",
+        "anio": 2024,
+        "cilindraje": 399
+    },
+    {
+        "id": 4,
+        "marca": "Suzuki",
+        "modelo": "GSX-8S",
+        "anio": 2023,
+        "cilindraje": 776
+    },
+    {
+        "id": 5,
+        "marca": "KTM",
+        "modelo": "Duke 390",
+        "anio": 2024,
+        "cilindraje": 399
+    }
+]

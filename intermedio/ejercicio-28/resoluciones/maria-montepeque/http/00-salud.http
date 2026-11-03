@@ -1,0 +1,13 @@
+# Coleccion de ejemplos - Battle Royale API
+# Se usa con la extension REST Client de VS Code: arriba de cada peticion
+# aparece "Send Request". Las lineas "# espera:" las usa npm run coleccion.
+
+@baseUrl = http://localhost:3028
+
+### El servidor esta vivo
+# espera: 200
+GET {{baseUrl}}/health
+
+### Una ruta que no existe
+# espera: 404
+GET {{baseUrl}}/api/nada

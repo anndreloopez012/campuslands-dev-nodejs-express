@@ -1,0 +1,12 @@
+@baseUrl = http://localhost:3000
+
+### Listar partidas
+GET {{baseUrl}}/matches
+
+### Crear partida
+POST {{baseUrl}}/matches
+Content-Type: application/json
+
+{
+  "map": "Island"
+}

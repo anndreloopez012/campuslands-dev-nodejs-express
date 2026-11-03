@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio-11-promesas-basicas",
+  "version": "1.0.0",
+  "description": "API de musica para practicar promesas basicas",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,346 @@
+{
+    "openapi": "3.0.3",
+    "info": {
+        "title": "Liga MOBA - API",
+        "version": "1.0.0",
+        "description": "API de una liga de esports de MOBA: equipos, partidas y tabla de posiciones.\n\nLas rutas que cambian datos piden el header `x-api-key`. En desarrollo la clave es `clave-de-desarrollo`.\n\nTodas las respuestas tienen `ok`. Si `ok` es `false` viene `message` y a veces `errors`."
+    },
+    "servers": [{ "url": "http://localhost:3027", "description": "Local" }],
+    "tags": [
+        { "name": "Equipos", "description": "Equipos inscritos en la liga" },
+        { "name": "Partidas", "description": "Resultados de las partidas" },
+        { "name": "Clasificacion", "description": "Tabla de posiciones" }
+    ],
+    "paths": {
+        "/api/equipos": {
+            "get": {
+                "tags": ["Equipos"],
+                "summary": "Lista los equipos",
+                "description": "Se puede filtrar por region.",
+                "operationId": "listarEquipos",
+                "parameters": [
+                    {
+                        "name": "region",
+                        "in": "query",
+                        "required": false,
+                        "description": "Solo los equipos de esa region",
+                        "schema": { "$ref": "#/components/schemas/Region" }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Lista de equipos",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "ok": { "type": "boolean", "example": true },
+                                        "total": { "type": "integer", "example": 1 },
+                                        "data": { "type": "array", "items": { "$ref": "#/components/schemas/Equipo" } }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": { "$ref": "#/components/responses/DatosInvalidos" }
+                }
+            },
+            "post": {
+                "tags": ["Equipos"],
+                "summary": "Inscribe un equipo nuevo",
+                "description": "Pide `x-api-key`. El nombre no se puede repetir y el equipo tiene que tener 5 jugadores.",
+                "operationId": "crearEquipo",
+                "security": [{ "ApiKey": [] }],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": { "$ref": "#/components/schemas/EquipoNuevo" },
+                            "example": {
+                                "nombre": "Andes Dragons",
+                                "region": "LATAM",
+                                "jugadores": ["Condor", "Puma", "Llama", "Vicuna", "Alpaca"]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Equipo creado",
+                        "headers": {
+                            "Location": { "description": "Ruta del equipo nuevo", "schema": { "type": "string", "example": "/api/equipos/5" } }
+                        },
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "ok": { "type": "boolean", "example": true },
+                                        "data": { "$ref": "#/components/schemas/Equipo" }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": { "$ref": "#/components/responses/DatosInvalidos" },
+                    "401": { "$ref": "#/components/responses/SinApiKey" },
+                    "403": { "$ref": "#/components/responses/ApiKeyIncorrecta" },
+                    "409": {
+                        "description": "Ya hay un equipo con ese nombre",
+                        "content": {
+                            "application/json": {
+                                "schema": { "$ref": "#/components/schemas/Error" },
+                                "example": { "ok": false, "message": "Ya existe un equipo llamado Red Lotus" }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/equipos/{id}": {
+            "get": {
+                "tags": ["Equipos"],
+                "summary": "Un equipo por id",
+                "operationId": "verEquipo",
+                "parameters": [{ "$ref": "#/components/parameters/EquipoId" }],
+                "responses": {
+                    "200": {
+                        "description": "El equipo",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "ok": { "type": "boolean", "example": true },
+                                        "data": { "$ref": "#/components/schemas/Equipo" }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": { "$ref": "#/components/responses/IdInvalido" },
+                    "404": { "$ref": "#/components/responses/EquipoNoExiste" }
+                }
+            }
+        },
+        "/api/equipos/{id}/jugadores": {
+            "get": {
+                "tags": ["Equipos"],
+                "summary": "Los 5 jugadores de un equipo",
+                "operationId": "verJugadores",
+                "parameters": [{ "$ref": "#/components/parameters/EquipoId" }],
+                "responses": {
+                    "200": {
+                        "description": "Nombres de los jugadores",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "ok": { "type": "boolean", "example": true },
+                                        "equipo": { "type": "string", "example": "Quetzal Gaming" },
+                                        "data": {
+                                            "type": "array",
+                                            "items": { "type": "string" },
+                                            "example": ["Kukul", "Tikal", "Jade", "Obsidiana", "Ceiba"]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": { "$ref": "#/components/responses/IdInvalido" },
+                    "404": { "$ref": "#/components/responses/EquipoNoExiste" }
+                }
+            }
+        },
+        "/api/partidas": {
+            "post": {
+                "tags": ["Partidas"],
+                "summary": "Registra el resultado de una partida",
+                "description": "Pide `x-api-key`. Los dos equipos tienen que existir y ser distintos.",
+                "operationId": "registrarPartida",
+                "security": [{ "ApiKey": [] }],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": { "$ref": "#/components/schemas/PartidaNueva" },
+                            "example": { "equipoAzulId": 2, "equipoRojoId": 4, "ganador": "rojo", "duracionMin": 41 }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Partida registrada",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "ok": { "type": "boolean", "example": true },
+                                        "data": { "$ref": "#/components/schemas/Partida" }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": { "$ref": "#/components/responses/DatosInvalidos" },
+                    "401": { "$ref": "#/components/responses/SinApiKey" },
+                    "403": { "$ref": "#/components/responses/ApiKeyIncorrecta" },
+                    "404": { "$ref": "#/components/responses/EquipoNoExiste" }
+                }
+            }
+        },
+        "/api/clasificacion": {
+            "get": {
+                "tags": ["Clasificacion"],
+                "summary": "Tabla de posiciones",
+                "description": "3 puntos por victoria. Si empatan en puntos va primero el que perdio menos.",
+                "operationId": "verClasificacion",
+                "responses": {
+                    "200": {
+                        "description": "La tabla ordenada",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "object",
+                                    "properties": {
+                                        "ok": { "type": "boolean", "example": true },
+                                        "data": { "type": "array", "items": { "$ref": "#/components/schemas/FilaClasificacion" } }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "securitySchemes": {
+            "ApiKey": { "type": "apiKey", "in": "header", "name": "x-api-key" }
+        },
+        "parameters": {
+            "EquipoId": {
+                "name": "id",
+                "in": "path",
+                "required": true,
+                "description": "Id del equipo",
+                "schema": { "type": "integer", "minimum": 1, "example": 1 }
+            }
+        },
+        "schemas": {
+            "Region": { "type": "string", "enum": ["LATAM", "NA", "EU", "KR"] },
+            "Equipo": {
+                "type": "object",
+                "required": ["id", "nombre", "region", "jugadores"],
+                "properties": {
+                    "id": { "type": "integer", "example": 1 },
+                    "nombre": { "type": "string", "example": "Quetzal Gaming" },
+                    "region": { "$ref": "#/components/schemas/Region" },
+                    "jugadores": {
+                        "type": "array",
+                        "items": { "type": "string" },
+                        "minItems": 5,
+                        "maxItems": 5,
+                        "example": ["Kukul", "Tikal", "Jade", "Obsidiana", "Ceiba"]
+                    }
+                }
+            },
+            "EquipoNuevo": {
+                "type": "object",
+                "required": ["nombre", "region", "jugadores"],
+                "properties": {
+                    "nombre": { "type": "string", "minLength": 3 },
+                    "region": { "$ref": "#/components/schemas/Region" },
+                    "jugadores": { "type": "array", "items": { "type": "string" }, "minItems": 5, "maxItems": 5 }
+                }
+            },
+            "PartidaNueva": {
+                "type": "object",
+                "required": ["equipoAzulId", "equipoRojoId", "ganador", "duracionMin"],
+                "properties": {
+                    "equipoAzulId": { "type": "integer" },
+                    "equipoRojoId": { "type": "integer" },
+                    "ganador": { "type": "string", "enum": ["azul", "rojo"] },
+                    "duracionMin": { "type": "integer", "minimum": 10, "maximum": 90 }
+                }
+            },
+            "Partida": {
+                "allOf": [
+                    { "type": "object", "properties": { "id": { "type": "integer", "example": 3 } } },
+                    { "$ref": "#/components/schemas/PartidaNueva" }
+                ]
+            },
+            "FilaClasificacion": {
+                "type": "object",
+                "properties": {
+                    "equipoId": { "type": "integer", "example": 3 },
+                    "nombre": { "type": "string", "example": "Red Lotus" },
+                    "jugadas": { "type": "integer", "example": 1 },
+                    "ganadas": { "type": "integer", "example": 1 },
+                    "perdidas": { "type": "integer", "example": 0 },
+                    "puntos": { "type": "integer", "example": 3 }
+                }
+            },
+            "Error": {
+                "type": "object",
+                "required": ["ok", "message"],
+                "properties": {
+                    "ok": { "type": "boolean", "example": false },
+                    "message": { "type": "string" },
+                    "errors": { "type": "array", "items": { "type": "string" } }
+                }
+            }
+        },
+        "responses": {
+            "DatosInvalidos": {
+                "description": "Faltan datos o tienen el formato equivocado",
+                "content": {
+                    "application/json": {
+                        "schema": { "$ref": "#/components/schemas/Error" },
+                        "example": { "ok": false, "message": "Datos invalidos", "errors": ["jugadores debe ser una lista de 5 nombres"] }
+                    }
+                }
+            },
+            "IdInvalido": {
+                "description": "El id no es un entero positivo",
+                "content": {
+                    "application/json": {
+                        "schema": { "$ref": "#/components/schemas/Error" },
+                        "example": { "ok": false, "message": "El id debe ser un numero entero positivo" }
+                    }
+                }
+            },
+            "EquipoNoExiste": {
+                "description": "No hay un equipo con ese id",
+                "content": {
+                    "application/json": {
+                        "schema": { "$ref": "#/components/schemas/Error" },
+                        "example": { "ok": false, "message": "No existe el equipo con id 99" }
+                    }
+                }
+            },
+            "SinApiKey": {
+                "description": "No se mando el header x-api-key",
+                "content": {
+                    "application/json": {
+                        "schema": { "$ref": "#/components/schemas/Error" },
+                        "example": { "ok": false, "message": "Falta el header x-api-key" }
+                    }
+                }
+            },
+            "ApiKeyIncorrecta": {
+                "description": "La x-api-key no es la correcta",
+                "content": {
+                    "application/json": {
+                        "schema": { "$ref": "#/components/schemas/Error" },
+                        "example": { "ok": false, "message": "La x-api-key no es correcta" }
+                    }
+                }
+            }
+        }
+    }
+}

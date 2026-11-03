@@ -1,0 +1,16 @@
+{
+  "name": "avanzado-ejercicio-06-lucas-pajarito",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Avanzado 06 - colas de tareas conceptuales (tematica motos y mecanica)",
+  "author": "lucas-pajarito",
+  "license": "ISC",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "latest"
+  }
+}

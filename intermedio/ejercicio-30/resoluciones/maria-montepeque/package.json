@@ -1,0 +1,21 @@
+{
+    "name": "intermedio-ejercicio-30-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 30 - proyecto integrador intermedio (tematica motos y mecanica)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "bcryptjs": "^3.0.2",
+        "dotenv": "^16.6.1",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    }
+}

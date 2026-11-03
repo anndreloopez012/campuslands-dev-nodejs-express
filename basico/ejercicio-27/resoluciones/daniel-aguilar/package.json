@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio-27-logs-simples",
+  "version": "1.0.0",
+  "description": "API de MOBA esports para practicar logs simples",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

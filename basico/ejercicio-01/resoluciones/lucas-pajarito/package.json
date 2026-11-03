@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-01",
+  "version": "1.0.0",
+  "description": "practica-01 de ejercicio de nodejs",
+  "license": "ISC",
+  "author": "lucaspajarito2023-debug",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

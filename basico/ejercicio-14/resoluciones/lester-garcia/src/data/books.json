@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "isbn": "978-0141439518",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Classic Literature",
+    "pages": 432,
+    "price": 12.99,
+    "inStock": true
+  },
+  {
+    "id": "2",
+    "isbn": "978-0451524935",
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian Fiction",
+    "pages": 328,
+    "price": 10.5,
+    "inStock": true
+  },
+  {
+    "id": "3",
+    "isbn": "978-0743273565",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic Literature",
+    "pages": 180,
+    "price": 8.99,
+    "inStock": false
+  },
+  {
+    "id": "1791316590501",
+    "isbn": "978-0307474728",
+    "title": "Cien Años de Soledad",
+    "author": "Gabriel García Márquez",
+    "genre": "Realismo Mágico",
+    "pages": 496,
+    "price": 15.99,
+    "inStock": true
+  }
+]
