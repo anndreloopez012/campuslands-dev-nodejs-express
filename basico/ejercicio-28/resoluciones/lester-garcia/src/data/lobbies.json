@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "lobbyCode": "BR-SOLO-01",
+    "mapName": "Storm Island",
+    "maxPlayers": 100,
+    "currentPlayers": 88,
+    "gameMode": "Solo",
+    "isServerActive": true
+  },
+  {
+    "id": "2",
+    "lobbyCode": "BR-SQUAD-02",
+    "mapName": "Desert Canyon",
+    "maxPlayers": 60,
+    "currentPlayers": 60,
+    "gameMode": "Squad",
+    "isServerActive": false
+  },
+  {
+    "id": "3",
+    "lobbyCode": "BR-DUO-03",
+    "mapName": "Cyber City",
+    "maxPlayers": 80,
+    "currentPlayers": 42,
+    "gameMode": "Duo",
+    "isServerActive": true
+  }
+]

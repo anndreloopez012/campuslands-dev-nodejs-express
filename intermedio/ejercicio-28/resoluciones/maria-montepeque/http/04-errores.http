@@ -1,0 +1,53 @@
+# Errores comunes, uno por peticion
+
+@baseUrl = http://localhost:3028
+
+### Empezar con los datos limpios
+# espera: 200
+POST {{baseUrl}}/api/dev/reset
+
+###
+# @name login
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "gamertag": "Ghost" }
+
+###
+@token = {{login.response.body.$.data.token}}
+
+### JSON mal escrito (falta cerrar la llave)
+# espera: 400
+POST {{baseUrl}}/api/partidas
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "mapa": "Isla Calavera"
+
+### Mapa que no existe
+# espera: 400
+POST {{baseUrl}}/api/partidas
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{ "mapa": "Luna" }
+
+### Crear partida sin token
+# espera: 401
+POST {{baseUrl}}/api/partidas
+Content-Type: application/json
+
+{ "mapa": "Isla Calavera" }
+
+### Id que no es numero
+# espera: 400
+GET {{baseUrl}}/api/partidas/abc
+
+### Partida que no existe
+# espera: 404
+GET {{baseUrl}}/api/partidas/99/ranking
+
+### Metodo que no existe para esa ruta
+# espera: 404
+DELETE {{baseUrl}}/api/partidas/1

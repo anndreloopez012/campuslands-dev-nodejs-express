@@ -1,0 +1,19 @@
+{
+    "name": "intermedio-ejercicio-29-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 29 - refactor de API (tematica futbol y futbol sala)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "start:antes": "node antes/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    }
+}

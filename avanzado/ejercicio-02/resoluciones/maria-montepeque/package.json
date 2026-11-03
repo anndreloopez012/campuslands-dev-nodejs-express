@@ -1,0 +1,20 @@
+{
+    "name": "avanzado-ejercicio-02-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Avanzado 02 - arquitectura escalable (tematica shooters competitivos)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "start:archivo": "node src/server.js --repo=archivo",
+        "dev": "node --watch src/server.js",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "dotenv": "^16.6.1",
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    }
+}

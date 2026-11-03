@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-29-readme-football",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API documentada de futbol y futbol sala",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}

@@ -1,0 +1,6 @@
+Honda CB500
+
+Motor: Bicilindrico
+Cilindraje: 500 cc
+Uso recomendado: Ciudad y carretera
+Mantenimiento: Cambio de aceite y revision general cada intervalo recomendado.

@@ -1,0 +1,13 @@
+{
+  "name": "basico-13-manejo-errores",
+  "version": "1.0.0",
+  "description": "Ejercicio de manejo de errores",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
