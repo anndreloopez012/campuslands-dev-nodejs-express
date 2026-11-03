@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nombre": "Aria la Arquera", "clase": "arquera", "nivel": 5, "misionesAceptadas": [] },
+  { "id": 2, "nombre": "Thorin el Guerrero", "clase": "guerrero", "nivel": 12, "misionesAceptadas": [] },
+  { "id": 3, "nombre": "Lyra la Maga", "clase": "maga", "nivel": 20, "misionesAceptadas": [] }
+]
