@@ -1,0 +1,14 @@
+﻿{
+  "name": "ejercicio-14-validacion-de-entrada",
+  "version": "1.0.0",
+  "description": "Basico 14 - validacion de entrada (tematica libros) - Campuslands",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

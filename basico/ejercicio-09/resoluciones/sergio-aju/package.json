@@ -1,0 +1,9 @@
+{
+  "name": "basico-09-json",
+  "version": "1.0.0",
+  "description": "Ejercicio de JSON y persistencia simple",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "basico-21-estructura-src-routes-controllers",
+  "version": "1.0.0",
+  "description": "Ejercicio integrador de Node.js y Express para practicar la estructura src, routes, controllers y services con temática de animación 3D.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "routes",
+    "controllers",
+    "services",
+    "animacion-3d"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
