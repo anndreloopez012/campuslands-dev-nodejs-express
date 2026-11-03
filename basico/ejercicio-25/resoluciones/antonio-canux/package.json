@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-25-respuestas-http",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

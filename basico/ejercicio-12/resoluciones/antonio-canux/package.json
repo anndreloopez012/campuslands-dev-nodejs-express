@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-12-async-await",
+  "version": "1.0.0",
+  "description": "Solución al Ejercicio 12 - async / await con temática de películas de miedo",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
