@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-adv-07-luxury-cars",
+  "version": "1.0.0",
+  "description": "API Catálogo de Autos de Lujo — Caché en Memoria con TTL e Invalidación (cache en memoria)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

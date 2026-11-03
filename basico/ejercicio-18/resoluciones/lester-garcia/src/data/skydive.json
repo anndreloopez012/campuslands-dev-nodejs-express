@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "jumperName": "Carlos Mendoza",
+    "jumpType": "Tandem",
+    "altitudeFeet": 13000,
+    "dropzone": "Skydive Playa",
+    "priceUSD": 250,
+    "hasVideoPackage": true
+  },
+  {
+    "id": "2",
+    "jumperName": "Valeria Gómez",
+    "jumpType": "Solo AFF",
+    "altitudeFeet": 15000,
+    "dropzone": "Skydive Vallarta",
+    "priceUSD": 320,
+    "hasVideoPackage": false
+  },
+  {
+    "id": "1791488385207",
+    "jumperName": "Sofia Alarcón",
+    "jumpType": "Wingsuit",
+    "altitudeFeet": 14000,
+    "dropzone": "Skydive Cuautla",
+    "priceUSD": 290,
+    "hasVideoPackage": true
+  }
+]

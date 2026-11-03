@@ -1,0 +1,19 @@
+{
+  "name": "ejercicio-09-json-persistencia",
+  "version": "1.0.0",
+  "description": "API de kickboxing para practicar JSON y persistencia simple en archivo",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

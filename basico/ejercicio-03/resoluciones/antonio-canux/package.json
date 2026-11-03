@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio-03",
+  "version": "1.0.0",
+  "description": "API MOBA Esports enfocada en módulos CommonJS",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": ["node", "express", "moba", "commonjs"],
+  "author": "Antonio Canux",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.0"
+  }
+}

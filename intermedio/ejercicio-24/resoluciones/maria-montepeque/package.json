@@ -1,0 +1,16 @@
+{
+    "name": "intermedio-ejercicio-24-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 24 - testing de servicios (tematica formulas quimicas)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test",
+        "test:coverage": "node --test --experimental-test-coverage"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}

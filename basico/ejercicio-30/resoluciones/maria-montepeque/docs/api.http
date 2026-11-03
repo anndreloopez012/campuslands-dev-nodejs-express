@@ -1,0 +1,34 @@
+@base = http://localhost:3030
+
+### Salud
+GET {{base}}/health
+
+### Mapa de rutas
+GET {{base}}/
+
+### Catalogo con precios
+GET {{base}}/api/catalog/services
+
+### Motos
+GET {{base}}/api/motorcycles
+
+### Registrar moto
+POST {{base}}/api/motorcycles
+Content-Type: application/json
+
+{ "plate": "KLM45C", "brand": "Suzuki", "model": "GN125", "year": 2019, "mileageKm": 34000, "ownerName": "Sofia Mena" }
+
+### Crear orden de trabajo
+POST {{base}}/api/work-orders
+Content-Type: application/json
+
+{ "motorcycleId": 1, "serviceCodes": ["OIL", "BRK"], "complaint": "frena mal y suena" }
+
+### Avanzar estado
+PATCH {{base}}/api/work-orders/2/status
+Content-Type: application/json
+
+{ "status": "diagnosing" }
+
+### Factura (solo en ready o delivered)
+GET {{base}}/api/work-orders/2/invoice

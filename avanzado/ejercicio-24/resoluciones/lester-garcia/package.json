@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-adv-24-compounds",
+  "version": "1.0.0",
+  "description": "API Laboratorio de Fórmulas Químicas — Especificación OpenAPI 3.0 Manual (documentacion OpenAPI manual)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}

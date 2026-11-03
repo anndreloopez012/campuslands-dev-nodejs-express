@@ -1,0 +1,12 @@
+{
+  "name": "intermedio-19-dotenv-config",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.3.0"
+  }
+}
