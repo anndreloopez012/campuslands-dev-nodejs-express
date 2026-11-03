@@ -1,0 +1,22 @@
+{
+    "name": "avanzado-ejercicio-29-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Avanzado 29 - deploy readiness (tematica futbol y futbol sala)",
+    "type": "module",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node --watch src/index.js",
+        "test": "node --test --test-timeout=10000",
+        "verificar": "node scripts/verificar-despliegue.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    },
+    "engines": {
+        "node": ">=20"
+    }
+}
