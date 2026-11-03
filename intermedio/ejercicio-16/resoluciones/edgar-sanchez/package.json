@@ -1,0 +1,14 @@
+{
+    "version":  "1.0.0",
+    "name":  "intermedio-ejercicio-16-edgar-sanchez",
+    "description":  "Ejercicio 16 - rutas protegidas",
+    "scripts":  {
+                    "start":  "node src/server.js",
+                    "dev":  "node --watch src/server.js"
+                },
+    "type":  "module",
+    "dependencies":  {
+                         "express":  "latest"
+                     },
+    "main":  "src/server.js"
+}
