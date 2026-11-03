@@ -1,0 +1,298 @@
+{
+    "info": {
+        "name": "Battle Royale API",
+        "description": "Coleccion del ejercicio 28. Correr las carpetas en orden (Run collection). Los tokens e ids se guardan solos en variables de la coleccion.",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "variable": [
+        { "key": "baseUrl", "value": "http://localhost:3028" },
+        { "key": "tokenRaven", "value": "" },
+        { "key": "tokenWolf", "value": "" },
+        { "key": "cuervosId", "value": "" },
+        { "key": "lobosId", "value": "" },
+        { "key": "partidaId", "value": "" }
+    ],
+    "item": [
+        {
+            "name": "0. Preparar",
+            "item": [
+                {
+                    "name": "Reiniciar datos",
+                    "request": { "method": "POST", "url": "{{baseUrl}}/api/dev/reset" },
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": { "exec": ["pm.test('200 datos reiniciados', () => pm.response.to.have.status(200));"] }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "1. Auth",
+            "item": [
+                {
+                    "name": "Login Raven",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/auth/login",
+                        "header": [{ "key": "Content-Type", "value": "application/json" }],
+                        "body": { "mode": "raw", "raw": "{ \"gamertag\": \"Raven\" }" }
+                    },
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "pm.test('200 con token', () => pm.response.to.have.status(200));",
+                                    "pm.collectionVariables.set('tokenRaven', pm.response.json().data.token);"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Login Wolf",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/auth/login",
+                        "header": [{ "key": "Content-Type", "value": "application/json" }],
+                        "body": { "mode": "raw", "raw": "{ \"gamertag\": \"Wolf\" }" }
+                    },
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "pm.test('200 con token', () => pm.response.to.have.status(200));",
+                                    "pm.collectionVariables.set('tokenWolf', pm.response.json().data.token);"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Quien soy",
+                    "request": {
+                        "method": "GET",
+                        "url": "{{baseUrl}}/api/auth/yo",
+                        "header": [{ "key": "Authorization", "value": "Bearer {{tokenRaven}}" }]
+                    },
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "pm.test('200 y es Raven', () => {",
+                                    "    pm.response.to.have.status(200);",
+                                    "    pm.expect(pm.response.json().data.gamertag).to.eql('Raven');",
+                                    "});"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "2. Escuadras",
+            "item": [
+                {
+                    "name": "Raven crea Cuervos",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/escuadras",
+                        "header": [
+                            { "key": "Content-Type", "value": "application/json" },
+                            { "key": "Authorization", "value": "Bearer {{tokenRaven}}" }
+                        ],
+                        "body": { "mode": "raw", "raw": "{ \"nombre\": \"Cuervos\" }" }
+                    },
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "pm.test('201 con Location', () => {",
+                                    "    pm.response.to.have.status(201);",
+                                    "    pm.response.to.have.header('Location');",
+                                    "});",
+                                    "pm.collectionVariables.set('cuervosId', pm.response.json().data.id);"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Wolf crea Lobos",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/escuadras",
+                        "header": [
+                            { "key": "Content-Type", "value": "application/json" },
+                            { "key": "Authorization", "value": "Bearer {{tokenWolf}}" }
+                        ],
+                        "body": { "mode": "raw", "raw": "{ \"nombre\": \"Lobos\" }" }
+                    },
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "pm.test('201', () => pm.response.to.have.status(201));",
+                                    "pm.collectionVariables.set('lobosId', pm.response.json().data.id);"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "3. Partida",
+            "item": [
+                {
+                    "name": "Raven crea la partida",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/partidas",
+                        "header": [
+                            { "key": "Content-Type", "value": "application/json" },
+                            { "key": "Authorization", "value": "Bearer {{tokenRaven}}" }
+                        ],
+                        "body": { "mode": "raw", "raw": "{ \"mapa\": \"Desierto Rojo\" }" }
+                    },
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "pm.test('201 en lobby', () => {",
+                                    "    pm.response.to.have.status(201);",
+                                    "    pm.expect(pm.response.json().data.estado).to.eql('lobby');",
+                                    "});",
+                                    "pm.collectionVariables.set('partidaId', pm.response.json().data.id);"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Inscribir Cuervos",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/partidas/{{partidaId}}/escuadras",
+                        "header": [
+                            { "key": "Content-Type", "value": "application/json" },
+                            { "key": "Authorization", "value": "Bearer {{tokenRaven}}" }
+                        ],
+                        "body": { "mode": "raw", "raw": "{ \"escuadraId\": {{cuervosId}} }" }
+                    },
+                    "event": [
+                        { "listen": "test", "script": { "exec": ["pm.test('200', () => pm.response.to.have.status(200));"] } }
+                    ]
+                },
+                {
+                    "name": "Inscribir Lobos",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/partidas/{{partidaId}}/escuadras",
+                        "header": [
+                            { "key": "Content-Type", "value": "application/json" },
+                            { "key": "Authorization", "value": "Bearer {{tokenWolf}}" }
+                        ],
+                        "body": { "mode": "raw", "raw": "{ \"escuadraId\": {{lobosId}} }" }
+                    },
+                    "event": [
+                        { "listen": "test", "script": { "exec": ["pm.test('200', () => pm.response.to.have.status(200));"] } }
+                    ]
+                },
+                {
+                    "name": "Iniciar",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/partidas/{{partidaId}}/iniciar",
+                        "header": [{ "key": "Authorization", "value": "Bearer {{tokenRaven}}" }]
+                    },
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "pm.test('200 en curso', () => {",
+                                    "    pm.response.to.have.status(200);",
+                                    "    pm.expect(pm.response.json().data.estado).to.eql('en_curso');",
+                                    "});"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Raven elimina a Wolf",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/partidas/{{partidaId}}/eliminaciones",
+                        "header": [
+                            { "key": "Content-Type", "value": "application/json" },
+                            { "key": "Authorization", "value": "Bearer {{tokenRaven}}" }
+                        ],
+                        "body": { "mode": "raw", "raw": "{ \"victima\": \"Wolf\" }" }
+                    },
+                    "event": [
+                        {
+                            "listen": "test",
+                            "script": {
+                                "exec": [
+                                    "pm.test('201 y gana Cuervos', () => {",
+                                    "    pm.response.to.have.status(201);",
+                                    "    pm.expect(pm.response.json().data.ganador).to.eql('Cuervos');",
+                                    "});"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Ranking",
+                    "request": { "method": "GET", "url": "{{baseUrl}}/api/partidas/{{partidaId}}/ranking" },
+                    "event": [
+                        { "listen": "test", "script": { "exec": ["pm.test('200', () => pm.response.to.have.status(200));"] } }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "4. Errores",
+            "item": [
+                {
+                    "name": "Crear partida sin token",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/partidas",
+                        "header": [{ "key": "Content-Type", "value": "application/json" }],
+                        "body": { "mode": "raw", "raw": "{ \"mapa\": \"Desierto Rojo\" }" }
+                    },
+                    "event": [
+                        { "listen": "test", "script": { "exec": ["pm.test('401', () => pm.response.to.have.status(401));"] } }
+                    ]
+                },
+                {
+                    "name": "Mapa que no existe",
+                    "request": {
+                        "method": "POST",
+                        "url": "{{baseUrl}}/api/partidas",
+                        "header": [
+                            { "key": "Content-Type", "value": "application/json" },
+                            { "key": "Authorization", "value": "Bearer {{tokenRaven}}" }
+                        ],
+                        "body": { "mode": "raw", "raw": "{ \"mapa\": \"Luna\" }" }
+                    },
+                    "event": [
+                        { "listen": "test", "script": { "exec": ["pm.test('400', () => pm.response.to.have.status(400));"] } }
+                    ]
+                }
+            ]
+        }
+    ]
+}

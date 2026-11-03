@@ -1,0 +1,16 @@
+{
+    "name": "intermedio-ejercicio-15-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 15 - JWT basico (tematica comida urbana)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js"
+    },
+    "dependencies": {
+        "dotenv": "^16.6.1",
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2"
+    }
+}

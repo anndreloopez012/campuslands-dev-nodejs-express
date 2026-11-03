@@ -1,0 +1,45 @@
+# Login y uso del token
+# El login devuelve un token. Con "# @name" se le pone nombre a la respuesta
+# y despues se lee con {{login.response.body.$.data.token}}
+
+@baseUrl = http://localhost:3028
+
+### Empezar con los datos limpios
+# espera: 200
+POST {{baseUrl}}/api/dev/reset
+
+### Login (solo pide el gamertag)
+# @name login
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+    "gamertag": "Raven"
+}
+
+###
+@token = {{login.response.body.$.data.token}}
+
+### Quien soy (con el token del login)
+# espera: 200
+GET {{baseUrl}}/api/auth/yo
+Authorization: Bearer {{token}}
+
+### Sin token
+# espera: 401
+GET {{baseUrl}}/api/auth/yo
+
+### Con un token inventado
+# espera: 401
+GET {{baseUrl}}/api/auth/yo
+Authorization: Bearer token-falso
+
+### Gamertag con espacios
+# espera: 400
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{
+    "gamertag": "no valido"
+}

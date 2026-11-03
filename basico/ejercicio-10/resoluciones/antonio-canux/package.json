@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-10-async",
+  "version": "1.0.0",
+  "description": "Solución al Ejercicio 10 - Funciones Asíncronas",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

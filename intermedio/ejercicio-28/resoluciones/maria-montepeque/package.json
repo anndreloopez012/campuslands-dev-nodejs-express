@@ -1,0 +1,16 @@
+{
+    "name": "intermedio-ejercicio-28-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 28 - coleccion de ejemplos HTTP (tematica battle royale)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "coleccion": "node scripts/probar-coleccion.js",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}
