@@ -1,0 +1,19 @@
+{
+    "name": "avanzado-ejercicio-17-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Avanzado 17 - refresh tokens conceptual (tematica viajes y turismo)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    }
+}
