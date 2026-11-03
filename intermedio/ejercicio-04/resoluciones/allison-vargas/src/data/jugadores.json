@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nick": "Phantom", "puntos": 3200, "partidas": 48, "eliminaciones": 190 },
+  { "id": 2, "nick": "Raven", "puntos": 1750, "partidas": 30, "eliminaciones": 96 },
+  { "id": 3, "nick": "Blitz", "puntos": 820, "partidas": 22, "eliminaciones": 51 },
+  { "id": 4, "nick": "Echo", "puntos": 410, "partidas": 15, "eliminaciones": 20 },
+  { "id": 5, "nick": "Ghost", "puntos": 2100, "partidas": 35, "eliminaciones": 120 }
+]
