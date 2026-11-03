@@ -1,0 +1,31 @@
+{
+    "descripcion": "Final del torneo regional: Team Fenix (favorito) contra Clan Sombra",
+    "equipos": [
+        { "id": 1, "nombre": "Team Fenix", "pais": "GT", "elo": 1720, "victorias": 9, "derrotas": 1 },
+        { "id": 2, "nombre": "Clan Sombra", "pais": "MX", "elo": 1580, "victorias": 7, "derrotas": 3 }
+    ],
+    "jugadores": [
+        { "id": 1, "alias": "nyx", "rol": "duelista", "edad": 21, "equipoId": 1 },
+        { "id": 2, "alias": "frost", "rol": "controlador", "edad": 24, "equipoId": 1, "capitan": true },
+        { "id": 3, "alias": "viper", "rol": "duelista", "edad": 19, "equipoId": 2 },
+        { "id": 4, "alias": "echo", "rol": "centinela", "edad": 26, "equipoId": 2, "capitan": true }
+    ],
+    "partidas": [
+        {
+            "id": 1,
+            "equipoA": 1,
+            "equipoB": 2,
+            "mapa": "Ascent",
+            "rondasA": 13,
+            "rondasB": 9,
+            "ganador": 1,
+            "cambioElo": 10,
+            "estadisticas": [
+                { "jugadorId": 1, "kills": 24, "muertes": 12 },
+                { "jugadorId": 2, "kills": 15, "muertes": 14 },
+                { "jugadorId": 3, "kills": 18, "muertes": 18 },
+                { "jugadorId": 4, "kills": 11, "muertes": 16 }
+            ]
+        }
+    ]
+}
