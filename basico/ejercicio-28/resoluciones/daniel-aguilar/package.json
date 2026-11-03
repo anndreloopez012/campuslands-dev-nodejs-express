@@ -1,0 +1,21 @@
+{
+  "name": "ejercicio-28-config-por-entorno",
+  "version": "1.0.0",
+  "description": "API de battle royale para practicar configuracion por entorno",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start:dev": "node --env-file=.env.development src/server.js",
+    "start:prod": "node --env-file=.env.production src/server.js",
+    "dev": "node --env-file=.env.development --watch src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": "Daniel Aguilar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "basico-29-readme-tecnico",
+  "version": "1.0.0",
+  "description": "Ejercicio básico de README técnico con Node.js y Express usando temática de fútbol y fútbol sala",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "readme",
+    "documentation",
+    "futbol",
+    "futbol-sala"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
