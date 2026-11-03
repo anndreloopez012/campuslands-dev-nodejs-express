@@ -1,0 +1,69 @@
+# Escuadras: crear, unirse y los limites
+# El que crea la escuadra es el lider. Maximo 4 miembros.
+
+@baseUrl = http://localhost:3028
+
+### Empezar con los datos limpios
+# espera: 200
+POST {{baseUrl}}/api/dev/reset
+
+### Login de Raven
+# @name raven
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "gamertag": "Raven" }
+
+### Login de Hawk
+# @name hawk
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "gamertag": "Hawk" }
+
+###
+@tokenRaven = {{raven.response.body.$.data.token}}
+@tokenHawk = {{hawk.response.body.$.data.token}}
+
+### Raven crea la escuadra (responde Location)
+# @name escuadra
+# espera: 201
+POST {{baseUrl}}/api/escuadras
+Authorization: Bearer {{tokenRaven}}
+Content-Type: application/json
+
+{ "nombre": "Cuervos" }
+
+###
+@escuadraId = {{escuadra.response.body.$.data.id}}
+
+### Hawk se une
+# espera: 200
+POST {{baseUrl}}/api/escuadras/{{escuadraId}}/unirse
+Authorization: Bearer {{tokenHawk}}
+
+### Ver la escuadra (ruta publica)
+# espera: 200
+GET {{baseUrl}}/api/escuadras/{{escuadraId}}
+
+### Hawk ya esta en una escuadra, no puede crear otra
+# espera: 409
+POST {{baseUrl}}/api/escuadras
+Authorization: Bearer {{tokenHawk}}
+Content-Type: application/json
+
+{ "nombre": "Halcones" }
+
+### Nombre muy corto
+# espera: 400
+POST {{baseUrl}}/api/escuadras
+Authorization: Bearer {{tokenHawk}}
+Content-Type: application/json
+
+{ "nombre": "X" }
+
+### Escuadra que no existe
+# espera: 404
+GET {{baseUrl}}/api/escuadras/99
