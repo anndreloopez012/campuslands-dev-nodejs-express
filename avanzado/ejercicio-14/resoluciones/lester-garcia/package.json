@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-adv-14-books",
+  "version": "1.0.0",
+  "description": "API Biblioteca Literaria — Recolección de Métricas Simples de Aplicación (metricas simples)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
