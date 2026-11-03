@@ -1,0 +1,16 @@
+{
+  "name": "joseluis-herrera",
+  "version": "1.0.0",
+  "description": "programa de kickboxing",
+  "keywords": [
+    "node.js",
+    "js"
+  ],
+  "license": "ISC",
+  "author": "Jose-langL",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "node src/app.js"
+  }
+}

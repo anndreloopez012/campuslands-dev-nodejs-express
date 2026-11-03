@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-28-yaneht-arias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio básico 28: configuración por entorno",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
