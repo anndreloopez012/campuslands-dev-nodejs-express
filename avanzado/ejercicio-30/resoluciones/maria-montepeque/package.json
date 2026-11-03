@@ -1,0 +1,19 @@
+{
+    "name": "avanzado-ejercicio-30-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Avanzado 30 - proyecto final avanzado (tematica motos y mecanica)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test --test-timeout=10000"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "jsonwebtoken": "^9.0.2"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    }
+}
