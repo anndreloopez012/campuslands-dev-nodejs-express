@@ -1,0 +1,1 @@
+{"name":"avanzado-28-separacion-app-server","version":"1.0.0","main":"src/server.js","scripts":{"start":"node src/server.js"},"dependencies":{"express":"^5.2.1"}}

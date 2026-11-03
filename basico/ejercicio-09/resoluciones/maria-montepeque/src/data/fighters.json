@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Rocio Bravo",
+    "wins": 7,
+    "losses": 2
+  },
+  {
+    "id": 2,
+    "name": "Hugo Salas",
+    "wins": 3,
+    "losses": 4
+  }
+]
