@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nombre": "Atletico Aurora", "deporte": "futbol" },
+  { "id": 2, "nombre": "Real Costa Sur", "deporte": "futbol" },
+  { "id": 3, "nombre": "Futsal Relampago", "deporte": "futbol sala" }
+]

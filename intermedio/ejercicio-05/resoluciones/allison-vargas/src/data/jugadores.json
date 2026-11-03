@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nombre": "Mateo Rivas", "posicion": "portero", "dorsal": 1, "equipoId": 1 },
+  { "id": 2, "nombre": "Diego Salas", "posicion": "delantero", "dorsal": 9, "equipoId": 1 },
+  { "id": 3, "nombre": "Lucas Ortega", "posicion": "mediocampista", "dorsal": 8, "equipoId": 2 },
+  { "id": 4, "nombre": "Andres Pineda", "posicion": "pivot", "dorsal": 10, "equipoId": 3 },
+  { "id": 5, "nombre": "Joel Mendez", "posicion": "cierre", "dorsal": 4, "equipoId": 3 }
+]
