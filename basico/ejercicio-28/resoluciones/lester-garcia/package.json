@@ -1,0 +1,19 @@
+{
+  "name": "lester-garcia",
+  "version": "1.0.0",
+  "description": "ejercicio-28",
+  "keywords": [
+    "API"
+  ],
+  "license": "ISC",
+  "author": "lestergarcia711",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+   "dev": "node --env-file=.env --watch src/server.js",
+    "start": "node --env-file=.env src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

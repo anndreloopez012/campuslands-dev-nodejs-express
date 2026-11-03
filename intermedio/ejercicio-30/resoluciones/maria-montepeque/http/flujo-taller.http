@@ -1,0 +1,170 @@
+# Flujo completo del taller (extension REST Client de VS Code)
+# Reinicia el servidor antes de correrlo para empezar con los datos iniciales.
+# Las lineas "# espera:" dicen el status que deberia salir.
+
+@baseUrl = http://localhost:3030
+
+### Login de los 3 roles
+# @name recepcion
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "email": "ana@taller.com", "password": "recepcion123" }
+
+###
+# @name mecanico
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "email": "beto@taller.com", "password": "mecanico123" }
+
+###
+# @name admin
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "email": "admin@taller.com", "password": "admin12345" }
+
+###
+@tRecepcion = {{recepcion.response.body.$.data.token}}
+@tMecanico = {{mecanico.response.body.$.data.token}}
+@tAdmin = {{admin.response.body.$.data.token}}
+
+### Buscar motos Honda ordenadas por km, 2 por pagina
+# espera: 200
+GET {{baseUrl}}/api/motos?marca=honda&sort=km&limit=2
+Authorization: Bearer {{tRecepcion}}
+
+### Buscar por nombre del propietario
+# espera: 200
+GET {{baseUrl}}/api/motos?q=luis
+Authorization: Bearer {{tRecepcion}}
+
+### Recepcion registra una moto nueva
+# @name moto
+# espera: 201
+POST {{baseUrl}}/api/motos
+Authorization: Bearer {{tRecepcion}}
+Content-Type: application/json
+
+{
+    "placa": "M246XYZ",
+    "marca": "Honda",
+    "modelo": "Navi",
+    "anio": 2024,
+    "cilindraje": 110,
+    "km": 1200,
+    "propietario": { "nombre": "Carmen Ruiz", "telefono": "51234567" }
+}
+
+###
+@motoId = {{moto.response.body.$.data.id}}
+
+### Recepcion abre una orden para esa moto
+# @name orden
+# espera: 201
+POST {{baseUrl}}/api/motos/{{motoId}}/ordenes
+Authorization: Bearer {{tRecepcion}}
+Content-Type: application/json
+
+{ "tipo": "mantenimiento", "descripcion": "Primer servicio y revision de frenos" }
+
+###
+@ordenId = {{orden.response.body.$.data.id}}
+
+### El mecanico no puede empezar sin estar asignado
+# espera: 403
+PATCH {{baseUrl}}/api/ordenes/{{ordenId}}/estado
+Authorization: Bearer {{tMecanico}}
+Content-Type: application/json
+
+{ "estado": "en_proceso" }
+
+### Admin le asigna la orden a Beto (id 2)
+# espera: 200
+PATCH {{baseUrl}}/api/ordenes/{{ordenId}}/asignar
+Authorization: Bearer {{tAdmin}}
+Content-Type: application/json
+
+{ "mecanicoId": 2 }
+
+### Beto empieza
+# espera: 200
+PATCH {{baseUrl}}/api/ordenes/{{ordenId}}/estado
+Authorization: Bearer {{tMecanico}}
+Content-Type: application/json
+
+{ "estado": "en_proceso" }
+
+### Beto usa 1 litro de aceite y 1 filtro
+# espera: 201
+POST {{baseUrl}}/api/ordenes/{{ordenId}}/repuestos
+Authorization: Bearer {{tMecanico}}
+Content-Type: application/json
+
+{ "repuestoId": 1, "cantidad": 1 }
+
+###
+# espera: 201
+POST {{baseUrl}}/api/ordenes/{{ordenId}}/repuestos
+Authorization: Bearer {{tMecanico}}
+Content-Type: application/json
+
+{ "repuestoId": 2, "cantidad": 1 }
+
+### No hay bujias en bodega
+# espera: 409
+POST {{baseUrl}}/api/ordenes/{{ordenId}}/repuestos
+Authorization: Bearer {{tMecanico}}
+Content-Type: application/json
+
+{ "repuestoId": 5, "cantidad": 1 }
+
+### Beto la marca lista
+# espera: 200
+PATCH {{baseUrl}}/api/ordenes/{{ordenId}}/estado
+Authorization: Bearer {{tMecanico}}
+Content-Type: application/json
+
+{ "estado": "lista" }
+
+### Entregar lo hace recepcion, no el mecanico
+# espera: 403
+PATCH {{baseUrl}}/api/ordenes/{{ordenId}}/estado
+Authorization: Bearer {{tMecanico}}
+Content-Type: application/json
+
+{ "estado": "entregada" }
+
+###
+# espera: 200
+PATCH {{baseUrl}}/api/ordenes/{{ordenId}}/estado
+Authorization: Bearer {{tRecepcion}}
+Content-Type: application/json
+
+{ "estado": "entregada" }
+
+### Orden final con total (150 + 65 + 45 = 260) e historial
+# espera: 200
+GET {{baseUrl}}/api/ordenes/{{ordenId}}
+Authorization: Bearer {{tAdmin}}
+
+### Historial de ordenes de la moto
+# espera: 200
+GET {{baseUrl}}/api/motos/{{motoId}}/ordenes
+Authorization: Bearer {{tRecepcion}}
+
+### Admin repone las bujias
+# espera: 200
+PATCH {{baseUrl}}/api/repuestos/5/stock
+Authorization: Bearer {{tAdmin}}
+Content-Type: application/json
+
+{ "stock": 30 }
+
+### Sin token
+# espera: 401
+GET {{baseUrl}}/api/ordenes

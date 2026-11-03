@@ -1,0 +1,182 @@
+# Flujo completo de una partida, de principio a fin
+# 2 escuadras de 2 jugadores: Cuervos (Raven, Hawk) contra Lobos (Wolf, Fang)
+# Correr las peticiones en orden, cada una usa datos de las anteriores.
+
+@baseUrl = http://localhost:3028
+
+### 1. Empezar con los datos limpios
+# espera: 200
+POST {{baseUrl}}/api/dev/reset
+
+### 2. Login de los 4 jugadores
+# @name raven
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "gamertag": "Raven" }
+
+###
+# @name hawk
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "gamertag": "Hawk" }
+
+###
+# @name wolf
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "gamertag": "Wolf" }
+
+###
+# @name fang
+# espera: 200
+POST {{baseUrl}}/api/auth/login
+Content-Type: application/json
+
+{ "gamertag": "Fang" }
+
+###
+@tokenRaven = {{raven.response.body.$.data.token}}
+@tokenHawk = {{hawk.response.body.$.data.token}}
+@tokenWolf = {{wolf.response.body.$.data.token}}
+@tokenFang = {{fang.response.body.$.data.token}}
+
+### 3. Raven crea Cuervos y Hawk se une
+# @name cuervos
+# espera: 201
+POST {{baseUrl}}/api/escuadras
+Authorization: Bearer {{tokenRaven}}
+Content-Type: application/json
+
+{ "nombre": "Cuervos" }
+
+###
+# espera: 200
+POST {{baseUrl}}/api/escuadras/{{cuervos.response.body.$.data.id}}/unirse
+Authorization: Bearer {{tokenHawk}}
+
+### 4. Wolf crea Lobos y Fang se une
+# @name lobos
+# espera: 201
+POST {{baseUrl}}/api/escuadras
+Authorization: Bearer {{tokenWolf}}
+Content-Type: application/json
+
+{ "nombre": "Lobos" }
+
+###
+# espera: 200
+POST {{baseUrl}}/api/escuadras/{{lobos.response.body.$.data.id}}/unirse
+Authorization: Bearer {{tokenFang}}
+
+### 5. Raven crea la partida (queda en "lobby")
+# @name partida
+# espera: 201
+POST {{baseUrl}}/api/partidas
+Authorization: Bearer {{tokenRaven}}
+Content-Type: application/json
+
+{ "mapa": "Isla Calavera" }
+
+###
+@partidaId = {{partida.response.body.$.data.id}}
+
+### 6. No se puede iniciar con menos de 2 escuadras
+# espera: 409
+POST {{baseUrl}}/api/partidas/{{partidaId}}/iniciar
+Authorization: Bearer {{tokenRaven}}
+
+### 7. Cada lider inscribe a su escuadra
+# espera: 200
+POST {{baseUrl}}/api/partidas/{{partidaId}}/escuadras
+Authorization: Bearer {{tokenRaven}}
+Content-Type: application/json
+
+{ "escuadraId": {{cuervos.response.body.$.data.id}} }
+
+###
+# espera: 200
+POST {{baseUrl}}/api/partidas/{{partidaId}}/escuadras
+Authorization: Bearer {{tokenWolf}}
+Content-Type: application/json
+
+{ "escuadraId": {{lobos.response.body.$.data.id}} }
+
+### 8. Fang no es lider, no puede inscribir
+# espera: 403
+POST {{baseUrl}}/api/partidas/{{partidaId}}/escuadras
+Authorization: Bearer {{tokenFang}}
+Content-Type: application/json
+
+{ "escuadraId": {{lobos.response.body.$.data.id}} }
+
+### 9. Solo el que la creo puede iniciar
+# espera: 403
+POST {{baseUrl}}/api/partidas/{{partidaId}}/iniciar
+Authorization: Bearer {{tokenWolf}}
+
+###
+# espera: 200
+POST {{baseUrl}}/api/partidas/{{partidaId}}/iniciar
+Authorization: Bearer {{tokenRaven}}
+
+### 10. Eliminaciones (el asesino es el del token)
+# espera: 201
+POST {{baseUrl}}/api/partidas/{{partidaId}}/eliminaciones
+Authorization: Bearer {{tokenRaven}}
+Content-Type: application/json
+
+{ "victima": "Fang" }
+
+### No se puede eliminar a un companero
+# espera: 409
+POST {{baseUrl}}/api/partidas/{{partidaId}}/eliminaciones
+Authorization: Bearer {{tokenRaven}}
+Content-Type: application/json
+
+{ "victima": "Hawk" }
+
+### Fang ya fue eliminado, no puede eliminar a nadie
+# espera: 403
+POST {{baseUrl}}/api/partidas/{{partidaId}}/eliminaciones
+Authorization: Bearer {{tokenFang}}
+Content-Type: application/json
+
+{ "victima": "Raven" }
+
+###
+# espera: 201
+POST {{baseUrl}}/api/partidas/{{partidaId}}/eliminaciones
+Authorization: Bearer {{tokenWolf}}
+Content-Type: application/json
+
+{ "victima": "Raven" }
+
+### Hawk elimina a Wolf, Lobos se queda sin nadie y la partida termina
+# espera: 201
+POST {{baseUrl}}/api/partidas/{{partidaId}}/eliminaciones
+Authorization: Bearer {{tokenHawk}}
+Content-Type: application/json
+
+{ "victima": "Wolf" }
+
+### 11. Ya termino, no hay mas eliminaciones
+# espera: 409
+POST {{baseUrl}}/api/partidas/{{partidaId}}/eliminaciones
+Authorization: Bearer {{tokenHawk}}
+Content-Type: application/json
+
+{ "victima": "Fang" }
+
+### 12. Ranking final (ganador: Cuervos)
+# espera: 200
+GET {{baseUrl}}/api/partidas/{{partidaId}}/ranking
+
+### Estado completo de la partida
+# espera: 200
+GET {{baseUrl}}/api/partidas/{{partidaId}}

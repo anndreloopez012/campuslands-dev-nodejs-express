@@ -1,0 +1,18 @@
+{
+    "name": "intermedio-ejercicio-25-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 25 - testing de rutas (tematica videojuegos RPG)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    }
+}

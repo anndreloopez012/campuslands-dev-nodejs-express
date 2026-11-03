@@ -1,0 +1,12 @@
+{
+  "id": 1,
+  "marca": "Honda",
+  "modelo": "CB190R",
+  "anio": 2024,
+  "tipo": "Naked",
+  "mantenimiento": {
+    "aceite": "Cada 3000 km",
+    "cadena": "Revisar cada 1000 km",
+    "frenos": "Revisar cada 5000 km"
+  }
+}
