@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Vandal", "tipo": "rifle", "dano": 40 },
+  { "id": 2, "nombre": "Operator", "tipo": "francotirador", "dano": 150 },
+  { "id": 3, "nombre": "Sheriff", "tipo": "pistola", "dano": 55 },
+  { "id": 4, "nombre": "Phantom", "tipo": "rifle", "dano": 39 }
+]
