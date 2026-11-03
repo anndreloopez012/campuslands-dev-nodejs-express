@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "nombre": "Alex Morales",
+      "edad": 24,
+      "categoria": "Welter",
+      "victorias": 12,
+      "derrotas": 2
+    },
+    {
+      "id": 2,
+      "nombre": "Diego Castillo",
+      "edad": 27,
+      "categoria": "Middleweight",
+      "victorias": 15,
+      "derrotas": 3
+    },
+    {
+      "id": 3,
+      "nombre": "Marco Ramirez",
+      "edad": 22,
+      "categoria": "Lightweight",
+      "victorias": 9,
+      "derrotas": 1
+    }
+  ]

@@ -1,0 +1,21 @@
+{
+  "name": "basico-25-respuestas-http-rpg",
+  "version": "1.0.0",
+  "description": "API básica para practicar respuestas HTTP correctas con videojuegos RPG",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "http",
+    "rpg"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

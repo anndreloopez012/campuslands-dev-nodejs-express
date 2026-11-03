@@ -1,0 +1,4 @@
+﻿[
+  { "id": 1, "nombre": "Espada Basica", "nivel_requerido": 1 },
+  { "id": 2, "nombre": "Cetro de las Tormentas", "nivel_requerido": 10 }
+]

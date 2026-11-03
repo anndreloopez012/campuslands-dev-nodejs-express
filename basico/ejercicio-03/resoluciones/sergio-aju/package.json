@@ -1,0 +1,13 @@
+{
+  "name": "basico-03-commonjs",
+  "version": "1.0.0",
+  "description": "Ejercicio de modulos CommonJS",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
