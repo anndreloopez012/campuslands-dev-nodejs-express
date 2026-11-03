@@ -1,0 +1,19 @@
+{
+    "name": "avanzado-ejercicio-26-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Avanzado 26 - fixtures y factories (tematica shooters competitivos)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "seed": "node src/semilla.js",
+        "test": "node --test --test-timeout=10000"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    }
+}
