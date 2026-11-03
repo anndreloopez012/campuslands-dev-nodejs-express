@@ -1,0 +1,25 @@
+{
+    "name": "shooter-node-basico",
+    "version": "1.0.0",
+    "description": "Aplicación de consola en Node.js para practicar npm scripts y package.json con temática de shooters competitivos.",
+    "main": "app.js",
+    "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "check": "node --check app.js",
+    "run": "node app.js"
+    },
+    "keywords": [
+    "nodejs",
+    "npm",
+    "shooters",
+    "terminal",
+    "backend"
+    ],
+    "author": "",
+    "license": "ISC",
+    "engines": {
+    "node": ">=20.0.0"
+    }
+    }
+    

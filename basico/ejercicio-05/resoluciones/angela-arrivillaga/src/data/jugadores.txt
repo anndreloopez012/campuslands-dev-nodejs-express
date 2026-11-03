@@ -1,0 +1,4 @@
+Messi,Delantero,12
+Pedri,Mediocampista,4
+Courtois,Portero,0
+Haaland,Delantero,15

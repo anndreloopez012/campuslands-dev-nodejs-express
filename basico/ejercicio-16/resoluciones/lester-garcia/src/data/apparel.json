@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "name": "Air Jordan 1 Retro High OG",
+    "brand": "Nike",
+    "category": "Sneakers",
+    "size": 10.5,
+    "price": 180,
+    "inStock": true
+  },
+  {
+    "id": "2",
+    "name": "Yeezy Boost 350 V2",
+    "brand": "Adidas",
+    "category": "Sneakers",
+    "size": 9,
+    "price": 230,
+    "inStock": true
+  },
+  {
+    "id": "3",
+    "name": "Oversized Heavyweight Hoodie",
+    "brand": "Essentials",
+    "category": "Streetwear",
+    "size": "L",
+    "price": 95,
+    "inStock": false
+  },
+  {
+    "id": "1791324424064",
+    "name": "Dunk Low Retro",
+    "brand": "Nike",
+    "category": "Sneakers",
+    "size": 11,
+    "price": 115,
+    "inStock": true
+  }
+]

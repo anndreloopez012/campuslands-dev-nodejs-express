@@ -1,0 +1,22 @@
+{
+  "name": "basico-19-req-params-req-query",
+  "version": "1.0.0",
+  "description": "Ejercicio básico de Node.js y Express para practicar req.params y req.query con temática de tatuajes.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "req.params",
+    "req.query",
+    "tatuajes"
+  ],
+  "author": "Velasco-c",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
