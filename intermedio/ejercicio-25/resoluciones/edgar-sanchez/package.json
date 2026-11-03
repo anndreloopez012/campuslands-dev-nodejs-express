@@ -1,0 +1,14 @@
+{
+    "version":  "1.0.0",
+    "name":  "intermedio-ejercicio-25-edgar-sanchez",
+    "description":  "Ejercicio 25 - testing de rutas",
+    "scripts":  {
+                    "start":  "node src/server.js",
+                    "dev":  "node --watch src/server.js"
+                },
+    "type":  "module",
+    "dependencies":  {
+                         "express":  "latest"
+                     },
+    "main":  "src/server.js"
+}
