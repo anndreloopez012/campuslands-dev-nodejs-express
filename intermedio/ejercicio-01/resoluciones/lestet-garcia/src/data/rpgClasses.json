@@ -1,0 +1,36 @@
+[
+  {
+    "id": "1",
+    "className": "Archimago",
+    "primaryAttribute": "Inteligencia",
+    "armorType": "Tela",
+    "baseHealth": 350,
+    "baseMana": 1200,
+    "isActive": true
+  },
+  {
+    "id": "2",
+    "className": "Caballero Oscuro",
+    "primaryAttribute": "Fuerza",
+    "baseHealth": 1100,
+    "baseMana": 200,
+    "isActive": true
+  },
+  {
+    "id": "3",
+    "className": "Asesino Sombrío",
+    "primaryAttribute": "Agilidad",
+    "baseHealth": 500,
+    "baseMana": 400,
+    "isActive": false
+  },
+  {
+    "id": "1791761432769",
+    "className": "Paladín Sagrado",
+    "primaryAttribute": "Fuerza",
+    "armorType": "Placas",
+    "baseHealth": 1300,
+    "baseMana": 400,
+    "isActive": true
+  }
+]
