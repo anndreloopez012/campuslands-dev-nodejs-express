@@ -1,0 +1,14 @@
+{
+    "version":  "1.0.0",
+    "name":  "avanzado-ejercicio-23-edgar-sanchez",
+    "description":  "Ejercicio 23 - jobs programados",
+    "scripts":  {
+                    "start":  "node src/server.js",
+                    "dev":  "node --watch src/server.js"
+                },
+    "type":  "module",
+    "dependencies":  {
+                         "express":  "latest"
+                     },
+    "main":  "src/server.js"
+}
