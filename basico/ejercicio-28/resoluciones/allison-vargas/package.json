@@ -1,0 +1,14 @@
+﻿{
+  "name": "ejercicio-28-configuracion-por-entorno",
+  "version": "1.0.0",
+  "description": "Basico 28 - configuracion por entorno (tematica battle royale) - Campuslands",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

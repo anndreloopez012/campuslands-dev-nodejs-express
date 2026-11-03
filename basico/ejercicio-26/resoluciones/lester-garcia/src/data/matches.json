@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "matchCode": "FPS-VAL-001",
+    "mapName": "Ascent",
+    "gameMode": "Competitive",
+    "winningTeam": "Sentinels",
+    "score": "13-9",
+    "durationMinutes": 38,
+    "mvpPlayer": "Tenz",
+    "isTournamentMatch": true
+  },
+  {
+    "id": "2",
+    "matchCode": "FPS-CS2-002",
+    "mapName": "Mirage",
+    "gameMode": "Premier",
+    "winningTeam": "Vitality",
+    "score": "16-14",
+    "durationMinutes": 45,
+    "mvpPlayer": "ZywOo",
+    "isTournamentMatch": true
+  },
+  {
+    "id": "3",
+    "matchCode": "FPS-APEX-003",
+    "mapName": "World's Edge",
+    "gameMode": "Ranked Leagues",
+    "winningTeam": "TSM",
+    "score": "Top 1",
+    "durationMinutes": 21,
+    "mvpPlayer": "Hal",
+    "isTournamentMatch": false
+  },
+  {
+    "id": "1791598836849",
+    "matchCode": "FPS-VAL-999",
+    "mapName": "Bind",
+    "gameMode": "Competitive",
+    "winningTeam": "Fnatic",
+    "score": "13-11",
+    "durationMinutes": 40,
+    "mvpPlayer": "Boaster",
+    "isTournamentMatch": false
+  }
+]

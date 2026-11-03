@@ -1,0 +1,24 @@
+{
+  "name": "ejercicio-08-variables-entorno",
+  "version": "1.0.0",
+  "description": "Ejercicio basico de Node.js y Express sobre variables de entorno",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "dotenv",
+    "variables-de-entorno",
+    "hiperdeportivos"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  }
+}

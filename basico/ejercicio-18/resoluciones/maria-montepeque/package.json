@@ -1,0 +1,11 @@
+{
+    "name": "basico-ejercicio-18-maria-montepeque",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Ejercicio 18 - rutas POST (tematica paracaidismo)",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js"
+    }
+}
