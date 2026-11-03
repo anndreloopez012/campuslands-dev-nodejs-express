@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "title": "Cyberpunk Neon Girl",
+    "artist": "Aria Chen",
+    "software": "Procreate",
+    "canvasWidth": 3840,
+    "canvasHeight": 2160,
+    "layersCount": 42,
+    "priceUSD": 150.00,
+    "isCommercialUse": true
+  },
+  {
+    "id": "2",
+    "title": "Bosque Encantado en Acuarela",
+    "artist": "Leo Vance",
+    "software": "Photoshop",
+    "canvasWidth": 4000,
+    "canvasHeight": 3000,
+    "layersCount": 18,
+    "priceUSD": 85.00,
+    "isCommercialUse": false
+  }
+]

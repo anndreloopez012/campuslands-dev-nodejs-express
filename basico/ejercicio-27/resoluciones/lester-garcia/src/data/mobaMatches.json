@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "tournamentName": "Mid-Season Invitational 2026",
+    "teamA": "T1",
+    "teamB": "Gen.G",
+    "patch": "14.8",
+    "durationMinutes": 34,
+    "winner": "T1",
+    "totalKills": 28
+  },
+  {
+    "id": "2",
+    "tournamentName": "The International 2026 Qualifiers",
+    "teamA": "Team Liquid",
+    "teamB": "Gaimin Gladiators",
+    "patch": "7.35d",
+    "durationMinutes": 48,
+    "winner": "Gaimin Gladiators",
+    "totalKills": 42
+  },
+  {
+    "id": "3",
+    "tournamentName": "LEC Summer Split",
+    "teamA": "G2 Esports",
+    "teamB": "Fnatic",
+    "patch": "14.9",
+    "durationMinutes": 29,
+    "winner": "G2 Esports",
+    "totalKills": 22
+  }
+]

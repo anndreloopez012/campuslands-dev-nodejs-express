@@ -1,0 +1,86 @@
+@baseUrl = http://localhost:4028
+
+### Estado del servicio
+# expect: 200
+GET {{baseUrl}}/health
+
+### Listar todos los drops (arranca con los 3 sembrados: id 1, 2 y 3)
+# expect: 200
+GET {{baseUrl}}/drops
+
+### Filtrar por zona y tier de loot a la vez
+# expect: 200
+GET {{baseUrl}}/drops?zone=Bosque%20Norte&lootTier=raro
+
+### Filtrar por reclamados (ninguno reclamado todavia)
+# expect: 200
+GET {{baseUrl}}/drops?claimed=false
+
+### Obtener el drop 1 por id
+# expect: 200
+GET {{baseUrl}}/drops/1
+
+### Error: id que no existe
+# expect: 404
+GET {{baseUrl}}/drops/999
+
+### Error: id que no es un numero
+# expect: 400
+GET {{baseUrl}}/drops/abc
+
+### Error: lootTier de filtro invalido
+# expect: 400
+GET {{baseUrl}}/drops?lootTier=mitico
+
+### Crear un drop nuevo
+# expect: 201
+POST {{baseUrl}}/drops
+Content-Type: application/json
+
+{
+  "zone": "Torre de Radio",
+  "lootTier": "epico"
+}
+
+### Error: crear sin zone
+# expect: 400
+POST {{baseUrl}}/drops
+Content-Type: application/json
+
+{
+  "lootTier": "epico"
+}
+
+### Error: crear con lootTier invalido
+# expect: 400
+POST {{baseUrl}}/drops
+Content-Type: application/json
+
+{
+  "zone": "Torre de Radio",
+  "lootTier": "mitico"
+}
+
+### Reclamar el drop 1
+# expect: 200
+PATCH {{baseUrl}}/drops/1/claim
+
+### Error: reclamar el mismo drop otra vez
+# expect: 409
+PATCH {{baseUrl}}/drops/1/claim
+
+### Confirmar el filtro de reclamados ahora que el drop 1 cambio
+# expect: 200
+GET {{baseUrl}}/drops?claimed=true
+
+### Borrar el drop 2
+# expect: 204
+DELETE {{baseUrl}}/drops/2
+
+### Confirmar que el drop 2 ya no existe
+# expect: 404
+GET {{baseUrl}}/drops/2
+
+### Error: borrar un id que no existe
+# expect: 404
+DELETE {{baseUrl}}/drops/999
