@@ -58,7 +58,8 @@ describe("ataques por HTTP", () => {
 
     it("imagenes: se lee la permitida y no se puede salir de la carpeta", async () => {
         const app = crearApp();
-        assert.equal((await request(app).get("/api/imagenes/air-max-90.txt")).text, "imagen falsa de Air Max 90\n");
+        // trim: si git cambia los fines de linea a \r\n el test igual pasa
+        assert.equal((await request(app).get("/api/imagenes/air-max-90.txt")).text.trim(), "imagen falsa de Air Max 90");
 
         for (const malo of ["..%2Fsecreto.txt", "..%5Csecreto.txt", "%2E%2E%2Fsecreto.txt", ".env"]) {
             const res = await request(app).get(`/api/imagenes/${malo}`);
