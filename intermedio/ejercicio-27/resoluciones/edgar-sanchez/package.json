@@ -1,0 +1,14 @@
+{
+    "version":  "1.0.0",
+    "name":  "intermedio-ejercicio-27-edgar-sanchez",
+    "description":  "Ejercicio 27 - documentacion de endpoints",
+    "scripts":  {
+                    "start":  "node src/server.js",
+                    "dev":  "node --watch src/server.js"
+                },
+    "type":  "module",
+    "dependencies":  {
+                         "express":  "latest"
+                     },
+    "main":  "src/server.js"
+}
