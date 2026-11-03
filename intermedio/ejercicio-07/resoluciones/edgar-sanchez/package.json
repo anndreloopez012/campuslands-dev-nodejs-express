@@ -1,0 +1,14 @@
+{
+    "version":  "1.0.0",
+    "name":  "intermedio-ejercicio-07-edgar-sanchez",
+    "description":  "Ejercicio 07 - middleware de errores",
+    "scripts":  {
+                    "start":  "node src/server.js",
+                    "dev":  "node --watch src/server.js"
+                },
+    "type":  "module",
+    "dependencies":  {
+                         "express":  "latest"
+                     },
+    "main":  "src/server.js"
+}
