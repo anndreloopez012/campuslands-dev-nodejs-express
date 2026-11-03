@@ -1,0 +1,5 @@
+[
+  { "id": 1, "home": "Cobras FC", "away": "Titanes", "score": "2-1", "type": "futbol" },
+  { "id": 2, "home": "Rayos Sala", "away": "Halcones Sala", "score": "5-4", "type": "futbol sala" },
+  { "id": 3, "home": "Leones", "away": "Atlas", "score": "0-0", "type": "futbol" }
+]

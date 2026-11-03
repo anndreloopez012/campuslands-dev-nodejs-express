@@ -1,0 +1,41 @@
+@baseUrl = http://localhost:3000/api/v1
+
+### 1. Consultar catálogo de ejemplos HTTP disponibles
+GET {{baseUrl}}/loadouts/examples
+Accept: application/json
+
+### 2. Listar todos los equipamientos (loadouts) de Battle Royale
+GET {{baseUrl}}/loadouts
+Accept: application/json
+
+### 3. Obtener un loadout específico por su ID
+GET {{baseUrl}}/loadouts/LDT-01
+Accept: application/json
+
+### 4. Desplegar un nuevo loadout válido (201 Created)
+POST {{baseUrl}}/loadouts
+Content-Type: application/json
+
+{
+  "squadName": "Valkyrie Squad",
+  "dropZone": "Military Base",
+  "primaryWeapon": "Subfusil Vector Táctico",
+  "rarityTier": "Epico",
+  "shieldCapacity": 150
+}
+
+### 5. Probar error de validación (400 Bad Request)
+POST {{baseUrl}}/loadouts
+Content-Type: application/json
+
+{
+  "squadName": "X",
+  "dropZone": "",
+  "primaryWeapon": "No",
+  "rarityTier": "Inexistente",
+  "shieldCapacity": 999
+}
+
+### 6. Probar recurso inexistente (404 Not Found)
+GET {{baseUrl}}/loadouts/LDT-999
+Accept: application/json

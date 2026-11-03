@@ -1,0 +1,16 @@
+{
+    "name": "intermedio-ejercicio-20-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 20 - CORS controlado (tematica dibujo digital)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.6.1",
+        "express": "^4.21.2"
+    }
+}

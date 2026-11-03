@@ -1,0 +1,7 @@
+{
+  "name": "avanzado-15-seguridad-headers",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "start": "node src/index.js" },
+  "dependencies": { "express": "^5.3.0" }
+}

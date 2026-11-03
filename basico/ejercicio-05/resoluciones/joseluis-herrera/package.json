@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio-04",
+  "version": "1.0.0",
+  "description": "programa de futbol y futbol sala",
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Jose-langL",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}

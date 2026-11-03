@@ -1,0 +1,20 @@
+@baseUrl = http://localhost:3000
+
+### Listar escuadrones
+GET {{baseUrl}}/api/squads
+
+### Crear escuadrón
+POST {{baseUrl}}/api/squads
+Content-Type: application/json
+
+{
+  "name": "Fénix"
+}
+
+### Probar validación
+POST {{baseUrl}}/api/squads
+Content-Type: application/json
+
+{
+  "name": ""
+}

@@ -1,0 +1,20 @@
+{
+    "name": "intermedio-ejercicio-26-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 26 - mock de dependencias (tematica shooters competitivos)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "proveedor": "node dev/proveedor-falso.js",
+        "test": "node --test"
+    },
+    "dependencies": {
+        "dotenv": "^16.6.1",
+        "express": "^4.21.2"
+    },
+    "devDependencies": {
+        "supertest": "^7.1.0"
+    }
+}
