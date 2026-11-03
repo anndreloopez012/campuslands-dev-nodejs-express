@@ -1,0 +1,15 @@
+﻿{
+  "name": "ejercicio-08-variables-de-entorno",
+  "version": "1.0.0",
+  "description": "Basico 08 - variables de entorno (tematica hiperdeportivos) - Campuslands",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
+  }
+}

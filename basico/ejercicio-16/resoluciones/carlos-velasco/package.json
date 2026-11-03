@@ -1,0 +1,21 @@
+{
+  "name": "ejercicio-16-primer-servidor-express",
+  "version": "1.0.0",
+  "description": "Primer servidor Express sobre ropa y sneakers",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "backend",
+    "sneakers"
+  ],
+  "author": "carlos-velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

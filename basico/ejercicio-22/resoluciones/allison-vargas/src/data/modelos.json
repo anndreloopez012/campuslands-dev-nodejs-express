@@ -1,0 +1,4 @@
+﻿[
+  { "id": 1, "nombre": "Torre Cristal Sur", "area_m2": 320, "material": "vidrio" },
+  { "id": 2, "nombre": "Complejo Concreto Norte", "area_m2": 540, "material": "concreto" }
+]

@@ -1,0 +1,4 @@
+﻿[
+  { "id": 1, "nombre": "Robot Explorador", "software": "Blender", "duracion_seg": 45, "estado": "renderizando" },
+  { "id": 2, "nombre": "Ciudad Flotante", "software": "Cinema4D", "duracion_seg": 120, "estado": "borrador" }
+]
