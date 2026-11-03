@@ -1,0 +1,14 @@
+{
+    "name": "basico-ejercicio-28-maria-montepeque",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Ejercicio 28 - configuracion por entorno (tematica battle royale)",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node --env-file-if-exists=.env src/server.js",
+        "dev": "node --watch --env-file-if-exists=.env src/server.js",
+        "start:staging": "node --env-file-if-exists=.env src/server.js --env=staging",
+        "start:prod": "node --env-file-if-exists=.env src/server.js --env=production",
+        "config:check": "node --env-file-if-exists=.env src/config/check.js"
+    }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "joseluis-herrera",
+  "version": "1.0.0",
+  "description": "programa de motos  y mecanica general",
+  "license": "ISC",
+  "author": "Jose-langL",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  }
+}

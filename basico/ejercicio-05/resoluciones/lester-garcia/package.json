@@ -1,0 +1,19 @@
+{
+  "name": "lester-garcia",
+  "version": "1.0.0",
+  "description": "ejercicio-05",
+  "keywords": [
+    "API"
+  ],
+  "license": "ISC",
+  "author": "lestergarcia711",
+  "type": "module",
+  "main": "src/server.js",
+   "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
