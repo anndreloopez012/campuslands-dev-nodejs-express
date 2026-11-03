@@ -1,0 +1,14 @@
+{
+    "version":  "1.0.0",
+    "name":  "avanzado-ejercicio-14-edgar-sanchez",
+    "description":  "Ejercicio 14 - metricas simples",
+    "scripts":  {
+                    "start":  "node src/server.js",
+                    "dev":  "node --watch src/server.js"
+                },
+    "type":  "module",
+    "dependencies":  {
+                         "express":  "latest"
+                     },
+    "main":  "src/server.js"
+}
