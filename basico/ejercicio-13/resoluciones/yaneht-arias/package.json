@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-13-yaneht-arias",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio básico 13: manejo de errores",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

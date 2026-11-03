@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-22-servicios-simples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servicio de presupuesto para renders de arquitectura 3D",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}
