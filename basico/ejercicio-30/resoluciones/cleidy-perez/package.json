@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-30-cleidy-perez",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ejercicio básico 30: proyecto integrador basico",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "check": "node --check src/app.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
