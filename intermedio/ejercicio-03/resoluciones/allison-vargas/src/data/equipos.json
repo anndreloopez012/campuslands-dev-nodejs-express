@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nombre": "Dragon Hunters", "region": "LAN", "jugadores": ["Kaiser", "Mistral", "Ryu"] },
+  { "id": 2, "nombre": "Nocturnal Wolves", "region": "LAS", "jugadores": ["Fenrir", "Lunaris"] },
+  { "id": 3, "nombre": "Solar Titans", "region": "NA", "jugadores": [] }
+]
