@@ -1,0 +1,11 @@
+{
+  "name": "basico-ejercicio-13-edgar-sanchez",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Ejercicio 13: manejo de errores",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  }
+}
