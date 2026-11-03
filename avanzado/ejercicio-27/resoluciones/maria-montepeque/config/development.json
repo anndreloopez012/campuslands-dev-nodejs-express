@@ -1,0 +1,4 @@
+{
+    "logNivel": "debug",
+    "funciones": { "modoRanked": true, "heroesNuevos": true }
+}
