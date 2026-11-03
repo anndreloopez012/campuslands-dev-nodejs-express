@@ -1,0 +1,16 @@
+{
+    "name": "intermedio-ejercicio-23-maria-montepeque",
+    "version": "1.0.0",
+    "description": "Ejercicio 23 - testing con node test (tematica soldadura)",
+    "type": "module",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "node --watch src/server.js",
+        "test": "node --test",
+        "test:watch": "node --test --watch"
+    },
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}

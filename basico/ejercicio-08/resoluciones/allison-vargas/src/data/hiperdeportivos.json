@@ -1,0 +1,5 @@
+﻿[
+  { "id": 1, "marca": "Bugatti", "modelo": "Chiron", "velocidad_maxima_kmh": 490 },
+  { "id": 2, "marca": "Koenigsegg", "modelo": "Jesko", "velocidad_maxima_kmh": 480 },
+  { "id": 3, "marca": "Hennessey", "modelo": "Venom F5", "velocidad_maxima_kmh": 484 }
+]

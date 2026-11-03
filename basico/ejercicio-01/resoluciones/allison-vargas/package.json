@@ -1,0 +1,13 @@
+﻿{
+  "name": "ejercicio-01-node-runtime-consola",
+  "version": "1.0.0",
+  "description": "Basico 01 - Node runtime y consola (tematica RPG) - Campuslands",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

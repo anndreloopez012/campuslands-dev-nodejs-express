@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "name": "U.S.S. Enterprise",
+    "class": "Constitution",
+    "warpCapable": true,
+    "crewCapacity": 430,
+    "status": "Operational"
+  },
+  {
+    "id": "2",
+    "name": "Millennium Falcon",
+    "class": "YT-1300 Light Freighter",
+    "warpCapable": true,
+    "crewCapacity": 6,
+    "status": "In Maintenance"
+  },
+  {
+    "id": "3",
+    "name": "Discovery One",
+    "class": "Jupiter Deep Space Vehicle",
+    "warpCapable": false,
+    "crewCapacity": 5,
+    "status": "Decommissioned"
+  },
+  {
+    "id": "1791300087746",
+    "name": "Razor Crest",
+    "class": "ST-70 Assault Craft",
+    "warpCapable": true,
+    "crewCapacity": 3,
+    "status": "Operational"
+  }
+]

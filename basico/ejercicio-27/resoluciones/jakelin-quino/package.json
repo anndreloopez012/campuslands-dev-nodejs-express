@@ -1,0 +1,10 @@
+{
+  "name": "ejercicio-27-logs-moba",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Middleware de logs para una API de partidas MOBA",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  }
+}
