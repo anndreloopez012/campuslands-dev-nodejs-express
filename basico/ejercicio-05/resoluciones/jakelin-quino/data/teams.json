@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Halcones",
+    "sport": "futbol",
+    "city": "Bogota"
+  },
+  {
+    "name": "Rayo Sala",
+    "sport": "futbol sala",
+    "city": "Cali"
+  },
+  {
+    "name": "Titanes",
+    "sport": "futbol",
+    "city": "Medellin"
+  }
+]

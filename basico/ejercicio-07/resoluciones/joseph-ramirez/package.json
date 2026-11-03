@@ -1,0 +1,25 @@
+{
+  "name": "ejercicio-07-process-argv-cli",
+  "version": "1.0.0",
+  "description": "Ejercicio basico de Node.js sobre process.argv y CLI",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "cli": "node src/cli.js",
+    "check": "node --check src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "process.argv",
+    "cli",
+    "autos",
+    "lujo"
+  ],
+  "author": "Joseph Ramirez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
