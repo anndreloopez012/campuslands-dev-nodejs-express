@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "usuarioId": 2,
+    "items": [
+      {
+        "productoId": 1,
+        "nombre": "Air Zoom Pegasus",
+        "talla": 42,
+        "precio": 120,
+        "cantidad": 1
+      }
+    ],
+    "total": 120,
+    "direccion": "Zona 10, Ciudad de Guatemala",
+    "estado": "pagado",
+    "creadoEn": "2026-10-20T15:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "usuarioId": 3,
+    "items": [
+      {
+        "productoId": 7,
+        "nombre": "Old Skool",
+        "talla": 40,
+        "precio": 75,
+        "cantidad": 2
+      }
+    ],
+    "total": 150,
+    "direccion": "Antigua Guatemala, calle del Arco 3",
+    "estado": "pendiente",
+    "creadoEn": "2026-10-25T09:30:00.000Z"
+  }
+]

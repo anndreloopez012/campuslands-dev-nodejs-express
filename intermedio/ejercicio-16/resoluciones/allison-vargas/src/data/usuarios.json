@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana Admin",
+    "email": "admin@sneakers.test",
+    "rol": "admin",
+    "creadoEn": "2026-02-01T10:00:00.000Z",
+    "passwordHash": "3c48e0c5848229154d741761a7687724:ca2b2aa4c5f6aa9fabfbaa7359b8ccb8e50e3685ef150295b80f39a4008240e55a735f9e216a7d7c6451678f22d8e7b3e2533dcb5fa9768174d2ad07debd1770"
+  },
+  {
+    "id": 2,
+    "nombre": "Carla Cliente",
+    "email": "cliente@sneakers.test",
+    "rol": "cliente",
+    "creadoEn": "2026-02-02T10:00:00.000Z",
+    "passwordHash": "52b9ba0b27e9fec878d7a8bff8ad5cae:864e1121ed489102cf2c654fcc40171613febe7b08cc8db6b6a151e88ca1669307748c7e8f502d5d1d2fa20de30c7ab5aeaaf74591f266c435b30252a7d3df62"
+  },
+  {
+    "id": 3,
+    "nombre": "Carlos Cliente",
+    "email": "cliente2@sneakers.test",
+    "rol": "cliente",
+    "creadoEn": "2026-02-03T10:00:00.000Z",
+    "passwordHash": "eeb933388b30480df11144f665f81e39:7fabdeb8dbf135f6481c0ad06b0b325b130bef923f096316e4ade0b3d4eeda8a6177034b928bfd07a826811cb26e58de46be2c0e2176a372732633d424e71ac3"
+  }
+]

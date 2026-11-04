@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "nombre": "Air Zoom Pegasus",
+    "marca": "Nike",
+    "categoria": "running",
+    "precio": 120,
+    "stock": 15
+  },
+  {
+    "id": 2,
+    "nombre": "Ultraboost Light",
+    "marca": "Adidas",
+    "categoria": "running",
+    "precio": 180,
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "nombre": "Gel Kayano 30",
+    "marca": "Asics",
+    "categoria": "running",
+    "precio": 160,
+    "stock": 0
+  },
+  {
+    "id": 4,
+    "nombre": "Air Jordan 1 Mid",
+    "marca": "Nike",
+    "categoria": "basket",
+    "precio": 135,
+    "stock": 10
+  },
+  {
+    "id": 5,
+    "nombre": "Dame 8",
+    "marca": "Adidas",
+    "categoria": "basket",
+    "precio": 110,
+    "stock": 6
+  },
+  {
+    "id": 6,
+    "nombre": "Chuck Taylor All Star",
+    "marca": "Converse",
+    "categoria": "casual",
+    "precio": 65,
+    "stock": 25
+  },
+  {
+    "id": 7,
+    "nombre": "Old Skool",
+    "marca": "Vans",
+    "categoria": "skate",
+    "precio": 75,
+    "stock": 20
+  },
+  {
+    "id": 8,
+    "nombre": "Suede Classic",
+    "marca": "Puma",
+    "categoria": "casual",
+    "precio": 70,
+    "stock": 12
+  },
+  {
+    "id": 9,
+    "nombre": "Sk8-Hi",
+    "marca": "Vans",
+    "categoria": "skate",
+    "precio": 80,
+    "stock": 9
+  },
+  {
+    "id": 10,
+    "nombre": "Fresh Foam 1080",
+    "marca": "New Balance",
+    "categoria": "running",
+    "precio": 165,
+    "stock": 7
+  }
+]
