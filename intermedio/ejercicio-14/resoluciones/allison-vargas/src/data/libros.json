@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cien anios de soledad",
+    "autor": "Gabriel Garcia Marquez",
+    "genero": "novela",
+    "anio": 1967,
+    "paginas": 471,
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "titulo": "Fundacion",
+    "autor": "Isaac Asimov",
+    "genero": "ciencia-ficcion",
+    "anio": 1951,
+    "paginas": 255,
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "titulo": "Dune",
+    "autor": "Frank Herbert",
+    "genero": "ciencia-ficcion",
+    "anio": 1965,
+    "paginas": 612,
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "titulo": "El Hobbit",
+    "autor": "J. R. R. Tolkien",
+    "genero": "fantasia",
+    "anio": 1937,
+    "paginas": 310,
+    "disponible": true
+  },
+  {
+    "id": 5,
+    "titulo": "El nombre del viento",
+    "autor": "Patrick Rothfuss",
+    "genero": "fantasia",
+    "anio": 2007,
+    "paginas": 662,
+    "disponible": true
+  },
+  {
+    "id": 6,
+    "titulo": "El sabueso de los Baskerville",
+    "autor": "Arthur Conan Doyle",
+    "genero": "misterio",
+    "anio": 1902,
+    "paginas": 256,
+    "disponible": false
+  },
+  {
+    "id": 7,
+    "titulo": "Asesinato en el Orient Express",
+    "autor": "Agatha Christie",
+    "genero": "misterio",
+    "anio": 1934,
+    "paginas": 274,
+    "disponible": true
+  },
+  {
+    "id": 8,
+    "titulo": "Rayuela",
+    "autor": "Julio Cortazar",
+    "genero": "novela",
+    "anio": 1963,
+    "paginas": 600,
+    "disponible": true
+  },
+  {
+    "id": 9,
+    "titulo": "Sapiens",
+    "autor": "Yuval Noah Harari",
+    "genero": "historia",
+    "anio": 2011,
+    "paginas": 498,
+    "disponible": true
+  },
+  {
+    "id": 10,
+    "titulo": "Armas, germenes y acero",
+    "autor": "Jared Diamond",
+    "genero": "historia",
+    "anio": 1997,
+    "paginas": 512,
+    "disponible": false
+  },
+  {
+    "id": 11,
+    "titulo": "Veinte poemas de amor y una cancion desesperada",
+    "autor": "Pablo Neruda",
+    "genero": "poesia",
+    "anio": 1924,
+    "paginas": 80,
+    "disponible": true
+  },
+  {
+    "id": 12,
+    "titulo": "Fahrenheit 451",
+    "autor": "Ray Bradbury",
+    "genero": "ciencia-ficcion",
+    "anio": 1953,
+    "paginas": 194,
+    "disponible": true
+  },
+  {
+    "id": 13,
+    "titulo": "Pedro Paramo",
+    "autor": "Juan Rulfo",
+    "genero": "novela",
+    "anio": 1955,
+    "paginas": 124,
+    "disponible": true
+  },
+  {
+    "id": 14,
+    "titulo": "Rimas y leyendas",
+    "autor": "Gustavo Adolfo Becquer",
+    "genero": "poesia",
+    "anio": 1871,
+    "paginas": 220,
+    "disponible": true
+  }
+]

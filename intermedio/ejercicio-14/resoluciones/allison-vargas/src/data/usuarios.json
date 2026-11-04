@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana Administradora",
+    "email": "admin@libros.test",
+    "rol": "admin",
+    "activo": true,
+    "creadoEn": "2026-01-10T09:00:00.000Z",
+    "passwordHash": "e65fdbfe3abf38b96d457888bfdb3cd2:54d7a6abdf8472c9f4a01dd03cbb4b2872304451b86e35e778f62b8d956f4b03935e6d6720a629a63a1e448b6a7ed62ec9b6745d78407cda3d9217ebf0e99132"
+  },
+  {
+    "id": 2,
+    "nombre": "Eli Editor",
+    "email": "editor@libros.test",
+    "rol": "editor",
+    "activo": true,
+    "creadoEn": "2026-01-12T10:30:00.000Z",
+    "passwordHash": "0479d3e890cb9f5384ab4f2baa25e9f2:e319cf90dc4ae66fdb624b1a12cbc57638b9c8cf3431a9d4a57281dfe5d4d8424a9a76ad97ccf83a64952aa96209afa8e41fde6c80c9f6ead7c8489654a33b12"
+  },
+  {
+    "id": 3,
+    "nombre": "Leo Lector",
+    "email": "lector@libros.test",
+    "rol": "lector",
+    "activo": true,
+    "creadoEn": "2026-02-03T15:45:00.000Z",
+    "passwordHash": "1ea2f9b1bcd5a35e2fc1b74da499d4a2:bda9e7be2c0b3b52091b69cc9b8fdf2ee5451bb63abb8d302b91f0b23595c39e7dbaf75f5eac8118b366c6208eae5acb07b53140ad9303b06e518b0c4750d2da"
+  },
+  {
+    "id": 4,
+    "nombre": "Bruno Bloqueado",
+    "email": "bloqueado@libros.test",
+    "rol": "lector",
+    "activo": false,
+    "creadoEn": "2026-02-20T08:15:00.000Z",
+    "passwordHash": "092ca353af47a32fb2876bd0a5df79fb:22425dd2aec58e8739136e49e6f0fd2c5b2560a8a7e97e0ff5cea93ba4930e6cdded952b511f76c2ec6f615a129add375e21e507d6944769c29a3a08211ab6c5"
+  }
+]
