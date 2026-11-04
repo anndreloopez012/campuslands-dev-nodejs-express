@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana Administradora",
+    "email": "admin@viajes.test",
+    "rol": "admin",
+    "creadoEn": "2026-01-01T09:00:00.000Z",
+    "passwordHash": "b93663327829a74bbd47c3e8f79a4536:2061224c762d511098817bf1041773efbedc07a01c13af2d325265110a2b690d47b2547ac1c11ef44ee18afc794ca8f5e743686f6f8a6e96250db0b6adb01e6f"
+  },
+  {
+    "id": 2,
+    "nombre": "Alex Agente",
+    "email": "agente@viajes.test",
+    "rol": "agente",
+    "creadoEn": "2026-01-02T09:00:00.000Z",
+    "passwordHash": "dbb71b60b59ce097220097173504f928:52e9c01495d04dba069595064df6598ff79f720096276f1c10c963c51a4d50483bab151bb7a42edf874f30e6c3b3846dc0175188010f2141c3c3a603d966dab4"
+  },
+  {
+    "id": 3,
+    "nombre": "Gabi Guia",
+    "email": "guia@viajes.test",
+    "rol": "guia",
+    "creadoEn": "2026-01-03T09:00:00.000Z",
+    "passwordHash": "2c2e8d207fb22af1734e47401517aeb4:efa5313d31bebb3ba67937a901177889b10f8525854c3f546d984202902995c89d0364cadde35b29a7f3791b9936a9c76a91c3f842a6e5fe41c538a121b4cf32"
+  },
+  {
+    "id": 4,
+    "nombre": "Gus Guia",
+    "email": "guia2@viajes.test",
+    "rol": "guia",
+    "creadoEn": "2026-01-04T09:00:00.000Z",
+    "passwordHash": "c7c6f44e5b8b86b97281d3272efee45b:8ec24ae8cafd355116fe3ad6a5ad04e2c3124b74212cb16bf96522b8b8c05503823e6fa2dcd10a364982c378d35c8ba03e91d5cef34f4b8590a12d9d6bfc9672"
+  },
+  {
+    "id": 5,
+    "nombre": "Vera Viajera",
+    "email": "viajero@viajes.test",
+    "rol": "viajero",
+    "creadoEn": "2026-01-05T09:00:00.000Z",
+    "passwordHash": "0d4438a92abc6a78e0252f61d9897c77:3383b6ec070d066b7a539a61a4200048cff50f77035e7d427c6bb2f77c019774d1fca3caa4722205ef9938018fe9a1876725095625c05dc765f70ec0c07840c7"
+  },
+  {
+    "id": 6,
+    "nombre": "Victor Viajero",
+    "email": "viajero2@viajes.test",
+    "rol": "viajero",
+    "creadoEn": "2026-01-06T09:00:00.000Z",
+    "passwordHash": "9966a8a3b86a1d9ac62a84e28e1fe29f:0f0f952a3deb18ea2be1386b22e2df2435aba76ce38cef3610b5ec2cd4a41920d2d5d3bf5bb137c52547c96c78df3dafef1d0c00bdc6268ea347144808bfbd9c"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "titulo": "Antigua colonial a pie",
+    "destinoId": 1,
+    "precio": 120,
+    "cupos": 12,
+    "fechaInicio": "2026-12-05",
+    "guiaId": 3,
+    "estado": "publicado"
+  },
+  {
+    "id": 2,
+    "titulo": "Amanecer en Atitlan",
+    "destinoId": 2,
+    "precio": 180,
+    "cupos": 10,
+    "fechaInicio": "2026-12-12",
+    "guiaId": 3,
+    "estado": "publicado"
+  },
+  {
+    "id": 3,
+    "titulo": "Tikal al alba",
+    "destinoId": 3,
+    "precio": 350,
+    "cupos": 8,
+    "fechaInicio": "2027-01-09",
+    "guiaId": 4,
+    "estado": "publicado"
+  },
+  {
+    "id": 4,
+    "titulo": "Semuc Champey extremo",
+    "destinoId": 4,
+    "precio": 290,
+    "cupos": 6,
+    "fechaInicio": "2027-01-23",
+    "guiaId": 4,
+    "estado": "publicado"
+  },
+  {
+    "id": 5,
+    "titulo": "Ruta garifuna",
+    "destinoId": 5,
+    "precio": 260,
+    "cupos": 10,
+    "fechaInicio": "2027-02-06",
+    "guiaId": 3,
+    "estado": "borrador"
+  },
+  {
+    "id": 6,
+    "titulo": "Pacaya al atardecer",
+    "destinoId": 6,
+    "precio": 95,
+    "cupos": 15,
+    "fechaInicio": "2026-11-28",
+    "guiaId": 4,
+    "estado": "cerrado"
+  },
+  {
+    "id": 7,
+    "titulo": "Antigua gastronomica",
+    "destinoId": 1,
+    "precio": 150,
+    "cupos": 8,
+    "fechaInicio": "2027-02-20",
+    "guiaId": 4,
+    "estado": "borrador"
+  },
+  {
+    "id": 8,
+    "titulo": "Atitlan en kayak",
+    "destinoId": 2,
+    "precio": 210,
+    "cupos": 6,
+    "fechaInicio": "2027-03-06",
+    "guiaId": 3,
+    "estado": "publicado"
+  }
+]
