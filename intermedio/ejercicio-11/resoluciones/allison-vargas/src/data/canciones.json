@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "titulo": "Danza en llamas",
+    "artista": "Luna Cobriza",
+    "album": "Cartas al Mar",
+    "genero": "balada",
+    "anio": 2020,
+    "duracionSeg": 296,
+    "descripcion": "Una pieza intima de balada sobre una ciudad dormida."
+  },
+  {
+    "id": 2,
+    "titulo": "Montaña lejano",
+    "artista": "Marea Alta",
+    "album": "Sal y Arena",
+    "genero": "cumbia",
+    "anio": 2000,
+    "duracionSeg": 359,
+    "descripcion": "Una pieza intima de cumbia sobre volver a casa."
+  },
+  {
+    "id": 3,
+    "titulo": "Tren sin retorno",
+    "artista": "Ángel Ocampo",
+    "album": "Casa de Madera",
+    "genero": "folk",
+    "anio": 2009,
+    "duracionSeg": 197,
+    "descripcion": "Una pieza enérgica de folk sobre la lluvia de abril."
+  },
+  {
+    "id": 4,
+    "titulo": "Noche lejano",
+    "artista": "Rubí y los Cuervos",
+    "album": "Rojo Profundo",
+    "genero": "cumbia",
+    "anio": 2009,
+    "duracionSeg": 166,
+    "descripcion": "Una pieza bailable de cumbia sobre volver a casa."
+  },
+  {
+    "id": 5,
+    "titulo": "Danza en la sombra",
+    "artista": "Sonora del Lago",
+    "album": "Orilla",
+    "genero": "cumbia",
+    "anio": 2019,
+    "duracionSeg": 352,
+    "descripcion": "Una pieza calida de cumbia sobre un viaje largo."
+  },
+  {
+    "id": 6,
+    "titulo": "Cielo de medianoche",
+    "artista": "Dúo Cielo Abierto",
+    "album": "Cometas",
+    "genero": "jazz",
+    "anio": 2016,
+    "duracionSeg": 189,
+    "descripcion": "Una pieza intima de jazz sobre una ciudad dormida."
+  },
+  {
+    "id": 7,
+    "titulo": "Tren de cristal",
+    "artista": "Nube Eléctrica",
+    "album": "Voltaje",
+    "genero": "electronica",
+    "anio": 2010,
+    "duracionSeg": 358,
+    "descripcion": "Una pieza enérgica de electronica sobre cruzar el mar."
+  },
+  {
+    "id": 8,
+    "titulo": "Cielo azul",
+    "artista": "Camino Sur",
+    "album": "Polvo y Ruta",
+    "genero": "blues",
+    "anio": 2022,
+    "duracionSeg": 356,
+    "descripcion": "Una pieza bailable de blues sobre las noches de verano."
+  },
+  {
+    "id": 9,
+    "titulo": "Luz de papel",
+    "artista": "Isabel Quiñónez",
+    "album": "Voz Desnuda",
+    "genero": "balada",
+    "anio": 2004,
+    "duracionSeg": 177,
+    "descripcion": "Una pieza tranquila de balada sobre la nostalgia del barrio."
+  },
+  {
+    "id": 10,
+    "titulo": "Ventana eléctrico",
+    "artista": "Trío Jacaranda",
+    "album": "Sombra Morada",
+    "genero": "reggae",
+    "anio": 2012,
+    "duracionSeg": 171,
+    "descripcion": "Una pieza bailable de reggae sobre una despedida en la estacion."
+  },
+  {
+    "id": 11,
+    "titulo": "Ventana de papel",
+    "artista": "Volcán Azul",
+    "album": "Cráter Dormido",
+    "genero": "rock",
+    "anio": 2009,
+    "duracionSeg": 273,
+    "descripcion": "Una pieza luminosa de rock sobre el primer amor."
+  },
+  {
+    "id": 12,
+    "titulo": "Sueño lejano",
+    "artista": "Sombra y Sal",
+    "album": "Mareas",
+    "genero": "blues",
+    "anio": 2007,
+    "duracionSeg": 171,
+    "descripcion": "Una pieza bailable de blues sobre los amigos de siempre."
+  },
+  {
+    "id": 13,
+    "titulo": "Viento azul",
+    "artista": "Los Faroles",
+    "album": "Calle Vieja",
+    "genero": "reggae",
+    "anio": 2004,
+    "duracionSeg": 293,
+    "descripcion": "Una pieza intima de reggae sobre cruzar el mar."
+  },
+  {
+    "id": 14,
+    "titulo": "Sol sin retorno",
+    "artista": "Mía Santander",
+    "album": "Café Frío",
+    "genero": "pop",
+    "anio": 2016,
+    "duracionSeg": 167,
+    "descripcion": "Una pieza melancolica de pop sobre el cafe de la esquina."
+  },
+  {
+    "id": 15,
+    "titulo": "Luz prestado",
+    "artista": "Luna Cobriza",
+    "album": "Fuego Lento",
+    "genero": "balada",
+    "anio": 2023,
+    "duracionSeg": 292,
+    "descripcion": "Una pieza enérgica de balada sobre una ciudad dormida."
+  },
+  {
+    "id": 16,
+    "titulo": "Corazón lejano",
+    "artista": "Marea Alta",
+    "album": "Tres Faros",
+    "genero": "jazz",
+    "anio": 2012,
+    "duracionSeg": 283,
+    "descripcion": "Una pieza intima de jazz sobre el cafe de la esquina."
+  },
+  {
+    "id": 17,
+    "titulo": "Montaña de medianoche",
+    "artista": "Ángel Ocampo",
+    "album": "Domingo Largo",
+    "genero": "folk",
+    "anio": 2011,
+    "duracionSeg": 178,
+    "descripcion": "Una pieza intima de folk sobre cruzar el mar."
+  },
+  {
+    "id": 18,
+    "titulo": "Danza olvidado",
+    "artista": "Rubí y los Cuervos",
+    "album": "Plumas Negras",
+    "genero": "rock",
+    "anio": 2009,
+    "duracionSeg": 141,
+    "descripcion": "Una pieza luminosa de rock sobre los amigos de siempre."
+  },
+  {
+    "id": 19,
+    "titulo": "Viento lejano",
+    "artista": "Sonora del Lago",
+    "album": "Orilla",
+    "genero": "cumbia",
+    "anio": 2011,
+    "duracionSeg": 184,
+    "descripcion": "Una pieza luminosa de cumbia sobre la nostalgia del barrio."
+  },
+  {
+    "id": 20,
+    "titulo": "Camino azul",
+    "artista": "Dúo Cielo Abierto",
+    "album": "Azotea",
+    "genero": "jazz",
+    "anio": 2000,
+    "duracionSeg": 333,
+    "descripcion": "Una pieza luminosa de jazz sobre una despedida en la estacion."
+  },
+  {
+    "id": 21,
+    "titulo": "Cielo prestado",
+    "artista": "Nube Eléctrica",
+    "album": "Neón Suave",
+    "genero": "electronica",
+    "anio": 2005,
+    "duracionSeg": 250,
+    "descripcion": "Una pieza sencilla de electronica sobre un baile improvisado."
+  },
+  {
+    "id": 22,
+    "titulo": "Corazón azul",
+    "artista": "Camino Sur",
+    "album": "Polvo y Ruta",
+    "genero": "folk",
+    "anio": 2017,
+    "duracionSeg": 262,
+    "descripcion": "Una pieza tranquila de folk sobre el cafe de la esquina."
+  },
+  {
+    "id": 23,
+    "titulo": "Luz olvidado",
+    "artista": "Isabel Quiñónez",
+    "album": "Lámparas",
+    "genero": "balada",
+    "anio": 2008,
+    "duracionSeg": 298,
+    "descripcion": "Una pieza enérgica de balada sobre los amigos de siempre."
+  },
+  {
+    "id": 24,
+    "titulo": "Ciudad al amanecer",
+    "artista": "Trío Jacaranda",
+    "album": "Sombra Morada",
+    "genero": "jazz",
+    "anio": 2012,
+    "duracionSeg": 242,
+    "descripcion": "Una pieza melancolica de jazz sobre la nostalgia del barrio."
+  },
+  {
+    "id": 25,
+    "titulo": "Ventana sin retorno",
+    "artista": "Volcán Azul",
+    "album": "Cráter Dormido",
+    "genero": "rock",
+    "anio": 2024,
+    "duracionSeg": 179,
+    "descripcion": "Una pieza calida de rock sobre la lluvia de abril."
+  },
+  {
+    "id": 26,
+    "titulo": "Cielo eléctrico",
+    "artista": "Sombra y Sal",
+    "album": "Cuarto Oscuro",
+    "genero": "blues",
+    "anio": 1998,
+    "duracionSeg": 192,
+    "descripcion": "Una pieza bailable de blues sobre las noches de verano."
+  },
+  {
+    "id": 27,
+    "titulo": "Ventana olvidado",
+    "artista": "Los Faroles",
+    "album": "Calle Vieja",
+    "genero": "reggae",
+    "anio": 2015,
+    "duracionSeg": 256,
+    "descripcion": "Una pieza bailable de reggae sobre un baile improvisado."
+  },
+  {
+    "id": 28,
+    "titulo": "Fuego en llamas",
+    "artista": "Mía Santander",
+    "album": "Primer Acto",
+    "genero": "pop",
+    "anio": 2009,
+    "duracionSeg": 264,
+    "descripcion": "Una pieza bailable de pop sobre una ciudad dormida."
+  },
+  {
+    "id": 29,
+    "titulo": "Cielo en llamas",
+    "artista": "Luna Cobriza",
+    "album": "Cartas al Mar",
+    "genero": "balada",
+    "anio": 2020,
+    "duracionSeg": 235,
+    "descripcion": "Una pieza melancolica de balada sobre el cafe de la esquina."
+  },
+  {
+    "id": 30,
+    "titulo": "Tren al amanecer",
+    "artista": "Marea Alta",
+    "album": "Sal y Arena",
+    "genero": "cumbia",
+    "anio": 2001,
+    "duracionSeg": 254,
+    "descripcion": "Una pieza calida de cumbia sobre una ciudad dormida."
+  },
+  {
+    "id": 31,
+    "titulo": "Viento en llamas",
+    "artista": "Ángel Ocampo",
+    "album": "Domingo Largo",
+    "genero": "folk",
+    "anio": 2012,
+    "duracionSeg": 222,
+    "descripcion": "Una pieza sencilla de folk sobre un baile improvisado."
+  },
+  {
+    "id": 32,
+    "titulo": "Tren azul",
+    "artista": "Rubí y los Cuervos",
+    "album": "Plumas Negras",
+    "genero": "rock",
+    "anio": 2001,
+    "duracionSeg": 151,
+    "descripcion": "Una pieza enérgica de rock sobre las noches de verano."
+  },
+  {
+    "id": 33,
+    "titulo": "Sol al amanecer",
+    "artista": "Sonora del Lago",
+    "album": "Orilla",
+    "genero": "rock",
+    "anio": 2007,
+    "duracionSeg": 324,
+    "descripcion": "Una pieza intima de rock sobre volver a casa."
+  },
+  {
+    "id": 34,
+    "titulo": "Noche olvidado",
+    "artista": "Dúo Cielo Abierto",
+    "album": "Cometas",
+    "genero": "jazz",
+    "anio": 2015,
+    "duracionSeg": 344,
+    "descripcion": "Una pieza intima de jazz sobre el cafe de la esquina."
+  },
+  {
+    "id": 35,
+    "titulo": "Fuego prestado",
+    "artista": "Nube Eléctrica",
+    "album": "Voltaje",
+    "genero": "electronica",
+    "anio": 2025,
+    "duracionSeg": 276,
+    "descripcion": "Una pieza luminosa de electronica sobre el cafe de la esquina."
+  },
+  {
+    "id": 36,
+    "titulo": "Ciudad lejano",
+    "artista": "Camino Sur",
+    "album": "Mapa Doblado",
+    "genero": "folk",
+    "anio": 2008,
+    "duracionSeg": 231,
+    "descripcion": "Una pieza bailable de folk sobre el cafe de la esquina."
+  },
+  {
+    "id": 37,
+    "titulo": "Montaña de papel",
+    "artista": "Isabel Quiñónez",
+    "album": "Lámparas",
+    "genero": "pop",
+    "anio": 2018,
+    "duracionSeg": 288,
+    "descripcion": "Una pieza intima de pop sobre cruzar el mar."
+  },
+  {
+    "id": 38,
+    "titulo": "Sueño al amanecer",
+    "artista": "Trío Jacaranda",
+    "album": "Flor de Marzo",
+    "genero": "jazz",
+    "anio": 2020,
+    "duracionSeg": 140,
+    "descripcion": "Una pieza enérgica de jazz sobre los amigos de siempre."
+  },
+  {
+    "id": 39,
+    "titulo": "Noche al amanecer",
+    "artista": "Volcán Azul",
+    "album": "Cráter Dormido",
+    "genero": "rock",
+    "anio": 2010,
+    "duracionSeg": 227,
+    "descripcion": "Una pieza enérgica de rock sobre un baile improvisado."
+  },
+  {
+    "id": 40,
+    "titulo": "Montaña al amanecer",
+    "artista": "Sombra y Sal",
+    "album": "Cuarto Oscuro",
+    "genero": "blues",
+    "anio": 2007,
+    "duracionSeg": 252,
+    "descripcion": "Una pieza melancolica de blues sobre un viaje largo."
+  },
+  {
+    "id": 41,
+    "titulo": "Ciudad en llamas",
+    "artista": "Los Faroles",
+    "album": "Calle Vieja",
+    "genero": "reggae",
+    "anio": 2019,
+    "duracionSeg": 280,
+    "descripcion": "Una pieza bailable de reggae sobre un viaje largo."
+  },
+  {
+    "id": 42,
+    "titulo": "Ventana de cristal",
+    "artista": "Mía Santander",
+    "album": "Primer Acto",
+    "genero": "pop",
+    "anio": 2004,
+    "duracionSeg": 249,
+    "descripcion": "Una pieza sencilla de pop sobre la lluvia de abril."
+  },
+  {
+    "id": 43,
+    "titulo": "Tren olvidado",
+    "artista": "Luna Cobriza",
+    "album": "Cartas al Mar",
+    "genero": "balada",
+    "anio": 2009,
+    "duracionSeg": 291,
+    "descripcion": "Una pieza melancolica de balada sobre los amigos de siempre."
+  },
+  {
+    "id": 44,
+    "titulo": "Lluvia de medianoche",
+    "artista": "Marea Alta",
+    "album": "Tres Faros",
+    "genero": "cumbia",
+    "anio": 2014,
+    "duracionSeg": 251,
+    "descripcion": "Una pieza intima de cumbia sobre volver a casa."
+  },
+  {
+    "id": 45,
+    "titulo": "Lluvia de cristal",
+    "artista": "Ángel Ocampo",
+    "album": "Domingo Largo",
+    "genero": "folk",
+    "anio": 2019,
+    "duracionSeg": 338,
+    "descripcion": "Una pieza bailable de folk sobre el primer amor."
+  },
+  {
+    "id": 46,
+    "titulo": "Sol en la sombra",
+    "artista": "Rubí y los Cuervos",
+    "album": "Rojo Profundo",
+    "genero": "cumbia",
+    "anio": 2008,
+    "duracionSeg": 288,
+    "descripcion": "Una pieza bailable de cumbia sobre la nostalgia del barrio."
+  },
+  {
+    "id": 47,
+    "titulo": "Cielo lejano",
+    "artista": "Sonora del Lago",
+    "album": "Orilla",
+    "genero": "cumbia",
+    "anio": 2009,
+    "duracionSeg": 292,
+    "descripcion": "Una pieza intima de cumbia sobre la lluvia de abril."
+  },
+  {
+    "id": 48,
+    "titulo": "Sol en llamas",
+    "artista": "Dúo Cielo Abierto",
+    "album": "Cometas",
+    "genero": "jazz",
+    "anio": 2017,
+    "duracionSeg": 165,
+    "descripcion": "Una pieza melancolica de jazz sobre una despedida en la estacion."
+  },
+  {
+    "id": 49,
+    "titulo": "Ciudad prestado",
+    "artista": "Nube Eléctrica",
+    "album": "Voltaje",
+    "genero": "electronica",
+    "anio": 2017,
+    "duracionSeg": 321,
+    "descripcion": "Una pieza luminosa de electronica sobre el primer amor."
+  },
+  {
+    "id": 50,
+    "titulo": "Montaña de cristal",
+    "artista": "Camino Sur",
+    "album": "Mapa Doblado",
+    "genero": "folk",
+    "anio": 2008,
+    "duracionSeg": 169,
+    "descripcion": "Una pieza melancolica de folk sobre la lluvia de abril."
+  },
+  {
+    "id": 51,
+    "titulo": "Tren en llamas",
+    "artista": "Isabel Quiñónez",
+    "album": "Voz Desnuda",
+    "genero": "rock",
+    "anio": 2018,
+    "duracionSeg": 340,
+    "descripcion": "Una pieza calida de rock sobre el primer amor."
+  },
+  {
+    "id": 52,
+    "titulo": "Fuego lejano",
+    "artista": "Trío Jacaranda",
+    "album": "Sombra Morada",
+    "genero": "blues",
+    "anio": 2000,
+    "duracionSeg": 186,
+    "descripcion": "Una pieza calida de blues sobre la nostalgia del barrio."
+  },
+  {
+    "id": 53,
+    "titulo": "Ciudad azul",
+    "artista": "Volcán Azul",
+    "album": "Cráter Dormido",
+    "genero": "rock",
+    "anio": 2023,
+    "duracionSeg": 177,
+    "descripcion": "Una pieza calida de rock sobre el primer amor."
+  },
+  {
+    "id": 54,
+    "titulo": "Viento de medianoche",
+    "artista": "Sombra y Sal",
+    "album": "Cuarto Oscuro",
+    "genero": "blues",
+    "anio": 2020,
+    "duracionSeg": 289,
+    "descripcion": "Una pieza sencilla de blues sobre la lluvia de abril."
+  },
+  {
+    "id": 55,
+    "titulo": "Canción lejano",
+    "artista": "Los Faroles",
+    "album": "Calle Vieja",
+    "genero": "reggae",
+    "anio": 2024,
+    "duracionSeg": 249,
+    "descripcion": "Una pieza calida de reggae sobre una despedida en la estacion."
+  },
+  {
+    "id": 56,
+    "titulo": "Río sin retorno",
+    "artista": "Mía Santander",
+    "album": "Primer Acto",
+    "genero": "pop",
+    "anio": 2012,
+    "duracionSeg": 199,
+    "descripcion": "Una pieza enérgica de pop sobre un baile improvisado."
+  },
+  {
+    "id": 57,
+    "titulo": "Lluvia lejano",
+    "artista": "Luna Cobriza",
+    "album": "Fuego Lento",
+    "genero": "balada",
+    "anio": 2007,
+    "duracionSeg": 189,
+    "descripcion": "Una pieza sencilla de balada sobre la nostalgia del barrio."
+  },
+  {
+    "id": 58,
+    "titulo": "Sol de medianoche",
+    "artista": "Marea Alta",
+    "album": "Tres Faros",
+    "genero": "cumbia",
+    "anio": 2014,
+    "duracionSeg": 187,
+    "descripcion": "Una pieza calida de cumbia sobre una ciudad dormida."
+  },
+  {
+    "id": 59,
+    "titulo": "Noche sin retorno",
+    "artista": "Ángel Ocampo",
+    "album": "Domingo Largo",
+    "genero": "folk",
+    "anio": 2004,
+    "duracionSeg": 360,
+    "descripcion": "Una pieza melancolica de folk sobre la lluvia de abril."
+  },
+  {
+    "id": 60,
+    "titulo": "Noche de cristal",
+    "artista": "Rubí y los Cuervos",
+    "album": "Rojo Profundo",
+    "genero": "rock",
+    "anio": 2001,
+    "duracionSeg": 317,
+    "descripcion": "Una pieza melancolica de rock sobre un viaje largo."
+  }
+]
