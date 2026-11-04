@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "usuarioId": 3,
+    "items": [
+      {
+        "platoId": 1,
+        "nombre": "Taco al pastor",
+        "precio": 18,
+        "cantidad": 3
+      },
+      {
+        "platoId": 10,
+        "nombre": "Limonada con chia",
+        "precio": 14,
+        "cantidad": 1
+      }
+    ],
+    "estado": "entregado",
+    "creadoEn": "2026-03-01T13:10:00.000Z",
+    "total": 68
+  },
+  {
+    "id": 2,
+    "usuarioId": 3,
+    "items": [
+      {
+        "platoId": 4,
+        "nombre": "Hamburguesa clasica",
+        "precio": 42,
+        "cantidad": 1
+      },
+      {
+        "platoId": 8,
+        "nombre": "Papas con queso",
+        "precio": 22,
+        "cantidad": 1
+      }
+    ],
+    "estado": "pendiente",
+    "nota": "Sin cebolla",
+    "creadoEn": "2026-03-02T19:40:00.000Z",
+    "total": 64
+  },
+  {
+    "id": 3,
+    "usuarioId": 4,
+    "items": [
+      {
+        "platoId": 7,
+        "nombre": "Bowl de garbanzos asados",
+        "precio": 45,
+        "cantidad": 2
+      }
+    ],
+    "estado": "listo",
+    "creadoEn": "2026-03-02T20:05:00.000Z",
+    "total": 90
+  }
+]
