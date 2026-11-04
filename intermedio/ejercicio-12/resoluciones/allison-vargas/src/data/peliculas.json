@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "titulo": "La Casa del Pozo Seco",
+    "anio": 2014,
+    "director": "Renata Olmos",
+    "subgenero": "fantasmas",
+    "duracionMin": 98,
+    "clasificacion": "PG-13"
+  },
+  {
+    "id": 2,
+    "titulo": "Susurros en el Sótano",
+    "anio": 2018,
+    "director": "Tomás Beltrán",
+    "subgenero": "psicologico",
+    "duracionMin": 104,
+    "clasificacion": "R"
+  },
+  {
+    "id": 3,
+    "titulo": "El Último Turno",
+    "anio": 2021,
+    "director": "Marcela Duarte",
+    "subgenero": "slasher",
+    "duracionMin": 91,
+    "clasificacion": "R"
+  },
+  {
+    "id": 4,
+    "titulo": "Niebla en Villa Cuervo",
+    "anio": 2009,
+    "director": "Gaspar Ibáñez",
+    "subgenero": "monstruos",
+    "duracionMin": 112,
+    "clasificacion": "PG-13"
+  },
+  {
+    "id": 5,
+    "titulo": "Ritual de Medianoche",
+    "anio": 2016,
+    "director": "Ivana Cordero",
+    "subgenero": "posesion",
+    "duracionMin": 107,
+    "clasificacion": "R"
+  },
+  {
+    "id": 6,
+    "titulo": "Los Muertos de San Telmo",
+    "anio": 2012,
+    "director": "Ernesto Villaseca",
+    "subgenero": "zombis",
+    "duracionMin": 119,
+    "clasificacion": "R"
+  },
+  {
+    "id": 7,
+    "titulo": "Grabación 14",
+    "anio": 2020,
+    "director": "Lía Fontana",
+    "subgenero": "found-footage",
+    "duracionMin": 86,
+    "clasificacion": "PG-13"
+  },
+  {
+    "id": 8,
+    "titulo": "Lo que Respira Bajo la Cama",
+    "anio": 2023,
+    "director": "Nicolás Arce",
+    "subgenero": "monstruos",
+    "duracionMin": 95,
+    "clasificacion": "PG-13"
+  }
+]
