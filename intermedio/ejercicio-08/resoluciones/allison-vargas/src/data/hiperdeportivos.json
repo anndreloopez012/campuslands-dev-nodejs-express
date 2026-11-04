@@ -1,0 +1,6 @@
+[
+  { "id": 1, "marca": "Bugatti", "modelo": "Chiron", "anio": 2021, "potenciaCv": 1500, "velocidadMaxKmh": 420 },
+  { "id": 2, "marca": "Rimac", "modelo": "Nevera", "anio": 2023, "potenciaCv": 1940, "velocidadMaxKmh": 412 },
+  { "id": 3, "marca": "Pagani", "modelo": "Huayra R", "anio": 2022, "potenciaCv": 850, "velocidadMaxKmh": 370 },
+  { "id": 4, "marca": "Koenigsegg", "modelo": "Jesko", "anio": 2024, "potenciaCv": 1600, "velocidadMaxKmh": 480 }
+]
