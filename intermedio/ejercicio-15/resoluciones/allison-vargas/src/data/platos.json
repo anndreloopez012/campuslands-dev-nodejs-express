@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "nombre": "Taco al pastor",
+    "categoria": "tacos",
+    "precio": 18,
+    "vegetariano": false,
+    "disponible": true
+  },
+  {
+    "id": 2,
+    "nombre": "Taco de frijol y aguacate",
+    "categoria": "tacos",
+    "precio": 16,
+    "vegetariano": true,
+    "disponible": true
+  },
+  {
+    "id": 3,
+    "nombre": "Birria en tortilla",
+    "categoria": "tacos",
+    "precio": 28,
+    "vegetariano": false,
+    "disponible": true
+  },
+  {
+    "id": 4,
+    "nombre": "Hamburguesa clasica",
+    "categoria": "hamburguesas",
+    "precio": 42,
+    "vegetariano": false,
+    "disponible": true
+  },
+  {
+    "id": 5,
+    "nombre": "Hamburguesa de lentejas",
+    "categoria": "hamburguesas",
+    "precio": 40,
+    "vegetariano": true,
+    "disponible": true
+  },
+  {
+    "id": 6,
+    "nombre": "Bowl de pollo teriyaki",
+    "categoria": "bowls",
+    "precio": 48,
+    "vegetariano": false,
+    "disponible": true
+  },
+  {
+    "id": 7,
+    "nombre": "Bowl de garbanzos asados",
+    "categoria": "bowls",
+    "precio": 45,
+    "vegetariano": true,
+    "disponible": true
+  },
+  {
+    "id": 8,
+    "nombre": "Papas con queso",
+    "categoria": "snacks",
+    "precio": 22,
+    "vegetariano": true,
+    "disponible": true
+  },
+  {
+    "id": 9,
+    "nombre": "Elote loco",
+    "categoria": "snacks",
+    "precio": 15,
+    "vegetariano": true,
+    "disponible": true
+  },
+  {
+    "id": 10,
+    "nombre": "Limonada con chia",
+    "categoria": "bebidas",
+    "precio": 14,
+    "vegetariano": true,
+    "disponible": true
+  },
+  {
+    "id": 11,
+    "nombre": "Horchata fria",
+    "categoria": "bebidas",
+    "precio": 12,
+    "vegetariano": true,
+    "disponible": true
+  },
+  {
+    "id": 12,
+    "nombre": "Churros con chocolate",
+    "categoria": "postres",
+    "precio": 25,
+    "vegetariano": true,
+    "disponible": false
+  }
+]

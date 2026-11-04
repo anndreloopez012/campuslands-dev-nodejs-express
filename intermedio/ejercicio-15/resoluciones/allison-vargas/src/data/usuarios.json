@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ana Administradora",
+    "email": "admin@comida.test",
+    "rol": "admin",
+    "creadoEn": "2026-02-01T10:00:00.000Z",
+    "passwordHash": "de1a7e74e521dbda916b717b2921bd90:ba44dd610a92bab196935690056d7c9ddb49dddcd8b203f2f35e7e1e62779076712dd19192919ad33e412e30400374b5127d9caacb9ec5f6172779938b15b4fa"
+  },
+  {
+    "id": 2,
+    "nombre": "Vico Vendedor",
+    "email": "vendedor@comida.test",
+    "rol": "vendedor",
+    "creadoEn": "2026-02-02T10:00:00.000Z",
+    "passwordHash": "5e89ebb43dfb311a133073bb7784e505:39690d7fd99e73de0ba135bd80fe108802461a69ad085b27fc83b0de012959ff00ec15ffad4b5ab0765f915d9aa4c17d098afb46d3866f4c498917e180c473a0"
+  },
+  {
+    "id": 3,
+    "nombre": "Carla Cliente",
+    "email": "cliente@comida.test",
+    "rol": "cliente",
+    "creadoEn": "2026-02-03T10:00:00.000Z",
+    "passwordHash": "e69cb5a8ed7e2d7a82294342f31be9ec:d7c6860acfe5a1ffa7fa082cebf62a8b5506eb2f45f9a7675c07ab6e7db5c7b3858351d74c71985365914fdb53657c3c14a44f0292276774932c22760c9c1f16"
+  },
+  {
+    "id": 4,
+    "nombre": "Diego Cliente",
+    "email": "cliente2@comida.test",
+    "rol": "cliente",
+    "creadoEn": "2026-02-04T10:00:00.000Z",
+    "passwordHash": "b14423560c3c4a8d0d8c40387f10c9fd:2db1238b667c923f81a365556925828fd5d6381128a1e01066cc7a2775bfa0b59e112cb513076534f338f68451ced6ccc8650c79f4b8f84ec21cbb3ffa41e4f0"
+  }
+]
