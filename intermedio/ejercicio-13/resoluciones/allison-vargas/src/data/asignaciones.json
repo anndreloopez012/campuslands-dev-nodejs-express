@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "misionId": 1,
+    "tripulanteId": 1,
+    "rol": "lider"
+  },
+  {
+    "id": 2,
+    "misionId": 1,
+    "tripulanteId": 2,
+    "rol": "apoyo"
+  },
+  {
+    "id": 3,
+    "misionId": 1,
+    "tripulanteId": 4,
+    "rol": "especialista"
+  },
+  {
+    "id": 4,
+    "misionId": 2,
+    "tripulanteId": 5,
+    "rol": "lider"
+  },
+  {
+    "id": 5,
+    "misionId": 2,
+    "tripulanteId": 6,
+    "rol": "apoyo"
+  },
+  {
+    "id": 6,
+    "misionId": 2,
+    "tripulanteId": 7,
+    "rol": "especialista"
+  },
+  {
+    "id": 7,
+    "misionId": 3,
+    "tripulanteId": 9,
+    "rol": "lider"
+  },
+  {
+    "id": 8,
+    "misionId": 3,
+    "tripulanteId": 10,
+    "rol": "especialista"
+  },
+  {
+    "id": 9,
+    "misionId": 4,
+    "tripulanteId": 12,
+    "rol": "lider"
+  },
+  {
+    "id": 10,
+    "misionId": 4,
+    "tripulanteId": 13,
+    "rol": "apoyo"
+  },
+  {
+    "id": 11,
+    "misionId": 4,
+    "tripulanteId": 14,
+    "rol": "especialista"
+  },
+  {
+    "id": 12,
+    "misionId": 5,
+    "tripulanteId": 12,
+    "rol": "lider"
+  },
+  {
+    "id": 13,
+    "misionId": 5,
+    "tripulanteId": 15,
+    "rol": "apoyo"
+  },
+  {
+    "id": 14,
+    "misionId": 6,
+    "tripulanteId": 17,
+    "rol": "lider"
+  },
+  {
+    "id": 15,
+    "misionId": 6,
+    "tripulanteId": 18,
+    "rol": "especialista"
+  }
+]

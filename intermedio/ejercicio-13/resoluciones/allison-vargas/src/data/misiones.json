@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nombre": "Cartografía del Cinturón",
+    "destino": "Cinturón de asteroides",
+    "estado": "en-curso",
+    "naveId": 1,
+    "inicio": "2191-03-14"
+  },
+  {
+    "id": 2,
+    "nombre": "Rescate en Titán",
+    "destino": "Titán",
+    "estado": "en-curso",
+    "naveId": 2,
+    "inicio": "2191-06-02"
+  },
+  {
+    "id": 3,
+    "nombre": "Señal de Próxima",
+    "destino": "Próxima Centauri b",
+    "estado": "planificada",
+    "naveId": 3,
+    "inicio": "2192-01-20"
+  },
+  {
+    "id": 4,
+    "nombre": "Minería de Hielo",
+    "destino": "Europa",
+    "estado": "completada",
+    "naveId": 4,
+    "inicio": "2190-09-05"
+  },
+  {
+    "id": 5,
+    "nombre": "Patrulla Lunar",
+    "destino": "Órbita lunar",
+    "estado": "en-curso",
+    "naveId": 4,
+    "inicio": "2191-08-11"
+  },
+  {
+    "id": 6,
+    "nombre": "Contacto Aleph",
+    "destino": "Nube de Oort",
+    "estado": "planificada",
+    "naveId": 5,
+    "inicio": "2192-04-30"
+  },
+  {
+    "id": 7,
+    "nombre": "Escolta Orbital",
+    "destino": "Estación Gaia",
+    "estado": "cancelada",
+    "naveId": 1,
+    "inicio": "2191-01-09"
+  }
+]

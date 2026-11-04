@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "nombre": "Ilya Varnak",
+    "rango": "capitan",
+    "especie": "humano",
+    "naveId": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Mara Quillén",
+    "rango": "ingeniero",
+    "especie": "humano",
+    "naveId": 1
+  },
+  {
+    "id": 3,
+    "nombre": "UNIT-44",
+    "rango": "oficial",
+    "especie": "androide",
+    "naveId": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Sora Tenebris",
+    "rango": "medico",
+    "especie": "cyborg",
+    "naveId": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Teo Landívar",
+    "rango": "capitan",
+    "especie": "humano",
+    "naveId": 2
+  },
+  {
+    "id": 6,
+    "nombre": "Zeta Olmeda",
+    "rango": "piloto",
+    "especie": "marciano",
+    "naveId": 2
+  },
+  {
+    "id": 7,
+    "nombre": "Brenna Koval",
+    "rango": "ingeniero",
+    "especie": "humano",
+    "naveId": 2
+  },
+  {
+    "id": 8,
+    "nombre": "Quill Arroyo",
+    "rango": "cadete",
+    "especie": "humano",
+    "naveId": 2
+  },
+  {
+    "id": 9,
+    "nombre": "Nadia Orsini",
+    "rango": "capitan",
+    "especie": "humano",
+    "naveId": 3
+  },
+  {
+    "id": 10,
+    "nombre": "Hektor-3",
+    "rango": "ingeniero",
+    "especie": "androide",
+    "naveId": 3
+  },
+  {
+    "id": 11,
+    "nombre": "Lía Estrada",
+    "rango": "piloto",
+    "especie": "humano",
+    "naveId": 3
+  },
+  {
+    "id": 12,
+    "nombre": "Rurik Salazar",
+    "rango": "capitan",
+    "especie": "cyborg",
+    "naveId": 4
+  },
+  {
+    "id": 13,
+    "nombre": "Pía Montenegro",
+    "rango": "oficial",
+    "especie": "humano",
+    "naveId": 4
+  },
+  {
+    "id": 14,
+    "nombre": "Vesper-12",
+    "rango": "medico",
+    "especie": "androide",
+    "naveId": 4
+  },
+  {
+    "id": 15,
+    "nombre": "Dante Ibarra",
+    "rango": "piloto",
+    "especie": "marciano",
+    "naveId": 4
+  },
+  {
+    "id": 16,
+    "nombre": "Oriel Campos",
+    "rango": "cadete",
+    "especie": "humano",
+    "naveId": 4
+  },
+  {
+    "id": 17,
+    "nombre": "Kaia Reyes",
+    "rango": "capitan",
+    "especie": "marciano",
+    "naveId": 5
+  },
+  {
+    "id": 18,
+    "nombre": "Axel Nuñoz",
+    "rango": "ingeniero",
+    "especie": "cyborg",
+    "naveId": 5
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "nombre": "Aurora Boreal-7",
+    "clase": "cientifica",
+    "anioLanzamiento": 2187,
+    "capacidad": 4
+  },
+  {
+    "id": 2,
+    "nombre": "Nebulosa Errante",
+    "clase": "explorador",
+    "anioLanzamiento": 2191,
+    "capacidad": 5
+  },
+  {
+    "id": 3,
+    "nombre": "Horizonte Solar",
+    "clase": "carguero",
+    "anioLanzamiento": 2179,
+    "capacidad": 4
+  },
+  {
+    "id": 4,
+    "nombre": "Cóndor Estelar",
+    "clase": "militar",
+    "anioLanzamiento": 2195,
+    "capacidad": 6
+  },
+  {
+    "id": 5,
+    "nombre": "Aleph-9",
+    "clase": "explorador",
+    "anioLanzamiento": 2203,
+    "capacidad": 3
+  }
+]
