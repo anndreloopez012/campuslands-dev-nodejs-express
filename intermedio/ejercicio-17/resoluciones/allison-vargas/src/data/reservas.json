@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "tourId": 1,
+    "usuarioId": 5,
+    "personas": 2,
+    "estado": "confirmada",
+    "creadoEn": "2026-10-10T12:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "tourId": 2,
+    "usuarioId": 5,
+    "personas": 1,
+    "estado": "pendiente",
+    "creadoEn": "2026-10-11T12:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "tourId": 3,
+    "usuarioId": 6,
+    "personas": 2,
+    "estado": "pendiente",
+    "creadoEn": "2026-10-12T12:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "tourId": 3,
+    "usuarioId": 5,
+    "personas": 3,
+    "estado": "confirmada",
+    "creadoEn": "2026-10-13T12:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "tourId": 4,
+    "usuarioId": 6,
+    "personas": 4,
+    "estado": "pendiente",
+    "creadoEn": "2026-10-14T12:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "tourId": 6,
+    "usuarioId": 6,
+    "personas": 1,
+    "estado": "cancelada",
+    "creadoEn": "2026-10-15T12:00:00.000Z"
+  }
+]
