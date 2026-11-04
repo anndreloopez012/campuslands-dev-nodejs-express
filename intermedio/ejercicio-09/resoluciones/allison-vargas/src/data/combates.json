@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "peleadorId": 14,
+    "rivalId": 18,
+    "evento": "Gran Final Kick",
+    "fecha": "2024-03-03",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 2,
+    "peleadorId": 26,
+    "rivalId": 5,
+    "evento": "Gran Final Kick",
+    "fecha": "2024-04-05",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 3,
+    "peleadorId": 23,
+    "rivalId": 18,
+    "evento": "Noche de Furia",
+    "fecha": "2024-04-13",
+    "resultado": "derrota",
+    "metodo": "KO",
+    "rounds": 2
+  },
+  {
+    "id": 4,
+    "peleadorId": 12,
+    "rivalId": 8,
+    "evento": "Gran Final Kick",
+    "fecha": "2024-05-06",
+    "resultado": "victoria",
+    "metodo": "KO",
+    "rounds": 4
+  },
+  {
+    "id": 5,
+    "peleadorId": 11,
+    "rivalId": 20,
+    "evento": "Noche de Furia",
+    "fecha": "2024-06-19",
+    "resultado": "derrota",
+    "metodo": "TKO",
+    "rounds": 4
+  },
+  {
+    "id": 6,
+    "peleadorId": 15,
+    "rivalId": 22,
+    "evento": "Guerreros del Ring",
+    "fecha": "2024-07-10",
+    "resultado": "derrota",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 7,
+    "peleadorId": 1,
+    "rivalId": 28,
+    "evento": "Copa Campuslands",
+    "fecha": "2024-07-17",
+    "resultado": "victoria",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 8,
+    "peleadorId": 14,
+    "rivalId": 11,
+    "evento": "Choque de Titanes",
+    "fecha": "2024-08-19",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 9,
+    "peleadorId": 27,
+    "rivalId": 20,
+    "evento": "Gran Final Kick",
+    "fecha": "2024-10-10",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 10,
+    "peleadorId": 2,
+    "rivalId": 18,
+    "evento": "Choque de Titanes",
+    "fecha": "2024-11-06",
+    "resultado": "derrota",
+    "metodo": "TKO",
+    "rounds": 1
+  },
+  {
+    "id": 11,
+    "peleadorId": 17,
+    "rivalId": 20,
+    "evento": "Gran Final Kick",
+    "fecha": "2024-11-25",
+    "resultado": "derrota",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 12,
+    "peleadorId": 15,
+    "rivalId": 4,
+    "evento": "Gran Final Kick",
+    "fecha": "2024-12-02",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 13,
+    "peleadorId": 10,
+    "rivalId": 13,
+    "evento": "Guerreros del Ring",
+    "fecha": "2024-12-07",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 14,
+    "peleadorId": 25,
+    "rivalId": 30,
+    "evento": "Copa Campuslands",
+    "fecha": "2024-12-21",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 15,
+    "peleadorId": 14,
+    "rivalId": 1,
+    "evento": "Gran Final Kick",
+    "fecha": "2025-01-22",
+    "resultado": "victoria",
+    "metodo": "KO",
+    "rounds": 4
+  },
+  {
+    "id": 16,
+    "peleadorId": 28,
+    "rivalId": 30,
+    "evento": "Guerreros del Ring",
+    "fecha": "2025-02-17",
+    "resultado": "victoria",
+    "metodo": "KO",
+    "rounds": 3
+  },
+  {
+    "id": 17,
+    "peleadorId": 21,
+    "rivalId": 19,
+    "evento": "Copa Campuslands",
+    "fecha": "2025-02-19",
+    "resultado": "victoria",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 18,
+    "peleadorId": 5,
+    "rivalId": 10,
+    "evento": "Copa Campuslands",
+    "fecha": "2025-02-24",
+    "resultado": "victoria",
+    "metodo": "KO",
+    "rounds": 3
+  },
+  {
+    "id": 19,
+    "peleadorId": 1,
+    "rivalId": 16,
+    "evento": "Noche de Furia",
+    "fecha": "2025-03-24",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 20,
+    "peleadorId": 7,
+    "rivalId": 30,
+    "evento": "Guerreros del Ring",
+    "fecha": "2025-04-13",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 21,
+    "peleadorId": 14,
+    "rivalId": 16,
+    "evento": "Noche de Furia",
+    "fecha": "2025-04-25",
+    "resultado": "victoria",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 22,
+    "peleadorId": 30,
+    "rivalId": 17,
+    "evento": "Copa Campuslands",
+    "fecha": "2025-04-28",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 23,
+    "peleadorId": 29,
+    "rivalId": 28,
+    "evento": "Copa Campuslands",
+    "fecha": "2025-05-26",
+    "resultado": "victoria",
+    "metodo": "TKO",
+    "rounds": 1
+  },
+  {
+    "id": 24,
+    "peleadorId": 10,
+    "rivalId": 23,
+    "evento": "Noche de Furia",
+    "fecha": "2025-06-02",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 25,
+    "peleadorId": 18,
+    "rivalId": 7,
+    "evento": "Copa Campuslands",
+    "fecha": "2025-06-05",
+    "resultado": "derrota",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 26,
+    "peleadorId": 28,
+    "rivalId": 10,
+    "evento": "Choque de Titanes",
+    "fecha": "2025-07-07",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 27,
+    "peleadorId": 29,
+    "rivalId": 30,
+    "evento": "Choque de Titanes",
+    "fecha": "2025-07-10",
+    "resultado": "derrota",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 28,
+    "peleadorId": 7,
+    "rivalId": 24,
+    "evento": "Gran Final Kick",
+    "fecha": "2025-08-01",
+    "resultado": "derrota",
+    "metodo": "TKO",
+    "rounds": 3
+  },
+  {
+    "id": 29,
+    "peleadorId": 3,
+    "rivalId": 22,
+    "evento": "Choque de Titanes",
+    "fecha": "2025-08-13",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 30,
+    "peleadorId": 1,
+    "rivalId": 13,
+    "evento": "Guerreros del Ring",
+    "fecha": "2025-08-24",
+    "resultado": "derrota",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 31,
+    "peleadorId": 5,
+    "rivalId": 24,
+    "evento": "Gran Final Kick",
+    "fecha": "2025-09-13",
+    "resultado": "victoria",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 32,
+    "peleadorId": 13,
+    "rivalId": 6,
+    "evento": "Guerreros del Ring",
+    "fecha": "2025-09-28",
+    "resultado": "derrota",
+    "metodo": "TKO",
+    "rounds": 3
+  },
+  {
+    "id": 33,
+    "peleadorId": 21,
+    "rivalId": 25,
+    "evento": "Copa Campuslands",
+    "fecha": "2025-10-04",
+    "resultado": "victoria",
+    "metodo": "KO",
+    "rounds": 1
+  },
+  {
+    "id": 34,
+    "peleadorId": 13,
+    "rivalId": 2,
+    "evento": "Guerreros del Ring",
+    "fecha": "2025-11-04",
+    "resultado": "derrota",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 35,
+    "peleadorId": 1,
+    "rivalId": 20,
+    "evento": "Choque de Titanes",
+    "fecha": "2026-01-11",
+    "resultado": "derrota",
+    "metodo": "TKO",
+    "rounds": 3
+  },
+  {
+    "id": 36,
+    "peleadorId": 19,
+    "rivalId": 13,
+    "evento": "Noche de Furia",
+    "fecha": "2026-02-19",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 37,
+    "peleadorId": 13,
+    "rivalId": 5,
+    "evento": "Copa Campuslands",
+    "fecha": "2026-02-24",
+    "resultado": "derrota",
+    "metodo": "TKO",
+    "rounds": 2
+  },
+  {
+    "id": 38,
+    "peleadorId": 16,
+    "rivalId": 29,
+    "evento": "Copa Campuslands",
+    "fecha": "2026-02-28",
+    "resultado": "victoria",
+    "metodo": "KO",
+    "rounds": 4
+  },
+  {
+    "id": 39,
+    "peleadorId": 15,
+    "rivalId": 30,
+    "evento": "Noche de Furia",
+    "fecha": "2026-03-18",
+    "resultado": "victoria",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 40,
+    "peleadorId": 18,
+    "rivalId": 2,
+    "evento": "Noche de Furia",
+    "fecha": "2026-04-15",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 41,
+    "peleadorId": 1,
+    "rivalId": 9,
+    "evento": "Guerreros del Ring",
+    "fecha": "2026-04-15",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 42,
+    "peleadorId": 10,
+    "rivalId": 11,
+    "evento": "Choque de Titanes",
+    "fecha": "2026-07-06",
+    "resultado": "derrota",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 43,
+    "peleadorId": 24,
+    "rivalId": 14,
+    "evento": "Gran Final Kick",
+    "fecha": "2026-08-12",
+    "resultado": "victoria",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 44,
+    "peleadorId": 28,
+    "rivalId": 22,
+    "evento": "Gran Final Kick",
+    "fecha": "2026-08-19",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 45,
+    "peleadorId": 7,
+    "rivalId": 1,
+    "evento": "Gran Final Kick",
+    "fecha": "2026-08-21",
+    "resultado": "derrota",
+    "metodo": "KO",
+    "rounds": 3
+  },
+  {
+    "id": 46,
+    "peleadorId": 19,
+    "rivalId": 10,
+    "evento": "Copa Campuslands",
+    "fecha": "2026-09-06",
+    "resultado": "empate",
+    "metodo": "decision",
+    "rounds": 5
+  },
+  {
+    "id": 47,
+    "peleadorId": 23,
+    "rivalId": 20,
+    "evento": "Gran Final Kick",
+    "fecha": "2026-11-06",
+    "resultado": "victoria",
+    "metodo": "KO",
+    "rounds": 2
+  },
+  {
+    "id": 48,
+    "peleadorId": 5,
+    "rivalId": 19,
+    "evento": "Copa Campuslands",
+    "fecha": "2026-11-27",
+    "resultado": "derrota",
+    "metodo": "KO",
+    "rounds": 2
+  }
+]
