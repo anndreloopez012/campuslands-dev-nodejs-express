@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "peliculaId": 1,
+    "autor": "Elena Paredes",
+    "puntuacion": 4,
+    "comentario": "Esperaba más, aunque la actuación principal es sólida.",
+    "util": 12,
+    "fecha": "2025-01-17T16:24:00.000Z"
+  },
+  {
+    "id": 2,
+    "peliculaId": 1,
+    "autor": "Andrés Mora",
+    "puntuacion": 3,
+    "comentario": "La banda sonora te mete en la historia desde el inicio.",
+    "util": 10,
+    "fecha": "2025-06-28T19:02:00.000Z"
+  },
+  {
+    "id": 3,
+    "peliculaId": 1,
+    "autor": "Joaquín Lara",
+    "puntuacion": 3,
+    "comentario": "Los sustos funcionan sin abusar de los efectos.",
+    "util": 0,
+    "fecha": "2025-08-28T13:50:00.000Z"
+  },
+  {
+    "id": 4,
+    "peliculaId": 1,
+    "autor": "Daniela Solís",
+    "puntuacion": 5,
+    "comentario": "De las mejores que vi este año, la recomiendo.",
+    "util": 12,
+    "fecha": "2025-09-04T17:33:00.000Z"
+  },
+  {
+    "id": 5,
+    "peliculaId": 1,
+    "autor": "Bruno Aguirre",
+    "puntuacion": 4,
+    "comentario": "Esperaba más, aunque la actuación principal es sólida.",
+    "util": 12,
+    "fecha": "2025-01-04T09:09:00.000Z"
+  },
+  {
+    "id": 6,
+    "peliculaId": 2,
+    "autor": "Hugo Salcedo",
+    "puntuacion": 5,
+    "comentario": "La banda sonora te mete en la historia desde el inicio.",
+    "util": 0,
+    "fecha": "2025-04-03T21:18:00.000Z"
+  },
+  {
+    "id": 7,
+    "peliculaId": 2,
+    "autor": "Elena Paredes",
+    "puntuacion": 4,
+    "comentario": "De las mejores que vi este año, la recomiendo.",
+    "util": 5,
+    "fecha": "2025-01-17T16:25:00.000Z"
+  },
+  {
+    "id": 8,
+    "peliculaId": 2,
+    "autor": "Camilo Rojas",
+    "puntuacion": 4,
+    "comentario": "Los sustos funcionan sin abusar de los efectos.",
+    "util": 1,
+    "fecha": "2025-01-02T20:30:00.000Z"
+  },
+  {
+    "id": 9,
+    "peliculaId": 2,
+    "autor": "Andrés Mora",
+    "puntuacion": 3,
+    "comentario": "La banda sonora te mete en la historia desde el inicio.",
+    "util": 8,
+    "fecha": "2025-05-02T12:39:00.000Z"
+  },
+  {
+    "id": 10,
+    "peliculaId": 3,
+    "autor": "Sofía Brenes",
+    "puntuacion": 5,
+    "comentario": "Predecible, pero entretenida para una noche de miedo.",
+    "util": 11,
+    "fecha": "2025-10-24T11:58:00.000Z"
+  },
+  {
+    "id": 11,
+    "peliculaId": 3,
+    "autor": "Daniela Solís",
+    "puntuacion": 4,
+    "comentario": "La ambientación es lo mejor de toda la película.",
+    "util": 5,
+    "fecha": "2025-01-02T09:32:00.000Z"
+  },
+  {
+    "id": 12,
+    "peliculaId": 3,
+    "autor": "Paula Ibarra",
+    "puntuacion": 3,
+    "comentario": "La fotografía es impecable y el ritmo está bien llevado.",
+    "util": 3,
+    "fecha": "2025-05-06T12:39:00.000Z"
+  },
+  {
+    "id": 13,
+    "peliculaId": 3,
+    "autor": "Camilo Rojas",
+    "puntuacion": 5,
+    "comentario": "De las mejores que vi este año, la recomiendo.",
+    "util": 6,
+    "fecha": "2025-09-03T13:07:00.000Z"
+  },
+  {
+    "id": 14,
+    "peliculaId": 3,
+    "autor": "Martín Quintero",
+    "puntuacion": 2,
+    "comentario": "Me mantuvo tenso hasta el final.",
+    "util": 11,
+    "fecha": "2025-10-28T21:12:00.000Z"
+  },
+  {
+    "id": 15,
+    "peliculaId": 4,
+    "autor": "Joaquín Lara",
+    "puntuacion": 2,
+    "comentario": "Los sustos funcionan sin abusar de los efectos.",
+    "util": 8,
+    "fecha": "2025-03-17T15:47:00.000Z"
+  },
+  {
+    "id": 16,
+    "peliculaId": 4,
+    "autor": "Sofía Brenes",
+    "puntuacion": 2,
+    "comentario": "Los sustos funcionan sin abusar de los efectos.",
+    "util": 5,
+    "fecha": "2025-07-09T08:24:00.000Z"
+  },
+  {
+    "id": 17,
+    "peliculaId": 4,
+    "autor": "Paula Ibarra",
+    "puntuacion": 4,
+    "comentario": "Los sustos funcionan sin abusar de los efectos.",
+    "util": 2,
+    "fecha": "2025-01-11T20:44:00.000Z"
+  },
+  {
+    "id": 18,
+    "peliculaId": 4,
+    "autor": "Camilo Rojas",
+    "puntuacion": 3,
+    "comentario": "Me mantuvo tenso hasta el final.",
+    "util": 1,
+    "fecha": "2025-08-01T20:19:00.000Z"
+  },
+  {
+    "id": 19,
+    "peliculaId": 5,
+    "autor": "Andrés Mora",
+    "puntuacion": 2,
+    "comentario": "Esperaba más, aunque la actuación principal es sólida.",
+    "util": 9,
+    "fecha": "2025-02-17T22:59:00.000Z"
+  },
+  {
+    "id": 20,
+    "peliculaId": 5,
+    "autor": "Camilo Rojas",
+    "puntuacion": 2,
+    "comentario": "De las mejores que vi este año, la recomiendo.",
+    "util": 11,
+    "fecha": "2025-04-11T08:28:00.000Z"
+  },
+  {
+    "id": 21,
+    "peliculaId": 5,
+    "autor": "Daniela Solís",
+    "puntuacion": 3,
+    "comentario": "La banda sonora te mete en la historia desde el inicio.",
+    "util": 0,
+    "fecha": "2025-05-12T20:30:00.000Z"
+  },
+  {
+    "id": 22,
+    "peliculaId": 6,
+    "autor": "Paula Ibarra",
+    "puntuacion": 4,
+    "comentario": "Esperaba más, aunque la actuación principal es sólida.",
+    "util": 12,
+    "fecha": "2025-01-02T09:45:00.000Z"
+  },
+  {
+    "id": 23,
+    "peliculaId": 6,
+    "autor": "Camilo Rojas",
+    "puntuacion": 3,
+    "comentario": "La fotografía es impecable y el ritmo está bien llevado.",
+    "util": 7,
+    "fecha": "2025-01-20T11:14:00.000Z"
+  },
+  {
+    "id": 24,
+    "peliculaId": 6,
+    "autor": "Irene Calvo",
+    "puntuacion": 4,
+    "comentario": "La fotografía es impecable y el ritmo está bien llevado.",
+    "util": 2,
+    "fecha": "2025-10-21T19:23:00.000Z"
+  },
+  {
+    "id": 25,
+    "peliculaId": 6,
+    "autor": "Daniela Solís",
+    "puntuacion": 2,
+    "comentario": "La fotografía es impecable y el ritmo está bien llevado.",
+    "util": 11,
+    "fecha": "2025-09-06T08:41:00.000Z"
+  },
+  {
+    "id": 26,
+    "peliculaId": 7,
+    "autor": "Valentina Cruz",
+    "puntuacion": 4,
+    "comentario": "El segundo acto se hace lento pero el cierre lo compensa.",
+    "util": 9,
+    "fecha": "2025-10-04T21:57:00.000Z"
+  },
+  {
+    "id": 27,
+    "peliculaId": 7,
+    "autor": "Sofía Brenes",
+    "puntuacion": 4,
+    "comentario": "Esperaba más, aunque la actuación principal es sólida.",
+    "util": 0,
+    "fecha": "2025-05-19T11:14:00.000Z"
+  },
+  {
+    "id": 28,
+    "peliculaId": 8,
+    "autor": "Hugo Salcedo",
+    "puntuacion": 4,
+    "comentario": "Me mantuvo tenso hasta el final.",
+    "util": 9,
+    "fecha": "2025-04-16T20:47:00.000Z"
+  },
+  {
+    "id": 29,
+    "peliculaId": 8,
+    "autor": "Sofía Brenes",
+    "puntuacion": 5,
+    "comentario": "Los sustos funcionan sin abusar de los efectos.",
+    "util": 6,
+    "fecha": "2025-04-14T13:08:00.000Z"
+  },
+  {
+    "id": 30,
+    "peliculaId": 8,
+    "autor": "Elena Paredes",
+    "puntuacion": 4,
+    "comentario": "La fotografía es impecable y el ritmo está bien llevado.",
+    "util": 4,
+    "fecha": "2025-01-07T10:23:00.000Z"
+  },
+  {
+    "id": 31,
+    "peliculaId": 8,
+    "autor": "Andrés Mora",
+    "puntuacion": 3,
+    "comentario": "Me mantuvo tenso hasta el final.",
+    "util": 2,
+    "fecha": "2025-02-12T09:26:00.000Z"
+  }
+]

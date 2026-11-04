@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "peliculaId": 1,
+    "actor": "Félix Ocampo",
+    "personaje": "La abuela",
+    "principal": true
+  },
+  {
+    "id": 2,
+    "peliculaId": 1,
+    "actor": "Ámbar Reyes",
+    "personaje": "El vecino",
+    "principal": true
+  },
+  {
+    "id": 3,
+    "peliculaId": 1,
+    "actor": "Gonzalo Serra",
+    "personaje": "La niña",
+    "principal": false
+  },
+  {
+    "id": 4,
+    "peliculaId": 2,
+    "actor": "Óscar Linares",
+    "personaje": "El vecino",
+    "principal": true
+  },
+  {
+    "id": 5,
+    "peliculaId": 2,
+    "actor": "Ximena Peña",
+    "personaje": "El cartero",
+    "principal": true
+  },
+  {
+    "id": 6,
+    "peliculaId": 2,
+    "actor": "Ismael Cortés",
+    "personaje": "El guardia",
+    "principal": false
+  },
+  {
+    "id": 7,
+    "peliculaId": 2,
+    "actor": "Clara Estévez",
+    "personaje": "La madre",
+    "principal": false
+  },
+  {
+    "id": 8,
+    "peliculaId": 2,
+    "actor": "Darío Vela",
+    "personaje": "La enfermera",
+    "principal": false
+  },
+  {
+    "id": 9,
+    "peliculaId": 3,
+    "actor": "Abril Quesada",
+    "personaje": "El periodista",
+    "principal": true
+  },
+  {
+    "id": 10,
+    "peliculaId": 3,
+    "actor": "Rodrigo Palma",
+    "personaje": "La niña",
+    "principal": true
+  },
+  {
+    "id": 11,
+    "peliculaId": 3,
+    "actor": "Ismael Cortés",
+    "personaje": "El cartero",
+    "principal": false
+  },
+  {
+    "id": 12,
+    "peliculaId": 3,
+    "actor": "Ámbar Reyes",
+    "personaje": "El guardia",
+    "principal": false
+  },
+  {
+    "id": 13,
+    "peliculaId": 3,
+    "actor": "Lucía Montero",
+    "personaje": "La abuela",
+    "principal": false
+  },
+  {
+    "id": 14,
+    "peliculaId": 4,
+    "actor": "Ismael Cortés",
+    "personaje": "La madre",
+    "principal": true
+  },
+  {
+    "id": 15,
+    "peliculaId": 4,
+    "actor": "Teresa Lugo",
+    "personaje": "La niña",
+    "principal": true
+  },
+  {
+    "id": 16,
+    "peliculaId": 4,
+    "actor": "Abril Quesada",
+    "personaje": "El vecino",
+    "principal": false
+  },
+  {
+    "id": 17,
+    "peliculaId": 4,
+    "actor": "Ximena Peña",
+    "personaje": "El periodista",
+    "principal": false
+  },
+  {
+    "id": 18,
+    "peliculaId": 5,
+    "actor": "Ximena Peña",
+    "personaje": "El forense",
+    "principal": true
+  },
+  {
+    "id": 19,
+    "peliculaId": 5,
+    "actor": "Noelia Ferrer",
+    "personaje": "El sacerdote",
+    "principal": true
+  },
+  {
+    "id": 20,
+    "peliculaId": 5,
+    "actor": "Félix Ocampo",
+    "personaje": "La abuela",
+    "principal": false
+  },
+  {
+    "id": 21,
+    "peliculaId": 6,
+    "actor": "Teresa Lugo",
+    "personaje": "El cartero",
+    "principal": true
+  },
+  {
+    "id": 22,
+    "peliculaId": 6,
+    "actor": "Ámbar Reyes",
+    "personaje": "La investigadora",
+    "principal": true
+  },
+  {
+    "id": 23,
+    "peliculaId": 6,
+    "actor": "Félix Ocampo",
+    "personaje": "La enfermera",
+    "principal": false
+  },
+  {
+    "id": 24,
+    "peliculaId": 6,
+    "actor": "Gonzalo Serra",
+    "personaje": "El sacerdote",
+    "principal": false
+  },
+  {
+    "id": 25,
+    "peliculaId": 7,
+    "actor": "Ismael Cortés",
+    "personaje": "El sacerdote",
+    "principal": true
+  },
+  {
+    "id": 26,
+    "peliculaId": 7,
+    "actor": "Gonzalo Serra",
+    "personaje": "El periodista",
+    "principal": true
+  },
+  {
+    "id": 27,
+    "peliculaId": 7,
+    "actor": "Óscar Linares",
+    "personaje": "La enfermera",
+    "principal": false
+  },
+  {
+    "id": 28,
+    "peliculaId": 7,
+    "actor": "Teresa Lugo",
+    "personaje": "La abuela",
+    "principal": false
+  },
+  {
+    "id": 29,
+    "peliculaId": 7,
+    "actor": "Rodrigo Palma",
+    "personaje": "La madre",
+    "principal": false
+  },
+  {
+    "id": 30,
+    "peliculaId": 8,
+    "actor": "Darío Vela",
+    "personaje": "El vecino",
+    "principal": true
+  },
+  {
+    "id": 31,
+    "peliculaId": 8,
+    "actor": "Félix Ocampo",
+    "personaje": "La hermana",
+    "principal": true
+  },
+  {
+    "id": 32,
+    "peliculaId": 8,
+    "actor": "Gonzalo Serra",
+    "personaje": "El cartero",
+    "principal": false
+  }
+]
