@@ -1,0 +1,27 @@
+export const ordenJugadores = {
+  maxCriterios: 4,
+  limiteDefault: 10,
+  limiteMax: 50,
+  porDefecto: 'ranking:asc',
+  campos: {
+    id: { tipo: 'numero' },
+    nombre: { tipo: 'texto' },
+    pais: { tipo: 'texto' },
+    categoria: { tipo: 'enum', valores: ['junior', 'sub23', 'elite', 'veterano'] },
+    edad: { tipo: 'numero' },
+    ranking: { tipo: 'numero' },
+    puntos: { tipo: 'numero' },
+    victorias: { tipo: 'numero' },
+    derrotas: { tipo: 'numero' },
+    efectividad: { tipo: 'numero' },
+    fechaIngreso: { tipo: 'fecha' },
+    activo: { tipo: 'booleano' },
+  },
+  vistas: {
+    ranking: 'ranking:asc',
+    puntos: 'puntos:desc,victorias:desc',
+    efectividad: 'efectividad:desc,victorias:desc',
+    veteranos: 'edad:desc,nombre:asc',
+    nuevos: 'fechaIngreso:desc',
+  },
+};
