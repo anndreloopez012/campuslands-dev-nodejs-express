@@ -1,0 +1,5 @@
+[
+  { "id": 1, "marca": "Honda", "modelo": "CB190R", "anio": 2022, "cilindraje": 184, "placa": "M123ABC", "estado": "activa" },
+  { "id": 2, "marca": "Yamaha", "modelo": "MT-07", "anio": 2021, "cilindraje": 689, "placa": "M456DEF", "estado": "en taller" },
+  { "id": 3, "marca": "Suzuki", "modelo": "GN125", "anio": 2018, "cilindraje": 125, "placa": "M789GHI", "estado": "vendida" }
+]
