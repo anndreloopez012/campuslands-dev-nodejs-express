@@ -1,0 +1,6 @@
+[
+  { "id": 1, "marca": "Aston Martin", "modelo": "DB12", "anio": 2024, "precio": 245000, "estado": "disponible" },
+  { "id": 2, "marca": "Bentley", "modelo": "Continental GT", "anio": 2023, "precio": 230000, "estado": "reservado" },
+  { "id": 3, "marca": "Rolls-Royce", "modelo": "Ghost", "anio": 2022, "precio": 340000, "estado": "vendido" },
+  { "id": 4, "marca": "Ferrari", "modelo": "Roma", "anio": 2024, "precio": 260000, "estado": "disponible" }
+]
