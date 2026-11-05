@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio-01",
+  "version": "1.0.0",
+  "description": "Básico 01 - Node runtime y consola con temática de RPG",
+  "keywords": [
+    "node.js",
+    "anderson-oloroso",
+    "ejercicio-01",
+    "rpg",
+    "runtime"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
