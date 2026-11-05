@@ -1,0 +1,61 @@
+fecha,torneo,mesa,local,visita,mejorDe,setsLocal,setsVisita,puntosLocal,puntosVisita
+2026-01-10,Liga Municipal,4,Valeria Ortiz,Nicolas Prado,5,3,2,43,40
+2026-01-11,Abierto de Otono,4,Camila Fuentes,Sofia Herrera,3,2,1,27,17
+2026-01-12,Copa Verano,2,Camila Fuentes,Lucia Mendez,5,3,1,44,32
+2026-01-14,Liga Municipal,4,Mateo Rojas,Andres Castillo,3,0,2,9,22
+2026-01-15,Liga Municipal,4,Valeria Ortiz,Diego Salazar,5,2,3,37,41
+2026-01-16,Copa Verano,1,Valeria Ortiz,Diego Salazar,5,3,1,35,22
+2026-01-17,Abierto de Otono,1,Sofia Herrera,Nicolas Prado,3,2,1,25,15
+2026-01-18,Liga Municipal,4,Mateo Rojas,Bruno Aguilar,3,2,0,22,4
+2026-01-19,Copa Verano,1,Mateo Rojas,Andres Castillo,5,3,1,36,28
+2026-01-20,Liga Municipal,4,Camila Fuentes,Valeria Ortiz,5,1,3,30,35
+2026-01-22,Liga Municipal,1,Mateo Rojas,Valeria Ortiz,3,0,2,12,22
+2026-01-23,Copa Verano,4,Andres Castillo,Nicolas Prado,5,3,0,34,16
+2026-01-24,Liga Municipal,1,Andres Castillo,Mateo Rojas,5,1,3,27,33
+2026-01-25,Liga Municipal,4,Nicolas Prado,Valeria Ortiz,3,0,2,16,23
+2026-01-25,Abierto de Otono,3,Elena Duarte,Valeria Ortiz,5,0,3,19,34
+2026-01-26,Liga Municipal,3,Andres Castillo,Valeria Ortiz,5,1,3,34,39
+2026-01-27,Abierto de Otono,4,Elena Duarte,Bruno Aguilar,5,2,3,37,48
+2026-01-28,Liga Municipal,4,Valeria Ortiz,Elena Duarte,3,2,0,22,7
+2026-01-29,Copa Verano,2,Diego Salazar,Sofia Herrera,5,3,0,33,20
+2026-01-30,Liga Municipal,2,Lucia Mendez,Diego Salazar,5,1,3,24,43
+2026-01-31,Liga Municipal,3,Nicolas Prado,Bruno Aguilar,5,3,1,44,38
+2026-02-01,Abierto de Otono,3,Camila Fuentes,Bruno Aguilar,3,1,2,24,32
+2026-02-02,Abierto de Otono,2,Mateo Rojas,Elena Duarte,5,3,2,50,33
+2026-02-03,Liga Municipal,1,Bruno Aguilar,Sofia Herrera,5,1,3,31,41
+2026-02-04,Liga Municipal,1,Elena Duarte,Lucia Mendez,3,0,2,11,23
+2026-02-04,Abierto de Otono,2,Camila Fuentes,Elena Duarte,5,3,0,33,12
+2026-02-06,Copa Verano,4,Camila Fuentes,Elena Duarte,5,3,1,44,31
+2026-02-07,Copa Verano,1,Lucia Mendez,Andres Castillo,5,3,1,35,30
+2026-02-08,Copa Verano,3,Diego Salazar,Valeria Ortiz,3,2,1,26,20
+2026-02-09,Abierto de Otono,2,Nicolas Prado,Mateo Rojas,3,2,1,30,25
+2026-02-10,Copa Verano,1,Mateo Rojas,Andres Castillo,5,2,3,50,45
+2026-02-11,Copa Verano,1,Diego Salazar,Elena Duarte,5,3,0,34,21
+2026-02-12,Liga Municipal,4,Diego Salazar,Valeria Ortiz,3,2,1,23,23
+2026-02-13,Liga Municipal,4,Lucia Mendez,Camila Fuentes,3,0,2,6,22
+2026-02-13,Copa Verano,3,Sofia Herrera,Mateo Rojas,5,0,3,19,33
+2026-02-15,Abierto de Otono,3,Lucia Mendez,Diego Salazar,3,2,0,24,20
+2026-02-16,Liga Municipal,1,Mateo Rojas,Bruno Aguilar,5,3,1,43,23
+2026-02-17,Abierto de Otono,1,Elena Duarte,Valeria Ortiz,3,0,2,19,23
+2026-02-17,Copa Verano,4,Diego Salazar,Andres Castillo,5,2,3,37,47
+2026-02-18,Liga Municipal,1,Valeria Ortiz,Mateo Rojas,5,1,3,22,34
+2026-02-19,Copa Verano,4,Camila Fuentes,Lucia Mendez,5,2,3,46,42
+2026-02-20,Abierto de Otono,2,Camila Fuentes,Valeria Ortiz,5,0,3,8,33
+2026-02-22,Abierto de Otono,4,Andres Castillo,Diego Salazar,3,2,1,22,23
+2026-02-23,Abierto de Otono,1,Diego Salazar,Nicolas Prado,5,3,2,41,36
+2026-02-24,Copa Verano,4,Valeria Ortiz,Camila Fuentes,5,0,3,20,35
+2026-02-26,Copa Verano,1,Andres Castillo,Lucia Mendez,5,3,0,33,6
+2026-02-27,Copa Verano,3,Andres Castillo,Diego Salazar,5,1,3,28,43
+2026-02-28,Liga Municipal,2,Bruno Aguilar,Elena Duarte,5,3,0,33,5
+2026-03-01,Liga Municipal,4,Andres Castillo,Lucia Mendez,5,1,3,15,41
+2026-03-03,Copa Verano,4,Nicolas Prado,Bruno Aguilar,5,3,1,35,23
+2026-03-03,Abierto de Otono,1,Elena Duarte,Bruno Aguilar,5,3,1,41,19
+2026-03-05,Copa Verano,1,Valeria Ortiz,Camila Fuentes,3,1,2,31,33
+2026-03-06,Abierto de Otono,4,Diego Salazar,Mateo Rojas,5,2,3,39,41
+2026-03-06,Liga Municipal,2,Andres Castillo,Bruno Aguilar,5,3,1,42,32
+2026-03-07,Abierto de Otono,4,Elena Duarte,Diego Salazar,3,2,0,23,14
+2026-03-09,Copa Verano,3,Valeria Ortiz,Sofia Herrera,5,3,1,38,34
+2026-03-10,Copa Verano,1,Sofia Herrera,Lucia Mendez,5,0,3,23,34
+2026-03-10,Abierto de Otono,3,Andres Castillo,Mateo Rojas,5,1,3,25,42
+2026-03-12,Copa Verano,4,Valeria Ortiz,Lucia Mendez,5,2,3,40,34
+2026-03-13,Liga Municipal,2,Valeria Ortiz,Sofia Herrera,5,3,0,33,18
