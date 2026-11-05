@@ -1,0 +1,11 @@
+{
+  "name": "intermedio-12-subrecursos-rest",
+  "version": "1.0.0",
+  "description": "Intermedio 12 - Subrecursos REST con temática de películas de miedo",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
