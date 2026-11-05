@@ -1,0 +1,14 @@
+[
+  { "id": 1, "nombre": "Marco Silva", "pais": "Brasil", "categoria": "ligero", "guardia": "ortodoxa" },
+  { "id": 2, "nombre": "Dario Quispe", "pais": "Peru", "categoria": "ligero", "guardia": "zurda" },
+  { "id": 3, "nombre": "Kenji Mori", "pais": "Japon", "categoria": "ligero", "guardia": "ortodoxa" },
+  { "id": 4, "nombre": "Luca Ferri", "pais": "Italia", "categoria": "ligero", "guardia": "zurda" },
+  { "id": 5, "nombre": "Andrei Volkov", "pais": "Rusia", "categoria": "medio", "guardia": "ortodoxa" },
+  { "id": 6, "nombre": "Tomas Reyes", "pais": "Mexico", "categoria": "medio", "guardia": "ortodoxa" },
+  { "id": 7, "nombre": "Sami Haddad", "pais": "Marruecos", "categoria": "medio", "guardia": "zurda" },
+  { "id": 8, "nombre": "Pieter Brandt", "pais": "Paises Bajos", "categoria": "medio", "guardia": "ortodoxa" },
+  { "id": 9, "nombre": "Jorge Alvarado", "pais": "Guatemala", "categoria": "pesado", "guardia": "ortodoxa" },
+  { "id": 10, "nombre": "Ivan Petrov", "pais": "Bulgaria", "categoria": "pesado", "guardia": "zurda" },
+  { "id": 11, "nombre": "Ethan Cole", "pais": "Estados Unidos", "categoria": "pesado", "guardia": "ortodoxa" },
+  { "id": 12, "nombre": "Mateus Duarte", "pais": "Portugal", "categoria": "pesado", "guardia": "zurda" }
+]
