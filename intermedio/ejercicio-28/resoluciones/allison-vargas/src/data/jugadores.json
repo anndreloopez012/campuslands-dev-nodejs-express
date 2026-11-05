@@ -1,0 +1,10 @@
+[
+  {"id":1,"nick":"Ghost","region":"na","partidas":42,"victorias":9,"kills":120,"creadoEn":"2026-10-01T12:00:00.000Z"},
+  {"id":2,"nick":"Valkyria","region":"eu","partidas":55,"victorias":14,"kills":210,"creadoEn":"2026-10-02T12:00:00.000Z"},
+  {"id":3,"nick":"Rastro","region":"latam","partidas":30,"victorias":4,"kills":64,"creadoEn":"2026-10-03T12:00:00.000Z"},
+  {"id":4,"nick":"Kenji","region":"asia","partidas":61,"victorias":18,"kills":305,"creadoEn":"2026-10-04T12:00:00.000Z"},
+  {"id":5,"nick":"Mara","region":"latam","partidas":12,"victorias":1,"kills":15,"creadoEn":"2026-10-05T12:00:00.000Z"},
+  {"id":6,"nick":"Boreal","region":"eu","partidas":24,"victorias":3,"kills":41,"creadoEn":"2026-10-06T12:00:00.000Z"},
+  {"id":7,"nick":"Zorro","region":"na","partidas":8,"victorias":0,"kills":6,"creadoEn":"2026-10-07T12:00:00.000Z"},
+  {"id":8,"nick":"Luna","region":"asia","partidas":37,"victorias":7,"kills":98,"creadoEn":"2026-10-08T12:00:00.000Z"}
+]

@@ -1,0 +1,984 @@
+{
+  "info": {
+    "name": "Battle royale API - coleccion de ejemplos HTTP",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "base",
+      "value": "http://localhost:3000/intermedio/ejercicio-28"
+    }
+  ],
+  "item": [
+    {
+      "name": "Sistema",
+      "item": [
+        {
+          "name": "Endpoint principal (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/",
+              "host": [
+                "{{base}}"
+              ],
+              "path": []
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jugadores",
+      "item": [
+        {
+          "name": "Listar jugadores de latam ordenados por kills (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/jugadores?region=latam&orden=kills&limite=3",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores"
+              ],
+              "query": [
+                {
+                  "key": "region",
+                  "value": "latam"
+                },
+                {
+                  "key": "orden",
+                  "value": "kills"
+                },
+                {
+                  "key": "limite",
+                  "value": "3"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "name": "Crear el jugador A (201)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 201', () => pm.response.to.have.status(201));",
+                  "const cuerpo = pm.response.json();",
+                  "pm.collectionVariables.set('jugadorA', cuerpo.data.id);",
+                  "pm.collectionVariables.set('nickA', cuerpo.data.nick);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nick\": \"Ana_{{$randomInt}}\",\n  \"region\": \"latam\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Crear el jugador B (201)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 201', () => pm.response.to.have.status(201));",
+                  "const cuerpo = pm.response.json();",
+                  "pm.collectionVariables.set('jugadorB', cuerpo.data.id);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nick\": \"Beto_{{$randomInt}}\",\n  \"region\": \"latam\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Crear el jugador C (201)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 201', () => pm.response.to.have.status(201));",
+                  "const cuerpo = pm.response.json();",
+                  "pm.collectionVariables.set('jugadorC', cuerpo.data.id);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nick\": \"Caro_{{$randomInt}}\",\n  \"region\": \"eu\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ver el detalle del jugador A (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/jugadores/{{jugadorA}}",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores",
+                "{{jugadorA}}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Buscar jugadores por nick (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/jugadores?buscar=ana&limite=5",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores"
+              ],
+              "query": [
+                {
+                  "key": "buscar",
+                  "value": "ana"
+                },
+                {
+                  "key": "limite",
+                  "value": "5"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Partidas",
+      "item": [
+        {
+          "name": "Crear una partida en la isla con 3 cupos (201)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 201', () => pm.response.to.have.status(201));",
+                  "const cuerpo = pm.response.json();",
+                  "pm.collectionVariables.set('partidaId', cuerpo.data.id);"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/partidas",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"mapa\": \"isla\",\n  \"cupos\": 3\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Unir al jugador A (201)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 201', () => pm.response.to.have.status(201));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}",
+                "jugadores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jugadorId\": {{jugadorA}}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Unir al jugador B (201)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 201', () => pm.response.to.have.status(201));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}",
+                "jugadores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jugadorId\": {{jugadorB}}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Unir al jugador C (201)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 201', () => pm.response.to.have.status(201));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}",
+                "jugadores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jugadorId\": {{jugadorC}}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Retirar al jugador C antes de empezar (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}/jugadores/{{jugadorC}}",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}",
+                "jugadores",
+                "{{jugadorC}}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Volver a unir al jugador C (201)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 201', () => pm.response.to.have.status(201));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}",
+                "jugadores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jugadorId\": {{jugadorC}}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ver la partida con sus participantes (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Iniciar la partida (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}/iniciar",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}",
+                "iniciar"
+              ]
+            }
+          }
+        },
+        {
+          "name": "A elimina a C (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}/eliminaciones",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}",
+                "eliminaciones"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"eliminadoId\": {{jugadorC}},\n  \"eliminadorId\": {{jugadorA}}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "A elimina a B y gana la partida (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}/eliminaciones",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}",
+                "eliminaciones"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"eliminadoId\": {{jugadorB}},\n  \"eliminadorId\": {{jugadorA}}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Ver los resultados de la partida (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}/resultados",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}",
+                "resultados"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Listar partidas finalizadas (200)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 200', () => pm.response.to.have.status(200));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/partidas?estado=finalizada&limite=5",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas"
+              ],
+              "query": [
+                {
+                  "key": "estado",
+                  "value": "finalizada"
+                },
+                {
+                  "key": "limite",
+                  "value": "5"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Errores",
+      "item": [
+        {
+          "name": "Crear jugador con datos invalidos (400) (400)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 400', () => pm.response.to.have.status(400));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nick\": \"x!\",\n  \"region\": \"marte\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Consultar una partida con id invalido (400) (400)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 400', () => pm.response.to.have.status(400));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/partidas/abc",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "abc"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Consultar un jugador que no existe (404) (404)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 404', () => pm.response.to.have.status(404));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/jugadores/999999",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores",
+                "999999"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Crear un jugador con un nick repetido (409) (409)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 409', () => pm.response.to.have.status(409));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"nick\": \"{{nickA}}\",\n  \"region\": \"na\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Iniciar una partida que ya termino (409) (409)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 409', () => pm.response.to.have.status(409));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/partidas/{{partidaId}}/iniciar",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "partidas",
+                "{{partidaId}}",
+                "iniciar"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Usar un metodo no permitido (405) (405)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 405', () => pm.response.to.have.status(405));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{base}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Enviar un body que no es JSON (415) (415)",
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "pm.test('Responde 415', () => pm.response.to.have.status(415));"
+                ]
+              }
+            }
+          ],
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "text/plain"
+              }
+            ],
+            "url": {
+              "raw": "{{base}}/jugadores",
+              "host": [
+                "{{base}}"
+              ],
+              "path": [
+                "jugadores"
+              ]
+            },
+            "body": {
+              "mode": "raw",
+              "raw": "nick=Ana",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

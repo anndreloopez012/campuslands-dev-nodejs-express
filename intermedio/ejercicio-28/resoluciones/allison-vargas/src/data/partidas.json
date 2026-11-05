@@ -1,0 +1,4 @@
+[
+  {"id":1,"mapa":"isla","cupos":4,"estado":"finalizada","participantes":[1,2,3,4],"eliminaciones":[{"eliminadoId":3,"eliminadorId":4,"posicion":4},{"eliminadoId":1,"eliminadorId":4,"posicion":3},{"eliminadoId":2,"eliminadorId":4,"posicion":2}],"ganadorId":4,"creadaEn":"2026-10-10T10:00:00.000Z","iniciadaEn":"2026-10-10T10:05:00.000Z","finalizadaEn":"2026-10-10T10:20:00.000Z"},
+  {"id":2,"mapa":"desierto","cupos":6,"estado":"esperando","participantes":[5,6],"eliminaciones":[],"ganadorId":null,"creadaEn":"2026-11-01T10:00:00.000Z","iniciadaEn":null,"finalizadaEn":null}
+]
