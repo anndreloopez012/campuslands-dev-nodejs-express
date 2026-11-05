@@ -1,0 +1,437 @@
+[
+  {
+    "id": 1,
+    "nombre": "Aegis",
+    "rol": "tanque",
+    "dificultad": 2,
+    "estadisticas": {
+      "vida": 3200,
+      "mana": 400,
+      "ataque": 60,
+      "armadura": 90
+    },
+    "habilidades": [
+      {
+        "tecla": "Q",
+        "nombre": "Golpe de Escudo",
+        "enfriamiento": 8,
+        "costoMana": 50
+      },
+      {
+        "tecla": "W",
+        "nombre": "Muro Firme",
+        "enfriamiento": 12,
+        "costoMana": 60
+      },
+      {
+        "tecla": "E",
+        "nombre": "Embestida",
+        "enfriamiento": 16,
+        "costoMana": 70
+      },
+      {
+        "tecla": "R",
+        "nombre": "Fortaleza",
+        "enfriamiento": 90,
+        "costoMana": 100
+      }
+    ],
+    "etiquetas": [
+      "tanque",
+      "dificultad-2"
+    ],
+    "lanzamiento": "2024-01-10",
+    "creadoEn": "2026-09-01T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "nombre": "Bruma",
+    "rol": "mago",
+    "dificultad": 4,
+    "estadisticas": {
+      "vida": 1800,
+      "mana": 1200,
+      "ataque": 55,
+      "armadura": 25
+    },
+    "habilidades": [
+      {
+        "tecla": "Q",
+        "nombre": "Nube Toxica",
+        "enfriamiento": 8,
+        "costoMana": 50
+      },
+      {
+        "tecla": "W",
+        "nombre": "Rafaga Fria",
+        "enfriamiento": 12,
+        "costoMana": 60
+      },
+      {
+        "tecla": "E",
+        "nombre": "Salto Etereo",
+        "enfriamiento": 16,
+        "costoMana": 70
+      },
+      {
+        "tecla": "R",
+        "nombre": "Tormenta",
+        "enfriamiento": 90,
+        "costoMana": 100
+      }
+    ],
+    "etiquetas": [
+      "mago"
+    ],
+    "lanzamiento": "2024-02-11",
+    "creadoEn": "2026-09-02T10:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "nombre": "Cinder",
+    "rol": "tirador",
+    "dificultad": 3,
+    "estadisticas": {
+      "vida": 1900,
+      "mana": 600,
+      "ataque": 95,
+      "armadura": 30
+    },
+    "habilidades": [
+      {
+        "tecla": "Q",
+        "nombre": "Disparo Doble",
+        "enfriamiento": 8,
+        "costoMana": 50
+      },
+      {
+        "tecla": "W",
+        "nombre": "Rodar",
+        "enfriamiento": 12,
+        "costoMana": 60
+      },
+      {
+        "tecla": "E",
+        "nombre": "Trampa Ardiente",
+        "enfriamiento": 16,
+        "costoMana": 70
+      },
+      {
+        "tecla": "R",
+        "nombre": "Lluvia de Brasas",
+        "enfriamiento": 90,
+        "costoMana": 100
+      }
+    ],
+    "etiquetas": [
+      "tirador",
+      "dificultad-3"
+    ],
+    "lanzamiento": "2024-03-12",
+    "creadoEn": "2026-09-03T10:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "nombre": "Dusk",
+    "rol": "asesino",
+    "dificultad": 5,
+    "estadisticas": {
+      "vida": 1700,
+      "mana": 500,
+      "ataque": 110,
+      "armadura": 28
+    },
+    "habilidades": [
+      {
+        "tecla": "Q",
+        "nombre": "Corte Sombrio",
+        "enfriamiento": 8,
+        "costoMana": 50
+      },
+      {
+        "tecla": "W",
+        "nombre": "Paso Fugaz",
+        "enfriamiento": 12,
+        "costoMana": 60
+      },
+      {
+        "tecla": "E",
+        "nombre": "Marca Letal",
+        "enfriamiento": 16,
+        "costoMana": 70
+      },
+      {
+        "tecla": "R",
+        "nombre": "Ejecucion",
+        "enfriamiento": 90,
+        "costoMana": 100
+      }
+    ],
+    "etiquetas": [
+      "asesino"
+    ],
+    "lanzamiento": "2024-04-13",
+    "creadoEn": "2026-09-04T10:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "nombre": "Ember",
+    "rol": "luchador",
+    "dificultad": 3,
+    "estadisticas": {
+      "vida": 2600,
+      "mana": 300,
+      "ataque": 80,
+      "armadura": 55
+    },
+    "habilidades": [
+      {
+        "tecla": "Q",
+        "nombre": "Tajo Ardiente",
+        "enfriamiento": 8,
+        "costoMana": 50
+      },
+      {
+        "tecla": "W",
+        "nombre": "Guardia",
+        "enfriamiento": 12,
+        "costoMana": 60
+      },
+      {
+        "tecla": "E",
+        "nombre": "Carga",
+        "enfriamiento": 16,
+        "costoMana": 70
+      },
+      {
+        "tecla": "R",
+        "nombre": "Furia",
+        "enfriamiento": 90,
+        "costoMana": 100
+      }
+    ],
+    "etiquetas": [
+      "luchador",
+      "dificultad-3"
+    ],
+    "lanzamiento": "2024-05-14",
+    "creadoEn": "2026-09-05T10:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "nombre": "Fable",
+    "rol": "soporte",
+    "dificultad": 2,
+    "estadisticas": {
+      "vida": 2000,
+      "mana": 1100,
+      "ataque": 45,
+      "armadura": 35
+    },
+    "habilidades": [
+      {
+        "tecla": "Q",
+        "nombre": "Cancion Suave",
+        "enfriamiento": 8,
+        "costoMana": 50
+      },
+      {
+        "tecla": "W",
+        "nombre": "Velo Protector",
+        "enfriamiento": 12,
+        "costoMana": 60
+      },
+      {
+        "tecla": "E",
+        "nombre": "Impulso",
+        "enfriamiento": 16,
+        "costoMana": 70
+      },
+      {
+        "tecla": "R",
+        "nombre": "Himno Final",
+        "enfriamiento": 90,
+        "costoMana": 100
+      }
+    ],
+    "etiquetas": [
+      "soporte"
+    ],
+    "lanzamiento": "2024-06-15",
+    "creadoEn": "2026-09-06T10:00:00.000Z"
+  },
+  {
+    "id": 7,
+    "nombre": "Gale",
+    "rol": "tirador",
+    "dificultad": 4,
+    "estadisticas": {
+      "vida": 1850,
+      "mana": 700,
+      "ataque": 100,
+      "armadura": 27
+    },
+    "habilidades": [
+      {
+        "tecla": "Q",
+        "nombre": "Flecha Veloz",
+        "enfriamiento": 8,
+        "costoMana": 50
+      },
+      {
+        "tecla": "W",
+        "nombre": "Viento Trasero",
+        "enfriamiento": 12,
+        "costoMana": 60
+      },
+      {
+        "tecla": "E",
+        "nombre": "Red de Cuerda",
+        "enfriamiento": 16,
+        "costoMana": 70
+      },
+      {
+        "tecla": "R",
+        "nombre": "Tempestad",
+        "enfriamiento": 90,
+        "costoMana": 100
+      }
+    ],
+    "etiquetas": [
+      "tirador",
+      "dificultad-4"
+    ],
+    "lanzamiento": "2024-07-16",
+    "creadoEn": "2026-09-07T10:00:00.000Z"
+  },
+  {
+    "id": 8,
+    "nombre": "Halo",
+    "rol": "soporte",
+    "dificultad": 3,
+    "estadisticas": {
+      "vida": 2100,
+      "mana": 1000,
+      "ataque": 40,
+      "armadura": 40
+    },
+    "habilidades": [
+      {
+        "tecla": "Q",
+        "nombre": "Destello",
+        "enfriamiento": 8,
+        "costoMana": 50
+      },
+      {
+        "tecla": "W",
+        "nombre": "Bendicion",
+        "enfriamiento": 12,
+        "costoMana": 60
+      },
+      {
+        "tecla": "E",
+        "nombre": "Cadena de Luz",
+        "enfriamiento": 16,
+        "costoMana": 70
+      },
+      {
+        "tecla": "R",
+        "nombre": "Renacer",
+        "enfriamiento": 90,
+        "costoMana": 100
+      }
+    ],
+    "etiquetas": [
+      "soporte"
+    ],
+    "lanzamiento": "2024-08-17",
+    "creadoEn": "2026-09-08T10:00:00.000Z"
+  },
+  {
+    "id": 9,
+    "nombre": "Ironclad",
+    "rol": "tanque",
+    "dificultad": 1,
+    "estadisticas": {
+      "vida": 3500,
+      "mana": 0,
+      "ataque": 70,
+      "armadura": 100
+    },
+    "habilidades": [
+      {
+        "tecla": "Q",
+        "nombre": "Martillazo",
+        "enfriamiento": 8,
+        "costoMana": 0
+      },
+      {
+        "tecla": "W",
+        "nombre": "Postura",
+        "enfriamiento": 12,
+        "costoMana": 0
+      },
+      {
+        "tecla": "E",
+        "nombre": "Provocar",
+        "enfriamiento": 16,
+        "costoMana": 0
+      },
+      {
+        "tecla": "R",
+        "nombre": "Terremoto",
+        "enfriamiento": 90,
+        "costoMana": 0
+      }
+    ],
+    "etiquetas": [
+      "tanque",
+      "dificultad-1"
+    ],
+    "lanzamiento": "2024-09-18",
+    "creadoEn": "2026-09-09T10:00:00.000Z"
+  },
+  {
+    "id": 10,
+    "nombre": "Kestrel",
+    "rol": "mago",
+    "dificultad": 5,
+    "estadisticas": {
+      "vida": 1750,
+      "mana": 1300,
+      "ataque": 60,
+      "armadura": 22
+    },
+    "habilidades": [
+      {
+        "tecla": "Q",
+        "nombre": "Orbe Arcano",
+        "enfriamiento": 8,
+        "costoMana": 50
+      },
+      {
+        "tecla": "W",
+        "nombre": "Teletransporte",
+        "enfriamiento": 12,
+        "costoMana": 60
+      },
+      {
+        "tecla": "E",
+        "nombre": "Prision",
+        "enfriamiento": 16,
+        "costoMana": 70
+      },
+      {
+        "tecla": "R",
+        "nombre": "Colapso",
+        "enfriamiento": 90,
+        "costoMana": 100
+      }
+    ],
+    "etiquetas": [
+      "mago"
+    ],
+    "lanzamiento": "2024-01-10",
+    "creadoEn": "2026-09-10T10:00:00.000Z"
+  }
+]
