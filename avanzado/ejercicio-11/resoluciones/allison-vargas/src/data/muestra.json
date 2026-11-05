@@ -1,0 +1,404 @@
+{
+  "canciones": [
+    {
+      "isrc": "QZABC2410000",
+      "titulo": "Ciudad al borde",
+      "artista": "Luna Roja",
+      "album": null,
+      "anio": 2020,
+      "duracionSeg": 366,
+      "genero": "folk",
+      "explicito": false
+    },
+    {
+      "isrc": "QZXYZ2410037",
+      "titulo": "Ancla y ceniza",
+      "artista": "Los Cedros",
+      "album": "Los vol. 2",
+      "anio": 2015,
+      "duracionSeg": 369,
+      "genero": "pop",
+      "explicito": true
+    },
+    {
+      "isrc": "QZK7M2410074",
+      "titulo": "Brasas de plata",
+      "artista": "Marea Alta",
+      "album": "Marea vol. 3",
+      "anio": 2018,
+      "duracionSeg": 127,
+      "genero": "rock",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2410111",
+      "titulo": "Brasas de vuelta",
+      "artista": "Nora Valdez",
+      "album": "Nora vol. 1",
+      "anio": 2022,
+      "duracionSeg": 135,
+      "genero": "hiphop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZXYZ2410148",
+      "titulo": "Fuego y ceniza",
+      "artista": "Faro Azul",
+      "album": null,
+      "anio": 2015,
+      "duracionSeg": 320,
+      "genero": "pop",
+      "explicito": true
+    },
+    {
+      "isrc": "QZK7M2410185",
+      "titulo": "Sal del norte",
+      "artista": "Delta Norte",
+      "album": "Delta vol. 3",
+      "anio": 2023,
+      "duracionSeg": 324,
+      "genero": "latina",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2410222",
+      "titulo": "Camino al borde",
+      "artista": "Casa de Humo",
+      "album": "Casa vol. 1",
+      "anio": 2016,
+      "duracionSeg": 284,
+      "genero": "clasica",
+      "explicito": false
+    },
+    {
+      "isrc": "QZXYZ2410259",
+      "titulo": "Eco al borde",
+      "artista": "Tomas Brea",
+      "album": "Tomas vol. 2",
+      "anio": 2023,
+      "duracionSeg": 259,
+      "genero": "pop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZK7M2410296",
+      "titulo": "Sombra de papel",
+      "artista": "Ciudad Vidrio",
+      "album": null,
+      "anio": 2017,
+      "duracionSeg": 330,
+      "genero": "hiphop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2410333",
+      "titulo": "Sal en calma",
+      "artista": "Aurora Sur",
+      "album": "Aurora vol. 1",
+      "anio": 2018,
+      "duracionSeg": 263,
+      "genero": "jazz",
+      "explicito": true
+    },
+    {
+      "isrc": "QZXYZ2410370",
+      "titulo": "Ciudad en calma",
+      "artista": "Luna Roja",
+      "album": "Luna vol. 2",
+      "anio": 2019,
+      "duracionSeg": 193,
+      "genero": "electronica",
+      "explicito": true
+    },
+    {
+      "isrc": "QZK7M2410407",
+      "titulo": "Eco sin fin",
+      "artista": "Los Cedros",
+      "album": "Los vol. 3",
+      "anio": 2016,
+      "duracionSeg": 332,
+      "genero": "hiphop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2410444",
+      "titulo": "Brasas sin fin",
+      "artista": "Marea Alta",
+      "album": null,
+      "anio": 2019,
+      "duracionSeg": 218,
+      "genero": "hiphop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZXYZ2410481",
+      "titulo": "Fuego sin fin",
+      "artista": "Nora Valdez",
+      "album": "Nora vol. 2",
+      "anio": 2021,
+      "duracionSeg": 120,
+      "genero": "jazz",
+      "explicito": false
+    },
+    {
+      "isrc": "QZK7M2410518",
+      "titulo": "Eco de papel",
+      "artista": "Faro Azul",
+      "album": "Faro vol. 3",
+      "anio": 2018,
+      "duracionSeg": 247,
+      "genero": "jazz",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2410555",
+      "titulo": "Ancla al borde",
+      "artista": "Delta Norte",
+      "album": "Delta vol. 1",
+      "anio": 2020,
+      "duracionSeg": 134,
+      "genero": "latina",
+      "explicito": false
+    },
+    {
+      "isrc": "QZXYZ2410592",
+      "titulo": "Viento sin fin",
+      "artista": "Casa de Humo",
+      "album": null,
+      "anio": 2023,
+      "duracionSeg": 192,
+      "genero": "pop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZK7M2410629",
+      "titulo": "Eco al borde",
+      "artista": "Tomas Brea",
+      "album": "Tomas vol. 3",
+      "anio": 2015,
+      "duracionSeg": 225,
+      "genero": "rock",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2410666",
+      "titulo": "Rio en calma",
+      "artista": "Ciudad Vidrio",
+      "album": "Ciudad vol. 1",
+      "anio": 2020,
+      "duracionSeg": 344,
+      "genero": "folk",
+      "explicito": false
+    },
+    {
+      "isrc": "QZXYZ2410703",
+      "titulo": "Rio sin fin",
+      "artista": "Aurora Sur",
+      "album": "Aurora vol. 2",
+      "anio": 2019,
+      "duracionSeg": 218,
+      "genero": "latina",
+      "explicito": false
+    },
+    {
+      "isrc": "QZK7M2410740",
+      "titulo": "Brasas de vuelta",
+      "artista": "Luna Roja",
+      "album": null,
+      "anio": 2020,
+      "duracionSeg": 348,
+      "genero": "clasica",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2410777",
+      "titulo": "Ancla de papel",
+      "artista": "Los Cedros",
+      "album": "Los vol. 1",
+      "anio": 2018,
+      "duracionSeg": 306,
+      "genero": "metal",
+      "explicito": false
+    },
+    {
+      "isrc": "QZXYZ2410814",
+      "titulo": "Fuego sin fin",
+      "artista": "Marea Alta",
+      "album": "Marea vol. 2",
+      "anio": 2018,
+      "duracionSeg": 132,
+      "genero": "pop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZK7M2410851",
+      "titulo": "Eco sin fin",
+      "artista": "Nora Valdez",
+      "album": "Nora vol. 3",
+      "anio": 2020,
+      "duracionSeg": 191,
+      "genero": "pop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2410888",
+      "titulo": "Ciudad y ceniza",
+      "artista": "Faro Azul",
+      "album": null,
+      "anio": 2024,
+      "duracionSeg": 181,
+      "genero": "folk",
+      "explicito": true
+    },
+    {
+      "isrc": "QZXYZ2410925",
+      "titulo": "Eco al borde",
+      "artista": "Delta Norte",
+      "album": "Delta vol. 2",
+      "anio": 2018,
+      "duracionSeg": 293,
+      "genero": "rock",
+      "explicito": false
+    },
+    {
+      "isrc": "QZK7M2410962",
+      "titulo": "Cristal al borde",
+      "artista": "Casa de Humo",
+      "album": "Casa vol. 3",
+      "anio": 2021,
+      "duracionSeg": 238,
+      "genero": "hiphop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2410999",
+      "titulo": "Viento y ceniza",
+      "artista": "Tomas Brea",
+      "album": "Tomas vol. 1",
+      "anio": 2015,
+      "duracionSeg": 266,
+      "genero": "hiphop",
+      "explicito": true
+    },
+    {
+      "isrc": "QZXYZ2411036",
+      "titulo": "Ciudad de vuelta",
+      "artista": "Ciudad Vidrio",
+      "album": null,
+      "anio": 2020,
+      "duracionSeg": 132,
+      "genero": "metal",
+      "explicito": false
+    },
+    {
+      "isrc": "QZK7M2411073",
+      "titulo": "Viento de vuelta",
+      "artista": "Aurora Sur",
+      "album": "Aurora vol. 3",
+      "anio": 2022,
+      "duracionSeg": 159,
+      "genero": "metal",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2411110",
+      "titulo": "Noche sin fin",
+      "artista": "Luna Roja",
+      "album": "Luna vol. 1",
+      "anio": 2015,
+      "duracionSeg": 310,
+      "genero": "folk",
+      "explicito": false
+    },
+    {
+      "isrc": "QZXYZ2411147",
+      "titulo": "Camino de papel",
+      "artista": "Los Cedros",
+      "album": "Los vol. 2",
+      "anio": 2023,
+      "duracionSeg": 231,
+      "genero": "pop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZK7M2411184",
+      "titulo": "Noche en calma",
+      "artista": "Marea Alta",
+      "album": null,
+      "anio": 2020,
+      "duracionSeg": 197,
+      "genero": "hiphop",
+      "explicito": true
+    },
+    {
+      "isrc": "QZABC2411221",
+      "titulo": "Ancla de plata",
+      "artista": "Nora Valdez",
+      "album": "Nora vol. 1",
+      "anio": 2024,
+      "duracionSeg": 154,
+      "genero": "jazz",
+      "explicito": true
+    },
+    {
+      "isrc": "QZXYZ2411258",
+      "titulo": "Sal de papel",
+      "artista": "Faro Azul",
+      "album": "Faro vol. 2",
+      "anio": 2021,
+      "duracionSeg": 127,
+      "genero": "rock",
+      "explicito": true
+    },
+    {
+      "isrc": "QZK7M2411295",
+      "titulo": "Noche de papel",
+      "artista": "Delta Norte",
+      "album": "Delta vol. 3",
+      "anio": 2015,
+      "duracionSeg": 366,
+      "genero": "jazz",
+      "explicito": true
+    },
+    {
+      "isrc": "QZABC2411332",
+      "titulo": "Fuego al borde",
+      "artista": "Casa de Humo",
+      "album": null,
+      "anio": 2019,
+      "duracionSeg": 248,
+      "genero": "metal",
+      "explicito": false
+    },
+    {
+      "isrc": "QZXYZ2411369",
+      "titulo": "Ciudad sin fin",
+      "artista": "Tomas Brea",
+      "album": "Tomas vol. 2",
+      "anio": 2017,
+      "duracionSeg": 318,
+      "genero": "folk",
+      "explicito": false
+    },
+    {
+      "isrc": "QZK7M2411406",
+      "titulo": "Noche del norte",
+      "artista": "Ciudad Vidrio",
+      "album": "Ciudad vol. 3",
+      "anio": 2022,
+      "duracionSeg": 134,
+      "genero": "pop",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2411443",
+      "titulo": "Fuego al borde",
+      "artista": "Aurora Sur",
+      "album": "Aurora vol. 1",
+      "anio": 2021,
+      "duracionSeg": 259,
+      "genero": "latina",
+      "explicito": false
+    }
+  ]
+}

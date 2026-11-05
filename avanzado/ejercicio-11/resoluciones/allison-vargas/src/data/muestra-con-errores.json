@@ -1,0 +1,65 @@
+{
+  "canciones": [
+    {
+      "isrc": "QZABC2410000",
+      "titulo": "Ciudad al borde",
+      "artista": "Luna Roja",
+      "album": null,
+      "anio": 2020,
+      "duracionSeg": 366,
+      "genero": "folk",
+      "explicito": false
+    },
+    {
+      "isrc": "XX",
+      "titulo": "Ancla y ceniza",
+      "artista": "Los Cedros",
+      "album": "Los vol. 2",
+      "anio": 2015,
+      "duracionSeg": 369,
+      "genero": "pop",
+      "explicito": true
+    },
+    {
+      "isrc": "QZK7M2410074",
+      "titulo": "Brasas de plata",
+      "artista": "Marea Alta",
+      "album": "Marea vol. 3",
+      "anio": 3000,
+      "duracionSeg": 127,
+      "genero": "rock",
+      "explicito": false
+    },
+    {
+      "isrc": "QZABC2410111",
+      "titulo": "Brasas de vuelta",
+      "artista": "Nora Valdez",
+      "album": "Nora vol. 1",
+      "anio": 2022,
+      "duracionSeg": 135,
+      "genero": "ranchera",
+      "explicito": false
+    },
+    {
+      "isrc": "QZXYZ2410148",
+      "titulo": "Fuego y ceniza",
+      "artista": "Faro Azul",
+      "album": null,
+      "anio": 2015,
+      "duracionSeg": "larga",
+      "genero": "pop",
+      "explicito": true
+    },
+    {
+      "isrc": "QZK7M2410185",
+      "titulo": "Sal del norte",
+      "artista": "Delta Norte",
+      "album": "Delta vol. 3",
+      "anio": 2023,
+      "duracionSeg": 324,
+      "genero": "latina",
+      "explicito": false,
+      "extra": 1
+    }
+  ]
+}

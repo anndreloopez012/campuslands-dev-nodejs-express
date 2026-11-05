@@ -1,0 +1,1495 @@
+[
+  {
+    "id": 1,
+    "titulo": "La muneca de las sombras",
+    "anio": 2010,
+    "subgenero": "monstruos",
+    "duracionMin": 103,
+    "clasificacion": "+16",
+    "calificacion": 5.8,
+    "presupuestoMusd": 9.2,
+    "recaudacionMusd": 71.6,
+    "estreno": "2010-01-25",
+    "pais": "Argentina",
+    "sinopsis": "Un grupo de personas queda atrapado en la muneca de las sombras y descubre que algo los vigila.",
+    "etiquetas": [
+      "culto",
+      "suspenso"
+    ],
+    "directorId": 4,
+    "repartoIds": [
+      14,
+      17
+    ]
+  },
+  {
+    "id": 2,
+    "titulo": "El convento de los ecos",
+    "anio": 2020,
+    "subgenero": "found-footage",
+    "duracionMin": 89,
+    "clasificacion": "+18",
+    "calificacion": 3.7,
+    "presupuestoMusd": 3.1,
+    "recaudacionMusd": 6.5,
+    "estreno": "2020-05-25",
+    "pais": "Colombia",
+    "sinopsis": "Un grupo de personas queda atrapado en el convento de los ecos y descubre que algo los vigila.",
+    "etiquetas": [
+      "cabana",
+      "familia"
+    ],
+    "directorId": 4,
+    "repartoIds": [
+      9,
+      13,
+      17,
+      20
+    ]
+  },
+  {
+    "id": 3,
+    "titulo": "La noche olvidado",
+    "anio": 2020,
+    "subgenero": "zombis",
+    "duracionMin": 118,
+    "clasificacion": "+18",
+    "calificacion": 3.4,
+    "presupuestoMusd": 3.3,
+    "recaudacionMusd": 7.2,
+    "estreno": "2020-06-13",
+    "pais": "Chile",
+    "sinopsis": "Un grupo de personas queda atrapado en la noche olvidado y descubre que algo los vigila.",
+    "etiquetas": [
+      "fantasmas",
+      "cabana"
+    ],
+    "directorId": 2,
+    "repartoIds": [
+      14,
+      17,
+      21,
+      22
+    ]
+  },
+  {
+    "id": 4,
+    "titulo": "La habitacion del ultimo aliento",
+    "anio": 2016,
+    "subgenero": "zombis",
+    "duracionMin": 81,
+    "clasificacion": "+16",
+    "calificacion": 9,
+    "presupuestoMusd": 46.8,
+    "recaudacionMusd": 178.6,
+    "estreno": "2016-07-23",
+    "pais": "Chile",
+    "sinopsis": "Un grupo de personas queda atrapado en la habitacion del ultimo aliento y descubre que algo los vigila.",
+    "etiquetas": [
+      "cabana",
+      "sangre",
+      "pueblo"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      9,
+      20
+    ]
+  },
+  {
+    "id": 5,
+    "titulo": "La habitacion de los ecos",
+    "anio": 2004,
+    "subgenero": "gore",
+    "duracionMin": 125,
+    "clasificacion": "+16",
+    "calificacion": 3.2,
+    "presupuestoMusd": 1.9,
+    "recaudacionMusd": 14.3,
+    "estreno": "2004-12-11",
+    "pais": "Corea del Sur",
+    "sinopsis": "Un grupo de personas queda atrapado en la habitacion de los ecos y descubre que algo los vigila.",
+    "etiquetas": [
+      "sustos",
+      "encierro"
+    ],
+    "directorId": 3,
+    "repartoIds": [
+      13,
+      14
+    ]
+  },
+  {
+    "id": 6,
+    "titulo": "La feria del silencio",
+    "anio": 2020,
+    "subgenero": "monstruos",
+    "duracionMin": 82,
+    "clasificacion": "+13",
+    "calificacion": 6.8,
+    "presupuestoMusd": 1,
+    "recaudacionMusd": 7.6,
+    "estreno": "2020-07-10",
+    "pais": "Francia",
+    "sinopsis": "Un grupo de personas queda atrapado en la feria del silencio y descubre que algo los vigila.",
+    "etiquetas": [
+      "suspenso",
+      "sangre"
+    ],
+    "directorId": 5,
+    "repartoIds": [
+      14,
+      19
+    ]
+  },
+  {
+    "id": 7,
+    "titulo": "El sotano maldito",
+    "anio": 1997,
+    "subgenero": "gotico",
+    "duracionMin": 91,
+    "clasificacion": "+13",
+    "calificacion": 8.8,
+    "presupuestoMusd": 7,
+    "recaudacionMusd": 45.4,
+    "estreno": "1997-12-05",
+    "pais": "Italia",
+    "sinopsis": "Un grupo de personas queda atrapado en el sotano maldito y descubre que algo los vigila.",
+    "etiquetas": [
+      "laboratorio",
+      "sustos"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      5,
+      19,
+      22,
+      23,
+      24
+    ]
+  },
+  {
+    "id": 8,
+    "titulo": "El faro sin nombre",
+    "anio": 2003,
+    "subgenero": "monstruos",
+    "duracionMin": 134,
+    "clasificacion": "+16",
+    "calificacion": 5.7,
+    "presupuestoMusd": 0.6,
+    "recaudacionMusd": 3.6,
+    "estreno": "2003-12-19",
+    "pais": "Francia",
+    "sinopsis": "Un grupo de personas queda atrapado en el faro sin nombre y descubre que algo los vigila.",
+    "etiquetas": [
+      "pueblo",
+      "culto"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      1,
+      6,
+      22
+    ]
+  },
+  {
+    "id": 9,
+    "titulo": "La habitacion de la lluvia",
+    "anio": 2000,
+    "subgenero": "gotico",
+    "duracionMin": 137,
+    "clasificacion": "+18",
+    "calificacion": 7.4,
+    "presupuestoMusd": 4.7,
+    "recaudacionMusd": 24.8,
+    "estreno": "2000-08-02",
+    "pais": "Chile",
+    "sinopsis": "Un grupo de personas queda atrapado en la habitacion de la lluvia y descubre que algo los vigila.",
+    "etiquetas": [
+      "culto",
+      "pueblo",
+      "fantasmas"
+    ],
+    "directorId": 7,
+    "repartoIds": [
+      13,
+      19,
+      21
+    ]
+  },
+  {
+    "id": 10,
+    "titulo": "La feria del silencio",
+    "anio": 1998,
+    "subgenero": "zombis",
+    "duracionMin": 116,
+    "clasificacion": "+18",
+    "calificacion": 7.9,
+    "presupuestoMusd": 7.7,
+    "recaudacionMusd": 11,
+    "estreno": "1998-03-26",
+    "pais": "Corea del Sur",
+    "sinopsis": "Un grupo de personas queda atrapado en la feria del silencio y descubre que algo los vigila.",
+    "etiquetas": [
+      "laboratorio",
+      "sangre"
+    ],
+    "directorId": 8,
+    "repartoIds": [
+      8,
+      9,
+      11,
+      23
+    ]
+  },
+  {
+    "id": 11,
+    "titulo": "La mansion de la lluvia",
+    "anio": 1991,
+    "subgenero": "zombis",
+    "duracionMin": 135,
+    "clasificacion": "+13",
+    "calificacion": 7.3,
+    "presupuestoMusd": 2.7,
+    "recaudacionMusd": 21.1,
+    "estreno": "1991-11-12",
+    "pais": "Colombia",
+    "sinopsis": "Un grupo de personas queda atrapado en la mansion de la lluvia y descubre que algo los vigila.",
+    "etiquetas": [
+      "familia",
+      "sangre"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      1,
+      7,
+      14,
+      18
+    ]
+  },
+  {
+    "id": 12,
+    "titulo": "El sotano de cristal",
+    "anio": 2008,
+    "subgenero": "zombis",
+    "duracionMin": 74,
+    "clasificacion": "+16",
+    "calificacion": 7.9,
+    "presupuestoMusd": 1,
+    "recaudacionMusd": 4.4,
+    "estreno": "2008-09-26",
+    "pais": "Chile",
+    "sinopsis": "Un grupo de personas queda atrapado en el sotano de cristal y descubre que algo los vigila.",
+    "etiquetas": [
+      "culto",
+      "sangre"
+    ],
+    "directorId": 2,
+    "repartoIds": [
+      4,
+      6,
+      9,
+      14,
+      22
+    ]
+  },
+  {
+    "id": 13,
+    "titulo": "La casa olvidado",
+    "anio": 2005,
+    "subgenero": "found-footage",
+    "duracionMin": 125,
+    "clasificacion": "+16",
+    "calificacion": 6.4,
+    "presupuestoMusd": 3.8,
+    "recaudacionMusd": 9.1,
+    "estreno": "2005-06-27",
+    "pais": "Estados Unidos",
+    "sinopsis": "Un grupo de personas queda atrapado en la casa olvidado y descubre que algo los vigila.",
+    "etiquetas": [
+      "cabana",
+      "posesion"
+    ],
+    "directorId": 2,
+    "repartoIds": [
+      1,
+      8
+    ]
+  },
+  {
+    "id": 14,
+    "titulo": "El hospital del silencio",
+    "anio": 2018,
+    "subgenero": "gore",
+    "duracionMin": 89,
+    "clasificacion": "+18",
+    "calificacion": 8.3,
+    "presupuestoMusd": 16.1,
+    "recaudacionMusd": 6.3,
+    "estreno": "2018-07-23",
+    "pais": "Italia",
+    "sinopsis": "Un grupo de personas queda atrapado en el hospital del silencio y descubre que algo los vigila.",
+    "etiquetas": [
+      "tormenta",
+      "sustos"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      4,
+      9
+    ]
+  },
+  {
+    "id": 15,
+    "titulo": "La noche sin salida",
+    "anio": 2020,
+    "subgenero": "found-footage",
+    "duracionMin": 119,
+    "clasificacion": "+16",
+    "calificacion": 3.7,
+    "presupuestoMusd": 3.9,
+    "recaudacionMusd": 33.9,
+    "estreno": "2020-11-16",
+    "pais": "Japon",
+    "sinopsis": "Un grupo de personas queda atrapado en la noche sin salida y descubre que algo los vigila.",
+    "etiquetas": [
+      "sangre",
+      "pueblo"
+    ],
+    "directorId": 2,
+    "repartoIds": [
+      11,
+      16,
+      20,
+      22
+    ]
+  },
+  {
+    "id": 16,
+    "titulo": "El faro de la lluvia",
+    "anio": 1982,
+    "subgenero": "found-footage",
+    "duracionMin": 134,
+    "clasificacion": "+13",
+    "calificacion": 8.2,
+    "presupuestoMusd": 19.7,
+    "recaudacionMusd": 86.9,
+    "estreno": "1982-10-20",
+    "pais": "Corea del Sur",
+    "sinopsis": "Un grupo de personas queda atrapado en el faro de la lluvia y descubre que algo los vigila.",
+    "etiquetas": [
+      "sustos",
+      "familia"
+    ],
+    "directorId": 2,
+    "repartoIds": [
+      3,
+      10,
+      13,
+      14,
+      17
+    ]
+  },
+  {
+    "id": 17,
+    "titulo": "La feria de los ecos",
+    "anio": 2002,
+    "subgenero": "slasher",
+    "duracionMin": 80,
+    "clasificacion": "+18",
+    "calificacion": 7.7,
+    "presupuestoMusd": 44.1,
+    "recaudacionMusd": 295,
+    "estreno": "2002-12-10",
+    "pais": "Uruguay",
+    "sinopsis": "Un grupo de personas queda atrapado en la feria de los ecos y descubre que algo los vigila.",
+    "etiquetas": [
+      "encierro",
+      "culto"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      1,
+      2,
+      9
+    ]
+  },
+  {
+    "id": 18,
+    "titulo": "El hospital del silencio",
+    "anio": 2024,
+    "subgenero": "psicologico",
+    "duracionMin": 98,
+    "clasificacion": "+18",
+    "calificacion": 4,
+    "presupuestoMusd": 4.2,
+    "recaudacionMusd": 14.9,
+    "estreno": "2024-12-22",
+    "pais": "Argentina",
+    "sinopsis": "Un grupo de personas queda atrapado en el hospital del silencio y descubre que algo los vigila.",
+    "etiquetas": [
+      "encierro",
+      "tormenta",
+      "familia"
+    ],
+    "directorId": 5,
+    "repartoIds": [
+      10,
+      21
+    ]
+  },
+  {
+    "id": 19,
+    "titulo": "La escuela del silencio",
+    "anio": 2005,
+    "subgenero": "psicologico",
+    "duracionMin": 107,
+    "clasificacion": "+13",
+    "calificacion": 7.5,
+    "presupuestoMusd": 17.1,
+    "recaudacionMusd": 129.2,
+    "estreno": "2005-02-20",
+    "pais": "Chile",
+    "sinopsis": "Un grupo de personas queda atrapado en la escuela del silencio y descubre que algo los vigila.",
+    "etiquetas": [
+      "sustos",
+      "tormenta",
+      "suspenso"
+    ],
+    "directorId": 2,
+    "repartoIds": [
+      8,
+      10,
+      16
+    ]
+  },
+  {
+    "id": 20,
+    "titulo": "El faro de cristal",
+    "anio": 2023,
+    "subgenero": "sobrenatural",
+    "duracionMin": 84,
+    "clasificacion": "+18",
+    "calificacion": 6.6,
+    "presupuestoMusd": 20.3,
+    "recaudacionMusd": 60,
+    "estreno": "2023-04-14",
+    "pais": "Espana",
+    "sinopsis": "Un grupo de personas queda atrapado en el faro de cristal y descubre que algo los vigila.",
+    "etiquetas": [
+      "suspenso",
+      "posesion",
+      "culto"
+    ],
+    "directorId": 8,
+    "repartoIds": [
+      9,
+      10
+    ]
+  },
+  {
+    "id": 21,
+    "titulo": "La noche sin salida",
+    "anio": 2019,
+    "subgenero": "gore",
+    "duracionMin": 88,
+    "clasificacion": "+13",
+    "calificacion": 3.7,
+    "presupuestoMusd": 12,
+    "recaudacionMusd": 104.1,
+    "estreno": "2019-01-08",
+    "pais": "Peru",
+    "sinopsis": "Un grupo de personas queda atrapado en la noche sin salida y descubre que algo los vigila.",
+    "etiquetas": [
+      "suspenso",
+      "laboratorio"
+    ],
+    "directorId": 5,
+    "repartoIds": [
+      1,
+      5,
+      11,
+      12
+    ]
+  },
+  {
+    "id": 22,
+    "titulo": "El sotano del invierno",
+    "anio": 1991,
+    "subgenero": "psicologico",
+    "duracionMin": 119,
+    "clasificacion": "+18",
+    "calificacion": 4.2,
+    "presupuestoMusd": 25.1,
+    "recaudacionMusd": 70.3,
+    "estreno": "1991-10-27",
+    "pais": "Estados Unidos",
+    "sinopsis": "Un grupo de personas queda atrapado en el sotano del invierno y descubre que algo los vigila.",
+    "etiquetas": [
+      "pueblo",
+      "laboratorio"
+    ],
+    "directorId": 7,
+    "repartoIds": [
+      13,
+      20,
+      21,
+      23
+    ]
+  },
+  {
+    "id": 23,
+    "titulo": "La habitacion olvidado",
+    "anio": 2003,
+    "subgenero": "found-footage",
+    "duracionMin": 83,
+    "clasificacion": "+13",
+    "calificacion": 6.7,
+    "presupuestoMusd": 0.5,
+    "recaudacionMusd": 2.1,
+    "estreno": "2003-04-11",
+    "pais": "Chile",
+    "sinopsis": "Un grupo de personas queda atrapado en la habitacion olvidado y descubre que algo los vigila.",
+    "etiquetas": [
+      "fantasmas",
+      "familia"
+    ],
+    "directorId": 2,
+    "repartoIds": [
+      2,
+      19,
+      20
+    ]
+  },
+  {
+    "id": 24,
+    "titulo": "La casa de las sombras",
+    "anio": 2021,
+    "subgenero": "monstruos",
+    "duracionMin": 109,
+    "clasificacion": "+13",
+    "calificacion": 3.7,
+    "presupuestoMusd": 6.9,
+    "recaudacionMusd": 17.4,
+    "estreno": "2021-02-18",
+    "pais": "Chile",
+    "sinopsis": "Un grupo de personas queda atrapado en la casa de las sombras y descubre que algo los vigila.",
+    "etiquetas": [
+      "sangre",
+      "pueblo",
+      "familia"
+    ],
+    "directorId": 2,
+    "repartoIds": [
+      1,
+      14,
+      24
+    ]
+  },
+  {
+    "id": 25,
+    "titulo": "El tren sin nombre",
+    "anio": 2015,
+    "subgenero": "psicologico",
+    "duracionMin": 114,
+    "clasificacion": "+13",
+    "calificacion": 3.3,
+    "presupuestoMusd": 3.3,
+    "recaudacionMusd": 7.6,
+    "estreno": "2015-02-19",
+    "pais": "Argentina",
+    "sinopsis": "Un grupo de personas queda atrapado en el tren sin nombre y descubre que algo los vigila.",
+    "etiquetas": [
+      "laboratorio",
+      "familia"
+    ],
+    "directorId": 1,
+    "repartoIds": [
+      3,
+      9,
+      13
+    ]
+  },
+  {
+    "id": 26,
+    "titulo": "El espejo del invierno",
+    "anio": 2006,
+    "subgenero": "gore",
+    "duracionMin": 130,
+    "clasificacion": "+18",
+    "calificacion": 6.7,
+    "presupuestoMusd": 12,
+    "recaudacionMusd": 5.6,
+    "estreno": "2006-03-17",
+    "pais": "Colombia",
+    "sinopsis": "Un grupo de personas queda atrapado en el espejo del invierno y descubre que algo los vigila.",
+    "etiquetas": [
+      "encierro",
+      "sustos"
+    ],
+    "directorId": 5,
+    "repartoIds": [
+      13,
+      24
+    ]
+  },
+  {
+    "id": 27,
+    "titulo": "El espejo de las sombras",
+    "anio": 1978,
+    "subgenero": "slasher",
+    "duracionMin": 73,
+    "clasificacion": "+18",
+    "calificacion": 6.4,
+    "presupuestoMusd": 11.2,
+    "recaudacionMusd": 82.4,
+    "estreno": "1978-12-23",
+    "pais": "Mexico",
+    "sinopsis": "Un grupo de personas queda atrapado en el espejo de las sombras y descubre que algo los vigila.",
+    "etiquetas": [
+      "cabana",
+      "posesion",
+      "sangre"
+    ],
+    "directorId": 3,
+    "repartoIds": [
+      2,
+      9,
+      20,
+      23
+    ]
+  },
+  {
+    "id": 28,
+    "titulo": "La feria sin salida",
+    "anio": 2013,
+    "subgenero": "sobrenatural",
+    "duracionMin": 94,
+    "clasificacion": "+13",
+    "calificacion": 5.7,
+    "presupuestoMusd": 20.6,
+    "recaudacionMusd": 45.6,
+    "estreno": "2013-10-12",
+    "pais": "Mexico",
+    "sinopsis": "Un grupo de personas queda atrapado en la feria sin salida y descubre que algo los vigila.",
+    "etiquetas": [
+      "laboratorio",
+      "suspenso",
+      "culto"
+    ],
+    "directorId": 1,
+    "repartoIds": [
+      3,
+      5,
+      12,
+      14,
+      15
+    ]
+  },
+  {
+    "id": 29,
+    "titulo": "La habitacion de cristal",
+    "anio": 1985,
+    "subgenero": "psicologico",
+    "duracionMin": 109,
+    "clasificacion": "+18",
+    "calificacion": 7,
+    "presupuestoMusd": 17.8,
+    "recaudacionMusd": 138.8,
+    "estreno": "1985-09-20",
+    "pais": "Chile",
+    "sinopsis": "Un grupo de personas queda atrapado en la habitacion de cristal y descubre que algo los vigila.",
+    "etiquetas": [
+      "familia",
+      "culto"
+    ],
+    "directorId": 7,
+    "repartoIds": [
+      6,
+      9,
+      13,
+      16,
+      21
+    ]
+  },
+  {
+    "id": 30,
+    "titulo": "El hospital maldito",
+    "anio": 1994,
+    "subgenero": "gotico",
+    "duracionMin": 124,
+    "clasificacion": "+13",
+    "calificacion": 4.2,
+    "presupuestoMusd": 2.1,
+    "recaudacionMusd": 2.9,
+    "estreno": "1994-02-16",
+    "pais": "Estados Unidos",
+    "sinopsis": "Un grupo de personas queda atrapado en el hospital maldito y descubre que algo los vigila.",
+    "etiquetas": [
+      "familia",
+      "sustos",
+      "fantasmas"
+    ],
+    "directorId": 3,
+    "repartoIds": [
+      2,
+      17,
+      23
+    ]
+  },
+  {
+    "id": 31,
+    "titulo": "El tren del silencio",
+    "anio": 2000,
+    "subgenero": "found-footage",
+    "duracionMin": 86,
+    "clasificacion": "+16",
+    "calificacion": 5,
+    "presupuestoMusd": 0.5,
+    "recaudacionMusd": 1.4,
+    "estreno": "2000-01-24",
+    "pais": "Estados Unidos",
+    "sinopsis": "Un grupo de personas queda atrapado en el tren del silencio y descubre que algo los vigila.",
+    "etiquetas": [
+      "suspenso",
+      "culto",
+      "sustos"
+    ],
+    "directorId": 2,
+    "repartoIds": [
+      2,
+      14,
+      20,
+      23
+    ]
+  },
+  {
+    "id": 32,
+    "titulo": "La feria de cristal",
+    "anio": 1984,
+    "subgenero": "zombis",
+    "duracionMin": 91,
+    "clasificacion": "+13",
+    "calificacion": 7.1,
+    "presupuestoMusd": 2.5,
+    "recaudacionMusd": 3.7,
+    "estreno": "1984-01-12",
+    "pais": "Estados Unidos",
+    "sinopsis": "Un grupo de personas queda atrapado en la feria de cristal y descubre que algo los vigila.",
+    "etiquetas": [
+      "fantasmas",
+      "encierro",
+      "posesion"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      10,
+      13,
+      16,
+      17
+    ]
+  },
+  {
+    "id": 33,
+    "titulo": "La feria de las sombras",
+    "anio": 1998,
+    "subgenero": "found-footage",
+    "duracionMin": 86,
+    "clasificacion": "+16",
+    "calificacion": 3.8,
+    "presupuestoMusd": 13.5,
+    "recaudacionMusd": 20.2,
+    "estreno": "1998-12-27",
+    "pais": "Japon",
+    "sinopsis": "Un grupo de personas queda atrapado en la feria de las sombras y descubre que algo los vigila.",
+    "etiquetas": [
+      "cabana",
+      "laboratorio"
+    ],
+    "directorId": 8,
+    "repartoIds": [
+      16,
+      21
+    ]
+  },
+  {
+    "id": 34,
+    "titulo": "La mansion de las sombras",
+    "anio": 1985,
+    "subgenero": "zombis",
+    "duracionMin": 126,
+    "clasificacion": "+13",
+    "calificacion": 3.6,
+    "presupuestoMusd": 4.3,
+    "recaudacionMusd": 24.6,
+    "estreno": "1985-10-03",
+    "pais": "Italia",
+    "sinopsis": "Un grupo de personas queda atrapado en la mansion de las sombras y descubre que algo los vigila.",
+    "etiquetas": [
+      "encierro",
+      "suspenso",
+      "laboratorio"
+    ],
+    "directorId": 4,
+    "repartoIds": [
+      7,
+      8,
+      13,
+      21
+    ]
+  },
+  {
+    "id": 35,
+    "titulo": "La escuela del ultimo aliento",
+    "anio": 1986,
+    "subgenero": "gotico",
+    "duracionMin": 140,
+    "clasificacion": "+18",
+    "calificacion": 8.4,
+    "presupuestoMusd": 8.8,
+    "recaudacionMusd": 11.4,
+    "estreno": "1986-06-21",
+    "pais": "Francia",
+    "sinopsis": "Un grupo de personas queda atrapado en la escuela del ultimo aliento y descubre que algo los vigila.",
+    "etiquetas": [
+      "tormenta",
+      "familia",
+      "encierro"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      4,
+      10,
+      11,
+      20,
+      22
+    ]
+  },
+  {
+    "id": 36,
+    "titulo": "El pantano de cristal",
+    "anio": 2008,
+    "subgenero": "psicologico",
+    "duracionMin": 112,
+    "clasificacion": "+16",
+    "calificacion": 7.5,
+    "presupuestoMusd": 11,
+    "recaudacionMusd": 63.2,
+    "estreno": "2008-02-20",
+    "pais": "Japon",
+    "sinopsis": "Un grupo de personas queda atrapado en el pantano de cristal y descubre que algo los vigila.",
+    "etiquetas": [
+      "cabana",
+      "encierro",
+      "posesion"
+    ],
+    "directorId": 5,
+    "repartoIds": [
+      4,
+      7,
+      16,
+      19
+    ]
+  },
+  {
+    "id": 37,
+    "titulo": "La mansion maldito",
+    "anio": 2002,
+    "subgenero": "sobrenatural",
+    "duracionMin": 128,
+    "clasificacion": "+13",
+    "calificacion": 6.9,
+    "presupuestoMusd": 51.9,
+    "recaudacionMusd": 396.1,
+    "estreno": "2002-11-15",
+    "pais": "Argentina",
+    "sinopsis": "Un grupo de personas queda atrapado en la mansion maldito y descubre que algo los vigila.",
+    "etiquetas": [
+      "cabana",
+      "pueblo",
+      "tormenta"
+    ],
+    "directorId": 2,
+    "repartoIds": [
+      1,
+      21
+    ]
+  },
+  {
+    "id": 38,
+    "titulo": "El tren de la lluvia",
+    "anio": 1991,
+    "subgenero": "zombis",
+    "duracionMin": 86,
+    "clasificacion": "+13",
+    "calificacion": 8.3,
+    "presupuestoMusd": 13.7,
+    "recaudacionMusd": 50.3,
+    "estreno": "1991-05-06",
+    "pais": "Estados Unidos",
+    "sinopsis": "Un grupo de personas queda atrapado en el tren de la lluvia y descubre que algo los vigila.",
+    "etiquetas": [
+      "fantasmas",
+      "sangre",
+      "pueblo"
+    ],
+    "directorId": 1,
+    "repartoIds": [
+      8,
+      10,
+      13,
+      16
+    ]
+  },
+  {
+    "id": 39,
+    "titulo": "El faro de los ecos",
+    "anio": 1988,
+    "subgenero": "psicologico",
+    "duracionMin": 78,
+    "clasificacion": "+13",
+    "calificacion": 8.7,
+    "presupuestoMusd": 20.3,
+    "recaudacionMusd": 118.7,
+    "estreno": "1988-08-14",
+    "pais": "Peru",
+    "sinopsis": "Un grupo de personas queda atrapado en el faro de los ecos y descubre que algo los vigila.",
+    "etiquetas": [
+      "fantasmas",
+      "laboratorio",
+      "culto"
+    ],
+    "directorId": 7,
+    "repartoIds": [
+      5,
+      16,
+      18
+    ]
+  },
+  {
+    "id": 40,
+    "titulo": "La noche olvidado",
+    "anio": 1978,
+    "subgenero": "sobrenatural",
+    "duracionMin": 82,
+    "clasificacion": "+16",
+    "calificacion": 5.1,
+    "presupuestoMusd": 17.5,
+    "recaudacionMusd": 153.9,
+    "estreno": "1978-06-19",
+    "pais": "Colombia",
+    "sinopsis": "Un grupo de personas queda atrapado en la noche olvidado y descubre que algo los vigila.",
+    "etiquetas": [
+      "posesion",
+      "laboratorio"
+    ],
+    "directorId": 4,
+    "repartoIds": [
+      2,
+      4,
+      5,
+      6,
+      23
+    ]
+  },
+  {
+    "id": 41,
+    "titulo": "La casa de la lluvia",
+    "anio": 2018,
+    "subgenero": "monstruos",
+    "duracionMin": 132,
+    "clasificacion": "+13",
+    "calificacion": 6.7,
+    "presupuestoMusd": 27.8,
+    "recaudacionMusd": 143.7,
+    "estreno": "2018-11-03",
+    "pais": "Estados Unidos",
+    "sinopsis": "Un grupo de personas queda atrapado en la casa de la lluvia y descubre que algo los vigila.",
+    "etiquetas": [
+      "suspenso",
+      "sangre",
+      "cabana"
+    ],
+    "directorId": 1,
+    "repartoIds": [
+      8,
+      18
+    ]
+  },
+  {
+    "id": 42,
+    "titulo": "La habitacion maldito",
+    "anio": 2020,
+    "subgenero": "found-footage",
+    "duracionMin": 110,
+    "clasificacion": "+18",
+    "calificacion": 6.5,
+    "presupuestoMusd": 30,
+    "recaudacionMusd": 238.2,
+    "estreno": "2020-12-04",
+    "pais": "Japon",
+    "sinopsis": "Un grupo de personas queda atrapado en la habitacion maldito y descubre que algo los vigila.",
+    "etiquetas": [
+      "culto",
+      "cabana"
+    ],
+    "directorId": 4,
+    "repartoIds": [
+      4,
+      8,
+      16
+    ]
+  },
+  {
+    "id": 43,
+    "titulo": "El convento del silencio",
+    "anio": 2003,
+    "subgenero": "gore",
+    "duracionMin": 141,
+    "clasificacion": "+16",
+    "calificacion": 4,
+    "presupuestoMusd": 30.6,
+    "recaudacionMusd": 243,
+    "estreno": "2003-05-15",
+    "pais": "Uruguay",
+    "sinopsis": "Un grupo de personas queda atrapado en el convento del silencio y descubre que algo los vigila.",
+    "etiquetas": [
+      "laboratorio",
+      "fantasmas"
+    ],
+    "directorId": 7,
+    "repartoIds": [
+      3,
+      15,
+      20
+    ]
+  },
+  {
+    "id": 44,
+    "titulo": "El bosque sin nombre",
+    "anio": 2024,
+    "subgenero": "slasher",
+    "duracionMin": 77,
+    "clasificacion": "+18",
+    "calificacion": 7.3,
+    "presupuestoMusd": 6.5,
+    "recaudacionMusd": 27.1,
+    "estreno": "2024-12-12",
+    "pais": "Italia",
+    "sinopsis": "Un grupo de personas queda atrapado en el bosque sin nombre y descubre que algo los vigila.",
+    "etiquetas": [
+      "sustos",
+      "cabana",
+      "familia"
+    ],
+    "directorId": 4,
+    "repartoIds": [
+      1,
+      6,
+      12,
+      18
+    ]
+  },
+  {
+    "id": 45,
+    "titulo": "La habitacion del ultimo aliento",
+    "anio": 2003,
+    "subgenero": "sobrenatural",
+    "duracionMin": 131,
+    "clasificacion": "+16",
+    "calificacion": 8.4,
+    "presupuestoMusd": 10,
+    "recaudacionMusd": 73.9,
+    "estreno": "2003-01-16",
+    "pais": "Estados Unidos",
+    "sinopsis": "Un grupo de personas queda atrapado en la habitacion del ultimo aliento y descubre que algo los vigila.",
+    "etiquetas": [
+      "pueblo",
+      "sangre"
+    ],
+    "directorId": 7,
+    "repartoIds": [
+      4,
+      9,
+      16,
+      23
+    ]
+  },
+  {
+    "id": 46,
+    "titulo": "La mansion de ceniza",
+    "anio": 2007,
+    "subgenero": "gore",
+    "duracionMin": 128,
+    "clasificacion": "+18",
+    "calificacion": 5.6,
+    "presupuestoMusd": 11.9,
+    "recaudacionMusd": 14.3,
+    "estreno": "2007-12-07",
+    "pais": "Argentina",
+    "sinopsis": "Un grupo de personas queda atrapado en la mansion de ceniza y descubre que algo los vigila.",
+    "etiquetas": [
+      "suspenso",
+      "encierro",
+      "familia"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      6,
+      12,
+      16,
+      19,
+      20
+    ]
+  },
+  {
+    "id": 47,
+    "titulo": "El tren de las sombras",
+    "anio": 1996,
+    "subgenero": "slasher",
+    "duracionMin": 126,
+    "clasificacion": "+16",
+    "calificacion": 3.7,
+    "presupuestoMusd": 23.8,
+    "recaudacionMusd": 132.1,
+    "estreno": "1996-11-25",
+    "pais": "Italia",
+    "sinopsis": "Un grupo de personas queda atrapado en el tren de las sombras y descubre que algo los vigila.",
+    "etiquetas": [
+      "cabana",
+      "culto"
+    ],
+    "directorId": 5,
+    "repartoIds": [
+      14,
+      16,
+      18,
+      19,
+      22
+    ]
+  },
+  {
+    "id": 48,
+    "titulo": "La casa sin nombre",
+    "anio": 1993,
+    "subgenero": "slasher",
+    "duracionMin": 133,
+    "clasificacion": "+16",
+    "calificacion": 5.6,
+    "presupuestoMusd": 23.8,
+    "recaudacionMusd": 193.2,
+    "estreno": "1993-08-28",
+    "pais": "Colombia",
+    "sinopsis": "Un grupo de personas queda atrapado en la casa sin nombre y descubre que algo los vigila.",
+    "etiquetas": [
+      "suspenso",
+      "familia"
+    ],
+    "directorId": 8,
+    "repartoIds": [
+      3,
+      6
+    ]
+  },
+  {
+    "id": 49,
+    "titulo": "El espejo de ceniza",
+    "anio": 2010,
+    "subgenero": "gotico",
+    "duracionMin": 132,
+    "clasificacion": "+16",
+    "calificacion": 4.8,
+    "presupuestoMusd": 29.8,
+    "recaudacionMusd": 27.6,
+    "estreno": "2010-10-22",
+    "pais": "Italia",
+    "sinopsis": "Un grupo de personas queda atrapado en el espejo de ceniza y descubre que algo los vigila.",
+    "etiquetas": [
+      "tormenta",
+      "posesion"
+    ],
+    "directorId": 8,
+    "repartoIds": [
+      5,
+      10
+    ]
+  },
+  {
+    "id": 50,
+    "titulo": "El hospital de los ecos",
+    "anio": 1987,
+    "subgenero": "found-footage",
+    "duracionMin": 134,
+    "clasificacion": "+18",
+    "calificacion": 8.6,
+    "presupuestoMusd": 26.1,
+    "recaudacionMusd": 141.5,
+    "estreno": "1987-09-21",
+    "pais": "Italia",
+    "sinopsis": "Un grupo de personas queda atrapado en el hospital de los ecos y descubre que algo los vigila.",
+    "etiquetas": [
+      "laboratorio",
+      "suspenso"
+    ],
+    "directorId": 1,
+    "repartoIds": [
+      6,
+      11,
+      12,
+      20
+    ]
+  },
+  {
+    "id": 51,
+    "titulo": "El hospital del ultimo aliento",
+    "anio": 1992,
+    "subgenero": "zombis",
+    "duracionMin": 91,
+    "clasificacion": "+18",
+    "calificacion": 5.5,
+    "presupuestoMusd": 2.6,
+    "recaudacionMusd": 8.8,
+    "estreno": "1992-04-12",
+    "pais": "Colombia",
+    "sinopsis": "Un grupo de personas queda atrapado en el hospital del ultimo aliento y descubre que algo los vigila.",
+    "etiquetas": [
+      "cabana",
+      "pueblo"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      2,
+      9,
+      18,
+      19,
+      23
+    ]
+  },
+  {
+    "id": 52,
+    "titulo": "La habitacion del invierno",
+    "anio": 2022,
+    "subgenero": "slasher",
+    "duracionMin": 94,
+    "clasificacion": "+16",
+    "calificacion": 6,
+    "presupuestoMusd": 9.6,
+    "recaudacionMusd": 9.6,
+    "estreno": "2022-11-10",
+    "pais": "Estados Unidos",
+    "sinopsis": "Un grupo de personas queda atrapado en la habitacion del invierno y descubre que algo los vigila.",
+    "etiquetas": [
+      "pueblo",
+      "encierro",
+      "posesion"
+    ],
+    "directorId": 6,
+    "repartoIds": [
+      5,
+      17,
+      23,
+      24
+    ]
+  },
+  {
+    "id": 53,
+    "titulo": "El tren sin salida",
+    "anio": 1996,
+    "subgenero": "gotico",
+    "duracionMin": 87,
+    "clasificacion": "+16",
+    "calificacion": 6.4,
+    "presupuestoMusd": 1,
+    "recaudacionMusd": 1.9,
+    "estreno": "1996-09-28",
+    "pais": "Colombia",
+    "sinopsis": "Un grupo de personas queda atrapado en el tren sin salida y descubre que algo los vigila.",
+    "etiquetas": [
+      "pueblo",
+      "encierro"
+    ],
+    "directorId": 1,
+    "repartoIds": [
+      1,
+      9,
+      11,
+      21
+    ]
+  },
+  {
+    "id": 54,
+    "titulo": "La casa sin nombre",
+    "anio": 1988,
+    "subgenero": "gore",
+    "duracionMin": 92,
+    "clasificacion": "+16",
+    "calificacion": 5.5,
+    "presupuestoMusd": 8.3,
+    "recaudacionMusd": 59.7,
+    "estreno": "1988-02-06",
+    "pais": "Japon",
+    "sinopsis": "Un grupo de personas queda atrapado en la casa sin nombre y descubre que algo los vigila.",
+    "etiquetas": [
+      "pueblo",
+      "suspenso"
+    ],
+    "directorId": 4,
+    "repartoIds": [
+      4,
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "id": 55,
+    "titulo": "La habitacion del invierno",
+    "anio": 1990,
+    "subgenero": "sobrenatural",
+    "duracionMin": 111,
+    "clasificacion": "+18",
+    "calificacion": 5.9,
+    "presupuestoMusd": 21.2,
+    "recaudacionMusd": 23.5,
+    "estreno": "1990-04-27",
+    "pais": "Argentina",
+    "sinopsis": "Un grupo de personas queda atrapado en la habitacion del invierno y descubre que algo los vigila.",
+    "etiquetas": [
+      "fantasmas",
+      "posesion"
+    ],
+    "directorId": 1,
+    "repartoIds": [
+      14,
+      21
+    ]
+  },
+  {
+    "id": 56,
+    "titulo": "El hospital sin salida",
+    "anio": 1980,
+    "subgenero": "monstruos",
+    "duracionMin": 126,
+    "clasificacion": "+13",
+    "calificacion": 5.5,
+    "presupuestoMusd": 7.7,
+    "recaudacionMusd": 46.5,
+    "estreno": "1980-06-19",
+    "pais": "Japon",
+    "sinopsis": "Un grupo de personas queda atrapado en el hospital sin salida y descubre que algo los vigila.",
+    "etiquetas": [
+      "pueblo",
+      "posesion"
+    ],
+    "directorId": 3,
+    "repartoIds": [
+      2,
+      12,
+      15,
+      16,
+      17
+    ]
+  },
+  {
+    "id": 57,
+    "titulo": "La casa sin nombre",
+    "anio": 1994,
+    "subgenero": "gore",
+    "duracionMin": 94,
+    "clasificacion": "+18",
+    "calificacion": 6.5,
+    "presupuestoMusd": 29.1,
+    "recaudacionMusd": 174,
+    "estreno": "1994-10-12",
+    "pais": "Italia",
+    "sinopsis": "Un grupo de personas queda atrapado en la casa sin nombre y descubre que algo los vigila.",
+    "etiquetas": [
+      "posesion",
+      "culto",
+      "cabana"
+    ],
+    "directorId": 5,
+    "repartoIds": [
+      10,
+      11,
+      15,
+      19,
+      20
+    ]
+  },
+  {
+    "id": 58,
+    "titulo": "El sotano de la lluvia",
+    "anio": 2010,
+    "subgenero": "found-footage",
+    "duracionMin": 136,
+    "clasificacion": "+16",
+    "calificacion": 6.5,
+    "presupuestoMusd": 1.9,
+    "recaudacionMusd": 1.7,
+    "estreno": "2010-02-04",
+    "pais": "Colombia",
+    "sinopsis": "Un grupo de personas queda atrapado en el sotano de la lluvia y descubre que algo los vigila.",
+    "etiquetas": [
+      "sustos",
+      "tormenta"
+    ],
+    "directorId": 1,
+    "repartoIds": [
+      6,
+      7,
+      8,
+      13
+    ]
+  },
+  {
+    "id": 59,
+    "titulo": "La habitacion maldito",
+    "anio": 1998,
+    "subgenero": "zombis",
+    "duracionMin": 110,
+    "clasificacion": "+16",
+    "calificacion": 3.1,
+    "presupuestoMusd": 33.4,
+    "recaudacionMusd": 131.6,
+    "estreno": "1998-02-08",
+    "pais": "Espana",
+    "sinopsis": "Un grupo de personas queda atrapado en la habitacion maldito y descubre que algo los vigila.",
+    "etiquetas": [
+      "sustos",
+      "suspenso",
+      "pueblo"
+    ],
+    "directorId": 8,
+    "repartoIds": [
+      2,
+      4,
+      5,
+      10
+    ]
+  },
+  {
+    "id": 60,
+    "titulo": "La muneca olvidado",
+    "anio": 2011,
+    "subgenero": "monstruos",
+    "duracionMin": 107,
+    "clasificacion": "+16",
+    "calificacion": 3.7,
+    "presupuestoMusd": 10.9,
+    "recaudacionMusd": 38.5,
+    "estreno": "2011-11-21",
+    "pais": "Espana",
+    "sinopsis": "Un grupo de personas queda atrapado en la muneca olvidado y descubre que algo los vigila.",
+    "etiquetas": [
+      "tormenta",
+      "encierro",
+      "cabana"
+    ],
+    "directorId": 1,
+    "repartoIds": [
+      3,
+      24
+    ]
+  }
+]

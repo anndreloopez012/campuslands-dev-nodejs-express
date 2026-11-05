@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nombre": "Dario Ferrer",
+    "pais": "Corea del Sur",
+    "nacimiento": 1962
+  },
+  {
+    "id": 2,
+    "nombre": "Oscar Prieto",
+    "pais": "Corea del Sur",
+    "nacimiento": 1978
+  },
+  {
+    "id": 3,
+    "nombre": "Ivan Navarro",
+    "pais": "Corea del Sur",
+    "nacimiento": 1963
+  },
+  {
+    "id": 4,
+    "nombre": "Mario Moreno",
+    "pais": "Japon",
+    "nacimiento": 1975
+  },
+  {
+    "id": 5,
+    "nombre": "Marta Esteban",
+    "pais": "Peru",
+    "nacimiento": 1986
+  },
+  {
+    "id": 6,
+    "nombre": "Julia Navarro",
+    "pais": "Chile",
+    "nacimiento": 1973
+  },
+  {
+    "id": 7,
+    "nombre": "Alba Cabrera",
+    "pais": "Uruguay",
+    "nacimiento": 1961
+  },
+  {
+    "id": 8,
+    "nombre": "Elena Bravo",
+    "pais": "Peru",
+    "nacimiento": 1956
+  }
+]
