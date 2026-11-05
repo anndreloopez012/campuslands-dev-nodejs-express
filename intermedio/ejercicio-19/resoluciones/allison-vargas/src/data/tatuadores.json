@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Mateo Rivas", "estilos": ["realismo", "blackwork"], "activo": true },
+  { "id": 2, "nombre": "Lucia Ferrer", "estilos": ["linea fina", "acuarela"], "activo": true },
+  { "id": 3, "nombre": "Dario Montes", "estilos": ["tradicional", "neotradicional"], "activo": true },
+  { "id": 4, "nombre": "Sofia Lara", "estilos": ["acuarela", "neotradicional"], "activo": false }
+]
