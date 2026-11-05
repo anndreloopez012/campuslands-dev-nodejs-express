@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nombre": "Nurburgring Nordschleife", "longitudKm": 20.8, "recordMs": 410000 },
+  { "id": 2, "nombre": "Monza", "longitudKm": 5.8, "recordMs": 84000 },
+  { "id": 3, "nombre": "Laguna Seca", "longitudKm": 3.6, "recordMs": 80000 },
+  { "id": 4, "nombre": "Circuito de la Sarthe", "longitudKm": 13.6, "recordMs": 200000 },
+  { "id": 5, "nombre": "Autodromo Hermanos Rodriguez", "longitudKm": 4.3, "recordMs": 78000 }
+]

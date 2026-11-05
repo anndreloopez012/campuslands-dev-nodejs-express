@@ -1,0 +1,10 @@
+[
+  { "id": "chiron-ss", "nombre": "Bugatti Chiron Super Sport", "potenciaHp": 1578, "velocidadMaximaKmh": 440 },
+  { "id": "jesko", "nombre": "Koenigsegg Jesko", "potenciaHp": 1600, "velocidadMaximaKmh": 480 },
+  { "id": "huayra-r", "nombre": "Pagani Huayra R", "potenciaHp": 850, "velocidadMaximaKmh": 370 },
+  { "id": "nevera", "nombre": "Rimac Nevera", "potenciaHp": 1914, "velocidadMaximaKmh": 412 },
+  { "id": "venom-f5", "nombre": "Hennessey Venom F5", "potenciaHp": 1817, "velocidadMaximaKmh": 484 },
+  { "id": "valkyrie", "nombre": "Aston Martin Valkyrie", "potenciaHp": 1160, "velocidadMaximaKmh": 400 },
+  { "id": "amg-one", "nombre": "Mercedes-AMG One", "potenciaHp": 1049, "velocidadMaximaKmh": 352 },
+  { "id": "sf90-xx", "nombre": "Ferrari SF90 XX Stradale", "potenciaHp": 1016, "velocidadMaximaKmh": 320 }
+]
