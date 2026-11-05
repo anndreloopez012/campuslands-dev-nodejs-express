@@ -1,0 +1,22 @@
+{
+  "name": "intermedio-03-controladores-limpios",
+  "version": "1.0.0",
+  "description": "Intermedio 03 - Controladores limpios con temática de MOBA esports",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "controladores-limpios",
+    "moba",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
