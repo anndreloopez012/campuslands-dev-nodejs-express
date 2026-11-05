@@ -1,0 +1,23 @@
+{
+  "name": "intermedio-08-middleware-request-id",
+  "version": "1.0.0",
+  "description": "Intermedio 08 - Middleware de Request ID con temática de hiperdeportivos",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "request-id",
+    "trazabilidad",
+    "hiperdeportivos",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
