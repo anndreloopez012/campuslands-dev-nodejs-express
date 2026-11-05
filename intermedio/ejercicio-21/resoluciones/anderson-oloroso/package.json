@@ -1,0 +1,11 @@
+{
+  "name": "intermedio-21-rate-limit-conceptual",
+  "version": "1.0.0",
+  "description": "Intermedio 21 - Rate limit conceptual con temática de animación 3D",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
