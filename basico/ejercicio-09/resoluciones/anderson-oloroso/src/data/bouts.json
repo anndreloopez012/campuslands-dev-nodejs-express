@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "evento": "Glory 95",
+    "luchadorRojo": "Rico Verhoeven",
+    "luchadorAzul": "Levi Rigters",
+    "division": "Peso Pesado",
+    "rounds": 5,
+    "tituloEnJuego": true,
+    "ganador": "Rico Verhoeven",
+    "metodo": "Decisión Unánime"
+  },
+  {
+    "id": 2,
+    "evento": "ONE Fight Night 23",
+    "luchadorRojo": "Superbon",
+    "luchadorAzul": "Tawanchai",
+    "division": "Peso Pluma",
+    "rounds": 5,
+    "tituloEnJuego": true,
+    "ganador": "Tawanchai",
+    "metodo": "Decisión Dividida"
+  }
+]

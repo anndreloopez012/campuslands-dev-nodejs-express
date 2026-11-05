@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Mike Tyson", "weight": 100, "wins": 50, "losses": 6, "ko": 44 },
+  { "id": 2, "name": "Buakaw Banchamek", "weight": 72, "wins": 239, "losses": 24, "ko": 67 },
+  { "id": 3, "name": "Giorgio Petrosyan", "weight": 70, "wins": 104, "losses": 3, "ko": 37 },
+  { "id": 4, "name": "Rico Verhoeven", "weight": 120, "wins": 58, "losses": 10, "ko": 17 }
+]

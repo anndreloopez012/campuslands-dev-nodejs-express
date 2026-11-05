@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-09-json-persistencia",
+  "version": "1.0.0",
+  "description": "JSON y persistencia simple - Kickboxing fighters",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Anderson Oloroso"
+}
