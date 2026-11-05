@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nombre": "Agencia Meridian",
+    "saldo": 0
+  },
+  {
+    "id": 2,
+    "nombre": "Gestion Delta",
+    "saldo": 0
+  },
+  {
+    "id": 3,
+    "nombre": "Representaciones Alba",
+    "saldo": 0
+  }
+]
