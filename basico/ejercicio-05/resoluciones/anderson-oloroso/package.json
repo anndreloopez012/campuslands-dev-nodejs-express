@@ -1,0 +1,13 @@
+{
+  "name": "anderson-oloroso",
+  "version": "1.0.0",
+  "description": "Creador: Anderson Oloroso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/app.js 3",
+    "start": "node src/app.js 2"
+  },
+  "keywords": [],
+  "type": "module"
+}

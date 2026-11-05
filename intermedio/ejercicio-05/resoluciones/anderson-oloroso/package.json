@@ -1,0 +1,22 @@
+{
+  "name": "intermedio-05-repositorios-en-memoria",
+  "version": "1.0.0",
+  "description": "Intermedio 05 - Repositorios en memoria con temática de fútbol y fútbol sala",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "repositorios-en-memoria",
+    "futbol",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
