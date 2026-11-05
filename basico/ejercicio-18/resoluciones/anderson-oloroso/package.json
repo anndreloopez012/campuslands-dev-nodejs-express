@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-18-rutas-post",
+  "version": "1.0.0",
+  "description": "Rutas POST – paracaidismo",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "author": "Anderson Oloroso",
+  "license": "ISC"
+}
