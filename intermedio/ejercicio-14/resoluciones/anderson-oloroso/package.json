@@ -1,0 +1,11 @@
+{
+  "name": "intermedio-14-autenticacion-simulada",
+  "version": "1.0.0",
+  "description": "Intermedio 14 - Autenticación simulada con temática de libros",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
