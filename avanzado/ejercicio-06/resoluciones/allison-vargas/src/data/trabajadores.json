@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Rafa Mendez", "habilidades": ["diagnostico", "afinacion", "cambio_aceite"], "capacidad": 1 },
+  { "id": 2, "nombre": "Lucia Barrera", "habilidades": ["frenos", "cambio_aceite", "lavado"], "capacidad": 1 },
+  { "id": 3, "nombre": "Tomas Aldana", "habilidades": ["electrica", "diagnostico"], "capacidad": 1 },
+  { "id": 4, "nombre": "Camila Ortiz", "habilidades": ["lavado", "cambio_aceite", "frenos", "afinacion"], "capacidad": 2 }
+]
