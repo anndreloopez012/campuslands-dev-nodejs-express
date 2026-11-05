@@ -1,0 +1,23 @@
+{
+  "name": "intermedio-10-ordenamiento-de-resultados",
+  "version": "1.0.0",
+  "description": "Intermedio 10 - Ordenamiento de resultados con temática de pingpong",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "ordenamiento",
+    "sorting",
+    "pingpong",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
