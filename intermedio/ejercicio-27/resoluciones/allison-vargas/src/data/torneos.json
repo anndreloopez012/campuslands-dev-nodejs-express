@@ -1,0 +1,6 @@
+[
+  {"id":1,"nombre":"Copa Apertura","formato":"liga","estado":"inscripcion","cupos":4,"premio":5000,"inicio":"2026-12-01"},
+  {"id":2,"nombre":"Liga Continental","formato":"eliminacion","estado":"en_curso","cupos":4,"premio":20000,"inicio":"2026-10-15"},
+  {"id":3,"nombre":"Torneo Relampago","formato":"suizo","estado":"inscripcion","cupos":2,"premio":1000,"inicio":"2026-11-20"},
+  {"id":4,"nombre":"Mundial de Invierno","formato":"eliminacion","estado":"finalizado","cupos":8,"premio":100000,"inicio":"2026-06-01"}
+]

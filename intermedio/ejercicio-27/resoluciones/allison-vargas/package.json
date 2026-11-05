@@ -1,0 +1,17 @@
+{
+  "name": "intermedio-27-documentacion-de-endpoints",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "docs:generar": "node scripts/generar-docs.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "test:cobertura": "node --test --experimental-test-coverage"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

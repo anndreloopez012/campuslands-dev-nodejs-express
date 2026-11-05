@@ -1,0 +1,9 @@
+[
+  {"id":1,"nombre":"Nebula Five","tag":"NBF","region":"eu","victorias":34,"derrotas":12,"creadoEn":"2026-09-01T12:00:00.000Z"},
+  {"id":2,"nombre":"Crimson Wolves","tag":"CRW","region":"na","victorias":28,"derrotas":15,"creadoEn":"2026-09-02T12:00:00.000Z"},
+  {"id":3,"nombre":"Jade Dragons","tag":"JDR","region":"asia","victorias":40,"derrotas":9,"creadoEn":"2026-09-03T12:00:00.000Z"},
+  {"id":4,"nombre":"Sol Andino","tag":"SOL","region":"latam","victorias":19,"derrotas":21,"creadoEn":"2026-09-04T12:00:00.000Z"},
+  {"id":5,"nombre":"Iron Tide","tag":"IRT","region":"na","victorias":22,"derrotas":18,"creadoEn":"2026-09-05T12:00:00.000Z"},
+  {"id":6,"nombre":"Void Walkers","tag":"VWK","region":"eu","victorias":15,"derrotas":25,"creadoEn":"2026-09-06T12:00:00.000Z"},
+  {"id":7,"nombre":"Lunar Fox","tag":"LFX","region":"asia","victorias":3,"derrotas":7,"creadoEn":"2026-09-07T12:00:00.000Z"}
+]
