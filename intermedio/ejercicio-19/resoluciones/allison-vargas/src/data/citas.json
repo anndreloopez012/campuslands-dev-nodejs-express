@@ -1,0 +1,6 @@
+[
+  { "id": 1, "cliente": "Valeria Soto", "email": "valeria@correo.test", "tatuadorId": 1, "fecha": "2026-12-14", "hora": "10:00", "zona": "antebrazo", "precioEstimado": 300, "deposito": 60, "estado": "confirmada", "creadoEn": "2026-10-28T15:00:00.000Z" },
+  { "id": 2, "cliente": "Andres Mejia", "email": "andres@correo.test", "tatuadorId": 1, "fecha": "2026-12-14", "hora": "11:00", "zona": "hombro", "precioEstimado": 450, "deposito": 90, "estado": "pendiente", "creadoEn": "2026-10-29T16:30:00.000Z" },
+  { "id": 3, "cliente": "Camila Ortiz", "email": "camila@correo.test", "tatuadorId": 2, "fecha": "2026-12-15", "hora": "14:00", "zona": "costillas", "precioEstimado": 250, "deposito": 50, "estado": "pendiente", "creadoEn": "2026-10-30T10:15:00.000Z" },
+  { "id": 4, "cliente": "Jorge Pineda", "email": "jorge@correo.test", "tatuadorId": 3, "fecha": "2026-12-15", "hora": "16:00", "zona": "pantorrilla", "precioEstimado": 380, "deposito": 76, "estado": "cancelada", "creadoEn": "2026-10-31T09:00:00.000Z" }
+]
