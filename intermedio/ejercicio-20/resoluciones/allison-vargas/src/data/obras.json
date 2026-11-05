@@ -1,0 +1,7 @@
+[
+  { "id": 1, "titulo": "Bosque de neon", "artista": "Lucia Ferrer", "herramienta": "procreate", "ancho": 2048, "alto": 1536, "publica": true, "creadoEn": "2026-09-12T14:20:00.000Z" },
+  { "id": 2, "titulo": "Retrato en acuarela", "artista": "Mateo Rivas", "herramienta": "krita", "ancho": 3000, "alto": 4000, "publica": true, "creadoEn": "2026-09-30T18:05:00.000Z" },
+  { "id": 3, "titulo": "Boceto de personaje", "artista": "Lucia Ferrer", "herramienta": "clip studio", "ancho": 1600, "alto": 2400, "publica": false, "creadoEn": "2026-10-08T09:40:00.000Z" },
+  { "id": 4, "titulo": "Ciudad al amanecer", "artista": "Dario Montes", "herramienta": "photoshop", "ancho": 4096, "alto": 2304, "publica": true, "creadoEn": "2026-10-19T21:15:00.000Z" },
+  { "id": 5, "titulo": "Estudio de manos", "artista": "Sofia Lara", "herramienta": "medibang", "ancho": 1200, "alto": 1200, "publica": false, "creadoEn": "2026-10-27T16:50:00.000Z" }
+]
