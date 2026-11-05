@@ -1,0 +1,11 @@
+{
+  "name": "intermedio-22-subida-simulada-archivos",
+  "version": "1.0.0",
+  "description": "Intermedio 22 - Subida simulada de archivos con temática de arquitectura 3D",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
