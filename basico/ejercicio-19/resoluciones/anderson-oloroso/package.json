@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-19-req-params-query",
+  "version": "1.0.0",
+  "description": "req.params y req.query – tatuajes",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "author": "Anderson Oloroso",
+  "license": "ISC"
+}

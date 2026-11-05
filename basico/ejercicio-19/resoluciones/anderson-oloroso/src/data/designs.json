@@ -1,0 +1,9 @@
+[
+  { "id": 1, "artistId": 1, "name": "Dragón japonés", "style": "japanese", "minPrice": 300 },
+  { "id": 2, "artistId": 1, "name": "Koi fish", "style": "japanese", "minPrice": 200 },
+  { "id": 3, "artistId": 1, "name": "Rosa con espinas", "style": "traditional", "minPrice": 150 },
+  { "id": 4, "artistId": 2, "name": "Calavera geométrica", "style": "geometric", "minPrice": 250 },
+  { "id": 5, "artistId": 2, "name": "Mandala", "style": "geometric", "minPrice": 180 },
+  { "id": 6, "artistId": 3, "name": "Retrato realista", "style": "realism", "minPrice": 500 },
+  { "id": 7, "artistId": 3, "name": "Lobo acuarela", "style": "watercolor", "minPrice": 350 }
+]
