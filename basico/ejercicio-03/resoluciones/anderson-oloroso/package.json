@@ -1,0 +1,20 @@
+{
+  "name": "ejercicio-03-commonjs",
+  "version": "1.0.0",
+  "description": "Básico 03 - Módulos CommonJS con temática de MOBA esports",
+  "keywords": [
+    "commonjs",
+    "node.js",
+    "moba",
+    "ejercicio-03",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  }
+}
