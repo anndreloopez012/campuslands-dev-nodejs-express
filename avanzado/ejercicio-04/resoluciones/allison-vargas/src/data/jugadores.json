@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nick": "Valkyrie",
+    "suspendido": false,
+    "creadoEn": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "nick": "Nova_Strike",
+    "suspendido": false,
+    "creadoEn": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "nick": "Zeta9",
+    "suspendido": false,
+    "creadoEn": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "nick": "Orbit",
+    "suspendido": false,
+    "creadoEn": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": 5,
+    "nick": "Kestrel_7",
+    "suspendido": false,
+    "creadoEn": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": 6,
+    "nick": "Mirage",
+    "suspendido": false,
+    "creadoEn": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": 7,
+    "nick": "Dagger",
+    "suspendido": false,
+    "creadoEn": "2026-10-01T10:00:00.000Z"
+  },
+  {
+    "id": 8,
+    "nick": "Spectre_X",
+    "suspendido": true,
+    "creadoEn": "2026-10-01T10:00:00.000Z"
+  }
+]

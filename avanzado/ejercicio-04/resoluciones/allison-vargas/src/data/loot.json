@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "tipo": "pistola",
+    "x": 89,
+    "y": 50
+  },
+  {
+    "id": 2,
+    "tipo": "municion",
+    "x": 90,
+    "y": 52
+  },
+  {
+    "id": 3,
+    "tipo": "botiquin",
+    "x": 91,
+    "y": 49
+  },
+  {
+    "id": 4,
+    "tipo": "escudo",
+    "x": 92,
+    "y": 51
+  },
+  {
+    "id": 5,
+    "tipo": "rifle",
+    "x": 49,
+    "y": 90
+  },
+  {
+    "id": 6,
+    "tipo": "botiquin",
+    "x": 50,
+    "y": 92
+  },
+  {
+    "id": 7,
+    "tipo": "municion",
+    "x": 51,
+    "y": 89
+  },
+  {
+    "id": 8,
+    "tipo": "escudo",
+    "x": 52,
+    "y": 91
+  },
+  {
+    "id": 9,
+    "tipo": "pistola",
+    "x": 9,
+    "y": 50
+  },
+  {
+    "id": 10,
+    "tipo": "botiquin",
+    "x": 10,
+    "y": 52
+  },
+  {
+    "id": 11,
+    "tipo": "municion",
+    "x": 11,
+    "y": 49
+  },
+  {
+    "id": 12,
+    "tipo": "rifle",
+    "x": 12,
+    "y": 51
+  },
+  {
+    "id": 13,
+    "tipo": "rifle",
+    "x": 49,
+    "y": 10
+  },
+  {
+    "id": 14,
+    "tipo": "escudo",
+    "x": 50,
+    "y": 12
+  },
+  {
+    "id": 15,
+    "tipo": "municion",
+    "x": 51,
+    "y": 9
+  },
+  {
+    "id": 16,
+    "tipo": "botiquin",
+    "x": 52,
+    "y": 11
+  },
+  {
+    "id": 17,
+    "tipo": "rifle",
+    "x": 50,
+    "y": 50
+  },
+  {
+    "id": 18,
+    "tipo": "botiquin",
+    "x": 51,
+    "y": 49
+  }
+]
