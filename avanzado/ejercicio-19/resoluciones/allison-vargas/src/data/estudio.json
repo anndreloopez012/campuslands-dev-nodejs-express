@@ -1,0 +1,13 @@
+{
+  "personal": [
+    { "id": 1, "nombre": "Mara Quiroga", "rol": "admin" },
+    { "id": 2, "nombre": "Iker Soto", "rol": "recepcion" },
+    { "id": 3, "nombre": "Luna Ferrada", "rol": "tatuador", "estilo": "fine line" },
+    { "id": 4, "nombre": "Teo Valdes", "rol": "tatuador", "estilo": "neotradicional" }
+  ],
+  "clientes": [
+    { "id": 1, "nombre": "Javiera Paz", "email": "javiera@correo.test", "telefono": "+56911112222", "alergias": [] },
+    { "id": 2, "nombre": "Matias Lagos", "email": "matias@correo.test", "telefono": "+56933334444", "alergias": ["latex"] },
+    { "id": 3, "nombre": "Renata Cid", "email": "renata@correo.test", "telefono": "+56955556666", "alergias": ["niquel"] }
+  ]
+}
