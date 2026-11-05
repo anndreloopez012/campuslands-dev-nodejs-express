@@ -1,0 +1,22 @@
+{
+  "name": "intermedio-01-arquitectura-por-capas",
+  "version": "1.0.0",
+  "description": "Intermedio 01 - Arquitectura por capas con temática de videojuegos RPG",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "arquitectura-capas",
+    "rpg",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
