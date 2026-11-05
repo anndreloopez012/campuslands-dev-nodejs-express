@@ -1,0 +1,23 @@
+{
+  "name": "intermedio-29-refactor-de-api",
+  "version": "1.0.0",
+  "description": "Intermedio 29 - Refactor de API con temática de fútbol y fútbol sala",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "express",
+    "refactor",
+    "arquitectura-limpia",
+    "futbol",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
