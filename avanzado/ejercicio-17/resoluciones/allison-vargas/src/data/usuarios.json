@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Valentina Rios",
+    "email": "valentina@viajes.test",
+    "rol": "viajero",
+    "contrasenaHash": "scrypt$16384$diY_eX7obVcKBzUQWubw8g$cyNwEnM15k94Euz3JhhAqxV_CEhRLgHxaEjcX_VGiJU"
+  },
+  {
+    "id": 2,
+    "nombre": "Tomas Herrera",
+    "email": "tomas@viajes.test",
+    "rol": "viajero",
+    "contrasenaHash": "scrypt$16384$WmUrwg7afASJmIoN_FwRlA$73RlirrhrJ9J80Ec7nd9N8RLICz-eY8Qf5Y2y13cRoE"
+  },
+  {
+    "id": 3,
+    "nombre": "Agencia Central",
+    "email": "admin@viajes.test",
+    "rol": "admin",
+    "contrasenaHash": "scrypt$16384$g2bX2z003swlyjqZLUCmXA$BrC4Ro-fe74d7BOMkrDpWuooZZgDWT1M6MjHPN-0RCA"
+  }
+]

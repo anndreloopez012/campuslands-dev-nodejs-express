@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nombre": "Torres del Paine", "pais": "Chile", "tipo": "trekking", "precio": 450000, "cupos": 12 },
+  { "id": 2, "nombre": "Salar de Uyuni", "pais": "Bolivia", "tipo": "aventura", "precio": 380000, "cupos": 8 },
+  { "id": 3, "nombre": "Machu Picchu", "pais": "Peru", "tipo": "cultural", "precio": 520000, "cupos": 20 },
+  { "id": 4, "nombre": "Cartagena de Indias", "pais": "Colombia", "tipo": "playa", "precio": 610000, "cupos": 15 },
+  { "id": 5, "nombre": "Isla de Pascua", "pais": "Chile", "tipo": "cultural", "precio": 890000, "cupos": 4 },
+  { "id": 6, "nombre": "Valle de Cocora", "pais": "Colombia", "tipo": "naturaleza", "precio": 210000, "cupos": 10 }
+]
