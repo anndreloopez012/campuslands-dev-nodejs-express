@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Arepa rellena de carne", "price": 8000, "category": "arepas" },
+  { "id": 2, "name": "Empanada de pollo", "price": 3500, "category": "empanadas" },
+  { "id": 3, "name": "Perro caliente especial", "price": 12000, "category": "perros" },
+  { "id": 4, "name": "Hamburguesa doble carne", "price": 18000, "category": "hamburguesas" },
+  { "id": 5, "name": "Choripán argentino", "price": 10000, "category": "sándwiches" }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-15-mini-api-http-nativa",
+  "version": "1.0.0",
+  "description": "Mini API HTTP nativa – comida urbana",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "Anderson Oloroso",
+  "license": "ISC"
+}
