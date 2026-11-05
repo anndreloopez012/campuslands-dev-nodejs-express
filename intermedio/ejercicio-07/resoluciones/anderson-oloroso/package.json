@@ -1,0 +1,22 @@
+{
+  "name": "intermedio-07-middleware-de-errores",
+  "version": "1.0.0",
+  "description": "Intermedio 07 - Middleware de errores con temática de autos de lujo",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "middleware-errores",
+    "autos-de-lujo",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
