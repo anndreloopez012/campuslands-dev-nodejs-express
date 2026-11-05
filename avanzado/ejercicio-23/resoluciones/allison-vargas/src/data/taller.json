@@ -1,0 +1,19 @@
+{
+  "maquinas": [
+    { "id": 1, "nombre": "MIG Lincoln 250", "proceso": "MIG", "horasDesdeMantenimiento": 180, "limiteHoras": 200 },
+    { "id": 2, "nombre": "TIG Miller Dynasty", "proceso": "TIG", "horasDesdeMantenimiento": 40, "limiteHoras": 150 },
+    { "id": 3, "nombre": "Electrodo ESAB 400", "proceso": "SMAW", "horasDesdeMantenimiento": 310, "limiteHoras": 300 },
+    { "id": 4, "nombre": "Plasma Hypertherm 65", "proceso": "corte", "horasDesdeMantenimiento": 90, "limiteHoras": 120 }
+  ],
+  "soldadores": [
+    { "id": 1, "nombre": "Ramon Fuentes", "certificaciones": [{ "proceso": "MIG", "vence": "2026-11-20" }, { "proceso": "TIG", "vence": "2027-06-01" }] },
+    { "id": 2, "nombre": "Paula Herrera", "certificaciones": [{ "proceso": "TIG", "vence": "2026-11-01" }] },
+    { "id": 3, "nombre": "Ignacio Mella", "certificaciones": [{ "proceso": "SMAW", "vence": "2027-02-15" }, { "proceso": "MIG", "vence": "2026-12-01" }] }
+  ],
+  "consumibles": [
+    { "id": 1, "nombre": "Alambre ER70S-6 0.9 mm", "unidad": "kg", "stock": 12, "minimo": 20, "reposicion": 60 },
+    { "id": 2, "nombre": "Varilla ER308L 2.4 mm", "unidad": "kg", "stock": 8, "minimo": 5, "reposicion": 15 },
+    { "id": 3, "nombre": "Electrodo E7018 3.2 mm", "unidad": "kg", "stock": 30, "minimo": 25, "reposicion": 50 },
+    { "id": 4, "nombre": "Gas argon 10 m3", "unidad": "cilindro", "stock": 1, "minimo": 2, "reposicion": 4 }
+  ]
+}
