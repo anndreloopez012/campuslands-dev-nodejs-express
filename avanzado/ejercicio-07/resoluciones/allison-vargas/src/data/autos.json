@@ -1,0 +1,18 @@
+[
+  { "id": 1, "marca": "Ferrari", "modelo": "Roma", "anio": 2024, "categoria": "gran_turismo", "precioUsd": 247000, "potenciaHp": 612, "vin": "ZFF99LPA0R0300001", "disponible": true },
+  { "id": 2, "marca": "Ferrari", "modelo": "SF90 Stradale", "anio": 2023, "categoria": "hiperauto", "precioUsd": 524000, "potenciaHp": 986, "vin": "ZFF95NLA2P0280002", "disponible": true },
+  { "id": 3, "marca": "Lamborghini", "modelo": "Huracan Tecnica", "anio": 2023, "categoria": "deportivo", "precioUsd": 239000, "potenciaHp": 631, "vin": "ZHWUC3ZF5PLA20003", "disponible": true },
+  { "id": 4, "marca": "Lamborghini", "modelo": "Urus Performante", "anio": 2024, "categoria": "suv", "precioUsd": 260000, "potenciaHp": 657, "vin": "ZPBUA1ZL4RLA10004", "disponible": false },
+  { "id": 5, "marca": "Porsche", "modelo": "911 Turbo S", "anio": 2024, "categoria": "deportivo", "precioUsd": 230000, "potenciaHp": 640, "vin": "WP0AD2A98RS025005", "disponible": true },
+  { "id": 6, "marca": "Porsche", "modelo": "Taycan Turbo S", "anio": 2023, "categoria": "sedan", "precioUsd": 187000, "potenciaHp": 750, "vin": "WP0AF2Y16PSA60006", "disponible": true },
+  { "id": 7, "marca": "Bentley", "modelo": "Continental GT Speed", "anio": 2024, "categoria": "gran_turismo", "precioUsd": 275000, "potenciaHp": 650, "vin": "SCBCG63W5RC007007", "disponible": true },
+  { "id": 8, "marca": "Bentley", "modelo": "Bentayga EWB", "anio": 2023, "categoria": "suv", "precioUsd": 249000, "potenciaHp": 542, "vin": "SJAAC14V2PC003008", "disponible": true },
+  { "id": 9, "marca": "Rolls-Royce", "modelo": "Ghost", "anio": 2024, "categoria": "sedan", "precioUsd": 345000, "potenciaHp": 563, "vin": "SCA6S2C09RU080009", "disponible": true },
+  { "id": 10, "marca": "Rolls-Royce", "modelo": "Cullinan", "anio": 2023, "categoria": "suv", "precioUsd": 380000, "potenciaHp": 563, "vin": "SCA68TA04PU020010", "disponible": false },
+  { "id": 11, "marca": "McLaren", "modelo": "750S", "anio": 2024, "categoria": "deportivo", "precioUsd": 324000, "potenciaHp": 740, "vin": "SBM21BCA9RW014011", "disponible": true },
+  { "id": 12, "marca": "McLaren", "modelo": "Artura", "anio": 2023, "categoria": "deportivo", "precioUsd": 237000, "potenciaHp": 671, "vin": "SBM17ACA2PW020012", "disponible": true },
+  { "id": 13, "marca": "Aston Martin", "modelo": "DB12", "anio": 2024, "categoria": "gran_turismo", "precioUsd": 248000, "potenciaHp": 671, "vin": "SCFRMFAW4RG0A0013", "disponible": true },
+  { "id": 14, "marca": "Aston Martin", "modelo": "Valkyrie", "anio": 2022, "categoria": "hiperauto", "precioUsd": 3200000, "potenciaHp": 1160, "vin": "SCFRMFEZ1NG0V0014", "disponible": true },
+  { "id": 15, "marca": "Mercedes-Maybach", "modelo": "S 680", "anio": 2024, "categoria": "sedan", "precioUsd": 235000, "potenciaHp": 621, "vin": "W1K6G7GB5RA020015", "disponible": true },
+  { "id": 16, "marca": "Bugatti", "modelo": "Chiron Super Sport", "anio": 2022, "categoria": "hiperauto", "precioUsd": 3900000, "potenciaHp": 1578, "vin": "VF9SP3V30NM079016", "disponible": false }
+]
