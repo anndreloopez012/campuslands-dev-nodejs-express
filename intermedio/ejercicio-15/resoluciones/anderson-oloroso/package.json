@@ -1,0 +1,11 @@
+{
+  "name": "intermedio-15-jwt-basico",
+  "version": "1.0.0",
+  "description": "Intermedio 15 - JWT básico con temática de comida urbana",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
