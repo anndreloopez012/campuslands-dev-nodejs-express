@@ -1,0 +1,12 @@
+[
+  { "id": 1, "sku": "SNK-AIR-001", "nombre": "Runner Nube Blanca", "marca": "Aerostep", "categoria": "sneakers", "precio": 89990, "tallas": [38, 39, 40, 41, 42], "colores": ["blanco"], "descripcion": "Zapatilla liviana para correr en ciudad." },
+  { "id": 2, "sku": "SNK-SKT-014", "nombre": "Skate Clasica Lona", "marca": "Rampa", "categoria": "sneakers", "precio": 49990, "tallas": [36, 37, 38, 39, 40, 41, 42, 43], "colores": ["negro", "blanco"], "descripcion": "Suela vulcanizada y lona resistente." },
+  { "id": 3, "sku": "SNK-BSK-220", "nombre": "Botin Basket Retro", "marca": "Aerostep", "categoria": "sneakers", "precio": 129990, "tallas": [40, 41, 42, 43, 44, 45], "colores": ["rojo", "blanco"], "descripcion": "Cana alta con amortiguacion de aire." },
+  { "id": 4, "sku": "POL-OVS-007", "nombre": "Polera Oversize Graffiti", "marca": "Barrio Norte", "categoria": "poleras", "precio": 19990, "tallas": ["S", "M", "L", "XL"], "colores": ["negro"], "descripcion": "Algodon peinado con estampado de graffiti." },
+  { "id": 5, "sku": "POL-BAS-002", "nombre": "Polera Basica Pima", "marca": "Hilo Fino", "categoria": "poleras", "precio": 14990, "tallas": ["XS", "S", "M", "L"], "colores": ["blanco", "gris"], "descripcion": "Algodon pima de fibra larga." },
+  { "id": 6, "sku": "PLR-CAP-031", "nombre": "Poleron Capucha Urbano", "marca": "Barrio Norte", "categoria": "polerones", "precio": 39990, "tallas": ["M", "L", "XL", "XXL"], "colores": ["verde", "negro"], "descripcion": "Frisa interior y bolsillo canguro." },
+  { "id": 7, "sku": "PLR-ZIP-008", "nombre": "Poleron Cierre Tecnico", "marca": "Montana Gris", "categoria": "polerones", "precio": 54990, "tallas": ["S", "M", "L"], "colores": ["gris"], "descripcion": "Tela tecnica que repele el agua." },
+  { "id": 8, "sku": "GOR-TRK-100", "nombre": "Gorro Trucker Malla", "marca": "Rampa", "categoria": "gorros", "precio": 12990, "tallas": ["M", "L"], "colores": ["azul", "blanco"], "descripcion": "Visera curva y cierre ajustable." },
+  { "id": 9, "sku": "PAN-CRG-055", "nombre": "Pantalon Cargo Ripstop", "marca": "Montana Gris", "categoria": "pantalones", "precio": 44990, "tallas": ["S", "M", "L", "XL"], "colores": ["beige", "negro"], "descripcion": "Seis bolsillos y tela antidesgarro." },
+  { "id": 10, "sku": "SNK-TRL-301", "nombre": "Trail Cumbre Pro", "marca": "Montana Gris", "categoria": "sneakers", "precio": 109990, "tallas": [39, 40, 41, 42, 43, 44], "colores": ["naranja", "gris"], "descripcion": "Taco agresivo para cerro y barro." }
+]
