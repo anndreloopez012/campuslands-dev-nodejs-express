@@ -1,0 +1,7 @@
+[
+  {"id":1,"usuario":"admin","nombre":"Administrador","rol":"admin","activo":true,"passwordHash":"6648f9cc034fcb5f73b0ba67f2215c51:4d99521b8a6b9fc312b32309dea3ad889cfbdf865d8118c7e31d64f7a916fbc3"},
+  {"id":2,"usuario":"lucia","nombre":"Lucia Morales","rol":"recepcion","activo":true,"passwordHash":"a42409238f092d4bb3813e42b7e2ad57:799f7585a5f19a289065f20d89e70a159a33d05159317b231b28a95d6057f003"},
+  {"id":3,"usuario":"carlos","nombre":"Carlos Perez","rol":"mecanico","activo":true,"passwordHash":"34a19321b9b71c4a0581a4182c910ae8:a32ffb60bce854dc2dbd4a6abff2118686d296afdd6084188eacc4c250d9683f"},
+  {"id":4,"usuario":"marta","nombre":"Marta Lopez","rol":"mecanico","activo":true,"passwordHash":"c4630e66b233dffc4dfd2f8fe8481dfa:692310d0550bb318aa10a34099797555c7885d74e323a1f1c0b0c9c7548c58f2"},
+  {"id":5,"usuario":"pedro","nombre":"Pedro Ruiz","rol":"mecanico","activo":false,"passwordHash":"504683827c2038233ea19a38de12af93:8979ef85508eb987c9030b7b955ed3406cb2518c0f33a35c1eb8534efd76c39b"}
+]

@@ -1,0 +1,6 @@
+[
+  {"id":1,"clienteId":1,"placa":"M123ABC","marca":"Honda","modelo":"CB190R","cilindraje":184,"anio":2022},
+  {"id":2,"clienteId":1,"placa":"M456DEF","marca":"Yamaha","modelo":"FZ25","cilindraje":249,"anio":2021},
+  {"id":3,"clienteId":2,"placa":"M789GHI","marca":"Suzuki","modelo":"Gixxer","cilindraje":155,"anio":2023},
+  {"id":4,"clienteId":3,"placa":"M321JKL","marca":"Bajaj","modelo":"Pulsar NS200","cilindraje":199,"anio":2020}
+]

@@ -1,0 +1,5 @@
+[
+  {"id":1,"nombre":"Jorge Castillo","telefono":"55501234","email":"jorge@correo.com"},
+  {"id":2,"nombre":"Ana Giron","telefono":"55505678"},
+  {"id":3,"nombre":"Luis Herrera","telefono":"55509012","email":"luis@correo.com"}
+]
