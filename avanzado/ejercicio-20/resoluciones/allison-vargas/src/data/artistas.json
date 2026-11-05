@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nombre": "Pixel Ana", "especialidad": "retratos semirrealistas", "tarifas": { "retrato": 45000, "personaje": 60000, "fondo": 80000 } },
+  { "id": 2, "nombre": "Trazo Nocturno", "especialidad": "personajes de fantasia", "tarifas": { "retrato": 50000, "personaje": 70000, "fondo": 90000 } },
+  { "id": 3, "nombre": "Lienzo Neon", "especialidad": "fondos cyberpunk", "tarifas": { "retrato": 40000, "personaje": 55000, "fondo": 120000 } }
+]
