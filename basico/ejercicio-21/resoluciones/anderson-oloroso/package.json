@@ -1,0 +1,17 @@
+{
+  "name": "basico-21-estructura-src-routes-controllers",
+  "version": "1.0.0",
+  "description": "Básico 21 - Estructura src/routes/controllers con temática de animación 3D",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": ["express", "estructura-capas", "animacion-3d", "anderson-oloroso"],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
