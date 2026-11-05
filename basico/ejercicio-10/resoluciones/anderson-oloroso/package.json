@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-10-funciones-asincronas",
+  "version": "1.0.0",
+  "description": "Funciones asíncronas con callbacks - Ping Pong",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Anderson Oloroso"
+}
