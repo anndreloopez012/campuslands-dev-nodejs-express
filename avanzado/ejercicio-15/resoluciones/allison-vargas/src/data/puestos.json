@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1, "nombre": "Tacos El Guero", "barrio": "Centro", "tipo": "tacos",
+    "platos": [
+      { "id": 1, "nombre": "Taco al pastor", "precio": 1800 },
+      { "id": 2, "nombre": "Taco de suadero", "precio": 1900 },
+      { "id": 3, "nombre": "Agua de horchata", "precio": 1200 }
+    ]
+  },
+  {
+    "id": 2, "nombre": "Arepera La Esquina", "barrio": "Bellavista", "tipo": "arepas",
+    "platos": [
+      { "id": 4, "nombre": "Reina pepiada", "precio": 4500 },
+      { "id": 5, "nombre": "Arepa domino", "precio": 3900 },
+      { "id": 6, "nombre": "Papelon con limon", "precio": 1500 }
+    ]
+  },
+  {
+    "id": 3, "nombre": "Choripan del Puerto", "barrio": "Costanera", "tipo": "parrilla",
+    "platos": [
+      { "id": 7, "nombre": "Choripan clasico", "precio": 3500 },
+      { "id": 8, "nombre": "Choripan con chimichurri", "precio": 3800 }
+    ]
+  },
+  {
+    "id": 4, "nombre": "Ramen Nocturno", "barrio": "Lastarria", "tipo": "ramen",
+    "platos": [
+      { "id": 9, "nombre": "Ramen shoyu", "precio": 7900 },
+      { "id": 10, "nombre": "Gyozas x6", "precio": 4200 }
+    ]
+  },
+  {
+    "id": 5, "nombre": "Empanadas Dona Rosa", "barrio": "Yungay", "tipo": "empanadas",
+    "platos": [
+      { "id": 11, "nombre": "Empanada de pino", "precio": 2500 },
+      { "id": 12, "nombre": "Empanada de queso", "precio": 2200 },
+      { "id": 13, "nombre": "Sopaipilla pasada", "precio": 900 }
+    ]
+  }
+]
