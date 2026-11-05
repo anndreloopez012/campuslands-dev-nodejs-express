@@ -1,0 +1,10 @@
+[
+  {"id":1,"nombre":"Leones","modalidad":"futbol"},
+  {"id":2,"nombre":"Tigres","modalidad":"futbol"},
+  {"id":3,"nombre":"Aguilas","modalidad":"futbol"},
+  {"id":4,"nombre":"Halcones","modalidad":"futbol"},
+  {"id":5,"nombre":"Rayos","modalidad":"futbol_sala"},
+  {"id":6,"nombre":"Truenos","modalidad":"futbol_sala"},
+  {"id":7,"nombre":"Cometas","modalidad":"futbol_sala"},
+  {"id":8,"nombre":"Furias","modalidad":"futbol_sala"}
+]
