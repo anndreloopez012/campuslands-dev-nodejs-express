@@ -1,0 +1,12 @@
+{
+  "name": "ejercicio-04-battle-royale",
+  "version": "1.0.0",
+  "description": "Simulador de zona/tormenta Battle Royale con ES Modules",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Anderson Oloroso",
+  "license": "ISC"
+}
