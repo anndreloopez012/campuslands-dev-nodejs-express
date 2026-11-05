@@ -1,0 +1,23 @@
+{
+  "name": "intermedio-06-validacion-centralizada",
+  "version": "1.0.0",
+  "description": "Intermedio 06 - Validación centralizada con temática de motos y mecánica",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "validacion-centralizada",
+    "motos",
+    "mecanica",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
