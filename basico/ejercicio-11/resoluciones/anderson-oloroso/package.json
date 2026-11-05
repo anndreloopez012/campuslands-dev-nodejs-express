@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-11-promesas-basicas",
+  "version": "1.0.0",
+  "description": "Promesas básicas - Playlist de música",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Anderson Oloroso"
+}
