@@ -1,0 +1,8 @@
+[
+  { "id": 1, "nombre": "Agua", "formula": "H2O", "categoria": "otro", "masaMolar": 18.015, "creadoEn": "2026-10-01T12:00:00.000Z" },
+  { "id": 2, "nombre": "Cloruro de sodio", "formula": "NaCl", "categoria": "sal", "masaMolar": 58.44, "creadoEn": "2026-10-03T12:00:00.000Z" },
+  { "id": 3, "nombre": "Acido sulfurico", "formula": "H2SO4", "categoria": "acido", "masaMolar": 98.072, "creadoEn": "2026-10-05T12:00:00.000Z" },
+  { "id": 4, "nombre": "Hidroxido de sodio", "formula": "NaOH", "categoria": "base", "masaMolar": 39.997, "creadoEn": "2026-10-07T12:00:00.000Z" },
+  { "id": 5, "nombre": "Dioxido de carbono", "formula": "CO2", "categoria": "oxido", "masaMolar": 44.009, "creadoEn": "2026-10-09T12:00:00.000Z" },
+  { "id": 6, "nombre": "Glucosa", "formula": "C6H12O6", "categoria": "organico", "masaMolar": 180.156, "creadoEn": "2026-10-11T12:00:00.000Z" }
+]
