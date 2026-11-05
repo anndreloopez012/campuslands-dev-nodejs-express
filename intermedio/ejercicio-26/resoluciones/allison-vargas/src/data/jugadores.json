@@ -1,0 +1,10 @@
+[
+  {"id":1,"nick":"Viper","region":"na","elo":1500,"partidas":40,"victorias":21,"creadoEn":"2026-10-01T12:00:00.000Z"},
+  {"id":2,"nick":"Nocturne","region":"eu","elo":1620,"partidas":55,"victorias":33,"creadoEn":"2026-10-02T12:00:00.000Z"},
+  {"id":3,"nick":"Blaze","region":"latam","elo":1380,"partidas":30,"victorias":13,"creadoEn":"2026-10-03T12:00:00.000Z"},
+  {"id":4,"nick":"Echo","region":"na","elo":1710,"partidas":70,"victorias":45,"creadoEn":"2026-10-04T12:00:00.000Z"},
+  {"id":5,"nick":"Zephyr","region":"eu","elo":1450,"partidas":25,"victorias":12,"creadoEn":"2026-10-05T12:00:00.000Z"},
+  {"id":6,"nick":"Rook","region":"latam","elo":1550,"partidas":48,"victorias":26,"creadoEn":"2026-10-06T12:00:00.000Z"},
+  {"id":7,"nick":"Kitsune","region":"asia","elo":1800,"partidas":90,"victorias":62,"creadoEn":"2026-10-07T12:00:00.000Z"},
+  {"id":8,"nick":"Wallhack99","region":"na","elo":1200,"partidas":12,"victorias":5,"creadoEn":"2026-10-08T12:00:00.000Z"}
+]
