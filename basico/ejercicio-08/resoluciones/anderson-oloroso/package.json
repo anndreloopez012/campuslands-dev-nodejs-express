@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-08-variables-de-entorno",
+  "version": "1.0.0",
+  "description": "Básico 08 - Variables de entorno con temática de hiperdeportivos",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": ["node", "process.env", "variables-entorno", "hiperdeportivos", "anderson-oloroso"],
+  "author": "Anderson Oloroso",
+  "license": "ISC"
+}
