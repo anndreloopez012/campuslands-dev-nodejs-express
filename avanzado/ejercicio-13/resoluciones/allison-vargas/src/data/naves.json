@@ -1,0 +1,10 @@
+[
+  { "id": 1, "nombre": "Andromeda Errante", "clase": "explorador", "tripulacion": 6, "estado": "operativa" },
+  { "id": 2, "nombre": "Halcon de Titan", "clase": "crucero", "tripulacion": 40, "estado": "operativa" },
+  { "id": 3, "nombre": "Sonda Kepler-9", "clase": "sonda", "tripulacion": 0, "estado": "operativa" },
+  { "id": 4, "nombre": "Carguero Orion", "clase": "carguero", "tripulacion": 12, "estado": "mantenimiento" },
+  { "id": 5, "nombre": "Vigia de Europa", "clase": "explorador", "tripulacion": 5, "estado": "operativa" },
+  { "id": 6, "nombre": "Nomada Estelar", "clase": "carguero", "tripulacion": 9, "estado": "operativa" },
+  { "id": 7, "nombre": "Aurora Boreal", "clase": "crucero", "tripulacion": 55, "estado": "operativa" },
+  { "id": 8, "nombre": "Eco de Proxima", "clase": "sonda", "tripulacion": 0, "estado": "mantenimiento" }
+]
