@@ -1,0 +1,4 @@
+[
+  { "id": 1, "avion": "Cessna 208 Caravan", "pilotoId": 4, "hora": "2026-11-06T10:00:00.000Z", "capacidad": 4, "estado": "programado" },
+  { "id": 2, "avion": "Pilatus Porter", "pilotoId": 10, "hora": "2026-11-06T12:00:00.000Z", "capacidad": 6, "estado": "programado" }
+]

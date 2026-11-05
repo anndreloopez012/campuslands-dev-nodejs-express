@@ -1,0 +1,12 @@
+[
+  { "id": 1, "nombre": "Sofia Alumna", "token": "tk-sofia", "roles": ["alumno"], "licencia": null },
+  { "id": 2, "nombre": "Diego Licenciado", "token": "tk-diego", "roles": ["paracaidista"], "licencia": "B" },
+  { "id": 3, "nombre": "Camila Instructora", "token": "tk-camila", "roles": ["instructor"], "licencia": "D", "certificaciones": ["instructor"], "alumnos": [1] },
+  { "id": 4, "nombre": "Martin Piloto", "token": "tk-martin", "roles": ["piloto", "paracaidista"], "licencia": "A" },
+  { "id": 5, "nombre": "Rosa Jefa de Zona", "token": "tk-rosa", "roles": ["jefe_zona"], "licencia": "D", "certificaciones": ["instructor"], "alumnos": [6] },
+  { "id": 6, "nombre": "Lucas Alumno", "token": "tk-lucas", "roles": ["alumno"], "licencia": null },
+  { "id": 7, "nombre": "Elena Administradora", "token": "tk-elena", "roles": ["admin"], "licencia": null },
+  { "id": 8, "nombre": "Felipe Instructor", "token": "tk-felipe", "roles": ["instructor"], "licencia": "C", "certificaciones": ["instructor"], "alumnos": [] },
+  { "id": 9, "nombre": "Bruno Suspendido", "token": "tk-bruno", "roles": ["paracaidista"], "licencia": "C", "suspendido": true },
+  { "id": 10, "nombre": "Ana Wingsuit", "token": "tk-ana", "roles": ["paracaidista", "piloto"], "licencia": "C" }
+]
