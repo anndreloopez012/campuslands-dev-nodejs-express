@@ -1,0 +1,5 @@
+[
+  { "id": 1, "material": "acero_carbono", "espesorMm": 10, "proceso": "mig", "voltaje": 24, "amperaje": 200, "velocidadMmMin": 300, "calorKjMm": 0.768, "clasificacion": "bajo", "soldador": "Mateo Rivas", "estado": "aprobado", "creadoEn": "2026-10-05T14:00:00.000Z" },
+  { "id": 2, "material": "acero_inoxidable", "espesorMm": 4, "proceso": "tig", "voltaje": 12, "amperaje": 120, "velocidadMmMin": 120, "calorKjMm": 0.432, "clasificacion": "bajo", "soldador": "Lucia Ferrer", "estado": "borrador", "creadoEn": "2026-10-18T09:30:00.000Z" },
+  { "id": 3, "material": "acero_carbono", "espesorMm": 25, "proceso": "arcosumergido", "voltaje": 32, "amperaje": 600, "velocidadMmMin": 400, "calorKjMm": 2.88, "clasificacion": "alto", "soldador": "Dario Montes", "estado": "borrador", "creadoEn": "2026-10-26T16:45:00.000Z" }
+]
