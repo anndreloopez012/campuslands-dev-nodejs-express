@@ -1,0 +1,11 @@
+{
+  "name": "intermedio-16-rutas-protegidas",
+  "version": "1.0.0",
+  "description": "Intermedio 16 - Rutas protegidas con temática de ropa y sneakers",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
