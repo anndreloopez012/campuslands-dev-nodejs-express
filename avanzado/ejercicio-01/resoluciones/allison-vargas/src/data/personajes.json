@@ -1,0 +1,10 @@
+[
+  {"id":1,"nombre":"Aldric","clase":"guerrero","nivel":12,"creadoEn":"2026-09-01T10:00:00.000Z"},
+  {"id":2,"nombre":"Lysandra","clase":"mago","nivel":18,"creadoEn":"2026-09-02T10:00:00.000Z"},
+  {"id":3,"nombre":"Rowan","clase":"arquero","nivel":9,"creadoEn":"2026-09-03T10:00:00.000Z"},
+  {"id":4,"nombre":"Brienne","clase":"guerrero","nivel":25,"creadoEn":"2026-09-04T10:00:00.000Z"},
+  {"id":5,"nombre":"Elowen","clase":"mago","nivel":4,"creadoEn":"2026-09-05T10:00:00.000Z"},
+  {"id":6,"nombre":"Thorne","clase":"arquero","nivel":31,"creadoEn":"2026-09-06T10:00:00.000Z"},
+  {"id":7,"nombre":"Mirel","clase":"mago","nivel":1,"creadoEn":"2026-09-07T10:00:00.000Z"},
+  {"id":8,"nombre":"Garrick","clase":"guerrero","nivel":7,"creadoEn":"2026-09-08T10:00:00.000Z"}
+]
