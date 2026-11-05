@@ -1,0 +1,90 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "MOBA Esports Tournament API",
+    "version": "1.0.0",
+    "description": "API REST para consulta y gestión de torneos oficiales de MOBA Esports",
+    "contact": {
+      "name": "Anderson Oloroso"
+    }
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Servidor de desarrollo local"
+    }
+  ],
+  "paths": {
+    "/intermedio/ejercicio-27": {
+      "get": {
+        "summary": "Healthcheck de verificación del ejercicio",
+        "responses": {
+          "200": {
+            "description": "Estado del ejercicio",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "ok": { "type": "boolean" },
+                    "message": { "type": "string" },
+                    "topic": { "type": "string" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/moba/tournaments": {
+      "get": {
+        "summary": "Listar todos los torneos activos",
+        "responses": {
+          "200": {
+            "description": "Lista de torneos y premios",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "ok": { "type": "boolean" },
+                    "total": { "type": "integer" },
+                    "data": { "type": "array" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Crear un nuevo torneo MOBA",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["nombre", "region", "premioUSD"],
+                "properties": {
+                  "nombre": { "type": "string", "example": "Worlds Championship 2026" },
+                  "region": { "type": "string", "example": "Internacional" },
+                  "premioUSD": { "type": "number", "example": 2225000 }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Torneo creado exitosamente"
+          },
+          "400": {
+            "description": "Campos obligatorios faltantes"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "intermedio-27-documentacion-de-endpoints",
+  "version": "1.0.0",
+  "description": "Intermedio 27 - Documentación de endpoints con temática de MOBA esports",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "express",
+    "openapi",
+    "documentacion-endpoints",
+    "moba",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
