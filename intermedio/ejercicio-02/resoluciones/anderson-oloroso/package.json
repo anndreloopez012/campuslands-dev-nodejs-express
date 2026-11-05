@@ -1,0 +1,22 @@
+{
+  "name": "intermedio-02-routers-modulares",
+  "version": "1.0.0",
+  "description": "Intermedio 02 - Routers modulares con temática de shooters competitivos",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "routers-modulares",
+    "shooters",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
