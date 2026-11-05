@@ -1,0 +1,7 @@
+[
+  {"id":1,"nombre":"Thorin","clase":"guerrero","nivel":12,"experiencia":340,"vida":232,"mana":32,"oro":1250,"misionesCompletadas":[1,2],"creadoEn":"2026-10-01T12:00:00.000Z"},
+  {"id":2,"nombre":"Elara","clase":"mago","nivel":15,"experiencia":820,"vida":130,"mana":212,"oro":3400,"misionesCompletadas":[1,2,3],"creadoEn":"2026-10-02T12:00:00.000Z"},
+  {"id":3,"nombre":"Sylas","clase":"arquero","nivel":8,"experiencia":150,"vida":136,"mana":68,"oro":560,"misionesCompletadas":[1],"creadoEn":"2026-10-03T12:00:00.000Z"},
+  {"id":4,"nombre":"Mirabel","clase":"clerigo","nivel":5,"experiencia":90,"vida":103,"mana":104,"oro":210,"misionesCompletadas":[],"creadoEn":"2026-10-04T12:00:00.000Z"},
+  {"id":5,"nombre":"Kael","clase":"picaro","nivel":20,"experiencia":1500,"vida":203,"mana":87,"oro":8900,"misionesCompletadas":[1,2,3,4],"creadoEn":"2026-10-05T12:00:00.000Z"}
+]

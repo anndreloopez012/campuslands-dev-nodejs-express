@@ -1,0 +1,10 @@
+[
+  {"id":1,"titulo":"Limpiar el sotano de la taberna","dificultad":"facil","nivelMinimo":1,"recompensaXp":50,"recompensaOro":30},
+  {"id":2,"titulo":"Escolta de la caravana","dificultad":"facil","nivelMinimo":3,"recompensaXp":120,"recompensaOro":80},
+  {"id":3,"titulo":"Los lobos del bosque","dificultad":"media","nivelMinimo":5,"recompensaXp":250,"recompensaOro":150},
+  {"id":4,"titulo":"La cripta olvidada","dificultad":"media","nivelMinimo":10,"recompensaXp":400,"recompensaOro":300},
+  {"id":5,"titulo":"El nido del wyvern","dificultad":"dificil","nivelMinimo":15,"recompensaXp":800,"recompensaOro":700},
+  {"id":6,"titulo":"Asedio al fuerte oscuro","dificultad":"dificil","nivelMinimo":20,"recompensaXp":1200,"recompensaOro":1100},
+  {"id":7,"titulo":"El dragon de ceniza","dificultad":"epica","nivelMinimo":30,"recompensaXp":3000,"recompensaOro":5000},
+  {"id":8,"titulo":"Ritual del eclipse","dificultad":"epica","nivelMinimo":40,"recompensaXp":5000,"recompensaOro":9000}
+]

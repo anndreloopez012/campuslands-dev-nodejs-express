@@ -1,0 +1,8 @@
+[
+  {"id":1,"personajeId":1,"nombre":"Espada de hierro","tipo":"arma","rareza":"comun","valor":150,"cantidad":1},
+  {"id":2,"personajeId":1,"nombre":"Pocion de vida","tipo":"pocion","rareza":"comun","valor":25,"cantidad":5},
+  {"id":3,"personajeId":2,"nombre":"Baculo de fuego","tipo":"arma","rareza":"raro","valor":900,"cantidad":1},
+  {"id":4,"personajeId":2,"nombre":"Pocion de mana","tipo":"pocion","rareza":"comun","valor":30,"cantidad":4},
+  {"id":5,"personajeId":3,"nombre":"Arco largo","tipo":"arma","rareza":"raro","valor":600,"cantidad":1},
+  {"id":6,"personajeId":5,"nombre":"Daga sombria","tipo":"arma","rareza":"epico","valor":2500,"cantidad":1}
+]
