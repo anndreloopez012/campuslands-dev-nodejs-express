@@ -1,0 +1,16 @@
+{
+  "name": "avanzado-05-transacciones-simuladas",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "test:cobertura": "node --test --experimental-test-coverage"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
