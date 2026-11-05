@@ -1,0 +1,6 @@
+[
+  { "id": 1, "titulo": "Robot en el desierto", "autor": "Mateo Rivas", "fps": 24, "duracionSeg": 45, "resolucion": "1080p", "estado": "borrador", "creadoEn": "2026-10-02T15:10:00.000Z" },
+  { "id": 2, "titulo": "Medusas de cristal", "autor": "Lucia Ferrer", "fps": 30, "duracionSeg": 20, "resolucion": "4k", "estado": "renderizando", "creadoEn": "2026-10-11T19:30:00.000Z" },
+  { "id": 3, "titulo": "Persecucion en la ciudad", "autor": "Dario Montes", "fps": 60, "duracionSeg": 90, "resolucion": "1080p", "estado": "borrador", "creadoEn": "2026-10-20T11:45:00.000Z" },
+  { "id": 4, "titulo": "Bosque encantado", "autor": "Sofia Lara", "fps": 24, "duracionSeg": 30, "resolucion": "720p", "estado": "borrador", "creadoEn": "2026-10-29T08:20:00.000Z" }
+]
