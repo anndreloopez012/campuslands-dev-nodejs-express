@@ -1,0 +1,8 @@
+[
+  {"id":1,"localId":1,"visitanteId":2,"golesLocal":2,"golesVisitante":1},
+  {"id":2,"localId":3,"visitanteId":4,"golesLocal":0,"golesVisitante":0},
+  {"id":3,"localId":1,"visitanteId":3,"golesLocal":3,"golesVisitante":1},
+  {"id":4,"localId":5,"visitanteId":6,"golesLocal":4,"golesVisitante":2},
+  {"id":5,"localId":7,"visitanteId":8,"golesLocal":1,"golesVisitante":1},
+  {"id":6,"localId":2,"visitanteId":4,"golesLocal":2,"golesVisitante":0}
+]
