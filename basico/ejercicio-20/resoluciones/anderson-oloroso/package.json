@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-20-middleware-express-json",
+  "version": "1.0.0",
+  "description": "Middleware express.json – dibujo digital",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "author": "Anderson Oloroso",
+  "license": "ISC"
+}
