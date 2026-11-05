@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "nombre": "Lobos del Alba",
+    "tag": "LDA",
+    "region": "LATAM",
+    "contacto": "contacto@lobosdelalba.example",
+    "fundado": "2021-03-14",
+    "jugadores": [
+      {
+        "nick": "Cazador",
+        "rol": "top",
+        "capitan": false
+      },
+      {
+        "nick": "Riva",
+        "rol": "jungla",
+        "capitan": true
+      },
+      {
+        "nick": "Nexo",
+        "rol": "medio",
+        "capitan": false
+      },
+      {
+        "nick": "Brisa",
+        "rol": "tirador",
+        "capitan": false
+      },
+      {
+        "nick": "Faro",
+        "rol": "soporte",
+        "capitan": false
+      }
+    ],
+    "creadoEn": "2026-09-01T12:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "nombre": "Aurora Nova",
+    "tag": "ANV",
+    "region": "EU",
+    "contacto": "hola@auroranova.example",
+    "fundado": "2019-07-02",
+    "jugadores": [
+      {
+        "nick": "Solaris",
+        "rol": "top",
+        "capitan": false
+      },
+      {
+        "nick": "Kael",
+        "rol": "jungla",
+        "capitan": true
+      },
+      {
+        "nick": "Ondine",
+        "rol": "medio",
+        "capitan": false
+      },
+      {
+        "nick": "Pyro",
+        "rol": "tirador",
+        "capitan": false
+      },
+      {
+        "nick": "Mistral",
+        "rol": "soporte",
+        "capitan": false
+      }
+    ],
+    "creadoEn": "2026-09-02T12:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "nombre": "Titanes Rojos",
+    "tag": "TRJ",
+    "region": "NA",
+    "contacto": null,
+    "fundado": "2020-11-23",
+    "jugadores": [
+      {
+        "nick": "Colossus",
+        "rol": "top",
+        "capitan": false
+      },
+      {
+        "nick": "Ragnar",
+        "rol": "jungla",
+        "capitan": true
+      },
+      {
+        "nick": "Vesper",
+        "rol": "medio",
+        "capitan": false
+      },
+      {
+        "nick": "Quill",
+        "rol": "tirador",
+        "capitan": false
+      },
+      {
+        "nick": "Sable",
+        "rol": "soporte",
+        "capitan": false
+      }
+    ],
+    "creadoEn": "2026-09-03T12:00:00.000Z"
+  }
+]
