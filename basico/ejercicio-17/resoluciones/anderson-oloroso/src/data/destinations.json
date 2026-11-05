@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Machu Picchu", "country": "Perú", "rating": 4.9, "priceUSD": 1200 },
+  { "id": 2, "name": "Santorini", "country": "Grecia", "rating": 4.7, "priceUSD": 2500 },
+  { "id": 3, "name": "Cartagena", "country": "Colombia", "rating": 4.5, "priceUSD": 800 },
+  { "id": 4, "name": "Tokio", "country": "Japón", "rating": 4.8, "priceUSD": 3200 },
+  { "id": 5, "name": "Cancún", "country": "México", "rating": 4.4, "priceUSD": 950 }
+]
