@@ -1,0 +1,37 @@
+@baseUrl = http://localhost:3000
+
+### 1. Healthcheck de verificación del ejercicio
+GET {{baseUrl}}/intermedio/ejercicio-28
+Accept: application/json
+
+### 2. Listar zonas de botín (Loot Zones)
+GET {{baseUrl}}/api/br/loot-zones
+Accept: application/json
+
+### 3. Obtener zona de botín por ID (Caso Éxito)
+GET {{baseUrl}}/api/br/loot-zones/1
+Accept: application/json
+
+### 4. Obtener zona por ID inexistente (Caso Error 404)
+GET {{baseUrl}}/api/br/loot-zones/999
+Accept: application/json
+
+### 5. Registrar nuevo equipamiento de inventario (Caso Éxito 201)
+POST {{baseUrl}}/api/br/loadout
+Content-Type: application/json
+
+{
+  "playerName": "OlorosoSniper",
+  "armaPrincipal": "M416",
+  "armaSecundaria": "Kar98k",
+  "nivelCasco": 3,
+  "nivelChaleco": 2
+}
+
+### 6. Registrar equipamiento con datos faltantes (Caso Error 400)
+POST {{baseUrl}}/api/br/loadout
+Content-Type: application/json
+
+{
+  "playerName": "Incompleto"
+}

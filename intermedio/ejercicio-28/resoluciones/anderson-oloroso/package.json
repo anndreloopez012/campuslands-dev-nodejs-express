@@ -1,0 +1,23 @@
+{
+  "name": "intermedio-28-coleccion-ejemplos-http",
+  "version": "1.0.0",
+  "description": "Intermedio 28 - Colección de ejemplos HTTP con temática de Battle Royale",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "express",
+    "http-collection",
+    "rest-client",
+    "battle-royale",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
