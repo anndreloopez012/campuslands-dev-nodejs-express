@@ -1,0 +1,8 @@
+[
+  {"id":1,"codigo":"ACE-10W40","nombre":"Aceite 10W40 1L","precio":9.5,"stock":40},
+  {"id":2,"codigo":"FIL-ACE-01","nombre":"Filtro de aceite","precio":6,"stock":25},
+  {"id":3,"codigo":"BUJ-NGK-7","nombre":"Bujia NGK CR7","precio":4.25,"stock":30},
+  {"id":4,"codigo":"PAS-FRE-DL","nombre":"Pastillas de freno delanteras","precio":14,"stock":3},
+  {"id":5,"codigo":"CAD-520-X","nombre":"Cadena 520 reforzada","precio":32,"stock":8},
+  {"id":6,"codigo":"LLA-90-R17","nombre":"Llanta trasera 90/90 R17","precio":55,"stock":0}
+]
