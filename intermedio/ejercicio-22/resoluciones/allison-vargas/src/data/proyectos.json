@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nombre": "Torre residencial Aurora", "arquitecto": "Lucia Ferrer", "cuotaBytes": 1073741824, "estado": "activo" },
+  { "id": 2, "nombre": "Casa de playa Brisa", "arquitecto": "Mateo Rivas", "cuotaBytes": 262144000, "estado": "activo" },
+  { "id": 3, "nombre": "Museo del rio", "arquitecto": "Dario Montes", "cuotaBytes": 524288000, "estado": "archivado" }
+]
