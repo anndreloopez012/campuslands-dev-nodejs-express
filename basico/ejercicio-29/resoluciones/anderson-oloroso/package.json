@@ -1,0 +1,11 @@
+{
+  "name": "basico-29-readme-tecnico",
+  "version": "1.0.0",
+  "description": "Básico 29 - README técnico con temática de fútbol y fútbol sala",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
