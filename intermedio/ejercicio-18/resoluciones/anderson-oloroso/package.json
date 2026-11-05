@@ -1,0 +1,11 @@
+{
+  "name": "intermedio-18-hash-passwords",
+  "version": "1.0.0",
+  "description": "Intermedio 18 - Hash de passwords conceptual con temática de paracaidismo",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
