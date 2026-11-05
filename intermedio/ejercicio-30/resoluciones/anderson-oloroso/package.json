@@ -1,0 +1,24 @@
+{
+  "name": "intermedio-30-proyecto-integrador",
+  "version": "1.0.0",
+  "description": "Intermedio 30 - Proyecto integrador intermedio con temática de motos y mecánica",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "express",
+    "proyecto-integrador",
+    "motos",
+    "mecanica",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
