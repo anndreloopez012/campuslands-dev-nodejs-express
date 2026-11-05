@@ -1,0 +1,14 @@
+[
+  { "id": 1, "titulo": "Cien anos de soledad", "autor": "Gabriel Garcia Marquez", "genero": "novela", "anio": 1967, "ejemplares": 3 },
+  { "id": 2, "titulo": "Rayuela", "autor": "Julio Cortazar", "genero": "novela", "anio": 1963, "ejemplares": 2 },
+  { "id": 3, "titulo": "Ficciones", "autor": "Jorge Luis Borges", "genero": "cuento", "anio": 1944, "ejemplares": 2 },
+  { "id": 4, "titulo": "El llano en llamas", "autor": "Juan Rulfo", "genero": "cuento", "anio": 1953, "ejemplares": 1 },
+  { "id": 5, "titulo": "Veinte poemas de amor", "autor": "Pablo Neruda", "genero": "poesia", "anio": 1924, "ejemplares": 4 },
+  { "id": 6, "titulo": "Desolacion", "autor": "Gabriela Mistral", "genero": "poesia", "anio": 1922, "ejemplares": 1 },
+  { "id": 7, "titulo": "Breve historia del tiempo", "autor": "Stephen Hawking", "genero": "divulgacion", "anio": 1988, "ejemplares": 2 },
+  { "id": 8, "titulo": "Cosmos", "autor": "Carl Sagan", "genero": "divulgacion", "anio": 1980, "ejemplares": 2 },
+  { "id": 9, "titulo": "La casa de los espiritus", "autor": "Isabel Allende", "genero": "novela", "anio": 1982, "ejemplares": 2 },
+  { "id": 10, "titulo": "Pedro Paramo", "autor": "Juan Rulfo", "genero": "novela", "anio": 1955, "ejemplares": 1 },
+  { "id": 11, "titulo": "El Aleph", "autor": "Jorge Luis Borges", "genero": "cuento", "anio": 1949, "ejemplares": 2 },
+  { "id": 12, "titulo": "Sapiens", "autor": "Yuval Noah Harari", "genero": "divulgacion", "anio": 2011, "ejemplares": 3 }
+]
