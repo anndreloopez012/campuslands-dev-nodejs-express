@@ -1,0 +1,11 @@
+{
+  "name": "basico-28-configuracion-por-entorno",
+  "version": "1.0.0",
+  "description": "Básico 28 - Configuración por entorno con temática de Battle Royale",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
