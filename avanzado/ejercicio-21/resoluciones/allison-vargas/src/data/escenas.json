@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1, "nombre": "Bosque al atardecer", "luces": 3, "actualizadaEn": "2026-11-01T10:00:00.000Z",
+    "objetos": [{ "nombre": "arbol", "poligonos": 120000 }, { "nombre": "rio", "poligonos": 45000 }, { "nombre": "zorro", "poligonos": 80000 }]
+  },
+  {
+    "id": 2, "nombre": "Ciudad flotante", "luces": 12, "actualizadaEn": "2026-11-02T10:00:00.000Z",
+    "objetos": [{ "nombre": "torre", "poligonos": 900000 }, { "nombre": "nubes", "poligonos": 300000 }]
+  },
+  {
+    "id": 3, "nombre": "Robot en el taller", "luces": 5, "actualizadaEn": "2026-11-03T10:00:00.000Z",
+    "objetos": [{ "nombre": "robot", "poligonos": 450000 }, { "nombre": "mesa", "poligonos": 20000 }]
+  }
+]
