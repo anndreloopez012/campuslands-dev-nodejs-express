@@ -1,0 +1,6 @@
+[
+  { "id": 1, "nombre": "Falcao", "posicion": "Pivot", "modalidad": "Fútbol Sala", "goles": 48 },
+  { "id": 2, "nombre": "Messi", "posicion": "Delantero", "modalidad": "Fútbol 11", "goles": 820 },
+  { "id": 3, "nombre": "Ricardinho", "posicion": "Ala", "modalidad": "Fútbol Sala", "goles": 140 },
+  { "id": 4, "nombre": "Courtois", "posicion": "Portero", "modalidad": "Fútbol 11", "goles": 0 }
+]

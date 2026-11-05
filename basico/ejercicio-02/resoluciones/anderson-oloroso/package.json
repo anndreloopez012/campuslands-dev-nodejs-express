@@ -1,0 +1,22 @@
+{
+  "name": "ejercicio-02-npm-scripts",
+  "version": "1.0.0",
+  "description": "Básico 02 - npm scripts y package.json con temática de shooters competitivos",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "info": "node src/app.js --info",
+    "match": "node src/app.js --match"
+  },
+  "keywords": [
+    "nodejs",
+    "scripts",
+    "package.json",
+    "shooters",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC"
+}
