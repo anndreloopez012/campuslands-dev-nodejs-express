@@ -1,0 +1,10 @@
+[
+  { "id": 1, "alias": "Viper_X", "region": "NA", "creadoEn": "2026-09-01T10:00:00.000Z" },
+  { "id": 2, "alias": "Nova", "region": "EU", "creadoEn": "2026-09-02T10:00:00.000Z" },
+  { "id": 3, "alias": "Kestrel", "region": "LATAM", "creadoEn": "2026-09-03T10:00:00.000Z" },
+  { "id": 4, "alias": "Drift", "region": "ASIA", "creadoEn": "2026-09-04T10:00:00.000Z" },
+  { "id": 5, "alias": "Halcon", "region": "LATAM", "creadoEn": "2026-09-05T10:00:00.000Z" },
+  { "id": 6, "alias": "Frost", "region": "EU", "creadoEn": "2026-09-06T10:00:00.000Z" },
+  { "id": 7, "alias": "Rogue_9", "region": "NA", "creadoEn": "2026-09-07T10:00:00.000Z" },
+  { "id": 8, "alias": "Zenith", "region": "ASIA", "creadoEn": "2026-09-08T10:00:00.000Z" }
+]
