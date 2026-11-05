@@ -1,0 +1,11 @@
+{
+  "name": "intermedio-19-dotenv-y-config",
+  "version": "1.0.0",
+  "description": "Intermedio 19 - Dotenv y config con temática de tatuajes",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
