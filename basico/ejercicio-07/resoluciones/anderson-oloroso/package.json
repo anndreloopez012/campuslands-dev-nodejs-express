@@ -1,0 +1,15 @@
+{
+  "name": "ejercicio-07-process-argv-cli",
+  "version": "1.0.0",
+  "description": "Básico 07 - process.argv y CLI con temática de autos de lujo",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js --brand Ferrari",
+    "dev": "node --watch src/app.js",
+    "help": "node src/app.js --help"
+  },
+  "keywords": ["node", "process.argv", "cli", "autos-de-lujo", "anderson-oloroso"],
+  "author": "Anderson Oloroso",
+  "license": "ISC"
+}
