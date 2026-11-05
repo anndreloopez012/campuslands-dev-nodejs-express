@@ -1,0 +1,190 @@
+# Battle royale API - coleccion de ejemplos HTTP
+@base = http://localhost:3000/intermedio/ejercicio-28
+@jugadorA = {{crearJugadorA.response.body.$.data.id}}
+@nickA = {{crearJugadorA.response.body.$.data.nick}}
+@jugadorB = {{crearJugadorB.response.body.$.data.id}}
+@jugadorC = {{crearJugadorC.response.body.$.data.id}}
+@partidaId = {{crearPartida.response.body.$.data.id}}
+
+### SISTEMA
+
+### Endpoint principal (espera 200)
+# @name principal
+GET {{base}}/
+
+### JUGADORES
+
+### Listar jugadores de latam ordenados por kills (espera 200)
+# @name listarJugadores
+GET {{base}}/jugadores?region=latam&orden=kills&limite=3
+
+### Crear el jugador A (espera 201)
+# @name crearJugadorA
+POST {{base}}/jugadores
+Content-Type: application/json
+
+{
+  "nick": "Ana_{{$randomInt 1000 9999}}",
+  "region": "latam"
+}
+
+### Crear el jugador B (espera 201)
+# @name crearJugadorB
+POST {{base}}/jugadores
+Content-Type: application/json
+
+{
+  "nick": "Beto_{{$randomInt 1000 9999}}",
+  "region": "latam"
+}
+
+### Crear el jugador C (espera 201)
+# @name crearJugadorC
+POST {{base}}/jugadores
+Content-Type: application/json
+
+{
+  "nick": "Caro_{{$randomInt 1000 9999}}",
+  "region": "eu"
+}
+
+### Ver el detalle del jugador A (espera 200)
+# @name obtenerJugador
+GET {{base}}/jugadores/{{jugadorA}}
+
+### Buscar jugadores por nick (espera 200)
+# @name buscarJugadores
+GET {{base}}/jugadores?buscar=ana&limite=5
+
+### PARTIDAS
+
+### Crear una partida en la isla con 3 cupos (espera 201)
+# @name crearPartida
+POST {{base}}/partidas
+Content-Type: application/json
+
+{
+  "mapa": "isla",
+  "cupos": 3
+}
+
+### Unir al jugador A (espera 201)
+# @name unirJugadorA
+POST {{base}}/partidas/{{partidaId}}/jugadores
+Content-Type: application/json
+
+{
+  "jugadorId": {{jugadorA}}
+}
+
+### Unir al jugador B (espera 201)
+# @name unirJugadorB
+POST {{base}}/partidas/{{partidaId}}/jugadores
+Content-Type: application/json
+
+{
+  "jugadorId": {{jugadorB}}
+}
+
+### Unir al jugador C (espera 201)
+# @name unirJugadorC
+POST {{base}}/partidas/{{partidaId}}/jugadores
+Content-Type: application/json
+
+{
+  "jugadorId": {{jugadorC}}
+}
+
+### Retirar al jugador C antes de empezar (espera 200)
+# @name retirarJugadorC
+DELETE {{base}}/partidas/{{partidaId}}/jugadores/{{jugadorC}}
+
+### Volver a unir al jugador C (espera 201)
+# @name unirJugadorCOtraVez
+POST {{base}}/partidas/{{partidaId}}/jugadores
+Content-Type: application/json
+
+{
+  "jugadorId": {{jugadorC}}
+}
+
+### Ver la partida con sus participantes (espera 200)
+# @name verPartida
+GET {{base}}/partidas/{{partidaId}}
+
+### Iniciar la partida (espera 200)
+# @name iniciarPartida
+POST {{base}}/partidas/{{partidaId}}/iniciar
+
+### A elimina a C (espera 200)
+# @name eliminarJugadorC
+POST {{base}}/partidas/{{partidaId}}/eliminaciones
+Content-Type: application/json
+
+{
+  "eliminadoId": {{jugadorC}},
+  "eliminadorId": {{jugadorA}}
+}
+
+### A elimina a B y gana la partida (espera 200)
+# @name eliminarJugadorB
+POST {{base}}/partidas/{{partidaId}}/eliminaciones
+Content-Type: application/json
+
+{
+  "eliminadoId": {{jugadorB}},
+  "eliminadorId": {{jugadorA}}
+}
+
+### Ver los resultados de la partida (espera 200)
+# @name resultadosPartida
+GET {{base}}/partidas/{{partidaId}}/resultados
+
+### Listar partidas finalizadas (espera 200)
+# @name listarPartidas
+GET {{base}}/partidas?estado=finalizada&limite=5
+
+### ERRORES
+
+### Crear jugador con datos invalidos (400) (espera 400)
+# @name errorValidacion
+POST {{base}}/jugadores
+Content-Type: application/json
+
+{
+  "nick": "x!",
+  "region": "marte"
+}
+
+### Consultar una partida con id invalido (400) (espera 400)
+# @name errorIdInvalido
+GET {{base}}/partidas/abc
+
+### Consultar un jugador que no existe (404) (espera 404)
+# @name errorNoEncontrado
+GET {{base}}/jugadores/999999
+
+### Crear un jugador con un nick repetido (409) (espera 409)
+# @name errorNickDuplicado
+POST {{base}}/jugadores
+Content-Type: application/json
+
+{
+  "nick": "{{nickA}}",
+  "region": "na"
+}
+
+### Iniciar una partida que ya termino (409) (espera 409)
+# @name errorPartidaCerrada
+POST {{base}}/partidas/{{partidaId}}/iniciar
+
+### Usar un metodo no permitido (405) (espera 405)
+# @name errorMetodo
+PUT {{base}}/jugadores
+
+### Enviar un body que no es JSON (415) (espera 415)
+# @name errorTipo
+POST {{base}}/jugadores
+Content-Type: text/plain
+
+nick=Ana
