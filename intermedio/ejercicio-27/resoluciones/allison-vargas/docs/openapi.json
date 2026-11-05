@@ -1,0 +1,1637 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "API de MOBA esports",
+    "version": "1.0.0",
+    "description": "Equipos, torneos e inscripciones de una liga de MOBA. Todas las respuestas JSON usan el formato { ok, data } en caso de exito y { ok: false, message, codigo, errores? } en caso de error. Un metodo que no esta documentado para una ruta responde 405 con el header Allow. Una ruta inexistente responde 404 con codigo RUTA_NO_ENCONTRADA. Los requests con body deben enviar Content-Type: application/json y pesar menos de 10 KB."
+  },
+  "servers": [
+    {
+      "url": "/intermedio/ejercicio-27",
+      "description": "Servidor local"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Sistema",
+      "description": "Estado y documentacion de la API."
+    },
+    {
+      "name": "Equipos",
+      "description": "Alta, consulta y baja de equipos."
+    },
+    {
+      "name": "Torneos",
+      "description": "Consulta de torneos."
+    },
+    {
+      "name": "Inscripciones",
+      "description": "Equipos inscritos en cada torneo."
+    }
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "Sistema"
+        ],
+        "operationId": "principal",
+        "summary": "Ruta principal del ejercicio",
+        "description": "Confirma que la API esta arriba.",
+        "responses": {
+          "200": {
+            "description": "La API responde.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": [
+                    "ok",
+                    "message",
+                    "topic"
+                  ],
+                  "properties": {
+                    "ok": {
+                      "type": "boolean"
+                    },
+                    "message": {
+                      "type": "string"
+                    },
+                    "topic": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "example": {
+                  "ok": true,
+                  "message": "Ejercicio ejecutado correctamente",
+                  "topic": "documentacion de endpoints"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/docs": {
+      "get": {
+        "tags": [
+          "Sistema"
+        ],
+        "operationId": "verDocumentacion",
+        "summary": "Documentacion en HTML",
+        "description": "Pagina con todos los endpoints, generada a partir de la misma especificacion OpenAPI.",
+        "responses": {
+          "200": {
+            "description": "Pagina HTML autocontenida.",
+            "content": {
+              "text/html": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/docs/openapi.json": {
+      "get": {
+        "tags": [
+          "Sistema"
+        ],
+        "operationId": "verOpenApi",
+        "summary": "Especificacion OpenAPI",
+        "description": "Documento OpenAPI 3.0 en JSON. Se puede importar en Postman, Insomnia o Swagger UI.",
+        "responses": {
+          "200": {
+            "description": "Especificacion completa.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/equipos": {
+      "get": {
+        "tags": [
+          "Equipos"
+        ],
+        "operationId": "listarEquipos",
+        "summary": "Lista equipos",
+        "description": "Devuelve los equipos con filtros, orden y paginacion. El total viene tambien en el header X-Total-Count.",
+        "parameters": [
+          {
+            "name": "region",
+            "in": "query",
+            "required": false,
+            "description": "Filtra por region.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "na",
+                "eu",
+                "latam",
+                "asia"
+              ]
+            },
+            "example": "eu"
+          },
+          {
+            "name": "buscar",
+            "in": "query",
+            "required": false,
+            "description": "Texto contenido en el nombre o en el tag.",
+            "schema": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 30
+            },
+            "example": "wolves"
+          },
+          {
+            "name": "orden",
+            "in": "query",
+            "required": false,
+            "description": "Campo de orden.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "id",
+                "nombre",
+                "victorias"
+              ],
+              "default": "id"
+            },
+            "example": "victorias"
+          },
+          {
+            "$ref": "#/components/parameters/Pagina"
+          },
+          {
+            "$ref": "#/components/parameters/Limite"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Pagina de equipos.",
+            "headers": {
+              "X-Total-Count": {
+                "description": "Cantidad total de resultados antes de paginar.",
+                "schema": {
+                  "type": "integer"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ListaEquipos"
+                },
+                "example": {
+                  "ok": true,
+                  "data": [
+                    {
+                      "id": 1,
+                      "nombre": "Nebula Five",
+                      "tag": "NBF",
+                      "region": "eu",
+                      "victorias": 34,
+                      "derrotas": 12,
+                      "creadoEn": "2026-09-01T12:00:00.000Z"
+                    }
+                  ],
+                  "paginacion": {
+                    "pagina": 1,
+                    "limite": 10,
+                    "total": 7,
+                    "totalPaginas": 1
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Algun parametro de consulta es invalido.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "Parametros de consulta invalidos",
+                  "codigo": "CONSULTA_INVALIDA",
+                  "errores": [
+                    {
+                      "campo": "region",
+                      "mensaje": "debe ser uno de: na, eu, latam, asia"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Equipos"
+        ],
+        "operationId": "crearEquipo",
+        "summary": "Crea un equipo",
+        "description": "Registra un equipo nuevo con 0 victorias y 0 derrotas.",
+        "requestBody": {
+          "required": true,
+          "description": "Datos del equipo.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquipoNuevo"
+              },
+              "example": {
+                "nombre": "Aurora Nine",
+                "tag": "AUR",
+                "region": "latam"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Equipo creado.",
+            "headers": {
+              "Location": {
+                "description": "Url del equipo creado.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaEquipo"
+                },
+                "example": {
+                  "ok": true,
+                  "data": {
+                    "id": 8,
+                    "nombre": "Aurora Nine",
+                    "tag": "AUR",
+                    "region": "latam",
+                    "victorias": 0,
+                    "derrotas": 0,
+                    "creadoEn": "2026-09-01T12:00:00.000Z"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "El body es invalido.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "Datos invalidos",
+                  "codigo": "VALIDACION",
+                  "errores": [
+                    {
+                      "campo": "tag",
+                      "mensaje": "solo admite mayusculas y numeros"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "El nombre o el tag ya existen.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "Ya existe un equipo con el tag NBF",
+                  "codigo": "TAG_DUPLICADO"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "El Content-Type no es application/json.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El Content-Type debe ser application/json",
+                  "codigo": "TIPO_NO_SOPORTADO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/equipos/{id}": {
+      "get": {
+        "tags": [
+          "Equipos"
+        ],
+        "operationId": "obtenerEquipo",
+        "summary": "Detalle de un equipo",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Id del equipo.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "example": 2
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "El equipo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaEquipo"
+                },
+                "example": {
+                  "ok": true,
+                  "data": {
+                    "id": 1,
+                    "nombre": "Nebula Five",
+                    "tag": "NBF",
+                    "region": "eu",
+                    "victorias": 34,
+                    "derrotas": 12,
+                    "creadoEn": "2026-09-01T12:00:00.000Z"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "El id no es un entero positivo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El id debe ser un entero positivo",
+                  "codigo": "ID_INVALIDO"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No existe el equipo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "No existe el equipo 99",
+                  "codigo": "EQUIPO_NO_ENCONTRADO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Equipos"
+        ],
+        "operationId": "actualizarEquipo",
+        "summary": "Actualiza nombre o region",
+        "description": "Solo se pueden cambiar el nombre y la region. El tag es permanente. Debe enviarse al menos un campo.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Id del equipo.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "example": 2
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Campos a cambiar.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EquipoCambios"
+              },
+              "example": {
+                "nombre": "Crimson Wolves Prime"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Equipo actualizado.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaEquipo"
+                },
+                "example": {
+                  "ok": true,
+                  "data": {
+                    "id": 1,
+                    "nombre": "Crimson Wolves Prime",
+                    "tag": "NBF",
+                    "region": "eu",
+                    "victorias": 34,
+                    "derrotas": 12,
+                    "creadoEn": "2026-09-01T12:00:00.000Z"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "El id o el body son invalidos.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "Datos invalidos",
+                  "codigo": "VALIDACION",
+                  "errores": [
+                    {
+                      "campo": "tag",
+                      "mensaje": "campo no permitido"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No existe el equipo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "No existe el equipo 99",
+                  "codigo": "EQUIPO_NO_ENCONTRADO"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Otro equipo ya usa ese nombre.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "Ya existe un equipo llamado Nebula Five",
+                  "codigo": "NOMBRE_DUPLICADO"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "El Content-Type no es application/json.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El Content-Type debe ser application/json",
+                  "codigo": "TIPO_NO_SOPORTADO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Equipos"
+        ],
+        "operationId": "eliminarEquipo",
+        "summary": "Elimina un equipo",
+        "description": "No se puede eliminar un equipo que esta inscrito en algun torneo.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Id del equipo.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "example": 7
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Equipo eliminado.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaEquipo"
+                },
+                "example": {
+                  "ok": true,
+                  "data": {
+                    "id": 1,
+                    "nombre": "Nebula Five",
+                    "tag": "NBF",
+                    "region": "eu",
+                    "victorias": 34,
+                    "derrotas": 12,
+                    "creadoEn": "2026-09-01T12:00:00.000Z"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "El id no es un entero positivo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El id debe ser un entero positivo",
+                  "codigo": "ID_INVALIDO"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No existe el equipo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "No existe el equipo 99",
+                  "codigo": "EQUIPO_NO_ENCONTRADO"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "El equipo esta inscrito en un torneo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El equipo esta inscrito en al menos un torneo",
+                  "codigo": "EQUIPO_INSCRITO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/torneos": {
+      "get": {
+        "tags": [
+          "Torneos"
+        ],
+        "operationId": "listarTorneos",
+        "summary": "Lista torneos",
+        "description": "Devuelve los torneos con la cantidad de equipos inscritos.",
+        "parameters": [
+          {
+            "name": "estado",
+            "in": "query",
+            "required": false,
+            "description": "Filtra por etapa.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "inscripcion",
+                "en_curso",
+                "finalizado"
+              ]
+            },
+            "example": "inscripcion"
+          },
+          {
+            "name": "formato",
+            "in": "query",
+            "required": false,
+            "description": "Filtra por formato.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "eliminacion",
+                "liga",
+                "suizo"
+              ]
+            },
+            "example": "liga"
+          },
+          {
+            "name": "orden",
+            "in": "query",
+            "required": false,
+            "description": "Campo de orden.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "id",
+                "inicio",
+                "premio"
+              ],
+              "default": "id"
+            },
+            "example": "premio"
+          },
+          {
+            "$ref": "#/components/parameters/Pagina"
+          },
+          {
+            "$ref": "#/components/parameters/Limite"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Pagina de torneos.",
+            "headers": {
+              "X-Total-Count": {
+                "description": "Cantidad total de resultados antes de paginar.",
+                "schema": {
+                  "type": "integer"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ListaTorneos"
+                },
+                "example": {
+                  "ok": true,
+                  "data": [
+                    {
+                      "id": 1,
+                      "nombre": "Copa Apertura",
+                      "formato": "liga",
+                      "estado": "inscripcion",
+                      "cupos": 4,
+                      "inscritos": 2,
+                      "premio": 5000,
+                      "inicio": "2026-12-01"
+                    }
+                  ],
+                  "paginacion": {
+                    "pagina": 1,
+                    "limite": 10,
+                    "total": 4,
+                    "totalPaginas": 1
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Algun parametro de consulta es invalido.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "Parametros de consulta invalidos",
+                  "codigo": "CONSULTA_INVALIDA",
+                  "errores": [
+                    {
+                      "campo": "estado",
+                      "mensaje": "debe ser uno de: inscripcion, en_curso, finalizado"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/torneos/{id}": {
+      "get": {
+        "tags": [
+          "Torneos"
+        ],
+        "operationId": "obtenerTorneo",
+        "summary": "Detalle de un torneo",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Id del torneo.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "example": 1
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "El torneo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaTorneo"
+                },
+                "example": {
+                  "ok": true,
+                  "data": {
+                    "id": 1,
+                    "nombre": "Copa Apertura",
+                    "formato": "liga",
+                    "estado": "inscripcion",
+                    "cupos": 4,
+                    "inscritos": 2,
+                    "premio": 5000,
+                    "inicio": "2026-12-01"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Algun id no es un entero positivo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El id debe ser un entero positivo",
+                  "codigo": "ID_INVALIDO"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No existe el torneo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "No existe el torneo 99",
+                  "codigo": "TORNEO_NO_ENCONTRADO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/torneos/{id}/inscripciones": {
+      "get": {
+        "tags": [
+          "Inscripciones"
+        ],
+        "operationId": "listarInscripciones",
+        "summary": "Equipos inscritos en un torneo",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Id del torneo.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "example": 1
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Inscripciones del torneo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ListaInscripciones"
+                },
+                "example": {
+                  "ok": true,
+                  "data": [
+                    {
+                      "id": 11,
+                      "torneoId": 1,
+                      "equipo": {
+                        "id": 3,
+                        "nombre": "Jade Dragons",
+                        "tag": "JDR"
+                      },
+                      "inscritoEn": "2026-11-04T16:00:00.000Z"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Algun id no es un entero positivo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El id debe ser un entero positivo",
+                  "codigo": "ID_INVALIDO"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No existe el torneo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "No existe el torneo 99",
+                  "codigo": "TORNEO_NO_ENCONTRADO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Inscripciones"
+        ],
+        "operationId": "inscribirEquipo",
+        "summary": "Inscribe un equipo",
+        "description": "Solo funciona mientras el torneo esta en etapa de inscripcion, hay cupos y el equipo no esta inscrito.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Id del torneo.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "example": 1
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "description": "Equipo que se inscribe.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InscripcionNueva"
+              },
+              "example": {
+                "equipoId": 3
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Inscripcion creada.",
+            "headers": {
+              "Location": {
+                "description": "Url de las inscripciones del torneo.",
+                "schema": {
+                  "type": "string"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaInscripcion"
+                },
+                "example": {
+                  "ok": true,
+                  "data": {
+                    "id": 11,
+                    "torneoId": 1,
+                    "equipo": {
+                      "id": 3,
+                      "nombre": "Jade Dragons",
+                      "tag": "JDR"
+                    },
+                    "inscritoEn": "2026-11-04T16:00:00.000Z"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "El id o el body son invalidos.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "Datos invalidos",
+                  "codigo": "VALIDACION",
+                  "errores": [
+                    {
+                      "campo": "equipoId",
+                      "mensaje": "es obligatorio"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "No existe el torneo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "No existe el torneo 99",
+                  "codigo": "TORNEO_NO_ENCONTRADO"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "Inscripcion cerrada, torneo lleno o equipo repetido.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El torneo no tiene cupos disponibles",
+                  "codigo": "TORNEO_LLENO"
+                }
+              }
+            }
+          },
+          "415": {
+            "description": "El Content-Type no es application/json.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El Content-Type debe ser application/json",
+                  "codigo": "TIPO_NO_SOPORTADO"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "El equipo no existe.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "La referencia indicada no existe",
+                  "codigo": "REFERENCIA_INVALIDA",
+                  "errores": [
+                    {
+                      "campo": "equipoId",
+                      "mensaje": "No existe el equipo 99"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/torneos/{id}/inscripciones/{equipoId}": {
+      "delete": {
+        "tags": [
+          "Inscripciones"
+        ],
+        "operationId": "retirarEquipo",
+        "summary": "Retira un equipo del torneo",
+        "description": "Solo se puede retirar mientras el torneo esta en etapa de inscripcion.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Id del torneo.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "example": 1
+          },
+          {
+            "name": "equipoId",
+            "in": "path",
+            "required": true,
+            "description": "Id del equipo inscrito.",
+            "schema": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "example": 2
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Inscripcion retirada.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RespuestaInscripcion"
+                },
+                "example": {
+                  "ok": true,
+                  "data": {
+                    "id": 11,
+                    "torneoId": 1,
+                    "equipo": {
+                      "id": 3,
+                      "nombre": "Jade Dragons",
+                      "tag": "JDR"
+                    },
+                    "inscritoEn": "2026-11-04T16:00:00.000Z"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Algun id no es un entero positivo.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El id debe ser un entero positivo",
+                  "codigo": "ID_INVALIDO"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "El torneo no existe o el equipo no esta inscrito.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El equipo 7 no esta inscrito en el torneo 1",
+                  "codigo": "INSCRIPCION_NO_ENCONTRADA"
+                }
+              }
+            }
+          },
+          "409": {
+            "description": "El torneo ya no admite cambios en las inscripciones.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "ok": false,
+                  "message": "El torneo ya no admite cambios en las inscripciones",
+                  "codigo": "INSCRIPCION_CERRADA"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Equipo": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "nombre",
+          "tag",
+          "region",
+          "victorias",
+          "derrotas",
+          "creadoEn"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Identificador del equipo."
+          },
+          "nombre": {
+            "type": "string",
+            "description": "Nombre del equipo."
+          },
+          "tag": {
+            "type": "string",
+            "description": "Sigla del equipo."
+          },
+          "region": {
+            "type": "string",
+            "enum": [
+              "na",
+              "eu",
+              "latam",
+              "asia"
+            ],
+            "description": "Region donde compite."
+          },
+          "victorias": {
+            "type": "integer",
+            "description": "Partidas ganadas."
+          },
+          "derrotas": {
+            "type": "integer",
+            "description": "Partidas perdidas."
+          },
+          "creadoEn": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Fecha de registro."
+          }
+        }
+      },
+      "EquipoNuevo": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 30,
+            "description": "Nombre del equipo. Unico sin distinguir mayusculas."
+          },
+          "tag": {
+            "type": "string",
+            "minLength": 2,
+            "maxLength": 5,
+            "pattern": "^[A-Z0-9]+$",
+            "description": "Sigla del equipo. Unica y no se puede cambiar despues."
+          },
+          "region": {
+            "type": "string",
+            "enum": [
+              "na",
+              "eu",
+              "latam",
+              "asia"
+            ],
+            "description": "Region donde compite."
+          }
+        },
+        "required": [
+          "nombre",
+          "tag",
+          "region"
+        ]
+      },
+      "EquipoCambios": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "nombre": {
+            "type": "string",
+            "minLength": 3,
+            "maxLength": 30,
+            "description": "Nombre del equipo. Unico sin distinguir mayusculas."
+          },
+          "region": {
+            "type": "string",
+            "enum": [
+              "na",
+              "eu",
+              "latam",
+              "asia"
+            ],
+            "description": "Region donde compite."
+          }
+        },
+        "minProperties": 1
+      },
+      "EquipoResumen": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "nombre",
+          "tag"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Identificador del equipo."
+          },
+          "nombre": {
+            "type": "string",
+            "description": "Nombre."
+          },
+          "tag": {
+            "type": "string",
+            "description": "Sigla."
+          }
+        }
+      },
+      "Torneo": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "nombre",
+          "formato",
+          "estado",
+          "cupos",
+          "inscritos",
+          "premio",
+          "inicio"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Identificador del torneo."
+          },
+          "nombre": {
+            "type": "string",
+            "description": "Nombre del torneo."
+          },
+          "formato": {
+            "type": "string",
+            "enum": [
+              "eliminacion",
+              "liga",
+              "suizo"
+            ],
+            "description": "Sistema de competencia."
+          },
+          "estado": {
+            "type": "string",
+            "enum": [
+              "inscripcion",
+              "en_curso",
+              "finalizado"
+            ],
+            "description": "Etapa en la que esta el torneo."
+          },
+          "cupos": {
+            "type": "integer",
+            "description": "Cantidad maxima de equipos."
+          },
+          "inscritos": {
+            "type": "integer",
+            "description": "Equipos inscritos actualmente."
+          },
+          "premio": {
+            "type": "integer",
+            "description": "Premio total en dolares."
+          },
+          "inicio": {
+            "type": "string",
+            "format": "date",
+            "description": "Fecha de inicio."
+          }
+        }
+      },
+      "InscripcionNueva": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "equipoId": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000000,
+            "description": "Id del equipo que se inscribe."
+          }
+        },
+        "required": [
+          "equipoId"
+        ]
+      },
+      "Inscripcion": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "torneoId",
+          "equipo",
+          "inscritoEn"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "description": "Identificador de la inscripcion."
+          },
+          "torneoId": {
+            "type": "integer",
+            "description": "Torneo al que pertenece."
+          },
+          "equipo": {
+            "$ref": "#/components/schemas/EquipoResumen"
+          },
+          "inscritoEn": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Fecha de inscripcion."
+          }
+        }
+      },
+      "Paginacion": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "pagina",
+          "limite",
+          "total",
+          "totalPaginas"
+        ],
+        "properties": {
+          "pagina": {
+            "type": "integer",
+            "description": "Pagina actual."
+          },
+          "limite": {
+            "type": "integer",
+            "description": "Resultados por pagina."
+          },
+          "total": {
+            "type": "integer",
+            "description": "Total de resultados."
+          },
+          "totalPaginas": {
+            "type": "integer",
+            "description": "Total de paginas."
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ok",
+          "message",
+          "codigo"
+        ],
+        "properties": {
+          "ok": {
+            "type": "boolean",
+            "example": false
+          },
+          "message": {
+            "type": "string",
+            "description": "Explicacion legible del error."
+          },
+          "codigo": {
+            "type": "string",
+            "description": "Codigo estable para que el cliente tome decisiones."
+          },
+          "errores": {
+            "type": "array",
+            "description": "Detalle por campo cuando el error es de validacion.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "campo",
+                "mensaje"
+              ],
+              "properties": {
+                "campo": {
+                  "type": "string",
+                  "description": "Campo con problema."
+                },
+                "mensaje": {
+                  "type": "string",
+                  "description": "Que esta mal."
+                }
+              }
+            }
+          }
+        }
+      },
+      "RespuestaEquipo": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ok",
+          "data"
+        ],
+        "properties": {
+          "ok": {
+            "type": "boolean",
+            "example": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/Equipo"
+          }
+        }
+      },
+      "ListaEquipos": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ok",
+          "data",
+          "paginacion"
+        ],
+        "properties": {
+          "ok": {
+            "type": "boolean",
+            "example": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Equipo"
+            }
+          },
+          "paginacion": {
+            "$ref": "#/components/schemas/Paginacion"
+          }
+        }
+      },
+      "RespuestaTorneo": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ok",
+          "data"
+        ],
+        "properties": {
+          "ok": {
+            "type": "boolean",
+            "example": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/Torneo"
+          }
+        }
+      },
+      "ListaTorneos": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ok",
+          "data",
+          "paginacion"
+        ],
+        "properties": {
+          "ok": {
+            "type": "boolean",
+            "example": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Torneo"
+            }
+          },
+          "paginacion": {
+            "$ref": "#/components/schemas/Paginacion"
+          }
+        }
+      },
+      "RespuestaInscripcion": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ok",
+          "data"
+        ],
+        "properties": {
+          "ok": {
+            "type": "boolean",
+            "example": true
+          },
+          "data": {
+            "$ref": "#/components/schemas/Inscripcion"
+          }
+        }
+      },
+      "ListaInscripciones": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "ok",
+          "data"
+        ],
+        "properties": {
+          "ok": {
+            "type": "boolean",
+            "example": true
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Inscripcion"
+            }
+          }
+        }
+      }
+    },
+    "parameters": {
+      "Pagina": {
+        "name": "pagina",
+        "in": "query",
+        "required": false,
+        "description": "Numero de pagina, desde 1.",
+        "schema": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 1
+        }
+      },
+      "Limite": {
+        "name": "limite",
+        "in": "query",
+        "required": false,
+        "description": "Resultados por pagina.",
+        "schema": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 50,
+          "default": 10
+        }
+      }
+    }
+  }
+}

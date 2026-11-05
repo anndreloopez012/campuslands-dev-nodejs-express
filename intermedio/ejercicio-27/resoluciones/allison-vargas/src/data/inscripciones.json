@@ -1,0 +1,12 @@
+[
+  {"id":1,"torneoId":1,"equipoId":1,"inscritoEn":"2026-10-01T15:00:00.000Z"},
+  {"id":2,"torneoId":1,"equipoId":2,"inscritoEn":"2026-10-02T15:00:00.000Z"},
+  {"id":3,"torneoId":2,"equipoId":1,"inscritoEn":"2026-10-03T15:00:00.000Z"},
+  {"id":4,"torneoId":2,"equipoId":2,"inscritoEn":"2026-10-04T15:00:00.000Z"},
+  {"id":5,"torneoId":2,"equipoId":3,"inscritoEn":"2026-10-05T15:00:00.000Z"},
+  {"id":6,"torneoId":2,"equipoId":4,"inscritoEn":"2026-10-06T15:00:00.000Z"},
+  {"id":7,"torneoId":3,"equipoId":5,"inscritoEn":"2026-10-07T15:00:00.000Z"},
+  {"id":8,"torneoId":3,"equipoId":6,"inscritoEn":"2026-10-08T15:00:00.000Z"},
+  {"id":9,"torneoId":4,"equipoId":2,"inscritoEn":"2026-10-09T15:00:00.000Z"},
+  {"id":10,"torneoId":4,"equipoId":3,"inscritoEn":"2026-10-01T15:00:00.000Z"}
+]
