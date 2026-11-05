@@ -1,0 +1,11 @@
+{
+  "name": "intermedio-17-roles-y-permisos",
+  "version": "1.0.0",
+  "description": "Intermedio 17 - Roles y permisos con temática de viajes y turismo",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
