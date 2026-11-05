@@ -1,0 +1,11 @@
+{
+  "name": "basico-23-datos-en-memoria",
+  "version": "1.0.0",
+  "description": "Básico 23 - Datos en memoria con temática de soldadura",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": { "start": "node src/app.js", "dev": "node --watch src/app.js" },
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": { "express": "^4.19.2" }
+}
