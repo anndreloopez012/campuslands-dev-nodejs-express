@@ -1,0 +1,14 @@
+{
+  "name": "ejercicio-06-path-rutas-seguras",
+  "version": "1.0.0",
+  "description": "Básico 06 - path y rutas seguras con temática de motos y mecánica",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js yamaha-mt09.txt",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": ["node", "path", "seguridad", "motos", "anderson-oloroso"],
+  "author": "Anderson Oloroso",
+  "license": "ISC"
+}
