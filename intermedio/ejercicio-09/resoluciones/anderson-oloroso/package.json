@@ -1,0 +1,23 @@
+{
+  "name": "intermedio-09-paginacion-y-filtros",
+  "version": "1.0.0",
+  "description": "Intermedio 09 - Paginación y filtros con temática de kickboxing",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "express",
+    "paginacion",
+    "filtros",
+    "kickboxing",
+    "anderson-oloroso"
+  ],
+  "author": "Anderson Oloroso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
