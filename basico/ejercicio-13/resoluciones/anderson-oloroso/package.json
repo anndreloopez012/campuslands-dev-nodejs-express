@@ -1,0 +1,11 @@
+{
+  "name": "ejercicio-13-manejo-errores",
+  "version": "1.0.0",
+  "description": "Manejo de errores con clases custom - Ciencia Ficción",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Anderson Oloroso"
+}
