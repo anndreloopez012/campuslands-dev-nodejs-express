@@ -1,0 +1,14 @@
+{
+  "name": "basico-ejercicio-23-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 23 - datos en memoria (tematica soldadura)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "latest"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "basico-ejercicio-08-juan-lema",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ejercicio 08 - variables de entorno (tematica hiperdeportivos)",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node --env-file=.env.example src/app.js",
+    "dev": "node --watch --env-file=.env.example src/app.js"
+  }
+}

@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "Hot dog callejero", "price": 3.5 },
+  { "id": 2, "name": "Arepa rellena", "price": 4 },
+  { "id": 3, "name": "Trompo al pastor", "price": 5.5 }
+]
