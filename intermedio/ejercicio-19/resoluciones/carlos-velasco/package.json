@@ -1,0 +1,22 @@
+{
+  "name": "intermedio-19-dotenv-y-config",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre configuracion con dotenv para una API de estudios de tatuajes.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "dotenv",
+    "configuracion"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.2.1"
+  }
+}
