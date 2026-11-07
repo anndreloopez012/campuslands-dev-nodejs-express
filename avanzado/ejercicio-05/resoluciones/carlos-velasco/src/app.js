@@ -1,0 +1,10 @@
+"use strict";
+const express = require("express");
+const app = express();
+app.disable("x-powered-by");
+app.use(express.json({ limit: "100kb" }));
+app.get("/health", (_req, res) => res.json({ data: { status: "ok" } }));
+app.use(require("./routes/exercise.routes"));
+app.use((req, res) => res.status(404).json({ error: { code: "NOT_FOUND", message: "Ruta no encontrada" } }));
+app.use(require("./middlewares/error.handler"));
+module.exports = app;
