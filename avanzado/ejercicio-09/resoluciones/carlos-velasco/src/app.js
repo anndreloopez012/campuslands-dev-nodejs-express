@@ -1,5 +1,5 @@
-const express = require('express');
-const trainingRoutes = require('./routes/training.routes');
+const express = require("express");
+const trainingRoutes = require("./routes/training.routes");
 
 const app = express();
 
@@ -9,14 +9,16 @@ app.use(express.json());
 
 app.use(trainingRoutes);
 
-app.get('/health', (req, res) => {
+app.get("/health", (req, res) => {
   res.status(200).json({
     ok: true,
-    message: 'Servidor funcionando correctamente',
-    topic: 'streams basicos'
+    message: "Servidor funcionando correctamente",
+    topic: "streams basicos",
   });
 });
 
 app.listen(PORT, () => {
-  console.log(`Servidor de kickboxing ejecutandose en http://localhost:${PORT}`);
+  console.log(
+    `Servidor de kickboxing ejecutandose en http://localhost:${PORT}`,
+  );
 });

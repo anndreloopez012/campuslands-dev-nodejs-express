@@ -1,30 +1,30 @@
-const { Readable } = require('node:stream');
+const { Readable } = require("node:stream");
 
 const trainingSessions = [
   {
     id: 1,
-    name: 'Fundamentos de guardia',
+    name: "Fundamentos de guardia",
     duration: 30,
-    level: 'basico'
+    level: "basico",
   },
   {
     id: 2,
-    name: 'Trabajo de desplazamiento',
+    name: "Trabajo de desplazamiento",
     duration: 40,
-    level: 'intermedio'
+    level: "intermedio",
   },
   {
     id: 3,
-    name: 'Combinaciones de golpeo',
+    name: "Combinaciones de golpeo",
     duration: 45,
-    level: 'intermedio'
+    level: "intermedio",
   },
   {
     id: 4,
-    name: 'Defensa y contraataque',
+    name: "Defensa y contraataque",
     duration: 50,
-    level: 'avanzado'
-  }
+    level: "avanzado",
+  },
 ];
 
 const createTrainingStream = () => {
@@ -32,5 +32,5 @@ const createTrainingStream = () => {
 };
 
 module.exports = {
-  createTrainingStream
+  createTrainingStream,
 };

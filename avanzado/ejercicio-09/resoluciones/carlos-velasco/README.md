@@ -17,4 +17,5 @@ En este ejercicio se utiliza un `Readable Stream`, que representa una fuente des
 La implementación principal utiliza:
 
 ```js
-const { Readable } = require('node:stream');
+const { Readable } = require("node:stream");
+```
