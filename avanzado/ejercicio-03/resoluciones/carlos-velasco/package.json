@@ -1,0 +1,16 @@
+{
+  "name": "avanzado-03-validacion-schemas",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre validacion con schemas, con tematica MOBA.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": ["nodejs", "express", "schema-validation"],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
