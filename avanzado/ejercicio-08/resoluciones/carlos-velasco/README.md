@@ -13,4 +13,5 @@ La aplicación simula el registro de hiperdeportivos y emite un evento cada vez 
 Un componente puede emitir un evento:
 
 ```js
-hypercarEmitter.emit('hypercar.created', hypercar);
+hypercarEmitter.emit("hypercar.created", hypercar);
+```

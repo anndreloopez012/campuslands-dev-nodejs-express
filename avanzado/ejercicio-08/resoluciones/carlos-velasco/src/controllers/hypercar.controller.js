@@ -1,4 +1,4 @@
-const hypercarService = require('../services/hypercar.service');
+const hypercarService = require("../services/hypercar.service");
 
 const createHypercar = (req, res) => {
   try {
@@ -6,17 +6,17 @@ const createHypercar = (req, res) => {
 
     res.status(201).json({
       ok: true,
-      message: 'Hiperdeportivo registrado correctamente',
-      data: hypercar
+      message: "Hiperdeportivo registrado correctamente",
+      data: hypercar,
     });
   } catch (error) {
     res.status(error.statusCode || 500).json({
       ok: false,
-      message: error.message || 'Error interno del servidor'
+      message: error.message || "Error interno del servidor",
     });
   }
 };
 
 module.exports = {
-  createHypercar
+  createHypercar,
 };

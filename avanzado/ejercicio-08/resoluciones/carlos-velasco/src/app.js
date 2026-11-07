@@ -1,5 +1,5 @@
-const express = require('express');
-const hypercarRoutes = require('./routes/hypercar.routes');
+const express = require("express");
+const hypercarRoutes = require("./routes/hypercar.routes");
 
 const app = express();
 
@@ -9,14 +9,16 @@ app.use(express.json());
 
 app.use(hypercarRoutes);
 
-app.get('/health', (req, res) => {
+app.get("/health", (req, res) => {
   res.status(200).json({
     ok: true,
-    message: 'Servidor funcionando correctamente',
-    topic: 'event emitter'
+    message: "Servidor funcionando correctamente",
+    topic: "event emitter",
   });
 });
 
 app.listen(PORT, () => {
-  console.log(`Servidor de hiperdeportivos ejecutandose en http://localhost:${PORT}`);
+  console.log(
+    `Servidor de hiperdeportivos ejecutandose en http://localhost:${PORT}`,
+  );
 });
