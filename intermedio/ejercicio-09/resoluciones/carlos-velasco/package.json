@@ -1,0 +1,21 @@
+{
+  "name": "intermedio-09-paginacion-y-filtros",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre paginacion y filtros con una API de kickboxing.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "paginacion",
+    "filtros"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
