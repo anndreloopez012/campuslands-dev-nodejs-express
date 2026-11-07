@@ -1,0 +1,20 @@
+{
+  "name": "intermedio-08-middleware-request-id",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre middleware de request id con una API de hiperdeportivos.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "request-id"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
