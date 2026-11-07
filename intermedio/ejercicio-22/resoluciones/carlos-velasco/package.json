@@ -1,0 +1,20 @@
+{
+  "name": "intermedio-22-subida-simulada-de-archivos",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre subida de archivos simulada (chunks en memoria) con una API de arquitectura 3D.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "subida-archivos"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
