@@ -1,0 +1,20 @@
+{
+  "name": "intermedio-11-busqueda-textual",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre busqueda textual con una API de musica.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "busqueda-textual"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
