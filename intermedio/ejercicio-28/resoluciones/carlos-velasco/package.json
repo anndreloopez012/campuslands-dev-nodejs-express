@@ -1,0 +1,21 @@
+{
+  "name": "intermedio-28-coleccion-de-ejemplos-http",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express: coleccion de ejemplos HTTP (metodos y codigos) sobre un dominio battle royale.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "http",
+    "codigos-de-respuesta"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
