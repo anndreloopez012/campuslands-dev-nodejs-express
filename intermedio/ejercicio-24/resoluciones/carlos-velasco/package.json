@@ -1,0 +1,22 @@
+{
+  "name": "intermedio-24-testing-de-servicios",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre testing de servicios (dependencia inyectada) con una API de formulas quimicas.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test src/tests/"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "testing",
+    "servicios"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
