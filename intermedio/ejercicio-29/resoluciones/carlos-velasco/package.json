@@ -1,0 +1,21 @@
+{
+  "name": "intermedio-29-refactor-de-api",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre refactor de API (de monolito a capas) con una API de futbol.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "refactor",
+    "arquitectura"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
