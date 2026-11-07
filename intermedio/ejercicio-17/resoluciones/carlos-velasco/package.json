@@ -1,0 +1,20 @@
+{
+  "name": "intermedio-17-roles-y-permisos",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre roles y permisos con una API de viajes y turismo.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "roles-y-permisos"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
