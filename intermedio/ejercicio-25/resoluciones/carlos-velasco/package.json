@@ -1,0 +1,21 @@
+{
+  "name": "intermedio-25-testing-de-rutas",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre testing de rutas HTTP con node:test y app exportada para una API de videojuegos RPG.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test src/tests/"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "testing-rutas"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
