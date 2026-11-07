@@ -1,0 +1,20 @@
+{
+  "name": "intermedio-21-rate-limit-conceptual",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre rate limit en memoria con una API de render de animacion 3D.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rate-limit"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
