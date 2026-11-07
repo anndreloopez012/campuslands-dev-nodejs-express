@@ -1,0 +1,22 @@
+{
+  "name": "intermedio-26-mock-de-dependencias",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre mock de dependencias en tests con node:test para una API de shooters competitivos.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test src/tests/"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mock",
+    "testing"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
