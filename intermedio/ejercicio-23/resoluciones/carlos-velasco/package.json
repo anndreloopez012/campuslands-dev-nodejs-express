@@ -1,0 +1,22 @@
+{
+  "name": "intermedio-23-testing-con-node-test",
+  "version": "1.0.0",
+  "description": "Ejercicio de Node.js y Express sobre testing con el runner nativo node:test para una API de juntas soldadas.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "node --test src/tests/"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "node-test",
+    "testing"
+  ],
+  "author": "Carlos Velasco",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
